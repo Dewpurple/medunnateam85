@@ -10,7 +10,7 @@ Feature: test registrant data
 
     When user provides a valid password as "<password>"
     And user confirms valid password as "<confirmpassword>"
-    Then user rgisters and saves the data
+    Then user rgisters and saves the datagit
 
 
     Examples: test dat5a

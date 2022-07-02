@@ -15,4 +15,5 @@ public class DoctorPage {
     @FindBy (xpath = "//a[@href='/physician-appointment']")
     public WebElement myAppointments;
 
+
 }

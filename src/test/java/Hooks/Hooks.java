@@ -9,7 +9,7 @@ import utilities.ConfigurationReader;
 import utilities.Driver;
 
 public class Hooks {
-    @Before(value = "@NewRegistrants")
+    @Before(value = "@Registration")
     public void setUp(){
 
         Driver.getDriver().get(ConfigurationReader.getProperty("registration_url"));

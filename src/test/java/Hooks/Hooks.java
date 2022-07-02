@@ -5,12 +5,14 @@ import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+import utilities.ConfigurationReader;
 import utilities.Driver;
 
 public class Hooks {
-    @Before
+    @Before(value = "@NewRegistrants")
     public void setUp(){
 
+        Driver.getDriver().get(ConfigurationReader.getProperty("registration_url"));
 
     }
 

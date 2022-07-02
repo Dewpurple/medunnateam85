@@ -46,7 +46,7 @@ public class RegistrationSteps {
     }
     @Then("user rgisters and saves the data")
     public void user_rgisters_and_saves_the_data() {
-       Driver.waitAndClick(registrationPage.registerButton);
+    Driver.waitAndClick(registrationPage.registerButton);
     }
 
 

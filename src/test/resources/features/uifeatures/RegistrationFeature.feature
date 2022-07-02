@@ -6,7 +6,7 @@ Feature: test registrant data
     Given user provides ssn as "<ssn>"
     And user types in first name as "<firstname>"
     And user also types in lastname as "<lastname>"
-git
+
 
     When user provides a valid password as "<password>"
     And user confirms valid password as "<confirmpassword>"

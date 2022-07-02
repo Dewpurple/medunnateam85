@@ -12,15 +12,12 @@ public class RegistrationPage {
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
-    @FindBy(id = "ssn")
+    @FindBy(xpath = "//a[@class='d-flex align-items-center dropdown-toggle nav-link']")
     public WebElement ssnTextBox;
-
     @FindBy(id = "firstName")
     public WebElement firstnameTextBox;
-
     @FindBy(id = "lastName")
     public WebElement lastnameTextBox;
-
     @FindBy(id = "username")
     public WebElement usernameTextBox;
     @FindBy(id = "email")
@@ -31,7 +28,7 @@ public class RegistrationPage {
     public WebElement confirmPasswordTextBox;
     @FindBy(id = "register-submit")
     public WebElement registerButton;
-    @FindBy(xpath = "//*[contains(text(),'Registration Saved')]")
+    @FindBy(xpath = "//*[contains(text(),'Sign in')]")
     public WebElement successMessageToastContainer;
     @FindBy(xpath = "//*[@id='strengthBar']/li[contains(@style,'rgb(255, 0, 0)')]")
     public WebElement passwordStrength1;

@@ -1,6 +1,8 @@
 package stepdefinitions.uisteps;
 
 import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
 import pages.RegistrationPage;
 import utilities.Driver;
 
@@ -23,6 +25,21 @@ public class RegistrationSteps {
     public void user_also_types_in_lastname_as(String lastname) {
 
         Driver.waitAndSendText(registrationPage.lastnameTextBox, lastname);
+    }
+
+
+    @When("user provides a valid password as {string}")
+    public void user_provides_a_valid_password_as(String password) {
+      Driver.waitAndSendText(registrationPage.firstPasswordTextBox, password);
+    }
+    @When("user confirms valid password as {string}")
+    public void user_confirms_valid_password_as(String confirmpassword) {
+        Driver.waitAndSendText(registrationPage.confirmPasswordTextBox, confirmpassword);
+
+    }
+    @Then("user rgisters and saves the data")
+    public void user_rgisters_and_saves_the_data() {
+       Driver.waitAndClick(registrationPage.registerButton);
     }
 
 

@@ -42,5 +42,4 @@ public class RegistrationSteps {
        Driver.waitAndClick(registrationPage.registerButton);
     }
 
-
 }

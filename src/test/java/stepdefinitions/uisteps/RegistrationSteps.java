@@ -3,6 +3,8 @@ package stepdefinitions.uisteps;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.junit.Assert;
+import org.openqa.selenium.Keys;
 import pages.RegistrationPage;
 import utilities.Driver;
 
@@ -40,6 +42,15 @@ public class RegistrationSteps {
     @Then("user rgisters and saves the data")
     public void user_rgisters_and_saves_the_data() {
        Driver.waitAndClick(registrationPage.registerButton);
+    }
+    @Given("user sends an invalid password as {string}")
+    public void user_sends_an_invalid_password_as(String password) {
+       Driver.waitAndSendText(registrationPage.firstPasswordTextBox, password + Keys.ENTER);
+    }
+    @Then("user validates the password error message")
+    public void user_validates_the_password_error_message() {
+
+        Assert.assertTrue(registrationPage.invalidPassword.isDisplayed());
     }
 
 

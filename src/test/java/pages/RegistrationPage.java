@@ -14,10 +14,13 @@ public class RegistrationPage {
 
     @FindBy(id = "ssn")
     public WebElement ssnTextBox;
+
     @FindBy(id = "firstName")
     public WebElement firstnameTextBox;
+
     @FindBy(id = "lastName")
     public WebElement lastnameTextBox;
+
     @FindBy(id = "username")
     public WebElement usernameTextBox;
     @FindBy(id = "email")
@@ -36,4 +39,8 @@ public class RegistrationPage {
     public WebElement passwordStrength2;
     @FindBy(xpath = "//*[@id='strengthBar']/li[contains(@style,'rgb(153, 255, 0)')]")
     public WebElement passwordStrength3;
+
+    @FindBy(xpath = "//*[contains(text(), ' to be at least 4 characters.')]")
+    public WebElement invalidPassword;
+
 }

@@ -26,7 +26,14 @@ public class RegistrationSteps {
 
         Driver.waitAndSendText(registrationPage.lastnameTextBox, lastname);
     }
-
+    @Given("user provides username as {string}")
+    public void user_provides_username_as(String username) {
+        Driver.waitAndSendText(registrationPage.usernameTextBox, username);
+    }
+    @Given("user types in email as {string}")
+    public void user_types_in_email_as(String email) {
+        Driver.waitAndSendText(registrationPage.emailTextbox,email);
+    }
 
     @When("user provides a valid password as {string}")
     public void user_provides_a_valid_password_as(String password) {

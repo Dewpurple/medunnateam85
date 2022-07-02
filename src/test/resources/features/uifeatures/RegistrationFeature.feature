@@ -8,6 +8,20 @@ Feature: test registrant data
     And user also types in lastname as "<lastname>"
 
 
+    When user provides a valid password as "<password>"
+    And user confirms valid password as "<confirmpassword>"
+    Then user rgisters and saves the data
+
+
     Examples: test dat5a
-    |ssn|firstname|lastname|
-    |253-37-3782|sebnemteam85|bayezitteam85|
+    |ssn|firstname|lastname|password|confirmpassword|
+    |253-37-3782|sebnemteam85|bayezitteam85|Asdfgh12345?|Asdfgh12345?|
+
+
+
+
+
+
+
+
+

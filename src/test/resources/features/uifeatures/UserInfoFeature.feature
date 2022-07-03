@@ -28,7 +28,7 @@ And user verifies user is signed on
   |firstname|lastname|email|
   |         |        |     |
 
-@US6
+
 @UserEdits
   Scenario: user updates
   Then user edits first name to "<firstname1>"
@@ -38,3 +38,6 @@ And user verifies user is signed on
   Then user verifies updated first name "<firstname1>" is displayed
   Then user verifies updated last name "<lastname1>" is displayed
 
+
+    Examples: test data6
+    |firstname|lastname|

@@ -1,2 +1,0 @@
-Raul,null,null,EZ$XR0VbS,300-56-0015
-Registrant{firstName='Desire', lastName='null', ssn='578-96-1371', login='null', langKey='Bednar', password='vza8e7kzZki8UU', email='null', id=0, activated=false, authorities=null}

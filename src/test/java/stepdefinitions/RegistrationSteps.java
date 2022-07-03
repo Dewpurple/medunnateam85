@@ -4,6 +4,8 @@ import com.github.javafaker.Faker;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.junit.Assert;
+import org.openqa.selenium.Keys;
 import pages.RegistrationPage;
 import pojos.Registrant;
 import utilities.Driver;
@@ -69,6 +71,15 @@ public class RegistrationSteps {
 
         Driver.waitAndClick(registrationPage.registerButton);
         saveRegistrantData(registrant);
+    }
+    @Given("user sends an invalid password as {string}")
+    public void user_sends_an_invalid_password_as(String password) {
+       Driver.waitAndSendText(registrationPage.firstPasswordTextBox, password + Keys.ENTER);
+    }
+    @Then("user validates the password error message")
+    public void user_validates_the_password_error_message() {
+
+        Assert.assertTrue(registrationPage.invalidPassword.isDisplayed());
     }
 
 

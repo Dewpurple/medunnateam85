@@ -16,7 +16,7 @@ import org.junit.runner.RunWith;
 
 
         glue = {"stepdefinitions","Hooks"},
-        tags = "  @UserInfo",
+        tags = "  @US6",
 
         //tags = "@makeAppointmentPage",
       //  tags = "  @InvalidpasswordScenario",

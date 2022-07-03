@@ -31,6 +31,18 @@ public class MakeAppointmentPage {
 
     @FindBy(xpath = "//*[text()='Your FirstName is required.']")
     public WebElement yourFirstNameIsRequiredText;
+
+    @FindBy(xpath="//*[@name='appoDate']")
+    public WebElement apDate;
+
+    @FindBy(xpath="//*[text()='Send an Appointment Request']")
+    public WebElement sendRequestButton;
+
+    @FindBy(id="account-menu")
+    public WebElement signInAndRegistrationPortal;
+
+    @FindBy(xpath = "//*[text()='Register']")
+    public WebElement registerButton;
 }
 
 

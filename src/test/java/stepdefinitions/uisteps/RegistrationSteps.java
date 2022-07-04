@@ -82,5 +82,4 @@ public class RegistrationSteps {
         Assert.assertTrue(registrationPage.invalidPassword.isDisplayed());
     }
 
-
 }

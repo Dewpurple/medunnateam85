@@ -13,7 +13,18 @@ import org.junit.runner.RunWith;
         },
         features = "./src/test/resources/features",
         glue = {"stepdefinitions","Hooks"},
-        tags = "@NewRegistrants",
+
+
+        //tags = "@makeAppointmentPage",
+      //  tags = "  @InvalidpasswordScenario",
+
+
+
+        //tags = "@makeAppointmentPage",
+      //  tags = "  @InvalidpasswordScenario",
+
+        tags = "  @InvalidpasswordScenario",
+
         dryRun = false
 )
 public class Runner {

@@ -19,7 +19,7 @@ public class UsernameStepDefs {
     }
     @Then("user clicks on{string} button")
     public void user_hovers_over_to_button(String string) {
-        Actions actions = new Actions(driver);
+
 
     }
     @Then("user selects {string} in the dropdown")

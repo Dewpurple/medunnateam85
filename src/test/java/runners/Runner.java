@@ -1,5 +1,4 @@
 package runners;
-
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
@@ -14,8 +13,19 @@ import org.junit.runner.RunWith;
         },
         features = "./src/test/resources/features",
         glue = {"stepdefinitions","Hooks"},
-        tags = "@SignIn_page",
-        dryRun = true
+
+
+        //tags = "@makeAppointmentPage",
+        //  tags = "  @InvalidpasswordScenario",
+
+
+
+        //tags = "@makeAppointmentPage",
+        //  tags = "  @InvalidpasswordScenario",
+
+        tags = "  @InvalidpasswordScenario",
+
+        dryRun = false
 )
 public class Runner {
 }

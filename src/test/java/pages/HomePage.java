@@ -22,5 +22,9 @@ public class HomePage {
     public WebElement password;
     @FindBy(xpath = "//button[@type='submit']")
     public WebElement signInbutton;
+    @FindBy (xpath =  " //a[@class='d-flex align-items-center dropdown-toggle nav-link']")
+    public WebElement itemsTitles;
+    @FindBy (xpath = "//a[@class='dropdown-item active']")
+    public WebElement patient;
 
 }

@@ -4,11 +4,13 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import pages.HomePage;
+import pages.ItemsAndTitlesPage;
 import utilities.ConfigurationReader;
 import utilities.Driver;
 
 public class US_009_StepDefs {
   HomePage homePage = new HomePage();
+  ItemsAndTitlesPage itemsAndTitlesPage = new ItemsAndTitlesPage();
     @When("Admin navigates to the sign in page")
     public void admin_navigates_to_the_sign_in_page() {
         homePage.loginDropDown.click();
@@ -21,18 +23,19 @@ public class US_009_StepDefs {
     homePage.password.sendKeys(ConfigurationReader.getProperty("adminpw2"));
     homePage.signInbutton.click();
     }
-    @When("Admin clicks on {string}")
-    public void admin_clicks_on(String string) {
+  @When("Admin clicks on Items and Titles")
+  public void admin_clicks_on_items_and_titles() {
+      homePage.itemsTitles.click();
 
-    }
-    @When("Admin clicks on {string} icon.")
-    public void admin_clicks_on_icon(String string) {
-
-    }
-    @When("Admin finds {string} button and clicks it")
-    public void admin_finds_button_and_clicks_it(String string) {
-
-    }
+  }
+  @When("Admin clicks on Patient icon.")
+  public void admin_clicks_on_patient_icon() {
+      homePage.patient.click();
+  }
+  @When("Admin finds edit button and clicks it")
+  public void admin_finds_edit_button_and_clicks_it() {
+      itemsAndTitlesPage.editButtonFirstPatient.click();
+  }
     @When("Admin performs edits to all patient information")
     public void admin_performs_edits_to_all_patient_information() {
 

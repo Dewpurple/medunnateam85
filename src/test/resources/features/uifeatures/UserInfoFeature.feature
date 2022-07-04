@@ -28,8 +28,10 @@ And user verifies user is signed on
   |firstname|lastname|email|
   |         |        |     |
 
+
+
 @UserEdits
-  Scenario: user updates
+  Scenario Outline: user updates
   Then user edits first name to "<firstname1>"
   And user updates last name to "<lastname1>"
   Then user clicks save button

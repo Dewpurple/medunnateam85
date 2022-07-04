@@ -1,6 +1,8 @@
 package stepdefinitions.uisteps;
 
 import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
 import pages.DoctorPage;
 import pages.HomePage;
 import utilities.ConfigurationReader;
@@ -12,53 +14,50 @@ public class DoctorTestSteps {
     HomePage homePage = new HomePage();
     DoctorPage doctorPage = new DoctorPage();
 
-    @Given("Admin navitages to Medunna url")
-    public void admin_navitages_to_medunna_url() {
+
+    @Given("user navitages to Medunna url")
+    public void user_navitages_to_medunna_url() {
         Driver.getDriver().navigate().to(ConfigurationReader.getProperty("medunna_url"));
-        Driver.wait2(2);
     }
-    @Given("Admin navigates to the sign in page")
-    public void admin_navigates_to_the_sign_in_page() {
+    @When("Doctor logs in")
+    public void doctor_logs_in() {
         homePage.loginDropDown.click();
         homePage.loginSignInButton.click();
-
         Driver.wait(1);
-
-    }
-    @Given("Admin signs in")
-    public void admin_signs_in() {
         homePage.username.sendKeys(ConfigurationReader.getProperty("doctorusername"));
         homePage.password.sendKeys(ConfigurationReader.getProperty("doctorpw"));
         homePage.signInbutton.click();
     }
-    @Given("Admin clicks on {string}")
-    public void admin_clicks_on(String string) {
+    @When("doctor clicks my pages")
+    public void doctor_clicks_my_pages() {
         doctorPage.myPages.click();
         doctorPage.myAppointments.click();
     }
-    @Given("Admin clicks on {string} icon.")
-    public void admin_clicks_on_icon(String string) {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+    @When("doctor clicks my appointment")
+    public void doctor_clicks_my_appointment() {
+
     }
-    @Given("Admin finds {string} button and clicks it")
-    public void admin_finds_button_and_clicks_it(String string) {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+    @When("doctor clicks edit button from my appointments page")
+    public void doctor_clicks_edit_button_from_my_appointments_page() {
+
     }
-    @Given("Admin performs edits to all patient information")
-    public void admin_performs_edits_to_all_patient_information() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+    @When("doctor clicks a button to fill test")
+    public void doctor_clicks_a_button_to_fill_test() {
+
     }
-    @Given("Admin clicks on Save button")
-    public void admin_clicks_on_save_button() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+    @When("doctor clicks save on test")
+    public void doctor_clicks_save_on_test() {
+
     }
-    @Given("Verify edit is saved successfully")
-    public void verify_edit_is_saved_successfully() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
+    @When("verify new test created message appears")
+    public void verify_new_test_created_message_appears() {
+
     }
+    @Then("close the application")
+    public void close_the_application() {
+    Driver.closeDriver();
+    }
+
+
+
 }

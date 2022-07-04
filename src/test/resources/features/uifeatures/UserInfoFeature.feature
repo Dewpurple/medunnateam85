@@ -28,7 +28,6 @@ And user verifies user is signed on
   |firstname|lastname|email|
   |         |        |     |
 
-@US6
 @UserEdits
   Scenario: user updates
   Then user edits first name to "<firstname1>"

@@ -5,7 +5,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utilities.Driver;
 
-public class UserPage {
+public class UserPage {//elements from DoctorPage can be moved here
     public UserPage(){
         PageFactory.initElements(Driver.getDriver(), this);
     }
@@ -13,17 +13,8 @@ public class UserPage {
     public WebElement myPagesMenu;
     @FindBy(id="account-menu")
     public WebElement menuButton;
-    @FindBy(partialLinkText = "settings")
+    @FindBy(partialLinkText = "Settings")
     public WebElement settingsButton;
-    @FindBy(id="settings-title")
-    public WebElement userSettingsTitle;
-    @FindBy(id="firstName")
-    public WebElement firstNameTextBox;
-    @FindBy(id="lastName")
-    public WebElement lastNameTextBox;
-    @FindBy(id="email")
-    public WebElement emailTextBox;
-    @FindBy (xpath="//button[@type='submit']")
-    public WebElement saveButton;
+
 
 }

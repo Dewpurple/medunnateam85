@@ -78,7 +78,7 @@ public class US6Steps {
     }
     @Then("user clicks save button")
     public void user_clicks_save_button() {
-
+Driver.waitAndClick(userSettingsPage.saveButton);
     }
     @Then("settings saved message appears")
     public void settings_saved_message_appears() {

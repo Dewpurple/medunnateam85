@@ -28,7 +28,7 @@ public class UsernameStepDefs {
     }
     @When("user types in  valid username as {string}")
     public void user_types_in_valid_username_as(String string) {
-
+    Driver.waitAndSendText(registrationPage.usernameTextBox,string);
     }
     @Then("user continues to next {string} textbox")
     public void user_continues_to_next_textbox(String string) {

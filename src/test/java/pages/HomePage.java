@@ -26,5 +26,8 @@ public class HomePage {
     public WebElement itemsTitles;
     @FindBy (xpath = "//a[@class='dropdown-item active']")
     public WebElement patient;
-
+    @FindBy (id = "entity-menu")
+    public WebElement myPages;
+    @FindBy (xpath = "(//a[@class='dropdown-item'])[1]")
+    public WebElement searchPatient;
 }

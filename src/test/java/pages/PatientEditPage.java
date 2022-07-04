@@ -17,6 +17,23 @@ public class PatientEditPage {
     public WebElement patientBirthDate;
     @FindBy (id = "email")
     public WebElement patientEmail;
-
+    @FindBy (id = "patient-phone")
+    public WebElement patientPhoneNumber;
+    @FindBy (id = "patient-gender")
+    public WebElement patientGender;
+    @FindBy (id = "patient-bloodGroup")
+    public WebElement patientBloodGroup;
+    @FindBy (id = "patient-adress")
+    public WebElement patientAddress;
+    @FindBy (id = "patient-description")
+    public WebElement patientDescription;
+    @FindBy (id = "patient-user")
+    public WebElement patientUser;
+    @FindBy (id = "patient-country")
+    public WebElement patientCountry;
+    @FindBy (id = "patient-cstate")
+    public WebElement patientState;
+    @FindBy (id = "save-entity")
+    public WebElement patientSaveButton;
 
 }

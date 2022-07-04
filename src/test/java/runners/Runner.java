@@ -23,7 +23,8 @@ import org.junit.runner.RunWith;
         //tags = "@makeAppointmentPage",
       //  tags = "  @InvalidpasswordScenario",
 
-        tags = "  @InvalidpasswordScenario",
+        //tags = "  @InvalidpasswordScenario",
+        tags = "@UsernameTest",
 
         dryRun = false
 )

@@ -47,7 +47,14 @@ public class RegistrationSteps {
 
         registrant.setLangKey(lastname);
     }
-
+    @Given("user provides username as {string}")
+    public void user_provides_username_as(String username) {
+        Driver.waitAndSendText(registrationPage.usernameTextBox, username);
+    }
+    @Given("user types in email as {string}")
+    public void user_types_in_email_as(String email) {
+        Driver.waitAndSendText(registrationPage.emailTextbox,email);
+    }
 
     @When("user provides a valid password as {string}")
     public void user_provides_a_valid_password_as(String password) {
@@ -69,6 +76,9 @@ public class RegistrationSteps {
     @Then("user rgisters and saves the data")
     public void user_rgisters_and_saves_the_data() {
 
+    Driver.waitAndClick(registrationPage.registerButton);
+
+
         Driver.waitAndClick(registrationPage.registerButton);
         saveRegistrantData(registrant);
     }
@@ -80,6 +90,7 @@ public class RegistrationSteps {
     public void user_validates_the_password_error_message() {
 
         Assert.assertTrue(registrationPage.invalidPassword.isDisplayed());
+
     }
 
 }

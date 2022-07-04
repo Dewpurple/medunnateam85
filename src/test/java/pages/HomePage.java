@@ -5,14 +5,14 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utilities.Driver;
 //
-public class HomePage {
+public class HomePage {//loginpage is included here
 
 
     public HomePage() {
        PageFactory.initElements(Driver.getDriver(), this);
     }
 
-    @FindBy(xpath = "//li[@class='dropdown nav-item']")
+    @FindBy(xpath = "//li[@class='dropdown nav-item']")//should change to id
     public WebElement loginDropDown;
     @FindBy(id =  "login-item")
     public WebElement loginSignInButton;

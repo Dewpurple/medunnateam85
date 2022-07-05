@@ -1,4 +1,4 @@
-package stepdefinitions.uisteps;
+package stepdefinitions;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -8,9 +8,7 @@ import pages.HomePage;
 import utilities.ConfigurationReader;
 import utilities.Driver;
 
-import javax.print.Doc;
-
-public class DoctorTestSteps {
+public class US_012DoctorTestSteps {
     HomePage homePage = new HomePage();
     DoctorPage doctorPage = new DoctorPage();
 

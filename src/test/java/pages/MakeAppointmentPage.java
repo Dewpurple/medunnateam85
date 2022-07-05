@@ -38,10 +38,10 @@ public class MakeAppointmentPage {
     @FindBy(xpath="//*[text()='Send an Appointment Request']")
     public WebElement sendRequestButton;
 
-    @FindBy(id="account-menu")
+    @FindBy(id="account-menu")//should be on homePage
     public WebElement signInAndRegistrationPortal;
 
-    @FindBy(xpath = "//*[text()='Register']")
+    @FindBy(xpath = "//*[text()='Register']")//should be on homePage
     public WebElement registerButton;
 }
 

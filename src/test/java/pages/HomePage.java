@@ -5,14 +5,14 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utilities.Driver;
 //
-public class HomePage {
+public class HomePage {//loginpage is included here
 
 
     public HomePage() {
        PageFactory.initElements(Driver.getDriver(), this);
     }
 
-    @FindBy(xpath = "//li[@class='dropdown nav-item']")
+    @FindBy(xpath = "//li[@class='dropdown nav-item']")//should change to id
     public WebElement loginDropDown;
     @FindBy(id =  "login-item")
     public WebElement loginSignInButton;
@@ -22,5 +22,12 @@ public class HomePage {
     public WebElement password;
     @FindBy(xpath = "//button[@type='submit']")
     public WebElement signInbutton;
-
+    @FindBy (xpath =  " //a[@class='d-flex align-items-center dropdown-toggle nav-link']")
+    public WebElement itemsTitles;
+    @FindBy (xpath = "//a[@class='dropdown-item active']")
+    public WebElement patient;
+    @FindBy (id = "entity-menu")
+    public WebElement myPages;
+    @FindBy (xpath = "(//a[@class='dropdown-item'])[1]")
+    public WebElement searchPatient;
 }

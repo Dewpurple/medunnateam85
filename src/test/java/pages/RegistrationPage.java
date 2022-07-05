@@ -11,6 +11,8 @@ public class RegistrationPage {
     {
         PageFactory.initElements(Driver.getDriver(), this);
     }
+    @FindBy(xpath = "//*[@id=\"account-menu\"]/a/svg/path")
+    public WebElement accountMenuButton;
 
     @FindBy(xpath = "//a[@class='d-flex align-items-center dropdown-toggle nav-link']")
     public WebElement ssnTextBox;

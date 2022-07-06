@@ -11,7 +11,7 @@ public class UserSettingsPage {
     }
         @FindBy (xpath = "//li[@class='d-flex align-items-center dropdown-toggle nav-link']")
         public WebElement menuButton;
-        @FindBy(id="settings-title")
+        @FindBy(xpath="//h2[@id='settings-title']")
         public WebElement userSettingsTitle;
         @FindBy(id="firstName")
         public WebElement firstNameEditBox;
@@ -21,4 +21,6 @@ public class UserSettingsPage {
         public WebElement emailEditBox;
         @FindBy (xpath="//button[@type='submit']")
         public WebElement saveButton;
+        @FindBy(xpath="(//a[@class='d-flex align-items-center dropdown-toggle nav-link']//span)[2]")
+        public WebElement userNameText;
     }

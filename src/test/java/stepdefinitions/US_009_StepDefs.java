@@ -96,6 +96,25 @@ public class US_009_StepDefs {
   }
   @Given("user verifies all registration information is populated")
   public void user_verifies_all_registration_information_is_populated() {
+  searchPatientPage.patientSSNSearch.sendKeys(ConfigurationReader.getProperty("ssn"));
+  Assert.assertTrue(searchPatientPage.ssn.isDisplayed());
+  Assert.assertTrue(searchPatientPage.id.isDisplayed());
+    Assert.assertTrue(searchPatientPage.ssn.isDisplayed());
+    Assert.assertTrue(searchPatientPage.firstname.isDisplayed());
+    Assert.assertTrue(searchPatientPage.lastname.isDisplayed());
+    Assert.assertTrue(searchPatientPage.birthday.isDisplayed());
+    Assert.assertTrue(searchPatientPage.phonenumber.isDisplayed());
+    Assert.assertTrue(searchPatientPage.email.isDisplayed());
+    Assert.assertTrue(searchPatientPage.gender.isDisplayed());
+    Assert.assertTrue(searchPatientPage.bloodgroup.isDisplayed());
+    Assert.assertTrue(searchPatientPage.address.isDisplayed());
+    Assert.assertTrue(searchPatientPage.description.isDisplayed());
+    Assert.assertTrue(searchPatientPage.datecreated.isDisplayed());
+    Assert.assertTrue(searchPatientPage.doctor.isDisplayed());
+    Assert.assertTrue(searchPatientPage.country.isDisplayed());
+    Assert.assertTrue(searchPatientPage.stateCity.isDisplayed());
+
+
 
   }
 

@@ -8,7 +8,7 @@ import pages.UserSettingsPage;
 import utilities.ConfigurationReader;
 import utilities.Driver;
 
-public class US6Steps {
+public class US6_StepDefinitions {
     HomePage homePage = new HomePage();
     UserPage userPage=new UserPage();
     UserSettingsPage userSettingsPage = new UserSettingsPage();
@@ -39,7 +39,7 @@ public class US6Steps {
     }
     @Then("user verifies user is signed on")
     public void user_verifies_user_is_signed_on() {
-    Assert.assertTrue(userPage.myPagesMenu.isDisplayed());
+    Assert.assertTrue(userPage.menuButton.isDisplayed());
     }
     @Given("user goes to user menu")
     public void user_goes_to_user_menu(){
@@ -55,16 +55,16 @@ public class US6Steps {
     }
     @Then("user verifies name matches name on account")
     public void user_verifies_name_matches_name_on_account() {
-    String actualFirstName = Driver.waitAndGetText(userSettingsPage.firstNameEditBox);
-    String actualLastName = Driver.waitAndGetText(userSettingsPage.lastNameEditBox);
-    String actualName = actualFirstName + actualLastName;
-    String expectedName = Driver.waitAndGetText(userSettingsPage.menuButton);
+    String actualFirstName = userSettingsPage.firstNameEditBox.getAttribute("value");
+    String actualLastName = userSettingsPage.lastNameEditBox.getAttribute("value");
+    String actualName = (actualFirstName + actualLastName).replaceAll(" ","");
+    String expectedName = userSettingsPage.userNameText.getText().replaceAll(" ","");
     Assert.assertEquals(expectedName,actualName);
     }
 
     @Then("user verifies email is populated")
     public void user_verifies_email_is_populated() {
-    String email = Driver.waitAndGetText(userSettingsPage.emailEditBox);
+    String email = userSettingsPage.emailEditBox.getAttribute("value");
     Assert.assertFalse(email.isEmpty());
     }
     @Then("user edits first name to {string}")

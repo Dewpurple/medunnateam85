@@ -17,4 +17,5 @@ public class UserPage {//elements from DoctorPage can be moved here
     public WebElement settingsButton;
 
 
+
 }

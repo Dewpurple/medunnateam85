@@ -20,6 +20,7 @@ public class RegistrationSteps {
 
     Registrant registrant = new Registrant();
 
+
     @Given("user provides ssn as {string}")
     public void user_provides_ssn_as(String ssn) {
 

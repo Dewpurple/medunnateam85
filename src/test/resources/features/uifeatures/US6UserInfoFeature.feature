@@ -13,7 +13,7 @@ And user verifies user is signed on
 
     Examples: user login data
     |username   |password |
-    |team85hasta|team85hasta |
+    |pepper |pepper |
 
 
 @UserSettings

@@ -7,6 +7,9 @@ import pages.UserPage;
 import pages.UserSettingsPage;
 import utilities.ConfigurationReader;
 import utilities.Driver;
+import utilities.ReusableMethods;
+
+import java.io.IOException;
 
 public class US6_StepDefinitions {
     HomePage homePage = new HomePage();
@@ -69,28 +72,67 @@ public class US6_StepDefinitions {
     }
     @Then("user edits first name to {string}")
     public void user_edits_first_name_to(String firstName) {
+        userSettingsPage.firstNameEditBox.clear();
     Driver.waitAndSendText(userSettingsPage.firstNameEditBox, firstName);
     }
     @Then("user updates last name to {string}")
     public void user_updates_last_name_to(String lastName) {
-    Driver.waitAndSendText(userSettingsPage.lastNameEditBox, lastName);
-
+        userSettingsPage.lastNameEditBox.clear();
+        Driver.waitAndSendText(userSettingsPage.lastNameEditBox, lastName);
     }
     @Then("user clicks save button")
     public void user_clicks_save_button() {
-Driver.waitAndClick(userSettingsPage.saveButton);
+    Driver.waitAndClick(userSettingsPage.saveButton);
     }
     @Then("settings saved message appears")
-    public void settings_saved_message_appears() {
-
+    public void settings_saved_message_appears() throws InterruptedException {
+        Driver.waitForVisibility(userSettingsPage.savedMessage,10);
+           String message = userSettingsPage.savedMessage.getText();
+            Assert.assertEquals("Settings saved!",message);
+            Thread.sleep(7000);
     }
     @Then("user verifies updated first name {string} is displayed")
-    public void user_verifies_updated_first_name_is_displayed(String string) {
-
+    public void user_verifies_updated_first_name_is_displayed(String firstName) {
+String nameDisplayed = userSettingsPage.userNameText.getAttribute("innerHTML");
+Assert.assertTrue(nameDisplayed.contains(firstName));
     }
     @Then("user verifies updated last name {string} is displayed")
-    public void user_verifies_updated_last_name_is_displayed(String string) {
+    public void user_verifies_updated_last_name_is_displayed(String lastName) {
+        String nameDisplayed = userSettingsPage.userNameText.getAttribute("innerHTML");
+        Assert.assertTrue(nameDisplayed.contains(lastName));
+    }
+    @Then("user clicks signout")
+    public void user_clicks_signout() {
+Driver.waitAndClick(userSettingsPage.menuButton);
+Driver.waitAndClick(userSettingsPage.signOutButton);
 
     }
+//negative case
+@Then("user leaves firstname blank")
+public void user_leaves_firstname_blank()  {
+userSettingsPage.firstNameEditBox.clear();
+    Driver.waitAndClick(userSettingsPage.saveButton);
+    }
+    @Then("user gets error message under firstname")
+    public void user_gets_error_message_under_firstname() {
+Assert.assertTrue(userSettingsPage.firstNameErrorMessage.isDisplayed());
+    }
+    @Then("user leaves lastname blank")
+    public void user_leaves_lastname_blank() {
+        userSettingsPage.lastNameEditBox.clear();
+        Driver.waitAndClick(userSettingsPage.saveButton);
+    }
+    @Then("user gets error message under lastname")
+    public void user_gets_error_message_under_lastname() {
+        Assert.assertTrue(userSettingsPage.lastNameErrorMessage.isDisplayed());
+    }
+    @Then("user verifies settings saved message does not appear")
+    public void user_verifies_settings_saved_message_does_not_appear() {
+Assert.assertFalse(userSettingsPage.savedMessage.isDisplayed());
+    }
+//    @Then("close the application")
+//    public void closeTheApplication() {
+//        Driver.closeDriver();
+//    }
 
 }

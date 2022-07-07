@@ -27,7 +27,7 @@ import org.junit.runner.RunWith;
         //tags = "  @US6",
 //        tags = " @UserSignIn",
 
-       tags = "@US6Pos",
+       tags = "@US6Neg",
 //        tags = "@UsernameTest",
 
 

@@ -22,8 +22,8 @@ Background:
   And user updates last name to "<lastname>"
   Then user clicks save button
   And settings saved message appears
-#  Then user verifies updated first name "<firstname>" is displayed
-#  Then user verifies updated last name "<lastname>" is displayed
+  Then user verifies updated first name "<firstname>" is displayed
+  Then user verifies updated last name "<lastname>" is displayed
   Then user clicks signout
    Then close the application
 
@@ -31,11 +31,11 @@ Background:
       |username    |password    |firstname|lastname |
       |pepper      |pepper      |tokyo    |lecasa   |
       |BernaAdmin  |team85      |admin    |1234     |
-#      |BernaAdmin  |team85      |Berna    |Team85   |
-#      |alphabeta   |1234        |takim85  |doktor   |
-#      |alphabeta   |1234        |Alpha    |B        |
-#      |staff85     |team85hasta2|Amin     |Amen     |
-#      |staff85     |team85hasta2|Amine    |Amineee  |
+      |BernaAdmin  |team85      |Berna    |Team85   |
+      |alphabeta   |1234        |takim85  |doktor   |
+      |alphabeta   |1234        |Alpha    |B        |
+      |staff85     |team85hasta2|Amin     |Amen     |
+      |staff85     |team85hasta2|Amine    |Amineee  |
 
 
 

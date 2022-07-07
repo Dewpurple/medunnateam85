@@ -1,6 +1,5 @@
 Feature: US_009_UserValidationPatientInfoAPI
   Scenario: 003_ValidationPatientInfoAPI
-    Given User sets the expected data for patient info
     And user navitages to Medunna url
     And user signs in as Staff
     And user clicks on My Pageas
@@ -8,4 +7,5 @@ Feature: US_009_UserValidationPatientInfoAPI
     And user enters SSN from config prop
     And user clicks edit box
     And User validates Patient Info using API
+    And  User sets the expected data for patient info and Validates
     Then close the application

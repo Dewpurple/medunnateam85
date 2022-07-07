@@ -122,8 +122,8 @@ public class US_009_StepDefs extends PojoPatientEditInformation {
     Assert.assertTrue(searchPatientPage.stateCity.isDisplayed());
   }
 
-  @Given("User sets the expected data for patient info")
-  public void user_sets_the_expected_data_for_patient_info() {
+  @Given("User sets the expected data for patient info and Validates")
+  public void user_sets_the_expected_data_for_patient_info_and_validates() {
   PojoPatientEditInformation pojoPatientEditInformation = new PojoPatientEditInformation("3353", "123-66-5555", "Vernice"
   ,"Carroll", "22/06/78 02:50", "dovie.macgyver@hotmail.com", "4165667780" , "OTHER" , "O+" , "Orchard, Port", "asthma" , "doctor84",
         "Türkye" ,  "monster/mons"  );
@@ -149,8 +149,29 @@ public class US_009_StepDefs extends PojoPatientEditInformation {
   public void user_enters_ssn_from_config_prop() {
   searchPatientPage.patientSSNSearch.sendKeys(ConfigurationReader.getProperty("ssn"));
   }
-  @Given("User validates Patient Info using API")
-  public void user_validates_patient_info_using_api() {
+  @Given("Make connection with DB")
+  public void make_connection_with_db() {
 
   }
+  @Given("Run SQL query for expected data")
+  public void run_sql_query_for_expected_data() {
+
+  }
+  @Given("validate patient info from DB")
+  public void validate_patient_info_from_db() {
+
+  }
+  @Given("user signs in as admin")
+  public void user_signs_in_as_admin() {
+
+  }
+  @Given("user clicks items &And Titles Page")
+  public void user_clicks_items_and_titles_page() {
+
+  }
+  @Given("user verifies delete button is available")
+  public void user_verifies_delete_button_is_available() {
+
+  }
+
 }

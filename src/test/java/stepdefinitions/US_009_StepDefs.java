@@ -8,10 +8,11 @@ import pages.HomePage;
 import pages.ItemsAndTitlesPage;
 import pages.PatientEditPage;
 import pages.SearchPatientPage;
+import pojos.Registrant;
 import utilities.ConfigurationReader;
 import utilities.Driver;
 
-public class US_009_StepDefs {
+public class US_009_StepDefs extends Registrant {
   HomePage homePage = new HomePage();
   ItemsAndTitlesPage itemsAndTitlesPage = new ItemsAndTitlesPage();
   PatientEditPage patientEditPage = new PatientEditPage();
@@ -113,9 +114,14 @@ public class US_009_StepDefs {
     Assert.assertTrue(searchPatientPage.doctor.isDisplayed());
     Assert.assertTrue(searchPatientPage.country.isDisplayed());
     Assert.assertTrue(searchPatientPage.stateCity.isDisplayed());
-
-
-
   }
 
+  @Given("User sets the expected data for patient info")
+  public void user_sets_the_expected_data_for_patient_info() {
+
+  }
+  @Given("User validates Patient Info using API")
+  public void user_validates_patient_info_using_api() {
+
+  }
 }

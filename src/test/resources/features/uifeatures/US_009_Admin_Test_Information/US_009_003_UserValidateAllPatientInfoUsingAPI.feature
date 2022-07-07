@@ -6,5 +6,6 @@ Feature: US_009_UserValidationPatientInfoAPI
     And user clicks on My Pageas
     And user clicks Search Patient Icon
     And user enters SSN from config prop
+    And user clicks edit box
     And User validates Patient Info using API
     Then close the application

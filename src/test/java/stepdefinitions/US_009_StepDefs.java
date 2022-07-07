@@ -8,15 +8,22 @@ import pages.HomePage;
 import pages.ItemsAndTitlesPage;
 import pages.PatientEditPage;
 import pages.SearchPatientPage;
+import pojos.PojoPatientEditInformation;
 import utilities.ConfigurationReader;
 import utilities.Driver;
 
-public class US_009_StepDefs {
+public class US_009_StepDefs extends PojoPatientEditInformation {
   HomePage homePage = new HomePage();
   ItemsAndTitlesPage itemsAndTitlesPage = new ItemsAndTitlesPage();
   PatientEditPage patientEditPage = new PatientEditPage();
   SearchPatientPage searchPatientPage = new SearchPatientPage();
-    @When("Admin navigates to the sign in page")
+
+  public US_009_StepDefs(String id, String ssn, String patientFirstName, String patientLastname, String patientBirthDate, String patientEmail, String patientPhoneNumber, String patientGender, String patientBloodGroup, String patientAddress, String patientDescription, String patientUser, String patientCountry, String patientState) {
+    super(id, ssn, patientFirstName, patientLastname, patientBirthDate, patientEmail, patientPhoneNumber, patientGender, patientBloodGroup, patientAddress, patientDescription, patientUser, patientCountry, patientState);
+  }
+
+
+  @When("Admin navigates to the sign in page")
     public void admin_navigates_to_the_sign_in_page() {
         homePage.loginDropDown.click();
         homePage.loginSignInButton.click();
@@ -113,8 +120,57 @@ public class US_009_StepDefs {
     Assert.assertTrue(searchPatientPage.doctor.isDisplayed());
     Assert.assertTrue(searchPatientPage.country.isDisplayed());
     Assert.assertTrue(searchPatientPage.stateCity.isDisplayed());
+  }
 
+  @Given("User sets the expected data for patient info and Validates")
+  public void user_sets_the_expected_data_for_patient_info_and_validates() {
+  PojoPatientEditInformation pojoPatientEditInformation = new PojoPatientEditInformation("3353", "123-66-5555", "Vernice"
+  ,"Carroll", "22/06/78 02:50", "dovie.macgyver@hotmail.com", "4165667780" , "OTHER" , "O+" , "Orchard, Port", "asthma" , "doctor84",
+        "Türkye" ,  "monster/mons"  );
+  Assert.assertEquals(pojoPatientEditInformation.getId(), patientEditPage.patientID.getText());
+    Assert.assertEquals(pojoPatientEditInformation.getPatientFirstName(), patientEditPage.patientFirstName.getText());
+    Assert.assertEquals(pojoPatientEditInformation.getPatientLastname(), patientEditPage.patientLastName.getText());
+    Assert.assertEquals(pojoPatientEditInformation.getPatientBirthDate(), patientEditPage.patientBirthDate.getText());
+    Assert.assertEquals(pojoPatientEditInformation.getPatientEmail(), patientEditPage.patientEmail.getText());
+    Assert.assertEquals(pojoPatientEditInformation.getPatientPhoneNumber(), patientEditPage.patientPhoneNumber.getText());
+    Assert.assertEquals(pojoPatientEditInformation.getPatientGender(), patientEditPage.patientGender.getText());
+    Assert.assertEquals(pojoPatientEditInformation.getPatientBloodGroup(), patientEditPage.patientBloodGroup.getText());
+    Assert.assertEquals(pojoPatientEditInformation.getPatientAddress(), patientEditPage.patientAddress.getText());
+    Assert.assertEquals(pojoPatientEditInformation.getPatientDescription(), patientEditPage.patientDescription.getText());
+    Assert.assertEquals(pojoPatientEditInformation.getPatientUser(), patientEditPage.patientUser.getText());
+    Assert.assertEquals(pojoPatientEditInformation.getPatientCountry(), patientEditPage.patientCountry.getText());
+    Assert.assertEquals(pojoPatientEditInformation.getPatientState(), patientEditPage.patientState.getText());
+  }
+  @Given("user clicks edit box")
+  public void user_clicks_edit_box() {
+  searchPatientPage.patientSearchEditButton.click();
+  }
+  @Given("user enters SSN from config prop")
+  public void user_enters_ssn_from_config_prop() {
+  searchPatientPage.patientSSNSearch.sendKeys(ConfigurationReader.getProperty("ssn"));
+  }
+  @Given("Make connection with DB")
+  public void make_connection_with_db() {
 
+  }
+  @Given("Run SQL query for expected data")
+  public void run_sql_query_for_expected_data() {
+
+  }
+  @Given("validate patient info from DB")
+  public void validate_patient_info_from_db() {
+
+  }
+  @Given("user signs in as admin")
+  public void user_signs_in_as_admin() {
+
+  }
+  @Given("user clicks items &And Titles Page")
+  public void user_clicks_items_and_titles_page() {
+
+  }
+  @Given("user verifies delete button is available")
+  public void user_verifies_delete_button_is_available() {
 
   }
 

@@ -16,11 +16,11 @@ public class UserSettingsPage {
         //  //a[@href='/logout']
         @FindBy(xpath="/*[@id=\"account-menu\"]/div/a[3]/span")
         public WebElement signOutButton;
-        @FindBy(id="firstName")
+        @FindBy(xpath="//input[@name='firstName']")
         public WebElement firstNameEditBox;
         @FindBy(xpath="//*[contains(text(),'Your first name is required')]")
         public WebElement firstNameErrorMessage;
-        @FindBy(id="lastName")
+        @FindBy(xpath="//input[@name='lastName']")
         public WebElement lastNameEditBox;
         @FindBy(xpath="//*[contains(text(),'Your last name is required')]")
         public WebElement lastNameErrorMessage;

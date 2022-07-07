@@ -89,16 +89,18 @@ public class US6_StepDefinitions {
         Driver.waitForVisibility(userSettingsPage.savedMessage,10);
            String message = userSettingsPage.savedMessage.getText();
             Assert.assertEquals("Settings saved!",message);
+            Thread.sleep(7000);
     }
-//    @Then("user verifies updated first name {string} is displayed")
-//    public void user_verifies_updated_first_name_is_displayed(String firstName) {
-//Assert.assertTrue(userSettingsPage.userNameText.toString().contains(firstName));
-//    }
-//    @Then("user verifies updated last name {string} is displayed")
-//    public void user_verifies_updated_last_name_is_displayed(String lastName) {
-//Assert.assertTrue(userSettingsPage.userNameText.toString().contains(lastName));
-//
-//    }
+    @Then("user verifies updated first name {string} is displayed")
+    public void user_verifies_updated_first_name_is_displayed(String firstName) {
+String nameDisplayed = userSettingsPage.userNameText.getAttribute("innerHTML");
+Assert.assertTrue(nameDisplayed.contains(firstName));
+    }
+    @Then("user verifies updated last name {string} is displayed")
+    public void user_verifies_updated_last_name_is_displayed(String lastName) {
+        String nameDisplayed = userSettingsPage.userNameText.getAttribute("innerHTML");
+        Assert.assertTrue(nameDisplayed.contains(lastName));
+    }
     @Then("user clicks signout")
     public void user_clicks_signout() {
 Driver.waitAndClick(userSettingsPage.menuButton);
@@ -107,23 +109,22 @@ Driver.waitAndClick(userSettingsPage.signOutButton);
     }
 //negative case
 @Then("user leaves firstname blank")
-public void user_leaves_firstname_blank() {
+public void user_leaves_firstname_blank()  {
 userSettingsPage.firstNameEditBox.clear();
+    Driver.waitAndClick(userSettingsPage.saveButton);
     }
     @Then("user gets error message under firstname")
     public void user_gets_error_message_under_firstname() {
 Assert.assertTrue(userSettingsPage.firstNameErrorMessage.isDisplayed());
-Driver.waitAndClick(userSettingsPage.lastNameEditBox);
     }
     @Then("user leaves lastname blank")
-    public void user_leaves_lastname_blank() throws IOException {
-userSettingsPage.lastNameErrorMessage.clear();
-        Driver.waitAndClick(userSettingsPage.emailEditBox);
-        ReusableMethods.getScreenshot("TestResultScreenShots");
+    public void user_leaves_lastname_blank() {
+        userSettingsPage.lastNameEditBox.clear();
+        Driver.waitAndClick(userSettingsPage.saveButton);
     }
     @Then("user gets error message under lastname")
     public void user_gets_error_message_under_lastname() {
-Assert.assertTrue(userSettingsPage.lastNameErrorMessage.isDisplayed());
+        Assert.assertTrue(userSettingsPage.lastNameErrorMessage.isDisplayed());
     }
     @Then("user verifies settings saved message does not appear")
     public void user_verifies_settings_saved_message_does_not_appear() {

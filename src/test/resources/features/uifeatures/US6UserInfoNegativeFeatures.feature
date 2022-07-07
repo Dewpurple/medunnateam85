@@ -18,10 +18,11 @@ Feature: User info segment
 
 
     Then user leaves firstname blank
+    Then user clicks save button
     And user gets error message under firstname
     Then user leaves lastname blank
+    Then user clicks save button
     And user gets error message under lastname
-    Then user verifies settings saved message does not appear
     Then user clicks signout
 
     Examples: test data6

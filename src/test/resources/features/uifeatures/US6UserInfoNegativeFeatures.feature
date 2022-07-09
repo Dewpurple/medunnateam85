@@ -24,14 +24,14 @@ Feature: User info segment
     Then user clicks save button
     And user gets error message under lastname
     Then user clicks signout
+    Then close the application
 
     Examples: test data6
-      |username    |password    |firstname|lastname |
-      |pepper      |pepper      |tokyo    |lecasa   |
-#      |BernaAdmin  |team85      |admin    |1234     |
-#      |BernaAdmin  |team85      |Berna    |Team85   |
-#      |alphabeta   |1234        |takim85  |doktor   |
-#      |alphabeta   |1234        |Alpha    |B        |
-#      |staff85     |team85hasta2|Amin     |Amen     |
-#      |staff85     |team85hasta2|Amine    |Amineee  |
-
+      |username    |password  |
+      |pepper      |pepper    |
+#      |BernaAdmin  |team85      |
+#      |BernaAdmin  |team85      |
+#      |alphabeta   |1234        |
+#      |alphabeta   |1234        |
+#      |staff85     |team85hasta2|
+#      |staff85     |team85hasta2|

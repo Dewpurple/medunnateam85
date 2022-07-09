@@ -17,47 +17,47 @@ public class US6_StepDefinitions {
     UserSettingsPage userSettingsPage = new UserSettingsPage();
 
     @Given("user is on the home page")
-    public void user_is_on_the_home_page() {
+    public void userIsOnTheHomepage() {
     Driver.getDriver().get(ConfigurationReader.getProperty("medunna_url"));
     }
     @Given("user clicks menu")
-    public void user_clicks_menu(){
+    public void userClicksMenu(){
     Driver.waitAndClick(homePage.loginDropDown);
     }
     @Given("user clicks the signIn button")
-    public void user_clicks_the_sign_in_button() {
+    public void userClicksTheSignInButton() {
     Driver.waitAndClick(homePage.loginSignInButton);
     }
     @Given("user types in username as {string}")
-    public void user_types_in_username_as(String username) {
+    public void userTypesInUsernameAs(String username) {
     Driver.waitAndSendText(homePage.username, username);
     }
     @Given("user types in password as {string}")
-    public void user_types_in_password_as(String password) {
+    public void userTypesInPasswordAs(String password) {
     Driver.waitAndSendText(homePage.password, password);
     }
     @Then("user clicks Sign In Button")
-    public void user_clicks_sign_in_button() {
+    public void userClicksSignInButton() {
     Driver.waitAndClick(homePage.signInbutton);
     }
     @Then("user verifies user is signed on")
-    public void user_verifies_user_is_signed_on() {
+    public void userVerifiesUserIsSignedOn() {
     Assert.assertTrue(userPage.menuButton.isDisplayed());
     }
     @Given("user goes to user menu")
-    public void user_goes_to_user_menu(){
+    public void userGoesToUserMenu(){
     Driver.waitAndClick(userPage.menuButton);
     }
     @Then("user clicks settings button")
-    public void user_clicks_settings_button() {
+    public void userClicksSettingsButton() {
     Driver.waitAndClick(userPage.settingsButton);
     }
     @Then("user verifies user is on settings page")
-    public void user_verifies_user_is_on_settings_page() {
+    public void userVerifiesUserIsOnSettingsPage() {
     Assert.assertTrue(userSettingsPage.userSettingsTitle.isDisplayed());
     }
     @Then("user verifies name matches name on account")
-    public void user_verifies_name_matches_name_on_account() {
+    public void userVerifiesNameMatchesNameOnAccount() {
     String actualFirstName = userSettingsPage.firstNameEditBox.getAttribute("value");
     String actualLastName = userSettingsPage.lastNameEditBox.getAttribute("value");
     String actualName = (actualFirstName + actualLastName).replaceAll(" ","");
@@ -66,17 +66,17 @@ public class US6_StepDefinitions {
     }
 
     @Then("user verifies email is populated")
-    public void user_verifies_email_is_populated() {
+    public void userVerifiesEmailIsPopulated() {
     String email = userSettingsPage.emailEditBox.getAttribute("value");
     Assert.assertFalse(email.isEmpty());
     }
     @Then("user edits first name to {string}")
-    public void user_edits_first_name_to(String firstName) {
+    public void userEditsFirstNameTo(String firstName) {
         userSettingsPage.firstNameEditBox.clear();
     Driver.waitAndSendText(userSettingsPage.firstNameEditBox, firstName);
     }
     @Then("user updates last name to {string}")
-    public void user_updates_last_name_to(String lastName) {
+    public void userUpdatesLastNameTo(String lastName) {
         userSettingsPage.lastNameEditBox.clear();
         Driver.waitAndSendText(userSettingsPage.lastNameEditBox, lastName);
     }

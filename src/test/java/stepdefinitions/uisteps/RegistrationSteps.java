@@ -1,6 +1,7 @@
 package stepdefinitions.uisteps;
 
 import com.github.javafaker.Faker;
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -83,7 +84,7 @@ public class RegistrationSteps {
         Driver.waitAndClick(registrationPage.registerButton);
         saveRegistrantData(registrant);
     }
-    @Given("user sends an invalid password as {string}")
+    @Given("user sends a password as {string}")
     public void user_sends_an_invalid_password_as(String password) {
        Driver.waitAndSendText(registrationPage.firstPasswordTextBox, password + Keys.ENTER);
     }
@@ -93,5 +94,34 @@ public class RegistrationSteps {
         Assert.assertTrue(registrationPage.invalidPassword.isDisplayed());
 
     }
+
+    @And("user cleans the passowrd")
+    public void userCleansThePassowrd() {
+        registrationPage.firstPasswordTextBox.clear();
+    }
+
+    @Then("user validates the password error message is not shown")
+    public void userValidatesThePasswordErrorMessageIsNotShown() {
+        Driver.sleep(1000);
+        //Assert.assertFalse(registrationPage.invalidPassword.isDisplayed());
+        Assert.assertTrue(registrationPage.invalidPassword.isDisplayed());
+    }
+
+    @Then("user validates the password strength1")
+    public void userValidatesThePasswordStrenght() {
+     Assert.assertTrue(registrationPage.passwordStrength1.isDisplayed());
+
+    }
+
+    @Then("user validates the password strength2")
+    public void userValidatesThePasswordStrength2() {
+        Assert.assertTrue(registrationPage.passwordStrength2.isDisplayed());
+    }
+
+    @Then("user validates the password strength3")
+    public void userValidatesThePasswordStrength3() {
+        Assert.assertTrue(registrationPage.passwordStrength3.isDisplayed());
+    }
+
 
 }

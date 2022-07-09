@@ -13,8 +13,9 @@ public class UserPage {//elements from DoctorPage can be moved here
     public WebElement myPagesMenu;
     @FindBy(id="account-menu")
     public WebElement menuButton;
-    @FindBy(partialLinkText = "Settings")
+    @FindBy(xpath = "//a[contains(@href,'settings')]")
     public WebElement settingsButton;
+
 
 
 }

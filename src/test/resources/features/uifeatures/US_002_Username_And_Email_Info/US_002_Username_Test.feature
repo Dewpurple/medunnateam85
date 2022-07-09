@@ -4,8 +4,9 @@ Feature: US_002_Username_Test
     @UsernameTest
  Scenario Outline: User name info
     Given user navigates to medunna url
-    Then user hovers over to "register" button
-    And user selects "register" in the dropdown
+    And user clicks on account menu button
+    And user clicks on "register" in the dropdown
+    And user scrolls down to username textbox
     When user types in  valid username as "<string>"
     Then user continues to next "email" textbox
     Examples: username data

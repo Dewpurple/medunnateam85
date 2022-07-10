@@ -22,17 +22,60 @@ Feature: test registrant data
   @Registration
     @InvalidpasswordScenario
   Scenario Outline: test invalid passwords
-    Given user sends an invalid password as "<password>"
+    Given user sends a password as "<password>"
     Then user validates the password error message
-    Examples: test data for invalid passwords
+    Examples: test data for the validation of the  passwords
       |password|
-      | as     |
+      |a       |
 
 
 
+  @Registration
+    @InvalidpasswordScenario2
+  Scenario Outline: test invalid passwords
+    Given user sends a password as "<password>"
+    Then user validates the password error message
+    Examples: test data for the validation of the  passwords
+      |password|
+      |ab       |
+
+  @Registration
+    @InvalidpasswordScenario3
+  Scenario Outline: test invalid passwords
+    Given user sends a password as "<password>"
+    Then user validates the password error message
+    Examples: test data for the validation of the  passwords
+      |password|
+      |abc       |
 
 
 
+  @Registration
+    @InvalidpasswordScenario
+  Scenario Outline: test valid passwords including one digit
+    Given user sends a password as "<password>"
+    Then user validates the password strength1
+    Examples: test data for the validation of the  passwords
+      |password|
+      |abcd1aa  |
 
+
+  @Registration
+    @InvalidpasswordScenario
+  Scenario Outline: test valid passwords including one digit and one uppercase letter
+    Given user sends a password as "<password>"
+    Then user validates the password strength2
+    Examples: test data for the validation of the  passwords
+      |password|
+      |abcd1aA  |
+
+  @Registration
+    @InvalidpasswordScenario
+  Scenario Outline: test valid passwords including one digit , one uppercase letter and special chars
+    Given user sends a password as "<password>"
+    Then user validates the password strength3
+    Examples: test data for the validation of the  passwords
+      |password|
+      |abc1aA?  |
 
 

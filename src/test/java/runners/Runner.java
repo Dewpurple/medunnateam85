@@ -15,6 +15,12 @@ import org.junit.runner.RunWith;
         glue = {"stepdefinitions","Hooks"},
 
 
+<<<<<<< HEAD
+       //tags = "@Sign_In",
+     tags = " @TC_002",
+
+     //tags = "@makeAppointmentPage",
+=======
         //tags = "@makeAppointmentPage",
         //  tags = "  @InvalidpasswordScenario",
 
@@ -41,6 +47,7 @@ import org.junit.runner.RunWith;
 
 //        tags = "@UsernameTest",
 
+>>>>>>> master
 
         dryRun = false
 )

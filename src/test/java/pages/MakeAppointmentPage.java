@@ -1,5 +1,6 @@
 package pages;
 
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -43,12 +44,36 @@ public class MakeAppointmentPage {
 
     @FindBy(xpath = "//*[text()='Register']")//should be on homePage
     public WebElement registerButton;
+<<<<<<< HEAD
+    @FindBy(xpath = "//*[contains(text(),' We will call you as soon as possible.')]")
+    public WebElement appointmentSuccessMessage;
+
+
+    @FindBy(xpath = "//*[@id=\"account-menu\"]/a")
+    public WebElement preRegisterPage;
+
+    @FindBy(xpath = "//*[@id=\"account-menu\"]/div/a[2]/span")
+    public WebElement registerLink;
+
+    @FindBy(xpath = "//*[@id='entity-menu']/a/span")
+    public WebElement patientLink;
+
+    @FindBy(xpath = "//*[@id='entity-menu']/div/a[1]/span")
+    public WebElement myAppointmentsLink;
+
+    @FindBy(xpath = "//*[@id='appointment-heading']")
+    public WebElement appointmentText;
+
+
+
+=======
 
     @FindBy(xpath="//div[@role='alert']/span/strong")
     public WebElement registrationSavedMessage;
 
     @FindBy(xpath="//*[contains(text(),'can not be past date')]")
     public WebElement apptErrorMessage;
+>>>>>>> master
 }
 
 

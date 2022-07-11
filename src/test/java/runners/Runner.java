@@ -24,13 +24,13 @@ import org.junit.runner.RunWith;
         //  tags = "  @InvalidpasswordScenario",
 
 
-        tags = "  @US6",
+ //       tags = "  @US6",
 //        tags = " @UserSignIn",
 
 
 //       tags = "@US6",
-
-
+  //      tags = "@13UITestResultAndInpatient",
+ //       tags = "@US14DoctorSeeAndUpdateInpatientInfo",
 
 //        tags = "@UsernameTest",
 

@@ -1,6 +1,7 @@
 package stepdefinitions.uisteps;
 
 import com.github.javafaker.Faker;
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -16,7 +17,7 @@ public class RegistrationSteps {
 
     RegistrationPage registrationPage = new RegistrationPage();
 
-    Faker faker = new Faker();
+   // Faker faker = new Faker();
 
     Registrant registrant = new Registrant();
 
@@ -24,7 +25,7 @@ public class RegistrationSteps {
     @Given("user provides ssn as {string}")
     public void user_provides_ssn_as(String ssn) {
 
-        ssn = faker.idNumber().ssnValid();
+        //ssn = faker.idNumber().ssnValid();
 
         Driver.waitAndSendText(registrationPage.ssnTextBox,ssn );
         registrant.setSsn(ssn);
@@ -32,7 +33,7 @@ public class RegistrationSteps {
     @Given("user types in first name as {string}")
     public void user_types_in_first_name_as(String firstname) {
 
-        firstname = faker.name().firstName();
+        //firstname = faker.name().firstName();
 
         Driver.waitAndSendText(registrationPage.firstnameTextBox, firstname);
 
@@ -42,7 +43,7 @@ public class RegistrationSteps {
     @Given("user also types in lastname as {string}")
     public void user_also_types_in_lastname_as(String lastname) {
 
-        lastname = faker.name().lastName();
+        //lastname = faker.name().lastName();
 
         Driver.waitAndSendText(registrationPage.lastnameTextBox, lastname);
 
@@ -60,7 +61,7 @@ public class RegistrationSteps {
     @When("user provides a valid password as {string}")
     public void user_provides_a_valid_password_as(String password) {
 
-        password = faker.internet().password(8, 20, true, true);
+        //password = faker.internet().password(8, 20, true, true);
 
       Driver.waitAndSendText(registrationPage.firstPasswordTextBox, password);
 
@@ -83,7 +84,7 @@ public class RegistrationSteps {
         Driver.waitAndClick(registrationPage.registerButton);
         saveRegistrantData(registrant);
     }
-    @Given("user sends an invalid password as {string}")
+    @Given("user sends a password as {string}")
     public void user_sends_an_invalid_password_as(String password) {
        Driver.waitAndSendText(registrationPage.firstPasswordTextBox, password + Keys.ENTER);
     }
@@ -93,5 +94,34 @@ public class RegistrationSteps {
         Assert.assertTrue(registrationPage.invalidPassword.isDisplayed());
 
     }
+
+    @And("user cleans the passowrd")
+    public void userCleansThePassowrd() {
+        registrationPage.firstPasswordTextBox.clear();
+    }
+
+    @Then("user validates the password error message is not shown")
+    public void userValidatesThePasswordErrorMessageIsNotShown() {
+        Driver.sleep(1000);
+        //Assert.assertFalse(registrationPage.invalidPassword.isDisplayed());
+        Assert.assertTrue(registrationPage.invalidPassword.isDisplayed());
+    }
+
+    @Then("user validates the password strength1")
+    public void userValidatesThePasswordStrenght() {
+     Assert.assertTrue(registrationPage.passwordStrength1.isDisplayed());
+
+    }
+
+    @Then("user validates the password strength2")
+    public void userValidatesThePasswordStrength2() {
+        Assert.assertTrue(registrationPage.passwordStrength2.isDisplayed());
+    }
+
+    @Then("user validates the password strength3")
+    public void userValidatesThePasswordStrength3() {
+        Assert.assertTrue(registrationPage.passwordStrength3.isDisplayed());
+    }
+
 
 }

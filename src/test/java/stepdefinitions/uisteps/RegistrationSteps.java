@@ -16,14 +16,14 @@ public class RegistrationSteps {
 
     RegistrationPage registrationPage = new RegistrationPage();
 
-    Faker faker = new Faker();
+   // Faker faker = new Faker();
 
     Registrant registrant = new Registrant();
 
     @Given("user provides ssn as {string}")
     public void user_provides_ssn_as(String ssn) {
 
-        ssn = faker.idNumber().ssnValid();
+        //ssn = faker.idNumber().ssnValid();
 
         Driver.waitAndSendText(registrationPage.ssnTextBox,ssn );
         registrant.setSsn(ssn);
@@ -31,7 +31,7 @@ public class RegistrationSteps {
     @Given("user types in first name as {string}")
     public void user_types_in_first_name_as(String firstname) {
 
-        firstname = faker.name().firstName();
+        //firstname = faker.name().firstName();
 
         Driver.waitAndSendText(registrationPage.firstnameTextBox, firstname);
 
@@ -41,7 +41,7 @@ public class RegistrationSteps {
     @Given("user also types in lastname as {string}")
     public void user_also_types_in_lastname_as(String lastname) {
 
-        lastname = faker.name().lastName();
+        //lastname = faker.name().lastName();
 
         Driver.waitAndSendText(registrationPage.lastnameTextBox, lastname);
 
@@ -52,7 +52,7 @@ public class RegistrationSteps {
     @When("user provides a valid password as {string}")
     public void user_provides_a_valid_password_as(String password) {
 
-        password = faker.internet().password(8, 20, true, true);
+        //password = faker.internet().password(8, 20, true, true);
 
       Driver.waitAndSendText(registrationPage.firstPasswordTextBox, password);
 

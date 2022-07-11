@@ -15,15 +15,10 @@ import org.junit.runner.RunWith;
         glue = {"stepdefinitions","Hooks"},
 
 
-        //tags = "@makeAppointmentPage",
-      //  tags = "  @InvalidpasswordScenario",
+       //tags = "@Sign_In",
+     tags = " @TC_002",
 
-
-
-        //tags = "@makeAppointmentPage",
-      //  tags = "  @InvalidpasswordScenario",
-
-        tags = "  @InvalidpasswordScenario",
+     //tags = "@makeAppointmentPage",
 
         dryRun = false
 )

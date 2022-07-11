@@ -13,12 +13,12 @@ public class US6Steps {
 
     @Given("user is on the home page")
     public void user_is_on_the_home_page() {
-    Driver.getDriver().get(ConfigurationReader.getProperty("medunna_login_url"));
+        Driver.getDriver().get(ConfigurationReader.getProperty("medunna_login_url"));
     }
     @Given("user clicks the signIn button")
     public void user_clicks_the_sign_in_button() {
-    Driver.waitAndClick(signInPage.accountMenu);
-    Driver.waitAndClick(signInPage.signInMenuButton);
+        Driver.waitAndClick(signInPage.accountMenu);
+        Driver.waitAndClick(signInPage.signInMenuButton);
     }
     @Given("user types in username as {string}")
     public void user_types_in_username_as(String username) {
@@ -30,7 +30,7 @@ public class US6Steps {
     }
     @Then("user clicks Sign In Button")
     public void user_clicks_sign_in_button() {
-    Driver.waitAndClick(signInPage.signInSubmitButton);
+        Driver.waitAndClick(signInPage.signInSubmitButton);
     }
 
     @Then("user verifies user is signed on")

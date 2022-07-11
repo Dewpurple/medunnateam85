@@ -33,7 +33,7 @@ public class Doctor79StepDefs {
     public void verify_sign_in_page() {
 
         Assert.assertTrue(doctor79pages.signinbutton.isDisplayed());
-        System.out.println(Driver.waitAndGetText(doctor79pages.signinbutton,2));
+        System.out.println(Driver.waitAndGetText(doctor79pages.signinbutton));
     }
 
     @Then("Doctor enters the username as {string}")

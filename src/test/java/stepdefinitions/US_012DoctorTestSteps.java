@@ -39,6 +39,11 @@ public class US_012DoctorTestSteps {
     public void doctor_clicks_edit_button_from_my_appointments_page() {
 
     }
+    @Given("verify new test contains the expected information")
+    public void verify_new_test_contains_the_expected_information() {
+
+    }
+
     @When("doctor clicks a button to fill test")
     public void doctor_clicks_a_button_to_fill_test() {
 

@@ -42,12 +42,6 @@ public class RegistrationPage {
     @FindBy(xpath = "//*[contains(text(), ' to be at least 4 characters.')]")
     public WebElement invalidPassword;
 
-<<<<<<< HEAD
-}
-=======
-
-
-
     @FindBy(xpath = "//*[text()='Welcome to MEDUNNA']")
     public WebElement US001_verify_Medunna_Page;
 
@@ -63,7 +57,6 @@ public class RegistrationPage {
 
     @FindBy(xpath="//*[@id=\"ssn\"]")
     public WebElement US001_ssn;
-
 
     @FindBy(id = "firstName")
     public WebElement US001_firstnameTextBox;
@@ -89,4 +82,4 @@ public class RegistrationPage {
     @FindBy(xpath = "//*[@id=\"register-form\"]/div[3]/div")
     public WebElement US001_last_Name_is_Required;
 }
->>>>>>> master
+

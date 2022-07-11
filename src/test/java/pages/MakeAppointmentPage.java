@@ -39,11 +39,12 @@ public class MakeAppointmentPage {
     @FindBy(xpath="//*[text()='Send an Appointment Request']")
     public WebElement sendRequestButton;
 
-    @FindBy(id="account-menu")
+    @FindBy(id="account-menu")//should be on homePage
     public WebElement signInAndRegistrationPortal;
 
-    @FindBy(xpath = "//*[text()='Register']")
+    @FindBy(xpath = "//*[text()='Register']")//should be on homePage
     public WebElement registerButton;
+<<<<<<< HEAD
     @FindBy(xpath = "//*[contains(text(),' We will call you as soon as possible.')]")
     public WebElement appointmentSuccessMessage;
 
@@ -65,6 +66,14 @@ public class MakeAppointmentPage {
 
 
 
+=======
+
+    @FindBy(xpath="//div[@role='alert']/span/strong")
+    public WebElement registrationSavedMessage;
+
+    @FindBy(xpath="//*[contains(text(),'can not be past date')]")
+    public WebElement apptErrorMessage;
+>>>>>>> master
 }
 
 

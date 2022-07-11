@@ -1,5 +1,6 @@
 package utilities;
 
+import pojos.Appointment;
 import pojos.Registrant;
 
 import java.io.BufferedWriter;
@@ -32,6 +33,49 @@ public class WriteToTxt {
 
     }
 
+    public static void saveApptData(Appointment appointment){
 
+
+        try {
+
+            FileWriter fw = new FileWriter(ConfigurationReader.getProperty("appt_file"), true);
+
+            BufferedWriter bw = new BufferedWriter(fw);
+
+            bw.append(appointment+"\n");
+
+            bw.close();
+
+
+        }
+        catch (Exception e){
+            e.printStackTrace();
+        }
+
+
+    }
+    public static void saveApptData(Appointment [] appointments){
+
+
+        try {
+
+            FileWriter fw= new FileWriter(ConfigurationReader.getProperty("appointments_api_data"), true);
+
+            BufferedWriter bw = new BufferedWriter(fw);
+
+            for (int i=0; i<appointments.length ; i++){
+bw.append(appointments[i].toString()+"\n");
+            }
+
+            bw.close();
+
+
+        }
+        catch (Exception e){
+            e.printStackTrace();
+        }
+
+
+    }
 
 }

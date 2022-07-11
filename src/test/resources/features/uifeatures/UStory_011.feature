@@ -1,5 +1,5 @@
-@doctor79
-Feature: TC_011
+@UStory_11
+Feature: US_011
 
   Scenario Outline: Sign-in  pages data
 
@@ -7,7 +7,6 @@ Feature: TC_011
     Given the doctor go to url
     Then The doctor click sign in page
     And Verify sign in page
-
 
     Then Doctor enters the username as "<username>"
     Then Doctor enters the  password as "<password>"
@@ -26,4 +25,4 @@ Feature: TC_011
 
     Examples:
       |username|password|anemnesis| treatment| diagnosis|
-      |doctor79|doctor |a        | t        |c         |
+      |doctor79|doctor  |a        | t        |c         |

@@ -24,12 +24,8 @@ import org.junit.runner.RunWith;
         //  tags = "  @InvalidpasswordScenario",
 
 
-        tags = "  @US6",
+        tags = "  @Api",
 //        tags = " @UserSignIn",
-
-
-//       tags = "@US6",
-
 
 
 //        tags = "@UsernameTest",

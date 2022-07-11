@@ -1,0 +1,4 @@
+Appointment{firstName='Susannah', lastName='Schaefer', ssn='523-21-8960', email='SusannahSchaefer@gmail.com', phoneNumber='432-345-3245', apptDate='07/19/2022'}
+Appointment{firstName='Zina', lastName='Gleichner', ssn='485-18-3250', email='ZinaGleichner@gmail.com', phoneNumber='432-345-3245', apptDate='07/19/2022'}
+Appointment{firstName='Michel', lastName='Kozey', ssn='425-10-2423', email='MichelKozey@gmail.com', phoneNumber='432-345-3245', startDate='07/20/2022', createdDate='null'}
+Appointment{firstName='Josefine', lastName='Hintz', ssn='646-58-8981', email='JosefineHintz@gmail.com', phoneNumber='432-345-3245', startDate='07/20/2022', createdDate='2022-07-10'}

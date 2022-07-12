@@ -26,6 +26,8 @@ public class DoctorPage {
     public WebElement toDate;
     @FindBy(xpath = "//*[@id=\"app-view-container\"]/div/div/div/div/div/table")
     public WebElement appointmentTable;
+    @FindBy(xpath = "//*[@id=\"app-view-container\"]/div/div/div/div/div/span")
+    public WebElement appointmentErrorMessage;
 
 
 

@@ -1,6 +1,7 @@
 package stepdefinitions.us002stepdefs;
 
 import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
 import pages.HomePage;
@@ -22,15 +23,20 @@ public class InvalidEmail_Step_Defs {
 //    public void i_select_register_button() {
 //        homePage.loginRegisterButton.click();
 //    }
-    @When("I provide  invalid email as {string} US002")
-    public void iProvideInvalidEmailAs(String arg0) {
-        if (registrationPage.emailTextbox.getText().isEmpty()){
-            Assert.assertTrue(registrationPage.invalidEmailMessage.isDisplayed());
-        }else {
-            System.out.println("You have entered your email address");
-        }
+
+    @When("I leave email text box blank")
+    public void iLeaveEmailTextBoxBlank() {
+        registrationPage.emailTextbox.sendKeys(" ");
     }
 
+    @Then("I validate the error message")
+    public void iValidateTheErrorMessage() {
 
+        if (registrationPage.emailTextbox.equals("")) {
+            Assert.assertTrue(registrationPage.invalidEmailMessage.isDisplayed());
+        }else {
+            System.out.println("You have provided your email");
+        }
 
+    }
 }

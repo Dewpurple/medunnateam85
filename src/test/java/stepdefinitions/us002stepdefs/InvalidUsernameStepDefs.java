@@ -36,8 +36,7 @@ public class InvalidUsernameStepDefs {
 
     @Then("I validate the error message US002")
     public void iValidateTheErrorMessage() {
-        String errorMessage = "Your username is invalid.";
-        Assert.assertEquals(errorMessage,registrationPage.invalidUsernameMessage);
+        Assert.assertTrue(registrationPage.invalidUsernameMessage.isDisplayed());
     }
 
 

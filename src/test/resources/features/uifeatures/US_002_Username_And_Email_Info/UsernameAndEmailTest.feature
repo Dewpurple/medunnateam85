@@ -32,9 +32,6 @@
    |cselcuk@gmail.com|@gmail.com|
 
  @InvalidEmail
- Scenario Outline: invalid email test
-      When I provide  invalid email as "<invalid email>" US002
-      Then I validate the error message US002
- Examples: invalid email info
-   |invalid email|
-   |             |
+ Scenario: invalid email test
+      When I leave email text box blank
+      Then I validate the error message

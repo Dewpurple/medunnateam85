@@ -10,7 +10,7 @@ public class DoctorPage {
     public DoctorPage() {
         PageFactory.initElements(Driver.getDriver(), this);
     }
-    @FindBy (xpath = "//*[@id=\"entity-menu\"]/a/span")
+    @FindBy (id= "entity-menu")
     public WebElement myPages;
     @FindBy (xpath = "//a[@href='/physician-appointment']")
     public WebElement myAppointments;
@@ -20,6 +20,12 @@ public class DoctorPage {
     public WebElement myAppointmentssseees;
     @FindBy(xpath = "//*[@id=\"app-view-container\"]/div")
     public WebElement entireAppointmentsPage;
+    @FindBy(xpath = "//*[@id=\"fromDate\"]")
+    public WebElement fromDate;
+    @FindBy(xpath = "//*[@id=\"toDate\"]")
+    public WebElement toDate;
+    @FindBy(xpath = "//*[@id=\"app-view-container\"]/div/div/div/div/div/table")
+    public WebElement appointmentTable;
 
 
 

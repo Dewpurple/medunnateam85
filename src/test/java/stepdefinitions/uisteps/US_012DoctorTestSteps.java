@@ -1,5 +1,5 @@
 
-package stepdefinitions;
+package stepdefinitions.uisteps;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;

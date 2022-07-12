@@ -13,7 +13,8 @@ import org.junit.runner.RunWith;
         },
         features = "./src/test/resources/features",
         glue = {"stepdefinitions","Hooks"},
-        tags = "@TC_016_Not_Selecting_State",
+        tags = "@AppointmentsNotVisible",
+
         dryRun = false
 )
 public class Runner {

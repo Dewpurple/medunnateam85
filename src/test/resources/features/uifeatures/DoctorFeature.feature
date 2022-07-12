@@ -1,3 +1,0 @@
-Feature: Test doctor data
-
-

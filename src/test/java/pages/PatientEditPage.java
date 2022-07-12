@@ -9,11 +9,11 @@ public class PatientEditPage {
     public PatientEditPage() {
         PageFactory.initElements(Driver.getDriver(), this);
     }
-    @FindBy (id = "patient-firstName")
+    @FindBy (xpath = "//input[@name='firstName']")
     public WebElement patientFirstName;
-    @FindBy (id = "patient-lastName")
+    @FindBy (xpath = "//input[@name='patient-lastName']")
     public WebElement patientLastName;
-    @FindBy (id = "patient-birthDate")
+    @FindBy (xpath = "//input[@name='patient-birthDate']")
     public WebElement patientBirthDate;
     @FindBy (id = "email")
     public WebElement patientEmail;
@@ -39,7 +39,7 @@ public class PatientEditPage {
     public WebElement patientID;  //watch out for additional lines
     @FindBy(xpath = "(//a[@class='btn btn-link btn-sm']")
     public WebElement editButtonFirstPatient;
-    @FindBy (xpath =  "//a[@class='btn btn-primary']")
+    @FindBy (xpath =  "//*[@id=\"app-view-container\"]/div/div/div/div/div[1]/div/table/tbody/tr[1]/td[16]/div/a[2]")
     public WebElement editbutton;
 
 }

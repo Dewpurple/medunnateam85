@@ -74,19 +74,4 @@ public class US_009_API_StepDefs extends PojoPatientEditInformation {
         Assert.assertTrue(patientEditSaveSuccessfullyText.contains(expectedAlertText));
     }
 
-    @When("Admin performs edits to all patient information US009")
-    public void admin_performs_edits_to_all_patient_information_US009() {
-        Assert.assertTrue(patientEditPage.patientFirstName.isEnabled());
-        Assert.assertTrue(patientEditPage.patientLastName.isEnabled());
-        Assert.assertTrue(patientEditPage.patientBirthDate.isEnabled());
-        Assert.assertTrue(patientEditPage.patientEmail.isEnabled());
-        Assert.assertTrue(patientEditPage.patientPhoneNumber.isEnabled());
-        Assert.assertTrue(patientEditPage.patientGender.isEnabled());
-        Assert.assertTrue(patientEditPage.patientBloodGroup.isEnabled());
-        Assert.assertTrue(patientEditPage.patientAddress.isEnabled());
-        Assert.assertTrue(patientEditPage.patientDescription.isEnabled());
-        Assert.assertTrue(patientEditPage.patientUser.isEnabled());
-        Assert.assertTrue(patientEditPage.patientCountry.isEnabled());
-        Assert.assertTrue(patientEditPage.patientState.isEnabled());
-    }
 }

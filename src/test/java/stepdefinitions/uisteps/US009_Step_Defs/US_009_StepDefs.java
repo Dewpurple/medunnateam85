@@ -3,6 +3,8 @@ package stepdefinitions.uisteps.US009_Step_Defs;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.junit.Assert;
+import org.openqa.selenium.Keys;
 import pages.HomePage;
 import pages.ItemsAndTitlesPage;
 import pages.PatientEditPage;
@@ -40,8 +42,6 @@ public class US_009_StepDefs   {
   }
   @When("Admin finds edit button and clicks it US009")
   public void admin_finds_edit_button_and_clicks_itUS009() throws InterruptedException {
-    Thread.sleep(1000);
-    patientEditPage.editButtonFirstPatient.click();
     Thread.sleep(500);
     patientEditPage.editbutton.click();
   }
@@ -52,6 +52,27 @@ public class US_009_StepDefs   {
       patientEditPage.patientSaveButton.click();
 
     }
+
+  @When("Admin performs edits to all patient information US009")
+  public void admin_performs_edits_to_all_patient_information_US009() throws InterruptedException {
+    Thread.sleep(1000);
+    patientEditPage.patientFirstName.click();
+    patientEditPage.patientFirstName.sendKeys("12");
+    patientEditPage.patientLastName.sendKeys("1");
+    patientEditPage.patientBirthDate.sendKeys("12");
+//    Assert.assertTrue(patientEditPage.patientFirstName.isEnabled());
+//    Assert.assertTrue(patientEditPage.patientLastName.isEnabled());
+//    Assert.assertTrue(patientEditPage.patientBirthDate.isEnabled());
+//    Assert.assertTrue(patientEditPage.patientEmail.isEnabled());
+//    Assert.assertTrue(patientEditPage.patientPhoneNumber.isEnabled());
+//    Assert.assertTrue(patientEditPage.patientGender.isEnabled());
+//    Assert.assertTrue(patientEditPage.patientBloodGroup.isEnabled());
+//    Assert.assertTrue(patientEditPage.patientAddress.isEnabled());
+//    Assert.assertTrue(patientEditPage.patientDescription.isEnabled());
+//    Assert.assertTrue(patientEditPage.patientUser.isEnabled());
+//    Assert.assertTrue(patientEditPage.patientCountry.isEnabled());
+//    Assert.assertTrue(patientEditPage.patientState.isEnabled());
+  }
 
     @Then("close application US009")
     public void close_application_US009() {

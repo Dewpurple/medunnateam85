@@ -9,6 +9,6 @@ public class ItemsAndTitlesPage {
     public ItemsAndTitlesPage() {
         PageFactory.initElements(Driver.getDriver(), this);
     }
-    @FindBy(xpath = "(//a[@class='btn btn-primary btn-sm'])[1]")
+    @FindBy(xpath = "(//a[@class='btn btn-primary btn-sm']")
     public WebElement editButtonFirstPatient;
 }

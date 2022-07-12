@@ -37,4 +37,9 @@ public class PatientEditPage {
     public WebElement patientSaveButton;
     @FindBy (id = "patient-id")
     public WebElement patientID;  //watch out for additional lines
+    @FindBy(xpath = "(//a[@class='btn btn-link btn-sm']")
+    public WebElement editButtonFirstPatient;
+    @FindBy (xpath =  "//a[@class='btn btn-primary']")
+    public WebElement editbutton;
+
 }

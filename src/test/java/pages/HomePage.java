@@ -22,9 +22,9 @@ public class HomePage {//loginpage is included here
     public WebElement password;
     @FindBy(xpath = "//button[@type='submit']")
     public WebElement signInbutton;
-    @FindBy (xpath =  " //a[@class='d-flex align-items-center dropdown-toggle nav-link']")
+    @FindBy (xpath = "//li[@id='entity-menu']")
     public WebElement itemsTitles;
-    @FindBy (xpath = "//a[@class='dropdown-item active']")
+    @FindBy (xpath = "//a[@class='dropdown-item']")
     public WebElement patient;
     @FindBy (id = "entity-menu")
     public WebElement myPages;

@@ -18,6 +18,8 @@ public class DoctorPage {
     public WebElement myAppointmentssss;
     @FindBy (xpath = "//a[@href='/physician-appointment']")
     public WebElement myAppointmentssseees;
+    @FindBy(xpath = "//*[@id=\"app-view-container\"]/div")
+    public WebElement entireAppointmentsPage;
 
 
 

@@ -41,5 +41,8 @@ public class RegistrationPage {
 
     @FindBy(xpath = "//*[contains(text(), ' to be at least 4 characters.')]")
     public WebElement invalidPassword;
-
+    @FindBy(xpath = "//*[@id=\"register-form\"]/div[4]/div")
+    public WebElement invalidUsernameMessage;
+    @FindBy(className = "invalid-feedback")
+    public WebElement invalidEmailMessage;
 }

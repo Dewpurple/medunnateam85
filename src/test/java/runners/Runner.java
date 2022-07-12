@@ -24,7 +24,7 @@ import org.junit.runner.RunWith;
       //  tags = "  @InvalidpasswordScenario",
 
         //tags = "  @US6",
-        tags = "@UsernameTest",
+        tags = "@InvalidUsername",
 
         dryRun = false
 )

@@ -11,29 +11,29 @@ public class PatientEditPage {
     }
     @FindBy (xpath = "//input[@name='firstName']")
     public WebElement patientFirstName;
-    @FindBy (xpath = "//input[@name='patient-lastName']")
+    @FindBy (xpath = "//input[@name='lastName']")
     public WebElement patientLastName;
-    @FindBy (xpath = "//input[@name='patient-birthDate']")
+    @FindBy (xpath = "//input[@name='birthDate']")
     public WebElement patientBirthDate;
-    @FindBy (id = "email")
+    @FindBy (xpath = "//input[@name='email']")
     public WebElement patientEmail;
-    @FindBy (id = "patient-phone")
+    @FindBy (xpath = "//input[@name='phone']")
     public WebElement patientPhoneNumber;
-    @FindBy (id = "patient-gender")
+    @FindBy (xpath = "//select[@name='gender']")
     public WebElement patientGender;
-    @FindBy (id = "patient-bloodGroup")
+    @FindBy (xpath = "//select[@name='bloodGroup']")
     public WebElement patientBloodGroup;
-    @FindBy (id = "patient-adress")
+    @FindBy (xpath = "//input[@name='adress']")
     public WebElement patientAddress;
     @FindBy (id = "patient-description")
     public WebElement patientDescription;
-    @FindBy (id = "patient-user")
+    @FindBy (xpath = "//select[@name='user.id']")
     public WebElement patientUser;
     @FindBy (id = "patient-country")
     public WebElement patientCountry;
     @FindBy (id = "patient-cstate")
     public WebElement patientState;
-    @FindBy (id = "save-entity")
+    @FindBy (xpath = "//button[@id='save-entity']")
     public WebElement patientSaveButton;
     @FindBy (id = "patient-id")
     public WebElement patientID;  //watch out for additional lines

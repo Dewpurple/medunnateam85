@@ -4,7 +4,12 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
+import org.openqa.selenium.JavascriptException;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.interactions.Action;
+import org.openqa.selenium.interactions.Actions;
 import pages.HomePage;
 import pages.ItemsAndTitlesPage;
 import pages.PatientEditPage;
@@ -17,6 +22,17 @@ public class US_009_StepDefs   {
   ItemsAndTitlesPage itemsAndTitlesPage = new ItemsAndTitlesPage();
   PatientEditPage patientEditPage = new PatientEditPage();
   SearchPatientPage searchPatientPage = new SearchPatientPage();
+  JavascriptExecutor js = new JavascriptExecutor() {
+    @Override
+    public Object executeScript(String script, Object... args) {
+      return null;
+    }
+
+    @Override
+    public Object executeAsyncScript(String script, Object... args) {
+      return null;
+    }
+  };
 
   @When("Admin navigates to the sign in page US009")
     public void admin_navigates_to_the_sign_in_page_US009() {
@@ -48,30 +64,29 @@ public class US_009_StepDefs   {
 
     @When("Admin clicks on Save button US009")
     public void admin_clicks_on_save_button_US009() throws InterruptedException {
-      Thread.sleep(1000);
-      patientEditPage.patientSaveButton.click();
-
+      js.executeScript("arguments[0].scrollIntoView();", patientEditPage.patientSaveButton);
+    Thread.sleep(1000);
+      patientEditPage.patientSaveButton.sendKeys(Keys.ENTER);
     }
 
   @When("Admin performs edits to all patient information US009")
   public void admin_performs_edits_to_all_patient_information_US009() throws InterruptedException {
     Thread.sleep(1000);
-    patientEditPage.patientFirstName.click();
-    patientEditPage.patientFirstName.sendKeys("12");
-    patientEditPage.patientLastName.sendKeys("1");
-    patientEditPage.patientBirthDate.sendKeys("12");
-//    Assert.assertTrue(patientEditPage.patientFirstName.isEnabled());
-//    Assert.assertTrue(patientEditPage.patientLastName.isEnabled());
-//    Assert.assertTrue(patientEditPage.patientBirthDate.isEnabled());
-//    Assert.assertTrue(patientEditPage.patientEmail.isEnabled());
-//    Assert.assertTrue(patientEditPage.patientPhoneNumber.isEnabled());
-//    Assert.assertTrue(patientEditPage.patientGender.isEnabled());
-//    Assert.assertTrue(patientEditPage.patientBloodGroup.isEnabled());
-//    Assert.assertTrue(patientEditPage.patientAddress.isEnabled());
-//    Assert.assertTrue(patientEditPage.patientDescription.isEnabled());
-//    Assert.assertTrue(patientEditPage.patientUser.isEnabled());
-//    Assert.assertTrue(patientEditPage.patientCountry.isEnabled());
-//    Assert.assertTrue(patientEditPage.patientState.isEnabled());
+//    patientEditPage.patientFirstName.sendKeys("12");
+//    patientEditPage.patientLastName.sendKeys("1");
+//    patientEditPage.patientBirthDate.sendKeys("12");
+    Assert.assertTrue(patientEditPage.patientFirstName.isEnabled());
+    Assert.assertTrue(patientEditPage.patientLastName.isEnabled());
+    Assert.assertTrue(patientEditPage.patientBirthDate.isEnabled());
+    Assert.assertTrue(patientEditPage.patientEmail.isEnabled());
+    Assert.assertTrue(patientEditPage.patientPhoneNumber.isEnabled());
+    Assert.assertTrue(patientEditPage.patientGender.isEnabled());
+    Assert.assertTrue(patientEditPage.patientBloodGroup.isEnabled());
+    Assert.assertTrue(patientEditPage.patientAddress.isEnabled());
+    Assert.assertTrue(patientEditPage.patientDescription.isEnabled());
+    Assert.assertTrue(patientEditPage.patientUser.isEnabled());
+    Assert.assertTrue(patientEditPage.patientCountry.isEnabled());
+    Assert.assertTrue(patientEditPage.patientState.isEnabled());
   }
 
     @Then("close application US009")

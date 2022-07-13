@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
         },
         features = "./src/test/resources/features",
         glue = {"stepdefinitions","Hooks"},
-        tags = "@TC_016_Not_Selecting_State",
+        tags = "@US01_TC01_positive",
         dryRun = false
 )
 public class Runner {

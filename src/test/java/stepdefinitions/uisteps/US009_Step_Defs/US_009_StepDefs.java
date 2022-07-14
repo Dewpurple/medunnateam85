@@ -96,24 +96,51 @@ public class US_009_StepDefs   {
   }
   @Given("user clicks on My Pageas US009")
   public void user_clicks_on_my_pageas_US009() {
-  homePage.myPages.click();
+  Driver.waitAndClick(homePage.myPages);
   }
   @Given("user clicks on Patient icon. US009")
   public void user_clicks_on_patient_icon_US009() {
-  homePage.searchPatient.click();
+  Driver.waitAndClick(homePage.searchPatient);
   }
   @Given("user clicks Search Patient Icon US009")
   public void user_clicks_search_patient_icon_US009() {
-  searchPatientPage.patientSSNSearch.click();
+  Driver.waitAndClick(searchPatientPage.patientSSNSearch);
   }
-
   @Given("user clicks edit box US009")
   public void user_clicks_edit_box_US009() {
-  searchPatientPage.patientSearchEditButton.click();
+  Driver.waitAndClick(searchPatientPage.patientSearchEditButton);
   }
   @Given("user enters SSN from config prop US009")
   public void user_enters_ssn_from_config_prop_US009() {
-  searchPatientPage.patientSSNSearch.sendKeys(ConfigurationReader.getProperty("ssn"));
+  Driver.waitAndSendText(searchPatientPage.patientSSNSearch,ConfigurationReader.getProperty("ssn"));
+  }
+  @Given("user verifies Patient SSN Search box is avalible US009")
+  public void user_verifies_patient_ssn_search_box_is_avalible_US009() {
+    Assert.assertTrue(searchPatientPage.patientSSNSearch.isEnabled());
+  }
+  @Given("user enters patient ssn number")
+  public void user_enters_patient_ssn_number() {
+    Driver.waitAndSendText(searchPatientPage.patientSSNSearch, ConfigurationReader.getProperty("ssn"));
+  }
+  @Given("user verifies all registration information is populated US009")
+  public void user_verifies_all_registration_information_is_populated_US009() {
+
+    Assert.assertTrue(searchPatientPage.ssn.isDisplayed());
+    Assert.assertTrue(searchPatientPage.id.isDisplayed());
+    Assert.assertTrue(searchPatientPage.ssn.isDisplayed());
+    Assert.assertTrue(searchPatientPage.firstname.isDisplayed());
+    Assert.assertTrue(searchPatientPage.lastname.isDisplayed());
+    Assert.assertTrue(searchPatientPage.birthday.isDisplayed());
+    Assert.assertTrue(searchPatientPage.phonenumber.isDisplayed());
+    Assert.assertTrue(searchPatientPage.email.isDisplayed());
+    Assert.assertTrue(searchPatientPage.gender.isDisplayed());
+    Assert.assertTrue(searchPatientPage.bloodgroup.isDisplayed());
+    Assert.assertTrue(searchPatientPage.address.isDisplayed());
+    Assert.assertTrue(searchPatientPage.description.isDisplayed());
+    Assert.assertTrue(searchPatientPage.datecreated.isDisplayed());
+    Assert.assertTrue(searchPatientPage.doctor.isDisplayed());
+    Assert.assertTrue(searchPatientPage.country.isDisplayed());
+    Assert.assertTrue(searchPatientPage.stateCity.isDisplayed());
   }
   @Given("Make connection with DB US009")
   public void make_connection_with_db_US009() {

@@ -21,26 +21,7 @@ public class US_009_API_StepDefs extends PojoPatientEditInformation {
         super(id, ssn, patientFirstName, patientLastname, patientBirthDate, patientEmail, patientPhoneNumber, patientGender, patientBloodGroup, patientAddress, patientDescription, patientUser, patientCountry, patientState);
     }
 
-    @Given("user verifies all registration information is populated US009")
-    public void user_verifies_all_registration_information_is_populated_US009() {
-        searchPatientPage.patientSSNSearch.sendKeys(ConfigurationReader.getProperty("ssn"));
-        Assert.assertTrue(searchPatientPage.ssn.isDisplayed());
-        Assert.assertTrue(searchPatientPage.id.isDisplayed());
-        Assert.assertTrue(searchPatientPage.ssn.isDisplayed());
-        Assert.assertTrue(searchPatientPage.firstname.isDisplayed());
-        Assert.assertTrue(searchPatientPage.lastname.isDisplayed());
-        Assert.assertTrue(searchPatientPage.birthday.isDisplayed());
-        Assert.assertTrue(searchPatientPage.phonenumber.isDisplayed());
-        Assert.assertTrue(searchPatientPage.email.isDisplayed());
-        Assert.assertTrue(searchPatientPage.gender.isDisplayed());
-        Assert.assertTrue(searchPatientPage.bloodgroup.isDisplayed());
-        Assert.assertTrue(searchPatientPage.address.isDisplayed());
-        Assert.assertTrue(searchPatientPage.description.isDisplayed());
-        Assert.assertTrue(searchPatientPage.datecreated.isDisplayed());
-        Assert.assertTrue(searchPatientPage.doctor.isDisplayed());
-        Assert.assertTrue(searchPatientPage.country.isDisplayed());
-        Assert.assertTrue(searchPatientPage.stateCity.isDisplayed());
-    }
+
 
 
     @Given("User sets the expected data for patient info and Validates US009")
@@ -63,10 +44,7 @@ public class US_009_API_StepDefs extends PojoPatientEditInformation {
         Assert.assertEquals(pojoPatientEditInformation.getPatientState(), patientEditPage.patientState.getText());
     }
 
-    @Given("user verifies Patient SSN Search box is avalible US009")
-    public void user_verifies_patient_ssn_search_box_is_avalible_US009() {
-        Assert.assertTrue(searchPatientPage.patientSSNSearch.isEnabled());
-    }
+
 
 
 }

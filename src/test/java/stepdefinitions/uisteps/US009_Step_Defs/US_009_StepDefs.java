@@ -100,6 +100,13 @@ public class US_009_StepDefs   {
     homePage.password.sendKeys(ConfigurationReader.getProperty("staffpw"));
     homePage.signInbutton.click();
   }
+  @When("Verify edit is saved successfully US009")
+  public void verify_edit_is_saved_successfully_US009() throws InterruptedException {
+    Thread.sleep(500);
+    String patientEditSaveSuccessfullyText = Driver.getDriver().switchTo().alert().getText();
+    String expectedAlertText = "A Patient is updated with identifier";
+    Assert.assertTrue(patientEditSaveSuccessfullyText.contains(expectedAlertText));
+  }
   @Given("user clicks on My Pageas US009")
   public void user_clicks_on_my_pageas_US009() {
   homePage.myPages.click();

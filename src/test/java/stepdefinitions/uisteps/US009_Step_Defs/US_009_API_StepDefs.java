@@ -67,11 +67,6 @@ public class US_009_API_StepDefs extends PojoPatientEditInformation {
     public void user_verifies_patient_ssn_search_box_is_avalible_US009() {
         Assert.assertTrue(searchPatientPage.patientSSNSearch.isEnabled());
     }
-    @When("Verify edit is saved successfully US009")
-    public void verify_edit_is_saved_successfully_US009() {
-        String patientEditSaveSuccessfullyText = Driver.getDriver().switchTo().alert().getText();
-        String expectedAlertText = "A Patient is updated with identifier";
-        Assert.assertTrue(patientEditSaveSuccessfullyText.contains(expectedAlertText));
-    }
+
 
 }

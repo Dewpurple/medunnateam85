@@ -53,7 +53,7 @@ public class US_018_PhysiciansPage {
     public WebElement editDaqarWerr;
     @FindBy(xpath = "//input[@id='file_image']")
     public WebElement uploadPicture;
-    @FindBy(xpath = "//span[.='17 384 bytes']")
+    @FindBy(xpath = "//span[text()='17 384 bytes']")
     public WebElement pictureVerify;
     @FindBy(xpath = "//a[.='»»']")
     public WebElement lastPage;

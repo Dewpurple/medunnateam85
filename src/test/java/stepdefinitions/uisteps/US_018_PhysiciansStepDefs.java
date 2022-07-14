@@ -139,6 +139,7 @@ public class US_018_PhysiciansStepDefs {
     }
     @Given("user locates physician name Team85 Physician and click on edit button")
     public void userLocatesPhysicianNameTeamPhysicianAndClickOnEditButton() {
+        Driver.waitAndClick(physicians.lastPage, 5);
         physicians.lastPage.click();
         physicians.page14.click();
         try {

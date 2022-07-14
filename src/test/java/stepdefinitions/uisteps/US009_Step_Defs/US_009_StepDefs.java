@@ -4,10 +4,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
-import org.openqa.selenium.JavascriptException;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.interactions.Actions;
 import pages.HomePage;
@@ -35,46 +32,37 @@ public class US_009_StepDefs   {
   };
 
   @When("Admin navigates to the sign in page US009")
-    public void admin_navigates_to_the_sign_in_page_US009() {
-        homePage.loginDropDown.click();
-        homePage.loginSignInButton.click();
-        Driver.wait(1);
+    public void admin_navigates_to_the_sign_in_page_US009() throws InterruptedException {
+        Driver.waitAndClick(homePage.loginDropDown);
+        Driver.waitAndClick(homePage.loginSignInButton);
     }
     @When("Admin signs in US009")
     public void admin_signs_in_US009() {
-    homePage.username.sendKeys(ConfigurationReader.getProperty("adminusername2"));
-    homePage.password.sendKeys(ConfigurationReader.getProperty("adminpw2"));
-    homePage.signInbutton.click();
+    Driver.waitAndSendText(homePage.username,ConfigurationReader.getProperty("adminusername2"));
+    Driver.waitAndSendText(homePage.password,ConfigurationReader.getProperty("adminpw2"));
+    Driver.waitAndClick(homePage.signInbutton);
     }
   @When("Admin clicks on Items and Titles US009")
   public void admin_clicks_on_items_and_titles_US009() throws InterruptedException {
-    Thread.sleep(1000);
-    homePage.itemsTitles.click();
+    Driver.waitAndClick(homePage.itemsTitles);
   }
   @When("Admin clicks on Patient icon. US009")
   public void admin_clicks_on_patient_icon_US009() throws InterruptedException {
-    Thread. sleep(1000);
-    homePage.patient.click();
+    Driver.waitAndClick(homePage.patient);
   }
   @When("Admin finds edit button and clicks it US009")
   public void admin_finds_edit_button_and_clicks_itUS009() throws InterruptedException {
-    Thread.sleep(500);
-    patientEditPage.editbutton.click();
+    Driver.waitAndClick(patientEditPage.editbutton);
   }
-
     @When("Admin clicks on Save button US009")
     public void admin_clicks_on_save_button_US009() throws InterruptedException {
       js.executeScript("arguments[0].scrollIntoView();", patientEditPage.patientSaveButton);
-    Thread.sleep(1000);
+    Thread.sleep(500);
       patientEditPage.patientSaveButton.sendKeys(Keys.ENTER);
     }
-
   @When("Admin performs edits to all patient information US009")
   public void admin_performs_edits_to_all_patient_information_US009() throws InterruptedException {
-    Thread.sleep(1000);
-//    patientEditPage.patientFirstName.sendKeys("12");
-//    patientEditPage.patientLastName.sendKeys("1");
-//    patientEditPage.patientBirthDate.sendKeys("12");
+    Thread.sleep(500);
     Assert.assertTrue(patientEditPage.patientFirstName.isEnabled());
     Assert.assertTrue(patientEditPage.patientLastName.isEnabled());
     Assert.assertTrue(patientEditPage.patientBirthDate.isEnabled());
@@ -102,10 +90,9 @@ public class US_009_StepDefs   {
   }
   @When("Verify edit is saved successfully US009")
   public void verify_edit_is_saved_successfully_US009() throws InterruptedException {
-    Thread.sleep(500);
-    String patientEditSaveSuccessfullyText = Driver.getDriver().switchTo().alert().getText();
+    String actualAlertText = Driver.waitAndGetText(patientEditPage.savebuttonconfirmation);
     String expectedAlertText = "A Patient is updated with identifier";
-    Assert.assertTrue(patientEditSaveSuccessfullyText.contains(expectedAlertText));
+    Assert.assertTrue(actualAlertText.contains(expectedAlertText));
   }
   @Given("user clicks on My Pageas US009")
   public void user_clicks_on_my_pageas_US009() {

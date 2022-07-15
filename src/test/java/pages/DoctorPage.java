@@ -10,7 +10,7 @@ public class DoctorPage {
     public DoctorPage() {
         PageFactory.initElements(Driver.getDriver(), this);
     }
-    @FindBy (id= "entity-menu")
+    @FindBy (xpath= "//li[@id='entity-menu']")
     public WebElement myPages;
     @FindBy (xpath = "//a[@href='/physician-appointment']")
     public WebElement myAppointments;
@@ -28,7 +28,22 @@ public class DoctorPage {
     public WebElement appointmentTable;
     @FindBy(xpath = "//*[@id=\"app-view-container\"]/div/div/div/div/div/span")
     public WebElement appointmentErrorMessage;
-
+    @FindBy(xpath = "//*[@id=\"app-view-container\"]/div/div/div/div/div/table/tbody/tr[1]/td[1]")
+    public WebElement patientId1;
+    @FindBy(xpath = "//*[@id=\"app-view-container\"]/div/div/div/div/div/table/tbody/tr[1]/td[2]/span")
+    public WebElement startDateTime1;
+    @FindBy(xpath = "//*[@id=\"app-view-container\"]/div/div/div/div/div/table/tbody/tr[1]/td[3]/span")
+    public WebElement endDateTime1;
+    @FindBy(xpath = "//*[@id=\"app-view-container\"]/div/div/div/div/div/table/tbody/tr[1]/td[4]/span")
+    public WebElement status1;
+    @FindBy(xpath = "//*[@id=\"app-view-container\"]/div/div/div/div/div/table/tbody/tr[2]/td[1]")
+    public WebElement patientId2;
+    @FindBy(xpath = "//*[@id=\"app-view-container\"]/div/div/div/div/div/table/tbody/tr[2]/td[2]/span")
+    public WebElement startDateTime2;
+    @FindBy(xpath = "//*[@id=\"app-view-container\"]/div/div/div/div/div/table/tbody/tr[2]/td[3]/span")
+    public WebElement endDateTime2;
+    @FindBy(xpath = "//*[@id=\"app-view-container\"]/div/div/div/div/div/table/tbody/tr[2]/td[4]/span")
+    public WebElement status2;
 
 
 

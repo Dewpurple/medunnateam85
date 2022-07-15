@@ -30,7 +30,7 @@ public class AppointmentsVisibility {
 
     @And("I click on sign in button us10")
     public void iClickOnSignInButton() {
-        homePage.signInbutton.click();
+        homePage.loginSignInButton.click();
     }
 
     @And("I provide username and password us10")

@@ -1,4 +1,4 @@
-@US7 @SmokeTest
+@US7
   Feature: Date on Make Appointment
     Background:
 Given US7_user goes to Make Appointment page

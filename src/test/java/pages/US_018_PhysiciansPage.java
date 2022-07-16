@@ -57,7 +57,20 @@ public class US_018_PhysiciansPage {
     public WebElement pictureVerify;
     @FindBy(xpath = "//a[.='»»']")
     public WebElement lastPage;
-    @FindBy(xpath = "//a[.='14']")
+    @FindBy(linkText = "14")
     public WebElement page14;
-
+    @FindBy(xpath = "(//a[@class='btn btn-primary btn-sm'])[1]")
+    public WebElement editTeam85;
+    @FindBy(xpath = "//span[.='First Name']")
+    public WebElement firstNameButton;
+    @FindBy(name = "adress")
+    public WebElement addressBox;
+    @FindBy(xpath = "//input[@name='description']")
+    public WebElement descriptionBox;
+    @FindBy(xpath = "//td[.='555-348-3333']")
+    public WebElement phoneNumberPhysician;
+    @FindBy(xpath = "//td[.='100 Union Street']")
+    public WebElement addressPhysician;
+    @FindBy(xpath = "//td[.='Best doctor in USA']")
+    public WebElement descriptionPhysician;
 }

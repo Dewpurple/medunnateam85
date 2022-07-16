@@ -52,10 +52,12 @@ public class RegistrationSteps {
     @Given("user provides username as {string}")
     public void user_provides_username_as(String username) {
         Driver.waitAndSendText(registrationPage.usernameTextBox, username);
+      registrant.setUsername(username);
     }
     @Given("user types in email as {string}")
     public void user_types_in_email_as(String email) {
         Driver.waitAndSendText(registrationPage.emailTextbox,email);
+        registrant.setEmail(email);
     }
 
     @When("user provides a valid password as {string}")
@@ -75,15 +77,7 @@ public class RegistrationSteps {
         Driver.waitAndSendText(registrationPage.confirmPasswordTextBox, confirmpassword);
 
     }
-    @Then("user rgisters and saves the data")
-    public void user_rgisters_and_saves_the_data() {
 
-    Driver.waitAndClick(registrationPage.registerButton);
-
-
-        Driver.waitAndClick(registrationPage.registerButton);
-        saveRegistrantData(registrant);
-    }
     @Given("user sends a password as {string}")
     public void user_sends_an_invalid_password_as(String password) {
        Driver.waitAndSendText(registrationPage.firstPasswordTextBox, password + Keys.ENTER);
@@ -124,4 +118,42 @@ public class RegistrationSteps {
     }
 
 
+    @When("user provides a valid password as {string} with space")
+    public void userProvidesAValidPasswordAsWithSpace(String password) {
+        Driver.waitAndSendText(registrationPage.firstPasswordTextBox, " "+password+" " + Keys.ENTER);
+    }
+
+    @Then("user validates the password strength4")
+    public void userValidatesThePasswordStrength() {
+        Assert.assertTrue(registrationPage.passwordStrength4.isDisplayed());
+    }
+
+    @And("user also types in username as {string}")
+    public void userAlsoTypesInUsernameAs(String username) {
+        Driver.waitAndSendText(registrationPage.usernameTextBox,username);
+    }
+
+    @And("user also types in email as {string}")
+    public void userAlsoTypesInEmailAs(String email) {
+        Driver.waitAndSendText(registrationPage.emailTextbox,email);
+    }
+
+    @And("user clicks on register button")
+    public void userClicksOnRegisterButton() {
+        Driver.waitAndClick(registrationPage.registerButton);
+        Driver.sleep(2000);
+
+    }
+
+    @And("user verfies the success Message")
+    public void userVerfiesTheSuccessMessage() {
+        Driver.sleep(2000);
+        Assert.assertTrue(registrationPage.successMessageToastContainer.isDisplayed());
+    }
+
+    @And("user saves the data")
+    public void userSavesTheData() {
+        saveRegistrantData(registrant);
+    }
 }
+

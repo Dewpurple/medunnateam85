@@ -21,7 +21,28 @@ public class WriteToTxt {
 
             BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
 
-            bufferedWriter.append(registrant+"\n");
+            bufferedWriter.append(registrant.toString()+"\n");
+
+            bufferedWriter.close();
+
+
+        }
+        catch (Exception e){
+            e.printStackTrace();
+        }
+
+
+    }
+    public static void saveRegistrantApiData(Registrant registrant){
+
+
+        try {
+
+            FileWriter fileWriter = new FileWriter(ConfigurationReader.getProperty("api_registrant_file"), true);
+
+            BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
+
+            bufferedWriter.append(registrant.toString()+"\n");
 
             bufferedWriter.close();
 

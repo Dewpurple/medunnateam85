@@ -182,10 +182,6 @@ public class US_009_StepDefs   {
     }
   Assert.assertTrue(isdisplayed);
   }
-  @Given("user verifies the patient page is correct US009")
-  public void user_verifies_the_patient_page_is_correct_us009() {
-
-  }
   @Given("user verifies Patient SSN Search box is NOT avalible US009")
   public void user_verifies_patient_ssn_search_box_is_not_avalible_us009() {
 

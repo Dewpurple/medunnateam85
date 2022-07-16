@@ -84,9 +84,9 @@ public class US_009_StepDefs   {
 
   @Given("user signs in as Staff US009")
   public void user_signs_in_as_staff_US009() {
-    homePage.username.sendKeys(ConfigurationReader.getProperty("staffusername"));
-    homePage.password.sendKeys(ConfigurationReader.getProperty("staffpw"));
-    homePage.signInbutton.click();
+    Driver.waitAndSendText(homePage.username,ConfigurationReader.getProperty("staffusername"));
+    Driver.waitAndSendText(homePage.password,ConfigurationReader.getProperty("staffpw"));
+    Driver.waitAndClick(homePage.signInbutton);
   }
   @When("Verify edit is saved successfully US009")
   public void verify_edit_is_saved_successfully_US009() throws InterruptedException {
@@ -156,15 +156,18 @@ public class US_009_StepDefs   {
   }
   @Given("user signs in as admin US009")
   public void user_signs_in_as_admin_US009() {
-
+    Driver.waitAndSendText(homePage.username,ConfigurationReader.getProperty("adminusername2"));
+    Driver.waitAndSendText(homePage.password,ConfigurationReader.getProperty("adminpw2"));
+    Driver.waitAndClick(homePage.signInbutton);
   }
   @Given("user clicks items &And Titles Page US009")
   public void user_clicks_items_and_titles_page_US009() {
-
+  Driver.waitAndClick(homePage.itemsTitles);
   }
   @Given("user verifies delete button is available US009")
   public void user_verifies_delete_button_is_available_US009() {
-
+  Driver.waitAndClick(patientEditPage.deleteButton);
+  Assert.assertTrue(patientEditPage.deleteButtonConfirmation.isEnabled());
   }
   @Given("verify delete button does not exist US009")
   public void verify_delete_button_does_not_exist_us009() {

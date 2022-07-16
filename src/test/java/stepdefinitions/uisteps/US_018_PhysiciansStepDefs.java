@@ -12,6 +12,8 @@ import org.openqa.selenium.support.ui.Select;
 import pages.US_018_PhysiciansPage;
 import utilities.Driver;
 
+import java.util.zip.DeflaterInputStream;
+
 public class US_018_PhysiciansStepDefs {
 
     US_018_PhysiciansPage physicians = new US_018_PhysiciansPage();
@@ -139,32 +141,38 @@ public class US_018_PhysiciansStepDefs {
     }
     @Given("user locates physician name Team85 Physician and click on edit button")
     public void userLocatesPhysicianNameTeamPhysicianAndClickOnEditButton() {
-        Driver.waitAndClick(physicians.lastPage, 5);
-        physicians.lastPage.click();
-        physicians.page14.click();
-        try {
-            for (int i = 1; i < 20; i++) {
-                String xpath = "//tbody//tr[" + i + "]//td[3]";
-                WebElement status = Driver.getDriver().findElement(By.xpath(xpath));
-                String xpathEdit = "//tbody//tr[" + i + "]//td[18]//a[@class='btn btn-primary btn-sm']";
-                Thread.sleep(2000);
-                if (status.getText().equals("Team85")) {
-                    Driver.getDriver().findElement(By.xpath(xpathEdit)).click();
-                    Thread.sleep(2000);
-                    break;
-                }
-            }
-        } catch (Exception e){
-
-            System.out.println("There is physician name Team85!");
-        }
+        Driver.waitAndClick(physicians.firstNameButton, 5);
+        Driver.waitAndClick(physicians.firstNameButton, 5);
+        Driver.waitForVisibility(physicians.editTeam85, 4);
+        Driver.clickWithJS(physicians.editTeam85);
+        //physicians.editTom.click();
+//        physicians.page14.click();
+//        physicians.editTeam85.click();
+//        try {
+//            for (int i = 1; i < 20; i++) {
+//                String xpath = "//tbody//tr[" + i + "]//td[3]";
+//                WebElement status = Driver.getDriver().findElement(By.xpath(xpath));
+//                String xpathEdit = "//tbody//tr[" + i + "]//td[18]//a[@class='btn btn-primary btn-sm']";
+//                Thread.sleep(2000);
+//                if (status.getText().equals("Team85")) {
+//                    Driver.getDriver().findElement(By.xpath(xpathEdit)).click();
+//                    Thread.sleep(2000);
+//                    break;
+//                }
+//            }
+//        } catch (Exception e){
+//
+//            System.out.println("There is no physician name Team85!");
+//        }
     }
     @When("user enter 0 in exam fee box")
     public void userEnterInExamFeeBox() {
+        Driver.waitForClickablility(physicians.examfeeBox, 3);
         physicians.examfeeBox.sendKeys("0");
     }
     @When("user enter negative number in exam fee box")
     public void userEnterNegativeNumberInExamFeeBox() {
+        Driver.waitForClickablility(physicians.examfeeBox, 4);
         physicians.examfeeBox.sendKeys("-123");
     }
     @And("user verifies This field should be at least 0 message appears under exam fee")
@@ -173,10 +181,37 @@ public class US_018_PhysiciansStepDefs {
     }
     @When("user enter positive decimal number in exam fee box")
     public void userEnterPositiveDecimalNumberInExamFeeBox() {
+        Driver.waitForClickablility(physicians.examfeeBox, 4);
         physicians.examfeeBox.sendKeys("365.43");
     }
     @When("user enter 1000000000 in exam fee box")
     public void userEnter100000000InExamFeeBox() {
+        Driver.waitForClickablility(physicians.examfeeBox, 4);
         physicians.examfeeBox.sendKeys("1000000000");
+    }
+
+    @When("user enters letter in exam fee box")
+    public void userEntersLetterInExamFeeBox() {
+        Driver.waitForClickablility(physicians.examfeeBox, 4);
+        physicians.examfeeBox.clear();
+        physicians.examfeeBox.sendKeys("asfsdg");
+    }
+
+    @When("user updates phone number, address, description of physician")
+    public void userUpdatesPhoneNumberAddressDescriptionOfPhysician() {
+        Driver.waitForClickablility(physicians.phoneBox, 4);
+        physicians.phoneBox.clear();
+        physicians.phoneBox.sendKeys("555-348-3333");
+        physicians.addressBox.sendKeys("100 Union Street");
+        physicians.descriptionBox.sendKeys("Best doctor in USA");
+    }
+
+    @And("user verifies that all the updates are shown on the screen")
+    public void userVerifiesThatAllTheUpdatesAreShownOnTheScreen() {
+        Driver.waitForVisibility(physicians.phoneNumberPhysician, 4);
+        Assert.assertTrue(physicians.phoneNumberPhysician.isDisplayed());
+        Assert.assertTrue(physicians.addressPhysician.isDisplayed());
+        Assert.assertTrue(physicians.descriptionPhysician.isDisplayed());
+
     }
 }

@@ -1,6 +1,5 @@
-package stepdefinitions.us010stepdefs;
+package stepdefinitions.uisteps.us010uistepdefs;
 
-import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -11,8 +10,6 @@ import pages.HomePage;
 import pages.SignInPage;
 import utilities.ConfigurationReader;
 import utilities.Driver;
-
-import java.util.List;
 
 public class AppointmentsVisibility {
     HomePage homePage = new HomePage();

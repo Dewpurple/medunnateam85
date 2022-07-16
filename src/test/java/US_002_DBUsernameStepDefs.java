@@ -1,44 +1,30 @@
-import io.cucumber.java.en.And;
+
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import org.junit.Assert;
-import pojos.Registrant;
+import utilities.ConfigurationReader;
 import utilities.DBUtils;
-import utilities.WriteToTxt;
-
-
-import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 
 public class US_002_DBUsernameStepDefs {
-    List<Object> allUsernames;
-    @Given("user creates a connection with DB")
-    public void user_creates_a_connection_with_db() {
+    @Given("user connects to the database US_002")
+    public void user_connects_to_the_database_US_002() {
         DBUtils.createConnection();
     }
-    @Given("user sends the query to DB and gets the column data {string} abd {string}")
-    public void user_sends_the_query_to_db_and_gets_the_column_data_abd(String query, String columnName) {
-        allUsernames = DBUtils.getColumnData(query, columnName);
+    @Then("user verifies that {string} table {string} column contains {string} US_002")
+    public void user_verifies_that_table_column_contains_US_002(String table, String column, String string) {
+        List<Object> allColumnData= DBUtils.getColumnData("Select * From "+table+ " ",column);
+        //string = readFile(ConfigurationReader.getProperty("US_002_applicant_data"));
+        String [] registrantData= string.split("'");
+        String email= registrantData[13];
+        List<Object> expectedData=new ArrayList<>();
+        expectedData.add(email.toLowerCase());
+//        expectedData.add(email);
+        Assert.assertTrue(allColumnData.containsAll(expectedData));
     }
-    @Given("user saves the DB records to correspondent files")
-    public void user_saves_the_db_records_to_correspondent_files() {
-        WriteToTxt.saveRegistrantData((Registrant) allUsernames);
-    }
-    @Then("user validates usernames from DB")
-    public void userValidatesUsernamesFromDB(String data,String login) throws SQLException {
-       data = "select * from jhi_user";
-       Object columndata = DBUtils.getResultset().getObject(login);
-       String actualData = (String) columndata;
-       Assert.assertEquals(columndata,actualData);
-
-    }
-
-    @Then("user closes the database connection")
-    public void user_closes_the_database_connection() {
+    @Then("user close the database connection US_002")
+    public void user_close_the_database_connection_US_002() {
         DBUtils.closeConnection();
     }
-
-
 }

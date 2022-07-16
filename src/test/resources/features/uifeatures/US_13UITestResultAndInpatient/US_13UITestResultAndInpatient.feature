@@ -1,5 +1,6 @@
 @13UITestResultAndInpatient
 Feature:
+  @SmokeTest
   @13_01_TestResult
   Scenario Outline: Doctor see Test Result
     Given US_13user navitages to Medunna url

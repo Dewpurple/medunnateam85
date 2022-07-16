@@ -43,5 +43,8 @@ public class PatientEditPage {
     public WebElement editbutton;
     @FindBy (xpath =  "//*[@id=\"root\"]/div/div/div[1]/div/div/div[1]")
     public WebElement savebuttonconfirmation;
-
+    @FindBy (xpath = "//a[@class='btn btn-danger btn-sm']")
+    public WebElement deleteButton;
+    @FindBy (id = "hospitalmsappfrontendApp.patient.delete.question")
+    public WebElement deleteButtonConfirmation;
 }

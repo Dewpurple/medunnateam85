@@ -16,11 +16,12 @@ import static utilities.WriteToTxt.saveApptData;
 
 public class US7AppointmentDateStepDefinitions {
     Appointment appointment = new Appointment();
+
     RegistrationPage registrationPage = new RegistrationPage();
     Faker faker = new Faker();
     MakeAppointmentPage makeAppointmentPage = new MakeAppointmentPage();
 
-    @Given("user goes to Make Appointment page")
+    @Given("US7_user goes to Make Appointment page")
     public void user_goes_to_make_appointment_page() {
         Driver.getDriver().get(ConfigurationReader.getProperty("appointment_url"));
     }
@@ -54,9 +55,9 @@ public class US7AppointmentDateStepDefinitions {
     }
 
     @Then("user enters phone number {string} on MA")
-    public void user_enters_phone_number_on_ma(String phonenumber) {
-        Driver.waitAndSendText(makeAppointmentPage.phoneTextBox, phonenumber);
-        appointment.setPhoneNumber(phonenumber);
+    public void user_enters_phone_number_on_ma(String phoneNumber) {
+        Driver.waitAndSendText(makeAppointmentPage.phoneTextBox, phoneNumber);
+        appointment.setPhoneNumber(phoneNumber);
     }
 
     @Then("user enters future date {string} on MA")
@@ -104,7 +105,7 @@ appointment.setCreatedDate(String.valueOf(today));
         Driver.waitAndSendText(makeAppointmentPage.apDate, invaliddate);
     }
 
-    @Then("user verifies entered {string} does not appear")
+    @Then("US7_user verifies entered {string} does not appear")
     public void userVerifiesEnteredDoesNotAppear(String invaliddate) {
         DateTimeFormatter newPattern = DateTimeFormatter.ofPattern("yyyy-MM-dd");
         String expected = invaliddate.format(String.valueOf(newPattern));

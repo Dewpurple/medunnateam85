@@ -36,5 +36,5 @@ public class PatientEditPage {
     @FindBy (id = "save-entity")
     public WebElement patientSaveButton;
     @FindBy (id = "patient-id")
-    public WebElement patientID;
+    public WebElement patientID;  //watch out for additional lines
 }

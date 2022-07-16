@@ -150,5 +150,3 @@ Feature: update_physicians
     And user verifies that all the updates are shown on the screen
     Then close the application US_015
 
-  @
-

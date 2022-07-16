@@ -6,6 +6,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import pages.*;
 import utilities.ConfigurationReader;
@@ -34,8 +35,8 @@ public class US_015_PatientsByAdminStepDefs {
     @And("user enters valid username and password US_015")
     public void userEntersValidUsernameAndPassword() {
         //wrire down your own credentials(admin or staff or physician)
-        homePage.username.sendKeys("irfan_team83");
-        homePage.password.sendKeys("Irfan_83");
+        homePage.username.sendKeys("vusalgasimov");
+        homePage.password.sendKeys("vusalgasimov");
     }
     @Then("user clicks on sign in button US_015")
     public void userClicksOnSignInButton() {
@@ -43,8 +44,8 @@ public class US_015_PatientsByAdminStepDefs {
     }
     @Given("user clicks on Items&Titles button US_015")
     public void userClicksOnItemsTitlesButton() {
-//        Driver.waitAndClick(homePage.itemsAndTitlesButton, 1);
-        patients.itemsAndTitlesButton.click();
+        Driver.waitForVisibility(patients.itemsAndTitlesButton, 5);
+        Driver.clickWithJS(patients.itemsAndTitlesButton);
     }
     @Then("user clicks on Patients button US_015")
     public void userClicksOnPatientsButton() {

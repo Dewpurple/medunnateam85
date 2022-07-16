@@ -13,8 +13,12 @@ import org.junit.runner.RunWith;
         },
         features = "./src/test/resources/features",
         glue = {"stepdefinitions","Hooks"},
+
         //tags = "@PatientInfoVisible",
         tags="  @NewRegistrants",
+
+
+
 
 
         dryRun = false

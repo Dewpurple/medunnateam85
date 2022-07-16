@@ -33,4 +33,4 @@ Feature: Appointments and Patients
     Then I validate that patients info are visible
     Examples: appointment info
       |from      |to        |
-      |07-05-2022|07-18-2022|
+      |07-05-2022|07-17-2022|

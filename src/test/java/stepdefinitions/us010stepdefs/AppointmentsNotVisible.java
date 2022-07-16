@@ -14,12 +14,12 @@ public class AppointmentsNotVisible {
     DoctorPage doctorPage = new DoctorPage();
     @When("I type in the date in from as {string}")
     public void iTypeInTheDateInFromAs(String arg0) {
-    doctorPage.fromDate.sendKeys("07/21/2022");
+    doctorPage.fromDate.sendKeys(arg0);
     }
 
     @And("I type in the date in to as {string}")
     public void iTypeInTheDateInToAs(String arg0) {
-        doctorPage.toDate.sendKeys("07/28/2022");
+        doctorPage.toDate.sendKeys(arg0);
     }
     @Then("I validate that i do not see my appointments")
     public void iValidateThatIDoNotSeeMyAppointments() {

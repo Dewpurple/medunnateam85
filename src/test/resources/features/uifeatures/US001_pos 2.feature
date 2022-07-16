@@ -1,9 +1,8 @@
-@US01_All_Positive_and_negative
+@US01_All_Positive_and_negative_silinecek
 Feature: US001 on the Medunna Page and SSN test, FirstName test, LastName test
 
-  @SmokeTest
   @Registration
-  @US01_TC01_positive
+    @US01_TC01_positive
   Scenario Outline: US01_test registrant data
     Given US001 user Go to Medunna home page
     Then US001 verify Medunna home page is open
@@ -17,7 +16,7 @@ Feature: US001 on the Medunna Page and SSN test, FirstName test, LastName test
       |ssn|
       |253-37-3782|
 
-  @SmokeTest
+
   @Registration
     @US01_TC02_positive
   Scenario Outline: US01_test registrant data
@@ -33,7 +32,6 @@ Feature: US001 on the Medunna Page and SSN test, FirstName test, LastName test
       |firstname|
       |FirstNameisTeam85|
 
-  @SmokeTest
   @Registration
     @US01_TC03_positive
   Scenario Outline: US01_test registrant data
@@ -228,5 +226,3 @@ Feature: US001 on the Medunna Page and SSN test, FirstName test, LastName test
     Examples: US001_test data
       |firstName|lastName|
       |Theodore |        |
-
-

@@ -11,7 +11,7 @@ public class US_015_PatientsPage {
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
-    @FindBy(xpath = "//*[@id='entity-menu']")
+    @FindBy(xpath = "//span[.='Items&Titles']")
     public WebElement itemsAndTitlesButton;
     @FindBy(xpath = "//*[@id='jh-create-entity']")
     public WebElement createNewPatientButton;

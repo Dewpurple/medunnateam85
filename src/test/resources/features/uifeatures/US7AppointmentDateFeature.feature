@@ -1,8 +1,8 @@
-@US7 @SmokeTest
+@US7
   Feature: Date on Make Appointment
     Background:
 Given US7_user goes to Make Appointment page
-@US7pos
+@US7pos @SmokeTest
     Scenario Outline:future date
 Then user enters first name "<firstname>" on MA
 And user enters lastname "<lastname>" on MA

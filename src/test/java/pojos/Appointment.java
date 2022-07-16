@@ -12,19 +12,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
         private String startDate;
         private String createdDate;
 
-        public Appointment(){
 
-        }
-
-        public Appointment(String firstName, String lastName,String ssn,String email,String phoneNumber,String startDate, String createdDate){
-            this.firstName = firstName;
-            this.lastName = lastName;
-            this.ssn = ssn;
-            this.email = email;
-            this.phoneNumber = phoneNumber;
-            this.startDate = startDate;
-            this.createdDate = createdDate;
-        }
 
         public String getFirstName() {
             return firstName;

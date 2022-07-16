@@ -15,7 +15,7 @@ import java.time.format.DateTimeFormatter;
 import static utilities.WriteToTxt.saveApptData;
 
 public class US7AppointmentDateStepDefinitions {
-    Appointment appointment;
+    Appointment appointment = new Appointment();
 
     RegistrationPage registrationPage = new RegistrationPage();
     Faker faker = new Faker();

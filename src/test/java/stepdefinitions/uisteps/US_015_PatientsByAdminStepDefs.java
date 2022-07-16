@@ -44,9 +44,8 @@ public class US_015_PatientsByAdminStepDefs {
     }
     @Given("user clicks on Items&Titles button US_015")
     public void userClicksOnItemsTitlesButton() {
+        Driver.waitForVisibility(patients.itemsAndTitlesButton, 5);
         Driver.clickWithJS(patients.itemsAndTitlesButton);
-
-            //patients.itemsAndTitlesButton.click();
     }
     @Then("user clicks on Patients button US_015")
     public void userClicksOnPatientsButton() {

@@ -43,25 +43,65 @@ public class US_001 {
 
     }
 
+        public static boolean isValidSSN(String str) {
+            if (str.matches("\\d{3}[-\\s]\\d{2}[-\\s]\\d{4}"))
+                return true;
+            else
+                return false;
+
+        }
+
+
     @Then("US001 firstname user types in first name as {string} for TC02")
     public void us01_firstname_user_types_in_first_name_as(String Valid_first_name) throws IOException {
         Driver.waitAndSendText(us001.US001_firstnameTextBox, Valid_first_name);
         ReusableMethods.getScreenshot("TestResultScreenShots");
+        Assert.assertTrue(isValidName(Valid_first_name));
+    }
+
+    public static boolean isValidName(String name) {
+        if (name.matches("^[a-zA-Z0-9]+$"))
+            return true;
+        else
+            return false;
+
+
     }
 
     @Then("US001 for lastname user also types in lastname as {string} for TC03")
     public void us01_for_lastname_user_also_types_in_lastname_as(String Valid_last_name) throws IOException {
         Driver.waitAndSendText(us001.US001_lastnameTextBox, Valid_last_name);
         ReusableMethods.getScreenshot("TestResultScreenShots");
+
+        Assert.assertTrue(isValidLastname(Valid_last_name));
     }
 
+    public static boolean isValidLastname(String lastname) {
+        if (lastname.matches("^[a-zA-Z0-9]+$"))
+            return true;
+        else
+            return false;
+
+
+    }
 
 
     @Then("US001 user write ssn no from swagger for api {string} on registration page for TC04")
     public void us001_user_write_ssn_no_from_swagger_for_api_on_registration_page_for_tc04(String SSN_ValidSwagger) throws IOException {
         Driver.waitAndSendText(us001.US001_ssn, SSN_ValidSwagger, 1000);
         ReusableMethods.getScreenshot("TestResultScreenShots");
+        Assert.assertTrue(isValidSSNfromSwagger(SSN_ValidSwagger));
+        ReusableMethods.getScreenshot("TestResultScreenShots");
     }
+
+    public static boolean isValidSSNfromSwagger(String ssn) {
+        if (ssn.matches("\\d{3}[-\\s]\\d{2}[-\\s]\\d{4}"))
+            return true;
+        else
+            return false;
+
+    }
+
 
     @Given("US001 user write an invalid ssn as {string} for TC05")
     public void us001_user_write_an_invalid_ssn_as_for_tc05(String invalid_ssn01) {
@@ -95,9 +135,10 @@ public class US_001 {
 
 
     @Then("US001 user click first name box, so see the your ssn is invalid for TC07")
-    public void us001_user_click_first_name_box_so_see_the_your_ssn_is_invalid_for_tc07() {
+    public void us001_user_click_first_name_box_so_see_the_your_ssn_is_invalid_for_tc07() throws IOException {
         Driver.waitAndClick(us001.US001_firstnameTextBox);
         Assert.assertTrue(us001.US001_invalid_SSN.isDisplayed());
+        ReusableMethods.getScreenshot("TestResultScreenShots");
     }
 
 
@@ -108,6 +149,7 @@ public class US_001 {
     public void us001_user_write_an_invalid_ssn_as_for_tc08(String invalid_ssn04) {
         Driver.waitAndSendText(us001.US001_ssn, invalid_ssn04);
     }
+
     @Then("US001 user click first name box, so see the your ssn is invalid for TC08")
     public void us001_user_click_first_name_box_so_see_the_your_ssn_is_invalid_for_tc08() throws IOException {
         Driver.waitAndClick(us001.US001_firstnameTextBox);
@@ -131,7 +173,7 @@ public class US_001 {
     @Given("US001 user write an invalid ssn as {string} for TC10")
     public void us001_user_write_an_invalid_ssn_as_for_tc10(String invalid_ssn06) {
         Driver.waitAndSendText(us001.US001_ssn, invalid_ssn06);
-        System.out.println(isValidSSN_startwithNine(invalid_ssn06));
+
 
     }
 
@@ -181,7 +223,7 @@ public class US_001 {
     @Given("US001 user write an invalid ssn as {string} for TC13 after third digit, number starts double zero or last four digit zero")
     public void us001_user_write_an_invalid_ssn_as_for_tc13(String invalid_ssn06) {
         Driver.waitAndSendText(us001.US001_ssn, invalid_ssn06);
-        System.out.println(isValidSSN1(invalid_ssn06));
+
     }
 
     @Then("US001 user click first name box, so see the your ssn is invalid for TC13")
@@ -203,10 +245,12 @@ public class US_001 {
     }
 
     @Given("US001 user will not write an ssn as {string} for TC14 EMPTY BOX")
-    public void us001_user_will_not_write_an_ssn_as_for_tc14_empty_box(String invalid_ssn09) {
+    public void us001_user_will_not_write_an_ssn_as_for_tc14_empty_box(String invalid_ssn09) throws IOException {
         Driver.waitAndSendText(us001.US001_ssn, invalid_ssn09);
-
+        Assert.assertTrue(us001.US001_SSN_is_Required.isDisplayed());
+        ReusableMethods.getScreenshot("TestResultScreenShots");
     }
+
     @Then("US001 user click first name box, so see the Your SSN is required for TC14")
     public void us001_user_click_first_name_box_so_see_the_your_ssn_is_required_for_tc14() throws IOException {
         Driver.waitAndClick(us001.US001_firstnameTextBox);

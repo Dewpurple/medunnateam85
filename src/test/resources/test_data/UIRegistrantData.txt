@@ -1,2 +1,3 @@
 Registrant{firstName='Ji', lastName='Will', ssn='418-81-5054', login='null', langKey='null', password='null', email='JiWill@gmail.com', id=0, activated=false, authorities=null}
 Registrant{firstName='Polly', lastName='Hoppe', ssn='552-65-0562', login='null', langKey='null', password='null', email='PollyHoppe@gmail.com', id=0, activated=false, authorities=null}
+Registrant{firstName='sddlls', lastName='null', ssn='665-53-3752', login='null', langKey='bgkj', password='Asdhjfgh12345?', email='null', id=0, activated=false, authorities=null, username='null'}

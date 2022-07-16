@@ -30,4 +30,9 @@ public class HomePage {//loginpage is included here
     public WebElement myPages;
     @FindBy (xpath = "(//a[@class='dropdown-item'])[1]")
     public WebElement searchPatient;
+    @FindBy(xpath = "//*[@id=\"account-menu\"]/div/a[2]/span")
+    public WebElement loginRegisterButton;
+    @FindBy(xpath = "//*[@id=\"account-menu\"]/a")
+    public WebElement menuIcon;
+
 }

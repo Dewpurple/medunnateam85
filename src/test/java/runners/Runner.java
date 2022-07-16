@@ -13,7 +13,21 @@ import org.junit.runner.RunWith;
         },
         features = "./src/test/resources/features",
         glue = {"stepdefinitions","Hooks"},
-        tags = "@TC_016_Not_Selecting_State",
+<<<<<<< HEAD
+
+
+
+        //tags = "@PatientInfoVisible",
+        tags="  @SmokeTest",
+
+
+
+
+
+
+=======
+        tags = "@US_010_database_connectivity",
+>>>>>>> master
         dryRun = false
 )
 public class Runner {

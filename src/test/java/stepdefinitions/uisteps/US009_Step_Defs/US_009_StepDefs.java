@@ -84,6 +84,8 @@ public class US_009_StepDefs   {
 
   @Given("user signs in as Staff US009")
   public void user_signs_in_as_staff_US009() {
+    Driver.waitAndClick(homePage.loginDropDown);
+    Driver.waitAndClick(homePage.loginSignInButton);
     Driver.waitAndSendText(homePage.username,ConfigurationReader.getProperty("staffusername"));
     Driver.waitAndSendText(homePage.password,ConfigurationReader.getProperty("staffpw"));
     Driver.waitAndClick(homePage.signInbutton);
@@ -171,7 +173,14 @@ public class US_009_StepDefs   {
   }
   @Given("verify delete button does not exist US009")
   public void verify_delete_button_does_not_exist_us009() {
-
+    boolean isdisplayed = true;
+    try{
+     if (patientEditPage.deleteButtonConfirmation.isDisplayed()){
+       isdisplayed = false;
+     }
+    } catch (NoSuchElementException e){
+    }
+  Assert.assertTrue(isdisplayed);
   }
   @Given("user verifies the patient page is correct US009")
   public void user_verifies_the_patient_page_is_correct_us009() {

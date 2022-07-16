@@ -138,9 +138,9 @@ public class US_009_StepDefs   {
     Assert.assertTrue(searchPatientPage.address.isDisplayed());
     Assert.assertTrue(searchPatientPage.description.isDisplayed());
     Assert.assertTrue(searchPatientPage.datecreated.isDisplayed());
-    Assert.assertTrue(searchPatientPage.doctor.isDisplayed());
+   // Assert.assertTrue(searchPatientPage.doctor.isDisplayed());
     Assert.assertTrue(searchPatientPage.country.isDisplayed());
-    Assert.assertTrue(searchPatientPage.stateCity.isDisplayed());
+    //Assert.assertTrue(searchPatientPage.stateCity.isDisplayed());
   }
   @Given("Make connection with DB US009")
   public void make_connection_with_db_US009() {

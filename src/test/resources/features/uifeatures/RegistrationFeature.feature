@@ -3,6 +3,7 @@ Feature: test registrant data
 
   @Registration
     @NewRegistrants
+    @SmokeTest
   Scenario Outline: test registrant data
     Given user provides ssn as "<ssn>"
     And user types in first name as "<firstname>"

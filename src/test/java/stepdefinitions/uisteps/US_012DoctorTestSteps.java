@@ -20,17 +20,16 @@ public class US_012DoctorTestSteps {
     }
     @When("Doctor logs in US009")
     public void doctor_logs_in_US009() {
-        homePage.loginDropDown.click();
-        homePage.loginSignInButton.click();
-        Driver.wait(1);
-        homePage.username.sendKeys(ConfigurationReader.getProperty("doctorusername"));
-        homePage.password.sendKeys(ConfigurationReader.getProperty("doctorpw"));
-        homePage.signInbutton.click();
+        Driver.waitAndClick(homePage.loginDropDown);
+        Driver.waitAndClick(homePage.loginSignInButton);
+        Driver.waitAndSendText(homePage.username, ConfigurationReader.getProperty("doctorusername"));
+        Driver.waitAndSendText(homePage.password,ConfigurationReader.getProperty("doctorpw"));
+        Driver.waitAndClick(homePage.signInbutton);
     }
     @When("doctor clicks my pages US009")
     public void doctor_clicks_my_pages_US009() {
-        doctorPage.myPages.click();
-        doctorPage.myAppointments.click();
+        Driver.waitAndClick(doctorPage.myPages);
+        Driver.waitAndClick(doctorPage.myAppointments);
     }
     @When("doctor clicks my appointment US009")
     public void doctor_clicks_my_appointment_US009() {

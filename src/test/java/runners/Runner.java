@@ -13,21 +13,10 @@ import org.junit.runner.RunWith;
         },
         features = "./src/test/resources/features",
         glue = {"stepdefinitions","Hooks"},
-<<<<<<< HEAD
-
-
-
         //tags = "@PatientInfoVisible",
         tags="  @SmokeTest",
+     //   tags = "@US_010_database_connectivity",
 
-
-
-
-
-
-=======
-        tags = "@US_010_database_connectivity",
->>>>>>> master
         dryRun = false
 )
 public class Runner {

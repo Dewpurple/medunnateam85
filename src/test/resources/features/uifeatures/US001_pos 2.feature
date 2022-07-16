@@ -1,4 +1,4 @@
-@US01_All_Positive_and_negative
+@US01_All_Positive_and_negative_silinecek
 Feature: US001 on the Medunna Page and SSN test, FirstName test, LastName test
 
   @Registration

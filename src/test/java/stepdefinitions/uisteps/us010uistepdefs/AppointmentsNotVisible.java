@@ -1,4 +1,4 @@
-package stepdefinitions.us010stepdefs;
+package stepdefinitions.uisteps.us010uistepdefs;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;

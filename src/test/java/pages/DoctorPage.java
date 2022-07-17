@@ -44,7 +44,15 @@ public class DoctorPage {
     public WebElement endDateTime2;
     @FindBy(xpath = "//*[@id=\"app-view-container\"]/div/div/div/div/div/table/tbody/tr[2]/td[4]/span")
     public WebElement status2;
-
-
-
+    @FindBy (xpath = "//a[@class='btn btn-primary btn-sm']")
+    public WebElement editButton;
+    @FindBy (xpath = "//a[@class='btn btn-success btn-sm']")
+    public  WebElement requestAtestButton;
+    @FindBy (xpath = "//input[@id='30199']")
+    public  WebElement diabetesMedicineTest;
+    @FindBy  (xpath = "//button[@id='save-entity']")
+    public WebElement saveButtonTestRequest;
+    @FindBy (xpath = "//*[@id=\"root\"]/div/div/div[1]/div/div/div[1]")
+    public WebElement newTestisCreatedMessage;
+    // A new Test is created with identifier 122431
 }

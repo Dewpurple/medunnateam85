@@ -54,7 +54,24 @@ public class US_012DoctorTestSteps {
         Driver.waitAndClick(doctorPage.requestAtestButton);
     }
     @Given("verify new test contains the expected information US009")
-    public void verify_new_test_contains_the_expected_information_US009() {
+    public void verify_new_test_contains_the_expected_information_US009() throws InterruptedException {
+        Thread.sleep(1000);
+        js.executeScript("arguements[0].scrollIntoView();", doctorPage.glucoseTestItem);
+    Assert.assertTrue(doctorPage.glucoseTestItem.isDisplayed());
+        js.executeScript("arguements[0].scrollIntoView();", doctorPage.ureaTestItem);
+        Assert.assertTrue(doctorPage.ureaTestItem.isDisplayed());
+        js.executeScript("arguements[0].scrollIntoView();", doctorPage.creatinineTestItem);
+        Assert.assertTrue(doctorPage.creatinineTestItem.isDisplayed());
+        js.executeScript("arguements[0].scrollIntoView();", doctorPage.sodiumTestItem);
+        Assert.assertTrue(doctorPage.sodiumTestItem.isDisplayed());
+        js.executeScript("arguements[0].scrollIntoView();", doctorPage.potassiumTestItem);
+        Assert.assertTrue(doctorPage.potassiumTestItem.isDisplayed());
+        js.executeScript("arguements[0].scrollIntoView();", doctorPage.totalproteinTestItem);
+        Assert.assertTrue(doctorPage.totalproteinTestItem.isDisplayed());
+        js.executeScript("arguements[0].scrollIntoView();", doctorPage.albuminTestItem);
+        Assert.assertTrue(doctorPage.albuminTestItem.isDisplayed());
+        js.executeScript("arguements[0].scrollIntoView();", doctorPage.hemoglobinTestItem);
+        Assert.assertTrue(doctorPage.hemoglobinTestItem.isDisplayed());
 
     }
 

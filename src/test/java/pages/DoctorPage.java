@@ -54,5 +54,21 @@ public class DoctorPage {
     public WebElement saveButtonTestRequest;
     @FindBy (xpath = "//*[@id=\"root\"]/div/div/div[1]/div/div/div[1]")
     public WebElement newTestisCreatedMessage;
-    // A new Test is created with identifier 122431
+   @FindBy (xpath = "//td[contains(text(),'Sodium')]")
+    public WebElement sodiumTestItem;
+    @FindBy (xpath = "//td[contains(text(),'Glucose')]")
+    public WebElement glucoseTestItem;
+    @FindBy (xpath = "//td[contains(text(),'Urea')]")
+    public WebElement ureaTestItem;
+    @FindBy (xpath = "//td[contains(text(),'Creatinine')]")
+    public WebElement creatinineTestItem;
+    @FindBy (xpath = "//td[contains(text(),'Potassium')]")
+    public WebElement potassiumTestItem;
+    @FindBy (xpath = "//td[contains(text(),'Total protein')]")
+    public WebElement totalproteinTestItem;
+    @FindBy (xpath = "//td[contains(text(),'Albumin')]")
+    public WebElement albuminTestItem;
+    @FindBy (xpath = "//td[contains(text(),'Hemoglobin')]")
+    public WebElement hemoglobinTestItem;
+
 }

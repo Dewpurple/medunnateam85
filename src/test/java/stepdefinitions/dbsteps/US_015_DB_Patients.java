@@ -53,7 +53,7 @@ public class US_015_DB_Patients {
         Assert.assertFalse(allColumnData.contains(data));
     }
     @Then("verify {string} table {string} column contains {string} and {string} data us015")
-    public void verify_table_column_contains_and_data(String table, String column, String data1, String data2) {
+    public void Noellaverify_table_column_contains_and_data(String table, String column, String data1, String data2) {
         List<Object> allColumnData = DBUtils.getColumnData("select * from "+table+"",column);
         System.out.println(allColumnData);
         Assert.assertTrue(allColumnData.contains(data1));

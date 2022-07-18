@@ -11,6 +11,7 @@ import utilities.ConfigurationReader;
 import static utilities.Authentication.generateToken;
 import static utilities.RobertAPIRequestUtils.getRequest;
 
+
 public class US_028_API_Test_RobertStepDefs {
 
     String token = "";
@@ -40,6 +41,6 @@ public class US_028_API_Test_RobertStepDefs {
     }
     @Then("user savves the appointments data into correspondent files US028")
     public void user_savves_the_appointments_data_into_correspondent_files_us028() {
-
+//        robertSaveApplicationData(ConfigurationReader.getProperty("appointments_file_name_Robert"), appointments);
     }
 }

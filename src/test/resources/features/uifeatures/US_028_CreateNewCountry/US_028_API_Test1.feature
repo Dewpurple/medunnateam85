@@ -1,7 +1,6 @@
 Feature: appointments test with api
-
-
-    Scenario: appointments test for get request
+  @api2
+  Scenario: appointments test for get request
 
     Given as a user, I generate the token US028
     And user makes appointment data request US028

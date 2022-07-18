@@ -44,7 +44,31 @@ public class DoctorPage {
     public WebElement endDateTime2;
     @FindBy(xpath = "//*[@id=\"app-view-container\"]/div/div/div/div/div/table/tbody/tr[2]/td[4]/span")
     public WebElement status2;
-
-
+    @FindBy (xpath = "//a[@class='btn btn-primary btn-sm']")
+    public WebElement editButton;
+    @FindBy (xpath = "//a[@class='btn btn-success btn-sm']")
+    public  WebElement requestAtestButton;
+    @FindBy (xpath = "//input[@id='30199']")
+    public  WebElement diabetesMedicineTest;
+    @FindBy  (xpath = "//button[@id='save-entity']")
+    public WebElement saveButtonTestRequest;
+    @FindBy (xpath = "//*[@id=\"root\"]/div/div/div[1]/div/div/div[1]")
+    public WebElement newTestisCreatedMessage;
+   @FindBy (xpath = "//td[contains(text(),'Sodium')]")
+    public WebElement sodiumTestItem;
+    @FindBy (xpath = "//td[contains(text(),'Glucose')]")
+    public WebElement glucoseTestItem;
+    @FindBy (xpath = "//td[contains(text(),'Urea')]")
+    public WebElement ureaTestItem;
+    @FindBy (xpath = "//td[contains(text(),'Creatinine')]")
+    public WebElement creatinineTestItem;
+    @FindBy (xpath = "//td[contains(text(),'Potassium')]")
+    public WebElement potassiumTestItem;
+    @FindBy (xpath = "//td[contains(text(),'Total protein')]")
+    public WebElement totalproteinTestItem;
+    @FindBy (xpath = "//td[contains(text(),'Albumin')]")
+    public WebElement albuminTestItem;
+    @FindBy (xpath = "//td[contains(text(),'Hemoglobin')]")
+    public WebElement hemoglobinTestItem;
 
 }

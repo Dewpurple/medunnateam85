@@ -8,13 +8,12 @@ import pages.UserSettingsPage;
 import utilities.ConfigurationReader;
 import utilities.Driver;
 
-import java.io.IOException;
-
-public class US6_StepDefinitions {
+public class US6_UserSettingsStepDefs {
 
     HomePage homePage = new HomePage();
     UserPage userPage=new UserPage();
     UserSettingsPage userSettingsPage = new UserSettingsPage();
+
 
     @Given("US6_user is on the home page")
     public void userIsOnTheHomepage() {
@@ -134,4 +133,6 @@ Assert.assertFalse(userSettingsPage.savedMessage.isDisplayed());
     public void closeTheApplication() {
         Driver.closeDriver();
     }
+
+
 }

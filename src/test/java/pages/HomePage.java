@@ -34,5 +34,12 @@ public class HomePage {//loginpage is included here
     public WebElement loginRegisterButton;
     @FindBy(xpath = "//*[@id=\"account-menu\"]/a")
     public WebElement menuIcon;
+    @FindBy  (xpath = "//span[contains(text(),'Country')]")
+    public  WebElement countryButton;
+    @FindBy (xpath = "//a[@class='btn btn-primary float-right jh-create-entity']")
+    public WebElement createAnewCountryButton;
+    @FindBy (xpath = "//input[@id='country-name']")
+    public  WebElement nameofNewCountry;
+
 
 }

@@ -47,4 +47,5 @@ public class PatientEditPage {
     public WebElement deleteButton;
     @FindBy (id = "hospitalmsappfrontendApp.patient.delete.question")
     public WebElement deleteButtonConfirmation;
+
 }

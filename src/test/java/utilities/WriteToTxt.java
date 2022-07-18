@@ -75,8 +75,29 @@ public class WriteToTxt {
 
     }
 
+    public static void saveApptData(Appointment1 appointment1){
 
-    public static void saveApptData(Appointment1[] appointments){
+
+        try {
+
+            FileWriter fw = new FileWriter(ConfigurationReader.getProperty("appt_api_file"), true);
+
+            BufferedWriter bw = new BufferedWriter(fw);
+
+            bw.append(appointment1+"\n");
+
+            bw.close();
+
+
+        }
+        catch (Exception e){
+            e.printStackTrace();
+        }
+
+
+    }
+
+    public static void saveApptData(Appointment[] appointments){
 
 
         try {

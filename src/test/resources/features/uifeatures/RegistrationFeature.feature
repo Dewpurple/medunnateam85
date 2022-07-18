@@ -20,7 +20,7 @@ Feature: test registrant data
 
     Examples: test dat5a
       |ssn|firstname|lastname|username|email|password|confirmpassword|
-      |665-53-3752|sddlls|bgkj|ttcnghjidt|seqwjotm@gmail.com|Asdhjfgh12345?|dfghjh45?|
+      |715-73-5493|sasadfgmzaldsdgffdss|bfeoyhwaqrtj|ttqjlqpdiemaidt|s89poqzx9jdm@gmail.com|Asgsdfgh12345?|Asgsdfgh12345?|
 
 
   @Registration

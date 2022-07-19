@@ -19,24 +19,28 @@ public class US_009_API_Step_Defs {
     String token = "";
     String endPoint = ConfigurationReader.getProperty("patient_endpoint_Robert");
     Response response;
-    Robert_Patient_US028[] patient ;
+    US_009_API_Step_Defs[] patient ;
 
 
     @Given("as a user, I generate the token US009")
     public void as_a_user_i_generate_the_token_us028() {
         token = generateToken();
     }
-
+    @Given("user gets actual results")
+    public void user_gets_actual_results() {
+        response = getRequest (token,endPoint);
+        response.prettyPrint();
+    }
     @Given("user defines expected results")
     public void user_defines_expected_results() {
-    response = getRequest (token,endPoint);
-    response.prettyPrint();
+
     }
+
     @Given("user makes account data request US028")
     public void user_makes_account_data_request_us028() throws IOException {
         ObjectMapper obj = new ObjectMapper();
-        patient = obj.readValue(response.asString(), Robert_Patient_US028[].class);
-        System.out.println(patient);
+        patient = obj.readValue(response.asString(), US_009_API_Step_Defs[].class);
+
     }
     @When("user deserializes the acount data US028")
     public void user_deserializes_the_acount_data_us028() {

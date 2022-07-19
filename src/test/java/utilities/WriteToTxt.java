@@ -72,12 +72,10 @@ public class WriteToTxt {
 
     }
 
- 
 
 
-    public static void saveApptData(Appointment1[] appointments) {
-    
 
+    public static void saveApptData(Appointment1 appointment1){
 
         try {
 

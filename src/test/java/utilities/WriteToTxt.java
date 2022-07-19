@@ -1,8 +1,6 @@
 package utilities;
 
-import pojos.Appointment;
-import pojos.Appointment1;
-import pojos.Registrant;
+import pojos.*;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
@@ -77,8 +75,29 @@ public class WriteToTxt {
 
     }
 
+    public static void saveApptData(Appointment1 appointment1){
 
-    public static void saveApptData(Appointment1[] appointments){
+
+        try {
+
+            FileWriter fw = new FileWriter(ConfigurationReader.getProperty("appt_api_file"), true);
+
+            BufferedWriter bw = new BufferedWriter(fw);
+
+            bw.append(appointment1+"\n");
+
+            bw.close();
+
+
+        }
+        catch (Exception e){
+            e.printStackTrace();
+        }
+
+
+    }
+
+    public static void saveApptData(Appointment[] appointments){
 
 
         try {
@@ -102,5 +121,27 @@ public class WriteToTxt {
 
     }
 
+
+//    public static void robertSaveApplicationData (String filename, Robert_Apppointment_US028 [] robert_apppointment_us028s){
+//
+//
+//        try {
+//
+//            FileWriter fileWriter = new FileWriter(ConfigurationReader.getProperty("api_registrant_file"), true);
+//
+//            BufferedWriter writer = new BufferedWriter(fileWriter);
+//
+//            writer.append(Robert_User_US028.getSsn() + ","+registrant.getFirstName()+","+ registrant.getLastName()+","
+//                    +registrant.getUsername()+","+ registrant.getEmail()+","+registrant.getPassword()+ ",\n");
+//            writer.close();
+//
+//
+//        }
+//        catch (Exception e){
+//            e.printStackTrace();
+//        }
+//
+//
+//    }
 
 }

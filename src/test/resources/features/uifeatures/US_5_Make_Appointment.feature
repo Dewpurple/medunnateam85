@@ -17,7 +17,7 @@ Feature: Make_An_Appointment
       |Patient9|Patient8|patient9_patient9@hotmail.com|364-335-3564|519-78-6319|05-11-2025|
 
 
-    Scenario Outline: Registration
+  Scenario Outline: Registration
     Then User clicks on Register Button
     And User fill SSN Number on Registration Page  "<ssnNumber>"
     And User fill Name with on Registration Page "<firstName>"
@@ -29,11 +29,11 @@ Feature: Make_An_Appointment
     And User click Register button.
 
     Examples:
-      |ssnNumber|firstName|lastName|userName|email|password|confirmPassword|
+    |ssnNumber|firstName|lastName|userName|email|password|confirmPassword|
       |519-78-6319|Patient9|Patient8|patient9_patient6|patient9_patient6@hotmail.com|6yhn3edc.|6yhn3edc.|
 
-    @Sign_In
-    Scenario Outline: Sign_In
+  @Sign_In
+  Scenario Outline: Sign_In
     Given User Go to Medunna home page
     And User click Sign In Button
     And User fill Username on the Sign In Page "<userName>"
@@ -48,18 +48,26 @@ Feature: Make_An_Appointment
 
       #NEGATIVE TEST CASES
 
-      @TC_002
-      Scenario: TC_002
+    @TC_002
+    Scenario: TC_002
       Given User Go to Medunna home page
       When User clicks on the Make an Appointment button.
       Then User enter blank into First Name TextBox.
       And User should see error message Your Firstname is required.
 
 
-  #Scenario: TC_004
+    Scenario: TC_004
         Then User enter blank into SSN Number TextBox.
         And User should see error message Your SSN is required.
         Then Close the page.
+
+        #API TESTS
+    @api_post
+    Scenario:Api_Positive_Test
+          Given US5 POST request for appointment management
+          Then US5 Assert that the email and SNN is registered to database
+
+
 
 
 

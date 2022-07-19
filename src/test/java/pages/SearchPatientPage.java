@@ -13,33 +13,33 @@ public class SearchPatientPage {
     public WebElement patientSSNSearch;
     @FindBy (xpath = "//a[@class='btn btn-primary btn-sm']")
     public WebElement patientSearchEditButton;
-    @FindBy (xpath = "//td[contains(text(),'3353')]")
+    @FindBy (xpath = "//td[contains(text(),'1051')]")
     public WebElement id;
-    @FindBy (xpath = "//td[contains(text(),'123-66-5555')]")
+    @FindBy (xpath = "//*[@id=\"app-view-container\"]/div/div/div/div[2]/div/table/tbody/tr/td[2]")
     public WebElement ssn;
-    @FindBy (xpath = "//td[contains(text(),'Vernice')]")
+    @FindBy (xpath = "//td[contains(text(),'Jerrold')]")
     public WebElement firstname;
-    @FindBy (xpath = "//td[contains(text(),'Carroll')]")
+    @FindBy (xpath = "//td[contains(text(),'Buckridge')]")
     public WebElement lastname;
-    @FindBy (xpath = "//td[contains(text(),'22/06/78 02:50')]")
+    @FindBy (xpath = "//span[contains(text(),'05/08/76 21:04')]")
     public WebElement birthday;
-    @FindBy (xpath = "//td[contains(text(),'4165667780')]")
+    @FindBy (xpath = "//td[contains(text(),'434-527-8968')]")
     public WebElement phonenumber;
-    @FindBy (xpath = "//td[contains(text(),'dovie.macgyver@hotmail.com')]")
+    @FindBy (xpath = "//td[contains(text(),'wynona.grimes@hotmail.com')]")
     public WebElement email;
-    @FindBy (xpath = "//td[contains(text(),'OTHER')]")
+    @FindBy (xpath = "//span[contains(text(),'OTHER')]")
     public WebElement gender;
-    @FindBy (xpath = "//td[contains(text(),'O+')]")
+    @FindBy (xpath = "//span[contains(text(),'B-')]")
     public WebElement bloodgroup;
-    @FindBy (xpath = "//td[contains(text(),'Orchard, Port')]")
+    @FindBy (xpath = "//td[contains(text(),'Rodriguez Estates')]")
     public WebElement address;
-    @FindBy (xpath = "//td[contains(text(),'asthma')]")
+    @FindBy (xpath = "//td[contains(text(),'full blood')]")
     public WebElement description;
-    @FindBy (xpath = "//td[contains(text(),'21/12/21')]")
+    @FindBy (xpath = "//span[contains(text(),'04/12/21 16:00')]")
     public WebElement datecreated;
     @FindBy (xpath = "//td[contains(text(),'doctor84')]")
     public WebElement doctor;
-    @FindBy (xpath = "//td[contains(text(),'Türkye')]")
+    @FindBy (xpath = "//td[contains(text(),'Germany')]")
     public WebElement country;
     @FindBy (xpath = "//td[contains(text(),'monster/mons')]")
     public WebElement stateCity;

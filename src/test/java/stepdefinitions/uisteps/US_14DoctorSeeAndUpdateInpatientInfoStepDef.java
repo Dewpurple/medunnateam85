@@ -64,19 +64,19 @@ public class US_14DoctorSeeAndUpdateInpatientInfoStepDef {
     }
 
     //
-    @Then("US_14user navigates fifthInpatientEdit button and clicks")
+    @Then("US_14user navigates firstInpatientEdit button and clicks")
     public void US_14user_navigates_edit_button_and_clicks() {
-        Driver.waitAndClick(inpatientInfoPage.fifthInPatientEditButton);
+        Driver.waitAndClick(inpatientInfoPage.firstInPatientEditButton);
 
     }
 
     //user can update status to staying with giving a room
     @Then("US_14user can update status staying and clicks save button  InPatient")
     public void US_14user_can_update_status_staying_and_clicks_save_button_in_patient() throws IOException {
-        Driver.clickWithJS(inpatientInfoPage.inpatientStatusDropBox);
+        Driver.waitAndClick(inpatientInfoPage.inpatientStatusDropBox);
         Driver.selectAnItemFromDropdown(inpatientInfoPage.inpatientStatusDropBox, "STAYING");
         Driver.selectAnItemFromDropdown(inpatientInfoPage.inpatientRoomDropBox, "5645:TWIN null");
-        Driver.clickWithJS(inpatientInfoPage.inPatientStatusSaveButton);
+        Driver.waitAndClick(inpatientInfoPage.inPatientStatusSaveButton);
         Driver.wait(3);
   //      String actualPopUpMessage = inpatientInfoPage.updatedMessage.getText();
 //        Assert.assertTrue(actualPopUpMessage.contains("The In Patient is updated with identifier"));
@@ -86,9 +86,9 @@ public class US_14DoctorSeeAndUpdateInpatientInfoStepDef {
 
     }
 
-    //    @Then("US_14user navigates fifthInpatientEdit button and clicks")
+    //    @Then("US_14user navigates firstInpatientEdit button and clicks")
 //    public void US_14user_navigates_eight_inpatient_edit_button_and_clicks() {
-//        Driver.waitAndClick(inpatientInfoPage.fifthInPatientEditButton);
+//        Driver.waitAndClick(inpatientInfoPage.firstInPatientEditButton);
 //    }
     //Doctor can try Change ROOM but ROOM Does'nt change
     @Then("US_14user can update status Room and save button InPatient")
@@ -105,9 +105,9 @@ public class US_14DoctorSeeAndUpdateInpatientInfoStepDef {
     }
 
     //User can not update status to staying without giving a room
-    @Then("US_14user navigates sixthInpatientEdit button and clicks")
-    public void US_14user_navigates_sixth_inpatient_edit_button_and_clicks() {
-        Driver.waitAndClick(inpatientInfoPage.sixthInPatientEditButton);
+    @Then("US_14user navigates secondInpatientEdit button and clicks")
+    public void US_14user_navigates_second_inpatient_edit_button_and_clicks() {
+        Driver.waitAndClick(inpatientInfoPage.secondInPatientEditButton);
     }
 
     @Then("US_14user  update status staying and clicks save button  InPatient")
@@ -118,11 +118,11 @@ public class US_14DoctorSeeAndUpdateInpatientInfoStepDef {
         Driver.wait(3);
     }
 
-        @Then("US_14user verifies unapdated message")
-    public void US_14user_verifies_unapdated_message() {
-        Assert.assertTrue(inpatientInfoPage.canNotBeUpdatedMessage.isDisplayed());
-
-    }
+//        @Then("US_14user verifies unapdated message")
+//    public void US_14user_verifies_unapdated_message() {
+//        Assert.assertTrue(inpatientInfoPage.canNotBeUpdatedMessage.isDisplayed());
+//
+//    }
     //User can cancelled if inpatient is unapproved
     @Then("US_14user can update status Canceled and save button InPatient")
     public void US_14user_can_update_status_canceled_and_save_button_in_patient() throws IOException {

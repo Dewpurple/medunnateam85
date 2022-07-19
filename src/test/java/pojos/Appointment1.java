@@ -39,7 +39,7 @@ public class Appointment1 {
     }
 
     public void setPatient(Patient patient) {
-        this.patient = patient;
+        this.patient = this.patient;
     }
 
     public String getCreatedBy() {

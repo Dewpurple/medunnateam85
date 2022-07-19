@@ -4,7 +4,6 @@ import com.github.javafaker.Faker;
 import io.cucumber.java.en.*;
 import org.junit.Assert;
 import pages.MakeAppointmentPage;
-import pages.RegistrationPage;
 import pojos.Appointment;
 import utilities.ConfigurationReader;
 import utilities.Driver;
@@ -12,14 +11,21 @@ import utilities.Driver;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
+import static io.restassured.RestAssured.given;
+import static org.junit.Assert.assertTrue;
 import static utilities.WriteToTxt.saveApptData;
 
 public class US7AppointmentDateStepDefinitions {
-    Appointment appointment;
+    Appointment appointment = new Appointment();
 
-    RegistrationPage registrationPage = new RegistrationPage();
     Faker faker = new Faker();
     MakeAppointmentPage makeAppointmentPage = new MakeAppointmentPage();
+
+//    private World world;
+//
+//    public US7AppointmentDateStepDefinitions(World world) {
+//        this.world = world;
+//    }
 
     @Given("US7_user goes to Make Appointment page")
     public void user_goes_to_make_appointment_page() {
@@ -81,7 +87,7 @@ public class US7AppointmentDateStepDefinitions {
 //        DateTimeFormatter newPattern = DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ss.SSSZ");
         LocalDate today = LocalDate.now();
 //        String today = newPattern.format(now);
-appointment.setCreatedDate(String.valueOf(today));
+        appointment.setCreatedDate(String.valueOf(today));
         saveApptData(appointment);
     }
 
@@ -112,5 +118,5 @@ appointment.setCreatedDate(String.valueOf(today));
         String actual = makeAppointmentPage.apDate.getAttribute("value");
         Assert.assertNotEquals(expected, actual);
     }
-}
 
+}

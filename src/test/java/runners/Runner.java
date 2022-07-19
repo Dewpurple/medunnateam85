@@ -15,7 +15,7 @@ import org.junit.runner.RunWith;
         glue = {"stepdefinitions","Hooks"},
 
         //tags = "@PatientInfoVisible",
-        tags="  @NewRegistrants",
+        tags=" @TC01",
 
 
 

@@ -1,6 +1,8 @@
 package pojos;
 
 import java.lang.reflect.Array;
+import java.util.List;
+
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @JsonIgnoreProperties (ignoreUnknown = true)
@@ -18,26 +20,7 @@ public class US_009_Pojo {
     private String craetedBy;
     private String lastModifiedBy;
     private String lastModifiedDate;
-    private Array authorities;
-
-    @Override
-    public String toString() {
-        return "US_009_Pojo{" +
-                "id=" + id +
-                ", login='" + login + '\'' +
-                ", firstname='" + firstname + '\'' +
-                ", lastname='" + lastname + '\'' +
-                ", ssn='" + ssn + '\'' +
-                ", email='" + email + '\'' +
-                ", imageURL='" + imageURL + '\'' +
-                ", activated=" + activated +
-                ", langKey='" + langKey + '\'' +
-                ", craetedBy='" + craetedBy + '\'' +
-                ", lastModifiedBy='" + lastModifiedBy + '\'' +
-                ", lastModifiedDate='" + lastModifiedDate + '\'' +
-                ", authorities=" + authorities +
-                '}';
-    }
+    private List authorities;
 
     public int getId() {
         return id;
@@ -135,15 +118,34 @@ public class US_009_Pojo {
         this.lastModifiedDate = lastModifiedDate;
     }
 
-    public Array getAuthorities() {
+    public List getAuthorities() {
         return authorities;
     }
 
-    public void setAuthorities(Array authorities) {
+    public void setAuthorities(List authorities) {
         this.authorities = authorities;
     }
 
-    public US_009_Pojo(int id, String login, String firstname, String lastname, String ssn, String email, String imageURL, boolean activated, String langKey, String craetedBy, String lastModifiedBy, String lastModifiedDate, Array authorities) {
+    @Override
+    public String toString() {
+        return "US_009_Pojo{" +
+                "id=" + id +
+                ", login='" + login + '\'' +
+                ", firstname='" + firstname + '\'' +
+                ", lastname='" + lastname + '\'' +
+                ", ssn='" + ssn + '\'' +
+                ", email='" + email + '\'' +
+                ", imageURL='" + imageURL + '\'' +
+                ", activated=" + activated +
+                ", langKey='" + langKey + '\'' +
+                ", craetedBy='" + craetedBy + '\'' +
+                ", lastModifiedBy='" + lastModifiedBy + '\'' +
+                ", lastModifiedDate='" + lastModifiedDate + '\'' +
+                ", authorities=" + authorities +
+                '}';
+    }
+
+    public US_009_Pojo(int id, String login, String firstname, String lastname, String ssn, String email, String imageURL, boolean activated, String langKey, String craetedBy, String lastModifiedBy, String lastModifiedDate, List authorities) {
         this.id = id;
         this.login = login;
         this.firstname = firstname;

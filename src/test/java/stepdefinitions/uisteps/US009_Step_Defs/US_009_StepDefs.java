@@ -144,10 +144,7 @@ public class US_009_StepDefs   {
     Assert.assertTrue(searchPatientPage.country.isDisplayed());
     //Assert.assertTrue(searchPatientPage.stateCity.isDisplayed());
   }
-  @Given("Make connection with DB US009")
-  public void make_connection_with_db_US009() {
 
-  }
   @Given("Run SQL query for expected data US009")
   public void run_sql_query_for_expected_data_US009() {
 

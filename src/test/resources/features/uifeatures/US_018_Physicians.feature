@@ -133,4 +133,20 @@ Feature: update_physicians
     And user verifies A Physician is updated with identifier message appears on screen
     Then close the application US_015
 
+  @US018_TC016
+  Scenario: enter letter in exam fee box
+    Given user locates physician name Team85 Physician and click on edit button
+    When user enters letter in exam fee box
+    Then user clicks save button
+    And user verifies This field should be at least 0 message appears under exam fee
+    Then close the application US_015
+
+  @US018_TC017
+  Scenario: update physician's information
+    Given user locates physician name Team85 Physician and click on edit button
+    When user updates phone number, address, description of physician
+    Then user clicks save button
+    And user verifies A Physician is updated with identifier message appears on screen
+    And user verifies that all the updates are shown on the screen
+    Then close the application US_015
 

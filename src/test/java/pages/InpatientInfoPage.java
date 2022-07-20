@@ -65,29 +65,28 @@ public class InpatientInfoPage {
     public WebElement canNotBeUpdatedMessage;
 
     //Second Inpatient info locator
-//    @FindBy(xpath= "//tbody/tr[2]/td[1]")
-//    public WebElement secondInPatientID;
-//
-//    @FindBy(xpath= "//tbody/tr[2]/td[2]")
-//    public WebElement secondInPatientStartDate;
-//
-//    @FindBy(xpath= "//tbody/tr[2]/td[4]")
-//    public WebElement secondInPatientStatus;
-//
-//    @FindBy(xpath= "//tbody/tr[2]/td[6]")
-//    public WebElement secondInPatientCreatedDate;
-//
-//    @FindBy(xpath= "//tbody/tr[2]/td[7]")
-//    public WebElement secondInPatientRoom;
-//
-//    @FindBy(xpath= "//tbody/tr[2]/td[8]")
-//    public WebElement secondInPatientAppointment;
-//
-//    @FindBy(xpath= "//tbody/tr[2]/td[9]")
-//    public WebElement secondInPatientNameSSN;
-//
-//    @FindBy(xpath= "(//*[text()='Edit'])[2]")
-//    public WebElement secondInPatientEditButton;
-//    //Third Inpatient info locator
+    @FindBy(xpath= "//tbody/tr[2]/td[1]")
+    public WebElement secondInPatientID;
+
+    @FindBy(xpath= "//tbody/tr[2]/td[2]")
+    public WebElement secondInPatientStartDate;
+
+    @FindBy(xpath= "//tbody/tr[2]/td[4]")
+    public WebElement secondInPatientStatus;
+
+    @FindBy(xpath= "//tbody/tr[2]/td[6]")
+    public WebElement secondInPatientCreatedDate;
+
+    @FindBy(xpath= "//tbody/tr[2]/td[7]")
+    public WebElement secondInPatientRoom;
+
+    @FindBy(xpath= "//tbody/tr[2]/td[8]")
+    public WebElement secondInPatientAppointment;
+
+    @FindBy(xpath= "//tbody/tr[2]/td[9]")
+    public WebElement secondInPatientNameSSN;
+
+    @FindBy(xpath= "(//*[text()='Edit'])[2]")
+    public WebElement secondInPatientEditButton;
 
 }

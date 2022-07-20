@@ -55,9 +55,40 @@ public class US_018_PhysiciansPage {
     public WebElement uploadPicture;
     @FindBy(xpath = "//span[text()='17 384 bytes']")
     public WebElement pictureVerify;
-    @FindBy(xpath = "//a[.='»»']")
-    public WebElement lastPage;
-    @FindBy(xpath = "//a[.='14']")
-    public WebElement page14;
-
+    @FindBy(xpath = "(//a[@class='btn btn-primary btn-sm'])[1]")
+    public WebElement editTeam85;
+    @FindBy(xpath = "//span[.='First Name']")
+    public WebElement firstNameButton;
+    @FindBy(name = "adress")
+    public WebElement addressBox;
+    @FindBy(xpath = "//input[@name='description']")
+    public WebElement descriptionBox;
+    @FindBy(xpath = "//td[.='555-348-3333']")
+    public WebElement phoneNumberPhysician;
+    @FindBy(xpath = "//td[.='100 Union Street']")
+    public WebElement addressPhysician;
+    @FindBy(xpath = "//td[.='Best doctor in USA']")
+    public WebElement descriptionPhysician;
+    @FindBy(xpath = "//span[.='Administration']")
+    public WebElement administrationButton;
+    @FindBy(xpath = "//span[.='User management']")
+    public WebElement userManagementButton;
+    @FindBy(xpath = "(//td/following-sibling::td[10]/div/a[2])[1]")
+    public WebElement editDeleteUser;
+    @FindBy(id = "activated")
+    public WebElement activateButton;
+    @FindBy(xpath = "//select[@id='authorities']")
+    public WebElement profilesList;
+    @FindBy(xpath = "(//a[@class='btn btn-danger btn-sm'])[1]")
+    public WebElement deleteDeleteUser;
+    @FindBy(xpath = "//button[@id='jhi-confirm-delete-physician']")
+    public WebElement confirmDelete;
+    @FindBy(xpath = "//span[.='ID']")
+    public WebElement idButton;
+    @FindBy(xpath = "//button[@class='btn btn-primary']")
+    public WebElement saveAdminPage;
+    @FindBy(xpath = "//span[.='Created Date']")
+    public WebElement createdDate;
+    @FindBy(xpath = "//*[contains(text(), 'Physician is delete')]")
+    public WebElement physicianDeletedMessage;
 }

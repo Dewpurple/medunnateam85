@@ -1,7 +1,11 @@
 package pojos;
 
-import java.util.Arrays;
 
+
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+import java.util.Arrays;
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class Registrant {
 
     private String firstName;
@@ -14,7 +18,17 @@ public class Registrant {
     private int id;
     private boolean activated;
     private String [] authorities;
+    private  String username;
 
+
+
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
+    }
 
     public String getFirstName() {
         return firstName;
@@ -95,7 +109,6 @@ public class Registrant {
     public void setAuthorities(String[] authorities) {
         this.authorities = authorities;
     }
-
     @Override
     public String toString() {
         return "Registrant{" +
@@ -109,6 +122,8 @@ public class Registrant {
                 ", id=" + id +
                 ", activated=" + activated +
                 ", authorities=" + Arrays.toString(authorities) +
+                ", username='" + username + '\'' +
                 '}';
     }
+
 }

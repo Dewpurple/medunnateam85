@@ -1,5 +1,5 @@
 Feature: US_009_DP_Patient_Details
-  @api2
+  @Api
   Scenario: US_009patientdetails
     Given Make connection with DB US009
     And user gets the "*" from "jhi_user" table

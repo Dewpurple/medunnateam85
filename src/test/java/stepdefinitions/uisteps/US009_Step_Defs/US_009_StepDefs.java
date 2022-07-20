@@ -145,14 +145,6 @@ public class US_009_StepDefs   {
     //Assert.assertTrue(searchPatientPage.stateCity.isDisplayed());
   }
 
-  @Given("Run SQL query for expected data US009")
-  public void run_sql_query_for_expected_data_US009() {
-
-  }
-  @Given("validate patient info from DB US009")
-  public void validate_patient_info_from_db_US009() {
-
-  }
   @Given("user signs in as admin US009")
   public void user_signs_in_as_admin_US009() {
     Driver.waitAndSendText(homePage.username,ConfigurationReader.getProperty("adminusername2"));
@@ -179,9 +171,6 @@ public class US_009_StepDefs   {
     }
   Assert.assertTrue(isdisplayed);
   }
-  @Given("user verifies Patient SSN Search box is NOT avalible US009")
-  public void user_verifies_patient_ssn_search_box_is_not_avalible_us009() {
 
-  }
 
 }

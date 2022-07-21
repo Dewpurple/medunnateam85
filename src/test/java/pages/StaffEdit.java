@@ -9,12 +9,39 @@ public class StaffEdit {
     public StaffEdit(){
         PageFactory.initElements(Driver.getDriver(), this);
     }
-    @FindBy(xpath = "(//*[contains(text(),'Show Appointments')])[5]")
+    @FindBy(xpath = "//input[@name='ssn']")
+    public WebElement ssnSearchBox;
+    @FindBy(xpath = "(//*[contains(text(),'Show Appointments')])")
     public WebElement showAppointmentsButton;
-    @FindBy(xpath = "(//*[contains(text(),'Edit')])[5]")
-    public WebElement editButton;
-    @FindBy(xpath = "(//*[contains(text(),'Show Tests')])[5]")
-    public WebElement showTestsButton;
+
+    @FindBy(xpath = "(//*[contains(text(),'View')])")
+    public WebElement viewButton;
+    // after clicking show appointments
+    @FindBy(xpath = "(//a[@class='btn btn-warning btn-sm'])[1]")
+    ///html/body/div/div/div/div[4]/div/div/div/div/div/table/tbody/tr/td[13]/div/a[1]
+    public WebElement editApptButton;
+    @FindBy(xpath = "(//*[contains(text(),'Show Tests')])")
+    public WebElement apptShowTestsButton;
+    //under appointment edit button
+    @FindBy(xpath="//*[@id='appointment-startDate']")
+    public WebElement startDateTextBox;
+    @FindBy(xpath="(//input[@type='datetime-local'])[2]")
+    public WebElement endDateTextBox;
+    @FindBy(xpath="//select[@name='status']")
+    public WebElement apptStatusSelect;
+    @FindBy(id="appointment-anamnesis")
+    public WebElement anamnesisTextBox;
+    @FindBy(id="appointment-treatment")
+    public WebElement treatmentTextBox;
+    @FindBy(id="appointment-diagnosis")
+    public WebElement diagnosisTextBox;
+    @FindBy(id="appointment-physician")
+    public WebElement physicianSelect;
+    @FindBy(id="save-entity")
+    public WebElement saveButton;
+    @FindBy(xpath="//button[@class='Toastify__close-button Toastify__close-button--success']")
+    public WebElement apptUpdatedMessage;
+
 
 
 }

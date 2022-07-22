@@ -38,7 +38,7 @@ public Patient(){
     }
 
     public void setUser(User user) {
-        this.user = user;
+        this.user = this.user;
     }
 
     public String getCreatedBy() {

@@ -1,4 +1,4 @@
-@UserStory_010 @SmokeTest
+@UserStory_010
 Feature: Appointments and Patients
   Background: UserStory_010
     Given I am on the homepage us10

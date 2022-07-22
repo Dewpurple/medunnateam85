@@ -1,5 +1,5 @@
 Feature: strength level check
-  @TC01 @SmokeTest
+  @TC01
   Scenario Outline: login functionality
     Given user navigates to lending page "<url>"
     And user navigates to sign in portal

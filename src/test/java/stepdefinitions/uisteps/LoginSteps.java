@@ -67,6 +67,7 @@ import utilities.Driver;
         }
         @Then("User verifies Password changed! message is displayed")
         public void userVerifiesPasswordChangedMessageIsDisplayed() {
+            Driver.sleep(3);
             Assert.assertTrue(login.changeMessage.isDisplayed());
         }
 
@@ -81,6 +82,7 @@ import utilities.Driver;
 
         @Then("User verifies {string} message is displayed")
         public void userVerifiesMessageIsDisplayed(String arg0) {
+            Driver.sleep(2000);
             Assert.assertTrue(login.changeMessage.isDisplayed());
         }
 

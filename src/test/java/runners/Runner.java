@@ -16,13 +16,11 @@ import org.junit.runner.RunWith;
         glue = {"stepdefinitions","Hooks"},
 
         //tags = "@PatientInfoVisible",
-        tags=" @US_27",
 
 
 
 
-
-       // tags="  @US6",
+       tags=" @patientsbyadmin",
 
 
         dryRun = false

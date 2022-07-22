@@ -14,12 +14,12 @@ import java.io.IOException;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.hasItem;
+import static org.junit.Assert.*;
 import static utilities.Authentication.generateToken;
 
 public class US_018_ApiGetPhysicianSetpDefs {
 
     Response response;
-    US_018_GetPhysiciansPojo[] getPhysician;
     @Given("user sends a get request for users data us018")
     public void user_sends_a_get_request_for_users_data() {
         response= given().headers(
@@ -34,12 +34,7 @@ public class US_018_ApiGetPhysicianSetpDefs {
     }
     @Then("{string} should be validated by api us018")
     public void should_be_validated_by_api(String string) throws IOException {
-        ObjectMapper obj = new ObjectMapper();
-        getPhysician = obj.readValue(response.asString(), US_018_GetPhysiciansPojo[].class);
-        System.out.println("Size: " + getPhysician.length);
-        System.out.println(getPhysician[2].getFirstName());
-        System.out.println(getPhysician[2].getLastName());
-
+        response.then().assertThat().body("firstName", hasItem(string));
 
     }
 }

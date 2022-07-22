@@ -6,31 +6,31 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 public class US_018_PostPhysicianPojo {
 
-    private String email;
+    private int examFee;
     private String firstName;
-    private String gender;
     private String lastName;
     private String phone;
     private String ssn;
+    private US_018_PostPhysicianUserPojo user;
 
     public US_018_PostPhysicianPojo() {
     }
 
-    public US_018_PostPhysicianPojo(String email, String firstName, String gender, String lastName, String phone, String ssn) {
-        this.email = email;
+    public US_018_PostPhysicianPojo(int examFee, String firstName, String lastName, String phone, String ssn, US_018_PostPhysicianUserPojo user) {
+        this.examFee = examFee;
         this.firstName = firstName;
-        this.gender = gender;
         this.lastName = lastName;
         this.phone = phone;
         this.ssn = ssn;
+        this.user = user;
     }
 
-    public String getEmail() {
-        return email;
+    public int getExamFee() {
+        return examFee;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
+    public void setExamFee(int examFee) {
+        this.examFee = examFee;
     }
 
     public String getFirstName() {
@@ -39,14 +39,6 @@ public class US_018_PostPhysicianPojo {
 
     public void setFirstName(String firstName) {
         this.firstName = firstName;
-    }
-
-    public String getGender() {
-        return gender;
-    }
-
-    public void setGender(String gender) {
-        this.gender = gender;
     }
 
     public String getLastName() {
@@ -73,15 +65,23 @@ public class US_018_PostPhysicianPojo {
         this.ssn = ssn;
     }
 
+    public US_018_PostPhysicianUserPojo getUser() {
+        return user;
+    }
+
+    public void setUser(US_018_PostPhysicianUserPojo user) {
+        this.user = user;
+    }
+
     @Override
     public String toString() {
         return "US_018_PostPhysicianPojo{" +
-                "email='" + email + '\'' +
+                "examFee=" + examFee +
                 ", firstName='" + firstName + '\'' +
-                ", gender='" + gender + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", phone='" + phone + '\'' +
                 ", ssn='" + ssn + '\'' +
+                ", user=" + user +
                 '}';
     }
 }

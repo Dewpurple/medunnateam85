@@ -27,13 +27,21 @@ public class StaffEdit {
     public WebElement startDateTextBox;
     @FindBy(xpath="(//input[@type='datetime-local'])[2]")
     public WebElement endDateTextBox;
-    @FindBy(xpath="//select[@name='status']")
+    @FindBy(xpath="//*[@id='appointment-status']")
     public WebElement apptStatusSelect;
-    @FindBy(id="appointment-anamnesis")
+    @FindBy(xpath="//*[@value='UNAPPROVED']")
+    public WebElement unapprovedStatus;
+    @FindBy(xpath="//*[@value='PENDING']")
+    public WebElement pendingStatus;
+    @FindBy(xpath="//*[@disabled value='COMPLETED']")
+    public WebElement completedStatus;
+    @FindBy(xpath="//*[@value='CANCELLED']")
+    public WebElement cancelledStatus;
+    @FindBy(xpath="//*[@name='anamnesis']")
     public WebElement anamnesisTextBox;
-    @FindBy(id="appointment-treatment")
+    @FindBy(xpath="//*[@name='treatment']")
     public WebElement treatmentTextBox;
-    @FindBy(id="appointment-diagnosis")
+    @FindBy(xpath="//*[@name='diagnosis']")
     public WebElement diagnosisTextBox;
     @FindBy(id="appointment-physician")
     public WebElement physicianSelect;

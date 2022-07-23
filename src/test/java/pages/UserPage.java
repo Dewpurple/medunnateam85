@@ -17,7 +17,9 @@ public class UserPage {//elements from DoctorPage can be moved here
     @FindBy(id="entity-menu")
     public WebElement myPagesMenu;
     @FindBy(xpath="//a[@href='/search-patient']")
-    public WebElement searchPatientButton;
+    public WebElement searchPatientButton;//under staff only
+    @FindBy(xpath="//div[@class='dropdown-menu dropdown-menu-right show']")
+    public WebElement myPagesDropDown;
 
 
 }

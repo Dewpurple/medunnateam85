@@ -16,17 +16,14 @@ public class US_009_PatientInformationStepDefs {
     }
 
     @Given("user gets the {string} from {string} table where {string} equals {string}")
-    public void user_gets_the_from_table_where_equals(String column, String table, String key, String id) throws InterruptedException {
-    String myDynamicQuery = "Select " +column + " from " + table + " where " + key+"="+id;
-    DBUtils.executeQuery(myDynamicQuery);
-        List <Object> allColumnData = DBUtils.getRowList("Select " +column + " from " + table + " where " + key+"="+id);
+    public void user_gets_the_from_table_where_equals(String column, String table, String key, String id) throws InterruptedException, SQLException {
+        List <Object> allColumnData = DBUtils.getColumnData("Select * from " + table + " where " + key+"="+id, "first_name" );
         System.out.println(allColumnData);
-        List <Object> expectedData = new ArrayList<>();
-        expectedData.add(id);
-        expectedData.add("Vusal");
-        System.out.println(expectedData);
-        Thread.sleep(500);
-        Assert.assertTrue(allColumnData.containsAll(expectedData));
+        System.out.println("======");
+        List <Object> expecteddata = new ArrayList<>();
+        expecteddata.add("Vusal");
+        System.out.println(expecteddata);
+        Assert.assertEquals(allColumnData,expecteddata);
 
     }
 

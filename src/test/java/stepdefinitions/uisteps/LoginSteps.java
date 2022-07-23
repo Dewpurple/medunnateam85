@@ -82,7 +82,6 @@ import utilities.Driver;
 
         @Then("User verifies {string} message is displayed")
         public void userVerifiesMessageIsDisplayed(String arg0) {
-            Driver.sleep(2000);
             Assert.assertTrue(login.changeMessage.isDisplayed());
         }
 

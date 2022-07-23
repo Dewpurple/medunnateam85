@@ -16,3 +16,4 @@ Appointment{firstName='David', lastName='Walter', ssn='049-35-2870', email='Davi
 Appointment{firstName='Leanne', lastName='Murphy', ssn='335-44-8948', email='LeanneMurphy@gmail.com', phoneNumber='432-345-3245', startDate='07/26/2022', createdDate='2022-07-16'}
 Appointment{firstName='Romeo', lastName='Murphy', ssn='427-93-1234', email='RomeoMurphy@gmail.com', phoneNumber='432-345-3245', startDate='07/27/2022', createdDate='2022-07-17'}
 Appointment{firstName='Lorita', lastName='Bayer', ssn='494-06-0597', email='LoritaBayer@gmail.com', phoneNumber='432-345-3245', startDate='07/27/2022', createdDate='2022-07-17'}
+Appointment{firstName='Stuart', lastName='Crooks', ssn='710-50-6502', email='StuartCrooks@gmail.com', phoneNumber='432-345-3245', startDate='07/29/2022', createdDate='2022-07-19'}

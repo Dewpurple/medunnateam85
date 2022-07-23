@@ -95,8 +95,8 @@ public class US7AppointmentDateStepDefinitions {
     @Then("user enters past date {string} on MA")
     public void user_enters_past_date_on_ma(String pastdate) {
         DateTimeFormatter newPattern = DateTimeFormatter.ofPattern("MM/dd/yyyy");
-        LocalDate tenDaysLater = LocalDate.now().plusDays(-10);
-        pastdate = newPattern.format(tenDaysLater);
+        LocalDate tenDaysAgo = LocalDate.now().plusDays(-10);
+        pastdate = newPattern.format(tenDaysAgo);
         Driver.waitAndSendText(makeAppointmentPage.apDate, pastdate);
     }
 

@@ -1,6 +1,9 @@
 package pojos;
 
-public class US_018_GetPhysicians {
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+@JsonIgnoreProperties(ignoreUnknown = true)
+public class US_018_GetPhysiciansPojo {
 
     /*
     {
@@ -15,7 +18,6 @@ public class US_018_GetPhysicians {
         "bloodGroup": "Apositive",
         "adress": "qwwq",
         "description": "",
-
      */
 
     private String firstName;
@@ -24,10 +26,10 @@ public class US_018_GetPhysicians {
     private String phone;
     private String gender;
 
-    public US_018_GetPhysicians() {
+    public US_018_GetPhysiciansPojo() {
     }
 
-    public US_018_GetPhysicians(String firstName, String lastName, String birthDate, String phone, String gender) {
+    public US_018_GetPhysiciansPojo(String firstName, String lastName, String birthDate, String phone, String gender) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.birthDate = birthDate;

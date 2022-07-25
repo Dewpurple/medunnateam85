@@ -11,10 +11,6 @@ public class US_023_StaffInvoicePage {
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
-    @FindBy(xpath = "//input[@name='username']")
-    public WebElement username;
-    @FindBy(xpath = "//input[@name='password']")
-    public WebElement password;
     @FindBy(xpath = "//span[.='MY PAGES']")
     public WebElement myPages;
     @FindBy(xpath = "//span[.='Search Patient']")
@@ -29,10 +25,6 @@ public class US_023_StaffInvoicePage {
     public WebElement createInvoice;
     @FindBy(xpath = "//select[@name='paymentMethod']")
     public WebElement paymentMethod;
-    @FindBy(xpath = "//option[.='CREDIT_CARD']")
-    public WebElement creditCard;
-    @FindBy(xpath = "//option[.='CHEQUE']")
-    public WebElement cheque;
     @FindBy(xpath = "//button[@id='save-entity']")
     public WebElement saveButton;
     @FindBy(xpath = "//*[contains(text(),'Bill is updated')]")
@@ -47,12 +39,8 @@ public class US_023_StaffInvoicePage {
     public WebElement pendingStatus;
     @FindBy(xpath = "//*[contains(text(),'UNAPPROVED')]")
     public WebElement unapprovedStatus;
-    @FindBy(xpath = "//td[.='Test Item Fee']")
-    public WebElement testItemFeeText;
     @FindBy(xpath = "//*[contains(text(),'500')]")
     public WebElement examFee;
-    @FindBy(xpath = "//*[contains(text(),'898.5')]")
-    public WebElement allenTotalCost;
     @FindBy(xpath = "//*[contains(text(),'620')]")
     public WebElement bryonTotalCost;
     @FindBy(xpath = "//*[contains(text(),'1274')]")

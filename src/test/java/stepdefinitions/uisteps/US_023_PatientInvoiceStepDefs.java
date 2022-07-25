@@ -3,9 +3,7 @@ package stepdefinitions.uisteps;
 import io.cucumber.java.en.*;
 import org.junit.Assert;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 import pages.HomePage;
 import pages.US_023_StaffInvoicePage;
@@ -51,9 +49,9 @@ public class US_023_PatientInvoiceStepDefs {
         String examfeeXpath = "//*[contains(text(),'"+examfee+"')]";
         WebElement examFee = Driver.getDriver().findElement(By.xpath(examfeeXpath));
         Assert.assertTrue(examFee.isDisplayed());
-//        String testitemfeeXpath = "//*[contains(text(),'"+testitemfee+"')]";
-//        WebElement testitemFee = Driver.getDriver().findElement(By.xpath(testitemfeeXpath));
-//        Assert.assertTrue(testitemFee.isDisplayed());
+        String testitemfeeXpath = "//*[contains(text(),'"+testitemfee+"')]";
+        WebElement testitemFee = Driver.getDriver().findElement(By.xpath(testitemfeeXpath));
+        Assert.assertTrue(testitemFee.isDisplayed());
     }
     @Then("click on create invoice US_023")
     public void click_on_create_invoice() {

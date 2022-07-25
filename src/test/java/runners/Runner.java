@@ -14,7 +14,11 @@ import org.junit.runner.RunWith;
         },
         features = "./src/test/resources/features",
         glue = {"stepdefinitions","Hooks"},
-        tags = "@US_018_PostPhysicianApi",
+
+
+
+        tags = "@US19_TC_00003",
+
         dryRun = false
 )
 public class Runner {

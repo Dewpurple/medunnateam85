@@ -17,7 +17,7 @@ import org.junit.runner.RunWith;
 
 
 
-        tags = "@US19_TC_00003",
+        tags = "@DB_US19_Staff",
 
         dryRun = false
 )

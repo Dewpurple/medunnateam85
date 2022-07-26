@@ -30,7 +30,7 @@ Feature: DB test data
   @US_019_birth_date
   Scenario Outline: TC_004__verify_staff_birth_date_exists
     And US19_user gets the "*" data from "staff" table
-    And US19_user verifies "Saff" table that "birth_date" column contains "<birth_date>" data
+    And US19_user verifies "staff" table that "birth_date" column contains "<birth_date>" data
     Then US19_close the database connection
   Examples:
   |birth_date|

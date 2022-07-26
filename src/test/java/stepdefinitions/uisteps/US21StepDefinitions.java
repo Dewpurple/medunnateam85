@@ -37,7 +37,11 @@ public class US21StepDefinitions {
         homePage.password.sendKeys(ConfigurationReader.getProperty("staffpw"));
         signInPage.signInSubmitButton.click();
     }
-
+    @Then("US21_user goes to search patient")
+    public void us21_user_goes_to_search_patient(){
+        Driver.waitAndClick(userPage.myPagesMenu);
+        Driver.clickWithJS(userPage.searchPatientButton);
+    }
     @Then("US21_user searches for patient with {string}")
     public void us21_user_searches_for_patient_with(String ssn) {
         Driver.waitAndClick(userPage.myPagesMenu);
@@ -48,7 +52,7 @@ public class US21StepDefinitions {
 
     @Then("US21_user clicks show appointments")
     public void us21_user_clicks_show_appointments() {
-        staffEdit.showAppointmentsButton.click();
+        Driver.clickWithJS(staffEdit.showAppointmentsButton);
     }
 
     @When("US21_user clicks edit")
@@ -124,6 +128,67 @@ Assert.assertTrue(staffEdit.unapprovedStatus.isDisplayed());
         String s = userPage.myPagesDropDown.getText();
         System.out.println(s);
 Assert.assertFalse(s.contains("Search Patient"));
+    }
+    @When("US21_user clicks Show Tests")
+    public void us21_user_clicks_show_tests() {
+       Driver.clickWithJS(staffEdit.apptShowTestsButton);
+    }
+    @Then("US21_user clicks view results")
+    public void us21_user_clicks_view_results() {
+        Driver.clickWithJS(staffEdit.apptViewResultsButton);
+    }
+    @Then("US21_user verifies test results are available")
+    public void us21_user_verifies_test_results_are_available() {
+      Assert.assertTrue(staffEdit.testResultsHeading.isDisplayed());
+    }
+    @Then("US21_user verifies ssn search box is displayed")
+    public void us21_user_verifies_ssn_search_box_is_displayed(){
+        Assert.assertTrue(staffEdit.ssnSearchBox.isDisplayed());
+    }
+    @Then("US21_user verifies edit page is opened")
+    public void us21_user_verifies_edit_page_is_opened(){
+    Assert.assertTrue(staffEdit.createEditTestResultHeading.isDisplayed());
+    }
+    @Then("US21_user clicks edit test results")
+    public void us21_user_clicks_edit_test_results(){
+Driver.clickWithJS(staffEdit.editTestResults);
+    }
+    @Then("US21_user can see test item and test")
+    public void us21_user_can_see_test_item_and_test(){
+        Driver.clickWithJS(staffEdit.testItemLabel);
+        staffEdit.testItemLabel.isDisplayed();
+      //  staffEdit.testLabel.isDisplayed();
+    }
+    @And("US21_user can edit result to number")
+    public void us21_user_can_edit_result(){
+        Driver.clickWithJS(staffEdit.resultBox);
+        staffEdit.resultBox.sendKeys("123");
+    }
+    @And("US21_user edits result to string")
+    public void us21_user_edits_result_to_string(){
+        Driver.clickWithJS(staffEdit.resultBox);
+        staffEdit.resultBox.sendKeys("abc");
+    }
+    @And("US21_user can edit test description")
+    public void us21_user_can_edit_test_description(){
+        staffEdit.testResultDescription.sendKeys("aa");
+    }
+    @Then("US21_clicks save and verifies it's not updated")
+    public void us21_user_clicks_save_and_verifies_its_not_updated(){
+        Driver.clickWithJS(staffEdit.saveButton);
+        Assert.assertTrue(staffEdit.testUpdatedErrorMessage.isDisplayed());
+    }
+    @Then("US21_user is able to view ID")
+    public void us21_user_is_able_to_view_ID(){
+        Assert.assertTrue(staffEdit.testResultID.isDisplayed());
+    }
+    @Then("US21_user is able to view date")
+    public void us21_user_is_able_to_view_date(){
+        Assert.assertTrue(staffEdit.testResultDate.isDisplayed());
+    }
+    @Then("US21_user is able to view created date")
+    public void us21_user_is_able_to_view_created_date(){
+        Assert.assertTrue(staffEdit.testResultCreatedDate.isDisplayed());
     }
 
 }

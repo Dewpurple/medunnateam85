@@ -1,3 +1,4 @@
+
 package stepdefinitions.uisteps;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -94,11 +95,13 @@ public class US_13RequestTestResultImpatientSteps {
     }
 //    @Then("US_13user  verifies success message is displayed")
 //    public void US_13user_verifies_success_message_contains_a_new_in_patient_is_created() throws IOException {
+
 //        String inpatientRequestSuccesMessage=  doctorPage_13_14.aNewInPatientIsCreatedWithIdentifierMessage.getText();
 //        Assert.assertTrue(inpatientRequestSuccesMessage.contains("created"));
 //        ReusableMethods.getScreenshot("Inpatient created Succes message");
 //
 //    }
+
 
 
     @Then("US_13user clicks on Sign out button")
@@ -113,3 +116,4 @@ public class US_13RequestTestResultImpatientSteps {
 
 
 }
+

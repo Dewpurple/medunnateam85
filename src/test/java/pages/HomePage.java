@@ -22,9 +22,9 @@ public class HomePage {//loginpage is included here
     public WebElement password;
     @FindBy(xpath = "//button[@type='submit']")
     public WebElement signInbutton;
-    @FindBy (xpath =  " //a[@class='d-flex align-items-center dropdown-toggle nav-link']")
+    @FindBy (xpath = "//li[@id='entity-menu']")
     public WebElement itemsTitles;
-    @FindBy (xpath = "//a[@class='dropdown-item active']")
+    @FindBy (xpath = "//a[@class='dropdown-item']")
     public WebElement patient;
     @FindBy (id = "entity-menu")
     public WebElement myPages;
@@ -34,5 +34,12 @@ public class HomePage {//loginpage is included here
     public WebElement loginRegisterButton;
     @FindBy(xpath = "//*[@id=\"account-menu\"]/a")
     public WebElement menuIcon;
+    @FindBy  (xpath = "//span[contains(text(),'Country')]")
+    public  WebElement countryButton;
+    @FindBy (xpath = "//a[@class='btn btn-primary float-right jh-create-entity']")
+    public WebElement createAnewCountryButton;
+    @FindBy (xpath = "//input[@id='country-name']")
+    public  WebElement nameofNewCountry;
+
 
 }

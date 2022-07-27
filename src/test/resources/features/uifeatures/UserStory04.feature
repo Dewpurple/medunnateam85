@@ -1,8 +1,8 @@
 @US04webpage
 Feature: Login for common users
 
-
-  @TC_00111111
+     @SmokeTest
+    @TC_00111111
   Scenario Outline: Happy scen1
 
     Given the doctor go to url
@@ -40,8 +40,8 @@ Feature: Login for common users
     And Verify success message
 
     Examples: happy scen data
-      |email_address     |invalid_password|
-      |doctor79@gmail.com|doctor4|
+      |username  |email_address     |invalid_password|
+      |doctor79  |doctor79@gmail.com|doctor4|
 
 
   @TC_0033333
@@ -73,6 +73,7 @@ Feature: Login for common users
     And click the Sign In button
     And Verify failed to sign in
     Then click cancel button
+#    Then click Register a new account
 
     Examples: neg scen data
       |invalid_username|invalid_password|

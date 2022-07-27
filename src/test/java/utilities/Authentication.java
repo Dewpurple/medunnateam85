@@ -1,5 +1,4 @@
 package utilities;
-import base_url.MedunnaBaseUrl;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
@@ -10,7 +9,7 @@ import static Hooks.Hooks.spec;
 import static io.restassured.RestAssured.given;
 
 
-public class Authentication extends MedunnaBaseUrl {
+public class Authentication  {
     public static String generateToken(){
 
         //setting the base url and path params

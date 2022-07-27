@@ -5,10 +5,12 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utilities.Driver;
 
-public class US002_RegistrationPage {
-    public void US_002_Registrationpage(){
+public class US_002_RegistrationPage {
+
+    public US_002_RegistrationPage(){
         PageFactory.initElements(Driver.getDriver(),this );
     }
+
     @FindBy(id = "register-title")
     public WebElement RegistrationTitle;
 
@@ -56,4 +58,6 @@ public class US002_RegistrationPage {
 
     @FindBy(xpath = "//div[@class=\"invalid-feedback\"]")
     public WebElement yourEmailIsRequiredMessage;
+
+
 }

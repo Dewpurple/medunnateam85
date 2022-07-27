@@ -1,20 +1,15 @@
 package stepdefinitions.apistepdefs;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
-import org.junit.Assert;
-import pojos.US_002_RegistrantPojo;
-import pojos.US_018_GetPhysiciansPojo;
 import utilities.ConfigurationReader;
 
 import java.io.IOException;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.hasItem;
-import static org.junit.Assert.*;
 import static utilities.Authentication.generateToken;
 
 public class US_018_ApiGetPhysicianSetpDefs {

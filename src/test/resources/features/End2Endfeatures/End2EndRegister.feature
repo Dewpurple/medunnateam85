@@ -27,3 +27,11 @@ Feature: Registration page UI test
     Given US_Registrant Api user sends a get request to get all registrants' data
     And US_Registrant Api user deserializes the response
     Then US_Registrant Api user saves the data to the files and verify data
+
+  @E2E_DB
+  Scenario Outline: US_018_TC_002_verify_patient_firstname
+    Then verify "physician" table "first_name" column contains "<name>" data
+    And US15_close the database connection
+    Examples: name
+      |name|
+      |001Team85|

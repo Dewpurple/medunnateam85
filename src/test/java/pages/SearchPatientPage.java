@@ -13,7 +13,7 @@ public class SearchPatientPage {
     public WebElement patientSSNSearch;
     @FindBy (xpath = "//a[@class='btn btn-primary btn-sm']")
     public WebElement patientSearchEditButton;
-    @FindBy (xpath = "//td[contains(text(),'1051')]")
+    @FindBy (xpath = "//td[contains(text(),'125359')]")
     public WebElement id;
     @FindBy (xpath = "//*[@id=\"app-view-container\"]/div/div/div/div[2]/div/table/tbody/tr/td[2]")
     public WebElement ssn;

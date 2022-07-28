@@ -16,9 +16,9 @@ public class HomePage {//loginpage is included here
     public WebElement loginDropDown;
     @FindBy(id =  "login-item")
     public WebElement loginSignInButton;
-    @FindBy(id = "username")
+    @FindBy(xpath = "//input[@name='username']")
     public WebElement username;
-    @FindBy(id = "password")
+    @FindBy(xpath = "//input[@name='password']")
     public WebElement password;
     @FindBy(xpath = "//button[@type='submit']")
     public WebElement signInbutton;
@@ -28,8 +28,10 @@ public class HomePage {//loginpage is included here
     public WebElement patient;
     @FindBy (id = "entity-menu")
     public WebElement myPages;
-    @FindBy (xpath = "(//a[@class='dropdown-item'])[1]")
+    @FindBy (xpath = "(//a[@role='menuitem']")
     public WebElement searchPatient;
+    @FindBy (xpath = "//span[contains(text(),'Search Patient')]")
+    public  WebElement searchPatient2;
     @FindBy(xpath = "//*[@id=\"account-menu\"]/div/a[2]/span")
     public WebElement loginRegisterButton;
     @FindBy(xpath = "//*[@id=\"account-menu\"]/a")

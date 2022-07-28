@@ -1,7 +1,6 @@
 Feature:
   Scenario:
     And user navitages to Medunna url US009
-    And Admin navigates to the sign in page US009
     And user signs in as admin US009
     And user clicks on My Pageas US009
     And user clicks on Patient icon. US009

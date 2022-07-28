@@ -1,5 +1,6 @@
 
 Feature: US_009
+  @smoke @regression
   Scenario: US_09_007
     Given user navitages to Medunna url US009
     And user signs in as Staff US009

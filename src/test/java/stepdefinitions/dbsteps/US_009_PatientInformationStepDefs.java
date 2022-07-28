@@ -15,8 +15,8 @@ public class US_009_PatientInformationStepDefs {
         DBUtils.createConnection();
     }
 
-    @Given("user gets the {string} from {string} table where {string} equals {string}")
-    public void user_gets_the_from_table_where_equals(String column, String table, String key, String id) throws InterruptedException, SQLException {
+    @Given("user gets the {string} from {string} table where {string} equals {string} for id")
+    public void user_gets_the_from_table_where_equals_for_id(String column, String table, String key, String id) throws InterruptedException, SQLException {
         List <Object> allColumnData = DBUtils.getColumnData("Select * from " + table + " where " + key+"="+id, "first_name" );
         System.out.println(allColumnData);
         System.out.println("======");
@@ -27,10 +27,63 @@ public class US_009_PatientInformationStepDefs {
 
     }
 
-    @Given("user enters expected data and performs assertion")
-    public void user_enters_expected_data_and_performs_assertion() {
+    @Given("user gets the {string} from {string} table where {string} equals {string} for firstname")
+    public void user_gets_the_from_table_where_equals_for_firstname(String column, String table, String key, String id) {
+        List <Object> allColumnData = DBUtils.getColumnData("Select * from " + table + " where " + key+"="+id, "first_name" );
+        System.out.println(allColumnData);
+        System.out.println("======");
+        List <Object> expecteddata = new ArrayList<>();
+        expecteddata.add("Vusal");
+        System.out.println(expecteddata);
+        Assert.assertEquals(allColumnData,expecteddata);
 
     }
+    @Given("user gets the {string} from {string} table where {string} equals {string} for last name")
+    public void user_gets_the_from_table_where_equals_for_last_name(String column, String table, String key, String id) {
+        List <Object> allColumnData = DBUtils.getColumnData("Select * from " + table + " where " + key+"="+id, "last_name" );
+        System.out.println(allColumnData);
+        System.out.println("======");
+        List <Object> expecteddata = new ArrayList<>();
+        expecteddata.add("Gasimov");
+        System.out.println(expecteddata);
+        Assert.assertEquals(allColumnData,expecteddata);
+
+    }
+    @Given("user gets the {string} from {string} table where {string} equals {string} for email")
+    public void user_gets_the_from_table_where_equals_for_email(String column, String table, String key, String id) {
+        List <Object> allColumnData = DBUtils.getColumnData("Select * from " + table + " where " + key+"="+id, "email" );
+        System.out.println(allColumnData);
+        System.out.println("======");
+        List <Object> expecteddata = new ArrayList<>();
+        expecteddata.add("vusal@gmail.com");
+        System.out.println(expecteddata);
+        Assert.assertEquals(allColumnData,expecteddata);
+
+    }
+    @Given("user gets the {string} from {string} table where {string} equals {string} for lang_key")
+    public void user_gets_the_from_table_where_equals_for_lang_key(String column, String table, String key, String id) {
+        List <Object> allColumnData = DBUtils.getColumnData("Select * from " + table + " where " + key+"="+id, "lang_key" );
+        System.out.println(allColumnData);
+        System.out.println("======");
+        List <Object> expecteddata = new ArrayList<>();
+        expecteddata.add("en");
+        System.out.println(expecteddata);
+        Assert.assertEquals(allColumnData,expecteddata);
+
+    }
+    @Given("user gets the {string} from {string} table where {string} equals {string} for ssn")
+    public void user_gets_the_from_table_where_equals_for_ssn(String column, String table, String key, String id) {
+        List <Object> allColumnData = DBUtils.getColumnData("Select * from " + table + " where " + key+"="+id, "ssn" );
+        System.out.println(allColumnData);
+        System.out.println("======");
+        List <Object> expecteddata = new ArrayList<>();
+        expecteddata.add("123-43-2343");
+        System.out.println(expecteddata);
+        Assert.assertEquals(allColumnData,expecteddata);
+
+    }
+
+
 //    @Given("user gets the {string} from {string} table")
 //    public void user_gets_the_from_table(String column, String table) {
 //    String myDynamicQuery = "Select " + column + " from " + table;

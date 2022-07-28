@@ -40,6 +40,8 @@ public class HomePage {//loginpage is included here
     public WebElement createAnewCountryButton;
     @FindBy (xpath = "//input[@id='country-name']")
     public  WebElement nameofNewCountry;
+    @FindBy (xpath =  "//button[@type='submit']")
+    public WebElement saveButtonForCountry;
 
 
 }

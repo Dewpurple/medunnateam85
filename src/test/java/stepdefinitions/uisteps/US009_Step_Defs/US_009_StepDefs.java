@@ -147,6 +147,8 @@ public class US_009_StepDefs   {
 
   @Given("user signs in as admin US009")
   public void user_signs_in_as_admin_US009() {
+    Driver.waitAndClick(homePage.loginDropDown);
+    Driver.waitAndClick(homePage.loginSignInButton);
     Driver.waitAndSendText(homePage.username,ConfigurationReader.getProperty("adminusername2"));
     Driver.waitAndSendText(homePage.password,ConfigurationReader.getProperty("adminpw2"));
     Driver.waitAndClick(homePage.signInbutton);

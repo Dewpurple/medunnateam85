@@ -2,7 +2,7 @@
 
 Feature: US16_Room creation by Admin and admin can View, Update or Delete the room creation.
 
-  @SmokeTest_US16
+
     @General_US16
   Scenario Outline: US16 Admin
     Given US16-1 go to medunna URL and admin click sign in for OPEN MEDUNNA PAGE

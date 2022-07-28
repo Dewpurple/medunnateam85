@@ -214,9 +214,6 @@ public class WriteToTxt {
 
     }
 
-
-  //---------------------
-
     public static void saveUS19_API_StaffData(US19_API_Staff_Pojo[] userRequest) {
 
 
@@ -240,5 +237,21 @@ public class WriteToTxt {
 
     }
 
+    public static void saveUserData(String fileName, US001_T01[] us001_t01){
+        try{
+            BufferedWriter writer =new BufferedWriter(new FileWriter(fileName,true));
+            for (int i=0; i< us001_t01.length; i++){
+                writer.append(us001_t01[i].getFirstName() + ",\n");
+                writer.append(us001_t01[i].getLastName() + ",\n");
+                writer.append(us001_t01[i].getSsn() + ",\n");
+                writer.append(us001_t01[i].getEmail() + ",\n");
+                writer.append("--------------------------" + ",\n");
+
+            }
+            writer.close();
+        }catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 
 }

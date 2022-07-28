@@ -7,11 +7,11 @@ import pages.US19_Pages.US_19_pages2;
 import pages.US19_Pages.US_19_pages3;
 import pages.US19_Pages.US_19_pages4;
 import pages.US19_Pages.US_19_pages5;
-import pages.UStory_04_Pages1;
+import pages.US04_Pages.UStory_04_Pages1;
 import utilities.ConfigurationReader;
 import utilities.Driver;
 
-public class US_19_stepDefs {
+public class US19_stepDefs {
 
 
     UStory_04_Pages1 uStory_04_pages1 = new UStory_04_Pages1();

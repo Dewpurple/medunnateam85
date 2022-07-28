@@ -77,9 +77,9 @@ public void user_saves_the_data_to_the_files_and_validates() {
 
         List<String> actual = ReadText.readUserInformationList(fileName);
         Assert.assertTrue("SSN mismatch", actual.contains("839-97-7135"));
-        Assert.assertTrue("SSN mismatch", actual.contains("Kimi"));
-        Assert.assertTrue("SSN mismatch", actual.contains("Koepps"));
-        Assert.assertTrue("SSN mismatch", actual.contains("williemae.considine@hotmail.coms"));
+        Assert.assertTrue("FirstName mismatch", actual.contains("Kimi"));
+        Assert.assertTrue("LastName mismatch", actual.contains("Koepps"));
+        Assert.assertTrue("Email mismatch", actual.contains("williemae.considine@hotmail.coms"));
 
 
         }

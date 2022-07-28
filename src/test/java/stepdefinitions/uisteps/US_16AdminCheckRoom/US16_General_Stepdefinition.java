@@ -1,4 +1,4 @@
-package stepdefinitions.uisteps;
+package stepdefinitions.uisteps.US_16AdminCheckRoom;
 
 import com.github.javafaker.Faker;
 import io.cucumber.java.en.And;

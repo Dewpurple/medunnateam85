@@ -5,10 +5,14 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import org.junit.Assert;
 import pages.*;
+import pages.US04_Pages.UStory_04_Pages1;
+import pages.US04_Pages.UStory_04_Pages2;
+import pages.US04_Pages.UStory_04_Pages3;
+import pages.US04_Pages.UStory_04_Pages4;
 import utilities.ConfigurationReader;
 import utilities.Driver;
 
-public class UserStory_11_04_StepDefs {
+public class US04_US11_StepDefs {
 
 
     UStory_04_Pages1 uStory_04_pages1 = new UStory_04_Pages1();

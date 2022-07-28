@@ -11,20 +11,20 @@
       @smoke
       @valid_username_email
          Scenario: TC01_username_email_validation
-         And user enters a valid username
-         And user enters a valid email
-         And user enters new password and password confirmation
-         And user clicks on register button for registration
-         Then user verifies that registration saved message is displayed
-         And user saves the records into a file
-         And user clicks on home button
-         And user verifies to land to homepage successfully
+         And user enters a valid username US002
+         And user enters a valid email US002
+         And user enters new password and password confirmation US002
+         And user clicks on register button for registration US002
+         Then user verifies that registration saved message is displayed US002
+         And user saves the records into a file US002
+         And user clicks on home button US002
+         And user verifies to land to homepage successfully US002
          And user closes the browser
 
       @blank_username
       Scenario: TC02_blank_username
-         And user enters a valid email
-         And user enters new password and password confirmation
+         And user enters a valid email US002
+         And user enters new password and password confirmation US002
          Then user clicks Register button for registration US002
          And user verifies Your username is required message US002
          When user enters valid username US002

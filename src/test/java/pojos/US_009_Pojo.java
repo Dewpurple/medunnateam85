@@ -20,7 +20,43 @@ public class US_009_Pojo {
     private String craetedBy;
     private String lastModifiedBy;
     private String lastModifiedDate;
-    private List authorities;
+    private String authorities;
+
+    public US_009_Pojo(int id, String login, String firstname, String lastname, String ssn, String email, String imageURL, boolean activated, String langKey, String craetedBy, String lastModifiedBy, String lastModifiedDate, String authorities) {
+        this.id = id;
+        this.login = login;
+        this.firstname = firstname;
+        this.lastname = lastname;
+        this.ssn = ssn;
+        this.email = email;
+        this.imageURL = imageURL;
+        this.activated = activated;
+        this.langKey = langKey;
+        this.craetedBy = craetedBy;
+        this.lastModifiedBy = lastModifiedBy;
+        this.lastModifiedDate = lastModifiedDate;
+        this.authorities = authorities;
+    }
+
+    @Override
+    public String toString() {
+        return "US_009_Pojo{" +
+                "id=" + id +
+                ", login='" + login + '\'' +
+                ", firstname='" + firstname + '\'' +
+                ", lastname='" + lastname + '\'' +
+                ", ssn='" + ssn + '\'' +
+                ", email='" + email + '\'' +
+                ", imageURL='" + imageURL + '\'' +
+                ", activated=" + activated +
+                ", langKey='" + langKey + '\'' +
+                ", craetedBy='" + craetedBy + '\'' +
+                ", lastModifiedBy='" + lastModifiedBy + '\'' +
+                ", lastModifiedDate='" + lastModifiedDate + '\'' +
+                ", authorities='" + authorities + '\'' +
+                '}';
+    }
+
 
     public int getId() {
         return id;
@@ -118,46 +154,14 @@ public class US_009_Pojo {
         this.lastModifiedDate = lastModifiedDate;
     }
 
-    public List getAuthorities() {
+    public String getAuthorities() {
         return authorities;
     }
 
-    public void setAuthorities(List authorities) {
-        this.authorities = authorities;
-    }
-
-    @Override
-    public String toString() {
-        return "US_009_Pojo{" +
-                "id=" + id +
-                ", login='" + login + '\'' +
-                ", firstname='" + firstname + '\'' +
-                ", lastname='" + lastname + '\'' +
-                ", ssn='" + ssn + '\'' +
-                ", email='" + email + '\'' +
-                ", imageURL='" + imageURL + '\'' +
-                ", activated=" + activated +
-                ", langKey='" + langKey + '\'' +
-                ", craetedBy='" + craetedBy + '\'' +
-                ", lastModifiedBy='" + lastModifiedBy + '\'' +
-                ", lastModifiedDate='" + lastModifiedDate + '\'' +
-                ", authorities=" + authorities +
-                '}';
-    }
-
-    public US_009_Pojo(int id, String login, String firstname, String lastname, String ssn, String email, String imageURL, boolean activated, String langKey, String craetedBy, String lastModifiedBy, String lastModifiedDate, List authorities) {
-        this.id = id;
-        this.login = login;
-        this.firstname = firstname;
-        this.lastname = lastname;
-        this.ssn = ssn;
-        this.email = email;
-        this.imageURL = imageURL;
-        this.activated = activated;
-        this.langKey = langKey;
-        this.craetedBy = craetedBy;
-        this.lastModifiedBy = lastModifiedBy;
-        this.lastModifiedDate = lastModifiedDate;
+    public void setAuthorities(String authorities) {
         this.authorities = authorities;
     }
 }
+
+
+

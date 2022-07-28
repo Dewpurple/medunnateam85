@@ -10,8 +10,6 @@ import org.openqa.selenium.TakesScreenshot;
 import utilities.ConfigurationReader;
 import utilities.Driver;
 
-//mport static base_url.MedunnaBaseUrl.medunnaSetup;
-
 public class Hooks {
     public  static RequestSpecification spec;
 
@@ -34,10 +32,18 @@ public class Hooks {
     }
     @Before(value="@Api")
     public void baseUrlSetup(){
-        spec= new RequestSpecBuilder().setBaseUri(ConfigurationReader.getProperty("medunna_url")).build();
+        spec= new RequestSpecBuilder().setBaseUri(ConfigurationReader.getProperty("medunna_login_url")).build();
     }
-    @Before(value="@appointments")
-    public void beforeApi(){
-        //medunnaSetup();
-    }
+
+
+
+//    @Before(value="@appointments")
+//    public void beforeApi(){
+//        medunnaSetup();
+//    }
+
+
+
+
+
 }

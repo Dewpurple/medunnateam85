@@ -41,7 +41,7 @@ public class UStory_011_pages {
     @FindBy(xpath = "//*[@id=\"appointment-heading\"]")
     public WebElement verifytitle;
 
-    @FindBy(xpath = "//*[@id=\"app-view-container\"]/div/div/div/div/div/table/tbody/tr[3]/td[13]/div/a/span/span")
+    @FindBy(xpath = "//*[@id=\"app-view-container\"]/div/div/div/div/div/table/tbody/tr[1]/td[13]/div/a/span/span")
     public WebElement editbutton;
 
     @FindBy(xpath = "//*[@id=\"hospitalmsappfrontendApp.appointment.home.createOrEditLabel\"]/span")

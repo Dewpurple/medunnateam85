@@ -14,6 +14,7 @@ public class US_015_DB_Patients {
     public void user_connects_to_database() {
         DBUtils.createConnection();
     }
+
     @Given("US15_user gets the {string} data from {string} table")
     public void user_gets_the_from_table(String column, String table) {
         String query = "Select "+column+" from "+table+"";

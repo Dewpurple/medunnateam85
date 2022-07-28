@@ -1,5 +1,7 @@
 package utilities;
 
+import pojos.us002pojo.US_002_RegistrantPojo;
+
 import java.io.*;
 import java.util.Map;
 

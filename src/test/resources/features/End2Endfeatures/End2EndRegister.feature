@@ -19,7 +19,7 @@ Feature: Registration page UI test
 
   @Api_RegisterAll
   @Api
-  Feature: Registrant_data_api_test
+
 
 
   @GetApiRegistrants2

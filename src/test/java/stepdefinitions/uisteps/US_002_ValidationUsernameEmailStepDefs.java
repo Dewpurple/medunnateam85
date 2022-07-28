@@ -14,7 +14,7 @@ import utilities.ConfigurationReader;
 import utilities.Driver;
 import utilities.ReusableMethods;
 
-import static utilities.US_002_TXTWriter.saveUIRegistrantData;
+
 
 public class US_002_ValidationUsernameEmailStepDefs {
 
@@ -35,12 +35,12 @@ public class US_002_ValidationUsernameEmailStepDefs {
 
         }
     }
-    @When("user  clicks  to icon on top right corner US002")
+    @When("user clicks on icon on top right corner US002")
     public void user_clicks_to_icon_on_top_right_corner_US002() {
         homePage002.icon.click();
 
     }
-    @When("user clicks on Register button US002")
+    @When("user clicks on register button US002")
     public void user_clicks_on_register_button_US002() {
         homePage002.registerButton.click();
     }

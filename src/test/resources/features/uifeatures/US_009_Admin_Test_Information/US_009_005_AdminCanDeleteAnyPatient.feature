@@ -1,7 +1,7 @@
 Feature: US_009
+  @smoke @regression
   Scenario: US_09_006
     Given user navitages to Medunna url US009
-    And Admin navigates to the sign in page US009
     And user signs in as admin US009
     And user clicks items &And Titles Page US009
     And Admin clicks on Patient icon. US009

@@ -4,5 +4,5 @@ Feature: appointments test with api
 
     Given as a user, I generate the token US028
     And user makes appointment data request US028
-
+    Then close the database connection 007
 

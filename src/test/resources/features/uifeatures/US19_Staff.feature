@@ -1,8 +1,8 @@
-@US19-Stuff @SmokeTest
+@US19-Stuff
 Feature: US19-Stuff
 
 
-  @TC_00001
+  @TC_00001 @smoke  @regression
   Scenario Outline: US19_UI test1
 
     Given the admin19 go to url
@@ -18,7 +18,7 @@ Feature: US19-Stuff
       |vusalgasimov| vusalgasimov |
 
 
-  @TC_00002
+  @TC_00002 @regression
   Scenario Outline: US19_UI test2
 
 #    Given the admin19 go to url
@@ -45,7 +45,7 @@ Feature: US19-Stuff
 
 
 
-  @US19_TC_00003
+  @US19_TC_00003 @regression
   Scenario Outline: US19_UI test3
 
 #      Given the admin19 go to url

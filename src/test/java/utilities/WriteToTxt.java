@@ -214,13 +214,28 @@ public class WriteToTxt {
 
     }
 
+    public static void saveUS19_API_StaffData(US19_API_Staff_Pojo[] userRequest) {
 
 
+        try {
+
+            FileWriter fileWriter = new FileWriter(ConfigurationReader.getProperty("api_US19_medunna_url"), true);
+
+            BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
+
+            for(int i=0; i<userRequest.length; i++ ) {
+
+                bufferedWriter.append(userRequest.toString() + "\n");
+            }
+            bufferedWriter.close();
 
 
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 
 
-
+    }
 
     public static void saveUserData(String fileName, US001_T01[] us001_t01){
         try{

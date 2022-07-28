@@ -18,6 +18,7 @@ public class Authentication  {
         String endpoint="https://medunna.com//api/authenticate";
 
 
+
         Map<String, Object> expectedData = new HashMap<>();
         expectedData.put("password", "vusalgasimov");
         expectedData.put("rememberMe", "true");
@@ -25,6 +26,8 @@ public class Authentication  {
         //setting the request body and getting the response
        // Response response = given().spec(spec).contentType(ContentType.JSON).body(expectedData).when().post(endpoint);
         Response response = given().contentType(ContentType.JSON).body(expectedData).when().post(endpoint);
+
+
        // response.prettyPrint();
         JsonPath json = response.jsonPath();
         return json.getString("id_token");

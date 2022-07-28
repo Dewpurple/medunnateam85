@@ -8,7 +8,8 @@ import pages.HomePage;
 import pages.US002_uipages.AdminHomePage;
 import pages.US002_uipages.HomePage002;
 import pages.US002_uipages.US_002_RegistrationPage;
-import pojos.US_002_RegistrantPojo;
+
+import pojos.us002pojo.US_002_RegistrantPojo;
 import utilities.ConfigurationReader;
 import utilities.Driver;
 import utilities.ReusableMethods;

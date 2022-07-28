@@ -18,7 +18,7 @@ import org.junit.runner.RunWith;
 
 
 
-        tags = "@US19_api_staff",
+        tags = "@US018_TC001",
 
 
 

@@ -80,4 +80,16 @@ public class US_020_User_Management_StepDefs {
         Driver.clickWithJS(ReusableMethods.waitForVisibility(us_020_user_page.saveButton, 5));
         Assert.assertTrue(ReusableMethods.waitForVisibility(us_020_user_page.successMessage, 5).isDisplayed());
     }
+
+
+    @And("Admin20 deletes the user")
+    public void adminDeletesTheUser() throws InterruptedException {
+        Thread.sleep(3000);
+        Driver.clickWithJS(ReusableMethods.waitForVisibility(us_020_user_page.idButton,5));
+        Thread.sleep(3000);
+        Driver.clickWithJS(ReusableMethods.waitForVisibility(us_020_user_page.deleteButton,5));
+        Driver.clickWithJS(ReusableMethods.waitForVisibility(us_020_user_page.deleteConfirmButton, 5));
+
+        Assert.assertTrue(ReusableMethods.waitForVisibility(us_020_user_page.userDeletedMessage, 5).isDisplayed());
+    }
 }

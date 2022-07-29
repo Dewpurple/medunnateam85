@@ -83,7 +83,7 @@ public class US_009_StepDefs   {
     }
 
   @Given("user signs in as Staff US009")
-  public void user_signs_in_as_staff_US009() {
+  public void user_signs_in_as_staff_US009() throws InterruptedException {
     Driver.waitAndClick(homePage.loginDropDown);
     Driver.waitAndClick(homePage.loginSignInButton);
     Driver.waitAndSendText(homePage.username,ConfigurationReader.getProperty("staffusername"));
@@ -101,8 +101,9 @@ public class US_009_StepDefs   {
   Driver.waitAndClick(homePage.myPages);
   }
   @Given("user clicks on Patient icon. US009")
-  public void user_clicks_on_patient_icon_US009() {
+  public void user_clicks_on_patient_icon_US009() throws InterruptedException {
   Driver.waitAndClick(homePage.searchPatient);
+  Driver.waitAndClick(homePage.searchPatient2);
   }
   @Given("user clicks Search Patient Icon US009")
   public void user_clicks_search_patient_icon_US009() {
@@ -147,6 +148,8 @@ public class US_009_StepDefs   {
 
   @Given("user signs in as admin US009")
   public void user_signs_in_as_admin_US009() {
+    Driver.waitAndClick(homePage.loginDropDown);
+    Driver.waitAndClick(homePage.loginSignInButton);
     Driver.waitAndSendText(homePage.username,ConfigurationReader.getProperty("adminusername2"));
     Driver.waitAndSendText(homePage.password,ConfigurationReader.getProperty("adminpw2"));
     Driver.waitAndClick(homePage.signInbutton);

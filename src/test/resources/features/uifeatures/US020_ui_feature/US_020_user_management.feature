@@ -27,16 +27,6 @@ Feature: user_registration
 
   @delete_user
   Scenario: TC_04_deleting_a_user
-    Given user is on the registration page
-    Given user enters a valid SSN number as "ssn"
-    And user enters a valid first name as "firstname"
-    And user enters a valid last name as "lastname"
-    And user enters an username as "username"
-    And user enters a valid email address as "email"
-    And user enters a new password as "password" and confirm password as "password"
-    And user clicks on the register button
-    Then user should see the registration success message
-    Then close the browser
     Given Admin20 navigates to medunna login page
     Then Admin20 signs in
     And Admin20 clicks on Administrations then clicks on User Management

@@ -11,7 +11,7 @@ import utilities.ReusableMethods;
 
 import java.io.IOException;
 
-public class US_001_Ssn {
+public class US01_Ssn {
 
     RegistrationPage us001 = new RegistrationPage();
 

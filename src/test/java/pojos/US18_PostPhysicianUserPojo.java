@@ -3,16 +3,16 @@ package pojos;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class US_018_PostPhysicianUserPojo {
+public class US18_PostPhysicianUserPojo {
 
     private boolean activated;
     private String login;
     private String ssn;
 
-    public US_018_PostPhysicianUserPojo() {
+    public US18_PostPhysicianUserPojo() {
     }
 
-    public US_018_PostPhysicianUserPojo(boolean activated, String login, String ssn) {
+    public US18_PostPhysicianUserPojo(boolean activated, String login, String ssn) {
         this.activated = activated;
         this.login = login;
         this.ssn = ssn;

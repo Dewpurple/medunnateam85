@@ -1,4 +1,4 @@
-@US018
+@US018 @regression
 Feature: update_physicians
 
   Background: user is on the home page US_015
@@ -10,6 +10,7 @@ Feature: update_physicians
     And user clicks on Items&Titles button US_015
     Then user 18 clicks on physician
 
+  @smoke
   @US018_TC001
   Scenario: User searches physician with valid ssn
     When user 18 clicks on Create a new Physician

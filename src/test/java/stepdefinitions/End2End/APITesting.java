@@ -31,4 +31,3 @@ public class APITesting {
             response.then().assertThat().body("firstName", hasItem("team83"));
         }
     }
-

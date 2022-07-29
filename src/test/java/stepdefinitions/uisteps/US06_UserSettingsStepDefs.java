@@ -8,7 +8,7 @@ import pages.UserSettingsPage;
 import utilities.ConfigurationReader;
 import utilities.Driver;
 
-public class US6_UserSettingsStepDefs {
+public class US06_UserSettingsStepDefs {
 
     HomePage homePage = new HomePage();
     UserPage userPage=new UserPage();

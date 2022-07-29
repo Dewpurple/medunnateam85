@@ -13,7 +13,7 @@ import utilities.ConfigurationReader;
 import utilities.Driver;
 import utilities.ReusableMethods;
 
-public class US_010_AppointmentsListStepDefs {
+public class US10_AppointmentsListStepDefs {
     DoctorPage doctorPage = new DoctorPage();
     LoginPage loginPage = new LoginPage();
     AdminHomePage adminHomePage = new AdminHomePage();

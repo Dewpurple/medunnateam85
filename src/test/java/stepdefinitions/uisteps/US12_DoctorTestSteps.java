@@ -11,7 +11,7 @@ import pages.HomePage;
 import utilities.ConfigurationReader;
 import utilities.Driver;
 
-public class US_012DoctorTestSteps {
+public class US12_DoctorTestSteps {
     HomePage homePage = new HomePage();
     DoctorPage doctorPage = new DoctorPage();
     JavascriptExecutor js = new JavascriptExecutor() {

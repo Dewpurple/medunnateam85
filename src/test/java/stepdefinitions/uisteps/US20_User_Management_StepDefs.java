@@ -13,7 +13,7 @@ import utilities.ConfigurationReader;
 import utilities.Driver;
 import utilities.ReusableMethods;
 
-public class US_020_User_Management_StepDefs {
+public class US20_User_Management_StepDefs {
     LoginPage loginPage = new LoginPage();
     US_020_User_Page us_020_user_page = new US_020_User_Page();
 

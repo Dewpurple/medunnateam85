@@ -10,7 +10,7 @@ import pages.HomePage;
 import pojos.TestItem;
 import utilities.ConfigurationReader;
 import utilities.Driver;
-public class US_17AdminCreateTestItemsStepDefs {
+public class US17_AdminCreateTestItemsStepDefs {
 
     AdminTestItemPage adminTestItemPage=new AdminTestItemPage();
     HomePage homePage=new HomePage();

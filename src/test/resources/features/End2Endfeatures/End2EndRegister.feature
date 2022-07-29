@@ -1,5 +1,6 @@
 @E2E_Testing
 Feature: Registration page UI test
+
   @EC2_UI_Scenario1
   Scenario Outline: UI test for registration page Scenario1
     Given user is on the home page US_015
@@ -17,18 +18,22 @@ Feature: Registration page UI test
     And go to last page and click edit the newly created physician
     And activate the user, assign physician role to user, and click save
     Then close the application US_015
+
     Examples: test data for UI
       | SSN              | FirstName       | LastName         | UserName         | email                  |password   | password Confirm |
       | 745-12-1257      | Team85Shebnem   | NewPhysician     | Team85new02 |team85mew02@gmail.com |Team8585#$ | Team8585#$       |
   @EC2_API_Scenario1
     @Api
+
   Scenario Outline: TC07_username_validation_unique_api
     Given user sends a get request for users data us018
     Then Status code should be 200 us018
     And "<username>" should be validated by api us018
+
     Examples: username_validation
       |username|
       |Team85Shebnem|
+
   @EC2_DB_Scenario1
   Scenario Outline: verify that new physician that was created in UI exists in DB Scenario1
     Given US15_user connects to database
@@ -37,11 +42,13 @@ Feature: Registration page UI test
     Examples: name
       |name|
       |Team85Shebnem|
+
   @EC2_API_Scenario2
   @Api
   Scenario: TC07_username_validation_unique_api
     Given user sends post request to create new physician e2e
     Then Status code should be 201 e2e
+
   @E2E_UI_Scenario2
   Scenario: verify that new physician that was created in API exists in UI
     Given user is on the home page US_015
@@ -56,6 +63,7 @@ Feature: Registration page UI test
     And user 18 clicks on Use Search and Search User button
     And user 18 validates User found with search SSN message appears on the screen
     Then close the application US_015
+
   @E2E_DB_Scenario2
   Scenario Outline: verify that new physician that was created in API exists in DB
     Given US15_user connects to database

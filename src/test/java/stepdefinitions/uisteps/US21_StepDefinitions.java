@@ -59,8 +59,8 @@ public class US21_StepDefinitions {
 
     @When("US21_user changes date to ten days later")
     public void us21_user_changes_date_to_days_later() {
-        Driver.waitAndSendText(staffEdit.startDateTextBox, "0924" + Keys.TAB + Keys.TAB + Keys.TAB + Keys.TAB);
-        staffEdit.endDateTextBox.sendKeys("0924");
+        Driver.waitAndSendText(staffEdit.startDateTextBox, "1224" + Keys.TAB + Keys.TAB + Keys.TAB + Keys.TAB);
+        staffEdit.endDateTextBox.sendKeys("1224");
     }
     @Then("US21_clicks save and verifies it's updated")
     public void us21_clicks_save_and_verifies_it_s_updated() {

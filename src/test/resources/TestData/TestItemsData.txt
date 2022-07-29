@@ -1,0 +1,21 @@
+TestItem{createdBy='BernaAdmin', createdDate='23/07/22 17:22 AM', defaultValMax='120', defaultValMin='50', description='mg/dl', id=22523, name='Sodium', price='29'}
+TestItem{createdBy='vusalgasimov', createdDate='27/07/22 17:29 PM', defaultValMax='120', defaultValMin='50', description='mg/dl', id=268923, name='Cholesterol', price='39'}
+TestItem{createdBy='vusalgasimov', createdDate='27/07/22 17:29 PM', defaultValMax='120', defaultValMin='50', description='mg/dl', id=0, name='Cholesterol', price='39'}
+TestItem{createdBy='vusalgasimov', createdDate='27/07/22 17:29 PM', defaultValMax='120', defaultValMin='50', description='mg/dl', id=288923, name='Cholesterol', price='39'}
+TestItem{createdBy='vusalgasimov', createdDate='27/07/22 17:29 PM', defaultValMax='120', defaultValMin='50', description='mg/dl', id=288923, name='Cholesterol', price='39'}
+TestItem{createdBy='vusalgasimov', createdDate='27/07/22 17:29 PM', defaultValMax='120', defaultValMin='50', description='mg/dl', id=2845923, name='Cholesterol', price='39'}
+TestItem{createdBy='vusalgasimov', createdDate='27/07/22 17:29 PM', defaultValMax='120', defaultValMin='50', description='mg/dl', id=2845923, name='Cholesterol', price='39'}
+TestItem{createdBy='vusalgasimov', createdDate='27/07/22 17:29 PM', defaultValMax='120', defaultValMin='50', description='mg/dl', id=2845923, name='Cholesterol', price='39'}
+TestItem{createdBy='vusalgasimov', createdDate='27/07/22 17:29 PM', defaultValMax='120', defaultValMin='50', description='mg/dl', id=2845923, name='Cholesterol', price='39'}
+TestItem{createdBy='vusalgasimov', createdDate='27/07/22 17:29 PM', defaultValMax='120', defaultValMin='50', description='mg/dl', id=2845923, name='Cholesterol', price='39'}
+TestItem{createdBy='vusalgasimov', createdDate='null', defaultValMax='120', defaultValMin='50', description='mg/dl', id=2845923, name='Cholesterol', price='39'}
+TestItem{createdBy='vusalgasimov', createdDate='null', defaultValMax='120', defaultValMin='50', description='mg/dl', id=2822923, name='Cholesterol', price='39'}
+TestItem{createdBy='vusalgasimov', createdDate='null', defaultValMax='120', defaultValMin='50', description='mg/dl', id=0, name='Cholesterol', price='39'}
+TestItem{createdBy='vusalgasimov', createdDate='null', defaultValMax='100', defaultValMin='50', description='mg/dl', id=0, name='Fe', price='49'}
+TestItem{createdBy='vusalgasimov', createdDate='', defaultValMax='120', defaultValMin='50', description='mg/dl', id=0, name='ttt', price='39'}
+TestItem{createdBy='vusalgasimov', createdDate='', defaultValMax='120', defaultValMin='50', description='mg/dl', id=0, name='ttt', price='39'}
+TestItem{createdBy='vusalgasimov', createdDate='', defaultValMax='120', defaultValMin='50', description='mg/dl', id=0, name='ferrumm', price='39'}
+TestItem{createdBy='vusalgasimov', createdDate='', defaultValMax='120', defaultValMin='50', description='mg/dl', id=0, name='ferrumm', price='39'}
+TestItem{createdBy='vusalgasimov', createdDate='', defaultValMax='120', defaultValMin='50', description='mg/dl', id=0, name='ferrumm', price='39'}
+TestItem{createdBy='vusalgasimov', createdDate='', defaultValMax='120', defaultValMin='50', description='mg/dl', id=0, name='ferrumm', price='39'}
+TestItem{createdBy='vusalgasimov', createdDate='', defaultValMax='120', defaultValMin='50', description='mg/dl', id=0, name='ferrumm', price='39'}

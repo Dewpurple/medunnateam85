@@ -23,7 +23,7 @@ import org.junit.runner.RunWith;
 
 
 
-        tags = "@E2E_Testing"
+        tags = "@regression"
 
 
        //tags=" @patientsbyadmin",

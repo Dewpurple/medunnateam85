@@ -13,6 +13,10 @@ import utilities.Driver;
             PageFactory.initElements(Driver.getDriver(), this);}
 
 
+
+        @FindBy(xpath = "//*[@id=\"login-item\"]/span")
+        public WebElement signinbutton2;
+
         @FindBy(xpath = "//*[@id=\"entity-menu\"]")
         public WebElement itemtitles;
 

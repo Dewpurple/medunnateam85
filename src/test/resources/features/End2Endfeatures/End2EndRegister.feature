@@ -1,4 +1,8 @@
+
+
+
 @E2E_Testing
+
 Feature: Registration page UI test
 
   @EC2_UI_Scenario1

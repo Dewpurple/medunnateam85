@@ -1,0 +1,1 @@
+US16_Room{createdBy='null', createdDate='2022-08-29T22:19:45.180Z', description='Merhaba Shebnem hanim', price=600, roomNumber=483723, roomType='TWIN', status=true, id=}

@@ -33,7 +33,6 @@ public class US7ApiStepDefs {
     Faker faker = new Faker();
 
 
-
     @Given("US7_user generates token")
     public void US7_user_generates_token() {
         token = generateToken();
@@ -45,8 +44,9 @@ public class US7ApiStepDefs {
         ObjectMapper obj = new ObjectMapper();
         appointment1 = obj.readValue(response.asString(), Appointment1.class);
 
-    //    System.out.println("size of elements: " + appointments.length);
+        //    System.out.println("size of elements: " + appointments.length);
     }
+
     @Then("US7_user enters the expected data {string} {string} {string} {string} {string} {string}")
     public void us7_user_enters_the_expected_data(String firstname, String lastname, String ssn, String email, String phoneNumber, String futuredate) {
         firstname = faker.name().firstName();
@@ -58,7 +58,7 @@ public class US7ApiStepDefs {
         LocalDate tenDaysLater = LocalDate.now().plusDays(10);
         futuredate = newPattern.format(tenDaysLater);
 
-       patient.setFirstName(firstname);
+        patient.setFirstName(firstname);
         patient.setLastName(lastname);
         user.setSsn(ssn);
         patient.setEmail(email);
@@ -72,13 +72,14 @@ public class US7ApiStepDefs {
         appointment1.setPatient(patient);
 
 
-
         response = given().spec(spec).contentType(ContentType.JSON).body(appointment1).when().post("/{first}/{second}");
     }
+
     @Then("US7_user saves the user's data to correspondent files")
     public void US7_user_saves_the_user_s_data_to_correspondent_files() {
         saveApptData(appointment1);//actual data
     }
+
     @Given("US7_user sends a post request for appointment data")
     public void US7_user_sends_a_post_request_for_appointment_data() throws Exception {
         response = given().headers(
@@ -103,11 +104,11 @@ public class US7ApiStepDefs {
 
     @And("US7_user makes assertions")
     public void US7_UserMakesAssertions() throws IOException {
-response.then().statusCode(201);
-response.prettyPrint();
+        response.then().statusCode(201);
+        response.prettyPrint();
 
         ObjectMapper obj = new ObjectMapper();
-Appointment1 actualAppt = obj.readValue(response.asString(), Appointment1.class);
+        Appointment1 actualAppt = obj.readValue(response.asString(), Appointment1.class);
         System.out.println("Actual appointment: " + actualAppt);
 
 

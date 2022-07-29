@@ -271,6 +271,7 @@ public class WriteToTxt {
     }
 
 
+
     public static void saveRegistrantApiData(US16_Room room) {
 
 
@@ -293,3 +294,4 @@ public class WriteToTxt {
     }
 
 }
+

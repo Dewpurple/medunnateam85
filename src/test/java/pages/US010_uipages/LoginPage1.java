@@ -5,8 +5,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utilities.Driver;
 
-public class LoginPage {
-    public LoginPage () {
+public class LoginPage1 {
+    public LoginPage1() {
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
@@ -56,7 +56,10 @@ public class LoginPage {
 
     @FindBy(xpath = "//h5[@class=\"modal-title\"]//span")
     public WebElement signInText;
-
+    @FindBy(xpath = "//*[@id=\"account-menu\"]/a")
+    public WebElement accountMenuButton;
+    @FindBy(linkText = "Sign in")
+    public WebElement accountSigninButton;
 
 }
 

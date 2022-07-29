@@ -12,7 +12,9 @@ import utilities.ConfigurationReader;
 
 
 import static io.restassured.RestAssured.given;
+import static utilities.Authentication.generateToken;
 import static utilities.WriteToTxt.saveAllTestItemsApiData;
+import static utilities.WriteToTxt.saveAllTestItemsData;
 
 public class US17_ApiGetStepDef {
     Response response;
@@ -25,7 +27,7 @@ public class US17_ApiGetStepDef {
         //   response=getRequestForTestItems(generateToken(ConfigurationReader.getProperty("adminusername2"),ConfigurationReader.getProperty("adminpw2")),ConfigurationReader.getProperty("testItem_endpoint"));
         response = given().headers(
                 "Authorization",
-                "Bearer " + ConfigurationReader.getProperty("api_token"),//generateToken(),
+                "Bearer " + generateToken(),//ConfigurationReader.getProperty("api_token"),//
                 "Content-Type",
                 ContentType.JSON,
                 "Accept",

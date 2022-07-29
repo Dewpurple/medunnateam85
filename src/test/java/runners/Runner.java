@@ -18,7 +18,7 @@ import org.junit.runner.RunWith;
 
 
 
-        tags = "@US_019_birth_date",
+        tags = " @PostAPITestItems",
 
 
 

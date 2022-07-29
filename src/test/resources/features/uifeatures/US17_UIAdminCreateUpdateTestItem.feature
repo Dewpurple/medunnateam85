@@ -1,10 +1,12 @@
+@regression
+@smoke
 @US17
 Feature: Admin Create Update and Delete Test Items
   Background:
     Given Adminuser goes to Medunna url
     When Adminuser is on the home page
     And Adminuser clicks the signIn button
-
+@AdminCreateTestItem
   Scenario Outline: Admin can create new test items
     And Adminuser provide valid username "<username>" and "<password>"
     And Adminuser clicks Sign In Button
@@ -30,7 +32,7 @@ Feature: Admin Create Update and Delete Test Items
     Examples:Admin can create new test items
       |username|password|
       |BernaAdmin|team85|
-
+  @AdminViewTestItem
   Scenario Outline: Admin can view  test items
     And Adminuser provide valid username "<username>" and "<password>"
     And Adminuser clicks Sign In Button
@@ -45,6 +47,7 @@ Feature: Admin Create Update and Delete Test Items
       |username|password|
       |BernaAdmin|team85|
 
+  @AdminDeleteTestItem
   Scenario Outline: Admin can delete  test items
     And Adminuser provide valid username "<username>" and "<password>"
     And Adminuser clicks Sign In Button

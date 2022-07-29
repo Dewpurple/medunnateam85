@@ -1,3 +1,4 @@
+@smoke
 Feature: Test Item Functionalities Api
   @Api
   @GetAPITestItems

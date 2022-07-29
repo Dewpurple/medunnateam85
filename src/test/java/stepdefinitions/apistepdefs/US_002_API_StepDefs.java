@@ -8,6 +8,7 @@ import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import org.junit.Assert;
+import pojos.us002pojo.US_002_RegistrantPojo;
 import utilities.ConfigurationReader;
 import java.io.IOException;
 import java.util.HashSet;

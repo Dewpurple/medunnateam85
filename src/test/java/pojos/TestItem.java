@@ -106,7 +106,7 @@ public class TestItem {
                 '}';
     }
 
-    public TestItem(String createdBy, String createdDate, String defaultValMax, String defaultValMin, String description, int id, String name, int price) {
+    public TestItem(String createdBy, String createdDate, String defaultValMax, String defaultValMin, String description,int id,  String name, int price) {
         this.createdBy = createdBy;
         this.createdDate = createdDate;
         this.defaultValMax = defaultValMax;
@@ -126,4 +126,19 @@ public class TestItem {
 
 
     }
+
+    public TestItem(String name, int price) {
+        this.name = name;
+        this.price = price;
+    }
+
+    public TestItem( String defaultValMax, String defaultValMin, String description, String name, int price) {
+
+        this.defaultValMax = defaultValMax;
+        this.defaultValMin = defaultValMin;
+        this.description = description;
+        this.name = name;
+        this.price = price;
+    }
+
 }

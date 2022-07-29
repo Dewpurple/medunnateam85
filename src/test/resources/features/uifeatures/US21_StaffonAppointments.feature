@@ -10,7 +10,7 @@
       Then US21_user searches for patient with "ssn"
       And US21_user clicks show appointments
 
-@US211
+@regression
     Scenario: updating appt date
       When US21_user clicks edit
       And US21_user changes date to ten days later

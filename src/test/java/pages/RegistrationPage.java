@@ -89,5 +89,24 @@ public class RegistrationPage {
     public WebElement US001_last_Name_is_Required;
     @FindBy(xpath = "/html")
     public WebElement entireRegistrationPage;
+
+
+
+
+    @FindBy(xpath = "//*[@id=\"firstPassword\"]")
+    public WebElement US001_passwordTextbox;
+
+
+    @FindBy(xpath = "//*[@id=\"secondPassword\"]")
+    public WebElement US001_secondpasswordTextbox;
+
+
+    @FindBy(xpath = "//*[@id=\"register-submit\"]")
+    public WebElement US001_second_click_button;
+
+
+    @FindBy(xpath = "//*[contains(text(),'Registration Saved')]")
+    public WebElement US001_toasted_Saved_message;
+
 }
 

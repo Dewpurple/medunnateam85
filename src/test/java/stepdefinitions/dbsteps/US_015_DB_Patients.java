@@ -10,7 +10,7 @@ import java.util.List;
 
 public class US_015_DB_Patients {
 
-    @Given("user connects to database")
+    @Given("US15_user connects to database")
     public void user_connects_to_database() {
         DBUtils.createConnection();
     }

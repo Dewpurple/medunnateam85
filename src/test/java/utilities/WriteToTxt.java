@@ -6,15 +6,13 @@ import pojos.Appointment1;
 import pojos.Registrant;
 import pojos.TestItem;
 
-import java.io.BufferedWriter;
-import java.io.FileWriter;
+import java.io.*;
 import java.util.List;
 
 import pojos.*;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
-import java.io.IOException;
 
 
 public class WriteToTxt {
@@ -213,4 +211,63 @@ public class WriteToTxt {
         }
 
     }
+
+
+
+    public static void saveUS19_API_StaffData(US19_API_Staff_Pojo[] userRequest) {
+
+
+        try {
+
+            FileWriter fileWriter = new FileWriter(ConfigurationReader.getProperty("api_US19_medunna_url"), true);
+
+            BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
+
+            for(int i=0; i<userRequest.length; i++ ) {
+
+                bufferedWriter.append(userRequest.toString() + "\n");
+            }
+            bufferedWriter.close();
+
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+
+    }
+
+    public static void saveUserData(String fileName, US001_T01[] us001_t01){
+        try{
+            BufferedWriter writer =new BufferedWriter(new FileWriter(fileName,true));
+            for (int i=0; i< us001_t01.length; i++){
+                writer.append(us001_t01[i].getFirstName() + ",\n");
+                writer.append(us001_t01[i].getLastName() + ",\n");
+                writer.append(us001_t01[i].getSsn() + ",\n");
+                writer.append(us001_t01[i].getEmail() + ",\n");
+                writer.append("--------------------------" + ",\n");
+
+            }
+            writer.close();
+        }catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+    public static String readFile(String filepath)
+    {
+        String returnFileContent="";
+        try{
+            BufferedReader br = new BufferedReader(new FileReader(filepath));
+            String st;
+            while ((st = br.readLine()) != null){
+                returnFileContent = returnFileContent +st +"\n";
+                System.out.println(st);
+            }
+        } catch(Exception e){
+
+        }
+
+        return returnFileContent;
+    }
+
 }

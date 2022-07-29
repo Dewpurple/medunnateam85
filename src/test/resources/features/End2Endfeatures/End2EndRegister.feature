@@ -22,9 +22,9 @@ Feature: Registration page UI test
     Examples: test data for UI
       | SSN              | FirstName       | LastName         | UserName         | email                  |password   | password Confirm |
       | 745-12-1257      | Team85Shebnem   | NewPhysician     | Team85new02 |team85mew02@gmail.com |Team8585#$ | Team8585#$       |
-
   @EC2_API_Scenario1
-  @Api
+    @Api
+
   Scenario Outline: TC07_username_validation_unique_api
     Given user sends a get request for users data us018
     Then Status code should be 200 us018
@@ -48,7 +48,6 @@ Feature: Registration page UI test
   Scenario: TC07_username_validation_unique_api
     Given user sends post request to create new physician e2e
     Then Status code should be 201 e2e
-
 
   @E2E_UI_Scenario2
   Scenario: verify that new physician that was created in API exists in UI

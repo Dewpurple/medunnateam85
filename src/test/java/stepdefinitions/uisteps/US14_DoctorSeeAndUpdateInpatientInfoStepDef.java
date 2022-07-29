@@ -12,7 +12,7 @@ import utilities.ReusableMethods;
 
 import java.io.IOException;
 
-public class US_14DoctorSeeAndUpdateInpatientInfoStepDef {
+public class US14_DoctorSeeAndUpdateInpatientInfoStepDef {
     DoctorPage_13_14 doctorPage_13_14 = new DoctorPage_13_14();
     HomePage homePage = new HomePage();
     InpatientInfoPage inpatientInfoPage = new InpatientInfoPage();

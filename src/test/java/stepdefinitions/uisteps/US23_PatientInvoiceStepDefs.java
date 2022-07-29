@@ -9,7 +9,7 @@ import pages.HomePage;
 import pages.US_023_StaffInvoicePage;
 import utilities.Driver;
 
-public class US_023_PatientInvoiceStepDefs {
+public class US23_PatientInvoiceStepDefs {
 
     HomePage homePage = new HomePage();
     US_023_StaffInvoicePage staffPage = new US_023_StaffInvoicePage();

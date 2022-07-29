@@ -1,15 +1,12 @@
-package stepdefinitions.uisteps.US009_Step_Defs;
+package stepdefinitions.uisteps.US09_Step_Defs;
 
 import io.cucumber.java.en.Given;
-import io.cucumber.java.en.When;
 import org.junit.Assert;
 import pages.HomePage;
 import pages.ItemsAndTitlesPage;
 import pages.PatientEditPage;
 import pages.SearchPatientPage;
 import pojos.PojoPatientEditInformation;
-import utilities.ConfigurationReader;
-import utilities.Driver;
 
 public class US_009_API_StepDefs extends PojoPatientEditInformation {
     HomePage homePage = new HomePage();

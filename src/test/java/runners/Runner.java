@@ -18,7 +18,7 @@ import org.junit.runner.RunWith;
 
 
 
-        tags = "@US018_TC001",
+        tags = "@US_010_TC001",
 
 
 

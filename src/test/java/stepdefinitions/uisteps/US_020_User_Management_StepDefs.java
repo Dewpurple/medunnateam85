@@ -1,20 +1,21 @@
 package stepdefinitions.uisteps;
-
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
-import pages.LoginPage;
+import pages.US010_uipages.LoginPage1;
 import pages.us20_uipage.US_020_User_Page;
+import pages.us20_uipage.UserManagementPage;
 import utilities.ConfigurationReader;
 import utilities.Driver;
 import utilities.ReusableMethods;
-
 public class US_020_User_Management_StepDefs {
-    LoginPage loginPage = new LoginPage();
+
+    LoginPage1 loginPage1 = new LoginPage1();
     US_020_User_Page us_020_user_page = new US_020_User_Page();
 
     @Given("Admin20 navigates to medunna login page")
@@ -23,9 +24,9 @@ public class US_020_User_Management_StepDefs {
     }
     @Then("Admin20 signs in")
     public void admin20_signs_in() {
-        loginPage.username.sendKeys("BernaAdmin");
-        loginPage.password.sendKeys("team85");
-        loginPage.signInButton.click();
+        loginPage1.usernameBox.sendKeys("BernaAdmin");
+        loginPage1.passwordBox.sendKeys("team85");
+        loginPage1.signInButton.click();
     }
     @Then("Admin20 clicks on Administrations then clicks on User Management")
     public void admin20_clicks_on_administrations_then_clicks_on_user_management() {
@@ -52,7 +53,7 @@ public class US_020_User_Management_StepDefs {
 
     @And("Admin20 clicks on Edit button")
     public void adminClicksOnEditButton() {
-    ReusableMethods.waitForVisibility(us_020_user_page.editButton,5).click();
+        ReusableMethods.waitForVisibility(us_020_user_page.editButton,5).click();
     }
 
     @And("Admin20 assigns role to the user")
@@ -91,5 +92,15 @@ public class US_020_User_Management_StepDefs {
         Driver.clickWithJS(ReusableMethods.waitForVisibility(us_020_user_page.deleteConfirmButton, 5));
 
         Assert.assertTrue(ReusableMethods.waitForVisibility(us_020_user_page.userDeletedMessage, 5).isDisplayed());
+    }
+
+    @Then("Admin20 clicks on menu button")
+    public void adminClicksOnMenuButton() {
+    loginPage1.accountMenuButton.click();
+    }
+
+    @Then("Admin20 clicks on sign in")
+    public void adminClicksOnSignIn() {
+        loginPage1.accountSigninButton.click();
     }
 }

@@ -35,12 +35,12 @@ public class US_002_ValidationUsernameEmailStepDefs {
 
         }
     }
-    @When("user clicks on icon on top right corner US002")
+    @When("user clicks to icon on top right corner US002")
     public void user_clicks_to_icon_on_top_right_corner_US002() {
         homePage002.icon.click();
 
     }
-    @When("user clicks on register button US002")
+    @When("user clicks on Register button US002")
     public void user_clicks_on_register_button_US002() {
         homePage002.registerButton.click();
     }
@@ -96,14 +96,6 @@ public class US_002_ValidationUsernameEmailStepDefs {
         registerPage.username.sendKeys(string+Keys.ENTER);
         registrant.setLogin(string);
     }
-
-    @And("user enters valid {string} US002")
-    public void userEntersValidUS002(String string) {
-        string = faker.name().username();
-        registerPage.username.sendKeys(string);
-        registrant.setLogin(string);
-    }
-
     @And("user enters {string} that contains special character US002")
     public void userEntersThatContainsSpecialCharacterUS002(String string) {
         string= "*"+faker.name().username()+"#";
@@ -120,43 +112,43 @@ public class US_002_ValidationUsernameEmailStepDefs {
     }
 
 
-    @And("user enters a valid username US002")
+    @And("user enters valid username US002")
     public void userEntersAValidUsernameUS() {
         registrant.setLogin(registrant.getFirstName() + registrant.getLastName());
         registerPage.username.sendKeys(registrant.getLogin());
     }
 
-    @And("user enters a valid email US002")
+    @And("user enters valid email US002")
     public void userEntersAValidEmailUS() {
         registrant.setEmail(registrant.getFirstName()+registrant.getLastName()+"@gmail.com");
         registerPage.email.sendKeys(registrant.getEmail());
     }
 
-    @And("user enters new password and password confirmation US002")
+    @And("user enters new password and new password confirmation US002")
     public void userEntersNewPasswordAndPasswordConfirmationUS() {
         registrant.setPassword(faker.internet().password(8,20,true,true));
         registerPage.newPassword.sendKeys(registrant.getPassword());
         registerPage.newPasswordConfirmation.sendKeys(registrant.getPassword());
     }
 
-    @And("user clicks on register button for registration US002")
+    @And("user clicks Register button for registration US002")
     public void userClicksOnRegisterButtonForRegistrationUS() {
         registerPage.registerButton.submit();
     }
 
-    @Then("user verifies that registration saved message is displayed US002")
+    @Then("user verifies Registration Saved message is displayed US002")
     public void userVerifiesThatRegistrationSavedMessageIsDisplayedUS() {
         ReusableMethods.waitFor(2);
         Assert.assertTrue(registerPage.registrationSavedMessage.isDisplayed());
     }
 
-    @And("user clicks on home button US002")
+    @And("user clicks on Home button US002")
     public void userClicksOnHomeButtonUS() {
         registerPage.homeButton.click();
 
     }
 
-    @And("user verifies to land to homepage successfully US002")
+    @And("user verifies that landed to home page successfully US002")
     public void userVerifiesToLandToHomepageSuccessfullyUS() {
         Assert.assertTrue(homePage002.welcomeToMedunnaText.isDisplayed());
     }
@@ -164,5 +156,10 @@ public class US_002_ValidationUsernameEmailStepDefs {
     @And("user closes the browser")
     public void userClosesTheBrowser() {
         Driver.closeDriver();
+    }
+
+    @And("user verifies Your username is required message US002")
+    public void userVerifiesYourUsernameIsRequiredMessageUS() {
+        Assert.assertTrue(registerPage.yourUsernameIsRequiredMessage.isDisplayed());
     }
 }

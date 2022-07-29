@@ -15,9 +15,9 @@ public class Patient {
     private String email;
     private User user;
 
-public Patient(){
+    public Patient(){
 
-}
+    }
     public Patient(String createdBy, String createdDate,int id,String firstName, String lastName,String birthDate,String phone,String gender,String adress, String email,User user){
         this.createdBy = createdBy;
         this.createdDate = createdDate;
@@ -30,7 +30,7 @@ public Patient(){
         this.adress = adress;
         this.email = email;
         this.user = user;
-         }
+    }
 
 
     public User getUser() {

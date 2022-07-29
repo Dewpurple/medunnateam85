@@ -16,10 +16,17 @@ import org.junit.runner.RunWith;
         glue = {"stepdefinitions","Hooks"},
 
 
+        //tags = "@PatientInfoVisible",
+
+
+
 
 
 
         tags = "@E2E_Testing"
+
+
+       //tags=" @patientsbyadmin",
 
 
 

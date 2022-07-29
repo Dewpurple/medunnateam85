@@ -14,22 +14,8 @@ import org.junit.runner.RunWith;
         },
         features = "./src/test/resources/features",
         glue = {"stepdefinitions","Hooks"},
-
-
-        //tags = "@PatientInfoVisible",
-
-
-
-
-
-
-        tags = "@regression"
-
-
-       //tags=" @patientsbyadmin",
-
-
-
+        tags = "@regression",
+        dryRun = false
 )
 public class Runner {
 }

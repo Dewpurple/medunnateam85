@@ -31,7 +31,7 @@ public class US19_UI_stepDefs {
     @Then("The admin19 click sign in page")
     public void the_admin19_click_sign_in_page() {
         uStory_04_pages1.signintik.click();
-        uStory_04_pages1.signinbutton.click();
+        us_19_pages2.signinbutton2.click();
     }
 
     @Then("admin19 enters the username as {string}")

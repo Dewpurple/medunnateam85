@@ -18,12 +18,11 @@ import org.junit.runner.RunWith;
 
 
 
-        tags = "@US19-Staff",
+
+        tags = "@regression"
 
 
 
-
-        dryRun = false
 )
 public class Runner {
 }

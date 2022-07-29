@@ -6,15 +6,13 @@ import pojos.Appointment1;
 import pojos.Registrant;
 import pojos.TestItem;
 
-import java.io.BufferedWriter;
-import java.io.FileWriter;
+import java.io.*;
 import java.util.List;
 
 import pojos.*;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
-import java.io.IOException;
 
 
 public class WriteToTxt {
@@ -254,6 +252,22 @@ public class WriteToTxt {
         }catch (IOException e) {
             e.printStackTrace();
         }
+    }
+    public static String readFile(String filepath)
+    {
+        String returnFileContent="";
+        try{
+            BufferedReader br = new BufferedReader(new FileReader(filepath));
+            String st;
+            while ((st = br.readLine()) != null){
+                returnFileContent = returnFileContent +st +"\n";
+                System.out.println(st);
+            }
+        } catch(Exception e){
+
+        }
+
+        return returnFileContent;
     }
 
 }

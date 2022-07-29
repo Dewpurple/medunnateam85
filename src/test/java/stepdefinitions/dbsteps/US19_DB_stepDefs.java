@@ -1,6 +1,5 @@
 package stepdefinitions.dbsteps;
 
-import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -10,7 +9,7 @@ import utilities.DBUtils;
 import java.sql.SQLException;
 import java.util.List;
 
-public class DB_US19_stepDefs {
+public class US19_DB_stepDefs {
 
 
     @Given("user connects  to database")

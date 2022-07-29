@@ -19,7 +19,7 @@ public class US04_US11_StepDefs {
     UStory_04_Pages4 uStory_04_pages4 = new UStory_04_Pages4();
     UStory_04_Pages3 uStory_04_pages3 = new UStory_04_Pages3();
     UStory_04_Pages2 uStory_04_pages2 = new UStory_04_Pages2();
-    UStory_011_pages uStory_011_pages = new UStory_011_pages();
+    US11_Doctor_pages uStory_011_pages = new US11_Doctor_pages();
 
 
 

@@ -1,3 +1,4 @@
+
 Feature: Registration page UI test
 
   @Registration

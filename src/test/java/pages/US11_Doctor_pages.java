@@ -5,9 +5,9 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utilities.Driver;
 
-public class UStory_011_pages {
+public class US11_Doctor_pages {
 
-    public UStory_011_pages() {
+    public US11_Doctor_pages() {
         PageFactory.initElements(Driver.getDriver(), this);
     }
 

@@ -11,7 +11,7 @@ import pages.US04_Pages.UStory_04_Pages1;
 import utilities.ConfigurationReader;
 import utilities.Driver;
 
-public class US19_stepDefs {
+public class US19_UI_stepDefs {
 
 
     UStory_04_Pages1 uStory_04_pages1 = new UStory_04_Pages1();

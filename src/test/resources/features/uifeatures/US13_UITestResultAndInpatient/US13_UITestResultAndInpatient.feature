@@ -1,7 +1,5 @@
-@13UITestResultAndInpatient
-Feature:
-  @SmokeTest
-  @13_01_TestResult
+Feature: Test Result
+  @13_01_TestResult @regression @smoke
   Scenario Outline: Doctor see Test Result
     Given US_13user navitages to Medunna url
     When US_13user is on the home page
@@ -21,7 +19,7 @@ Feature:
       |username|password|
       |doctorcennet|1234|
 
-  @13_02_RequestInpatient
+  @13_02_RequestInpatient @smoke @regression
   Scenario Outline: Doctor Request Inpatient
     Given US_13user navitages to Medunna url
     When US_13user is on the home page

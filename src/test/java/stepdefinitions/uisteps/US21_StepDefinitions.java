@@ -2,8 +2,6 @@ package stepdefinitions.uisteps;
 
 import io.cucumber.java.en.*;
 import org.junit.Assert;
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
@@ -15,10 +13,9 @@ import utilities.ConfigurationReader;
 import utilities.Driver;
 
 import java.util.List;
-import java.util.NoSuchElementException;
 
 
-public class US21StepDefinitions {
+public class US21_StepDefinitions {
     HomePage homePage = new HomePage();
     UserPage userPage = new UserPage();
     SignInPage signInPage = new SignInPage();

@@ -18,12 +18,11 @@ import org.junit.runner.RunWith;
 
 
 
+
         tags = "@E2E_Testing",
 
 
 
-
-        dryRun = false
 )
 public class Runner {
 }

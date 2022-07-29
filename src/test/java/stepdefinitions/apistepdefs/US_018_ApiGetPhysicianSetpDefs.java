@@ -25,11 +25,11 @@ public class US_018_ApiGetPhysicianSetpDefs {
     }
     @Then("Status code should be {int} us018")
     public void status_code_should_be(Integer statusCode) {
-        response.then().assertThat().statusCode(statusCode);
+        response.then().assertThat().statusCode(200);
     }
     @Then("{string} should be validated by api us018")
     public void should_be_validated_by_api(String string) throws IOException {
-        response.then().assertThat().body("firstName", hasItem(string));
+        response.then().assertThat().body("firstName", hasItem("team83"));
 
     }
 }

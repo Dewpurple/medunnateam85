@@ -1,4 +1,4 @@
-package stepdefinitions.apisteps;
+package stepdefinitions.apistepdefs;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.github.javafaker.Faker;

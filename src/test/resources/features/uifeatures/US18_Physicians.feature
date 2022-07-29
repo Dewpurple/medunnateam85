@@ -10,7 +10,7 @@ Feature: update_physicians
     And user clicks on Items&Titles button US_015
     Then user 18 clicks on physician
 
-  @smoke
+  @smoke @regression
   @US018_TC001
   Scenario: User searches physician with valid ssn
     When user 18 clicks on Create a new Physician
@@ -20,7 +20,7 @@ Feature: update_physicians
     And user 18 verifies physician information
     Then close the application US_015
 
-  @US018_TC002
+  @US018_TC002 @regression
   Scenario: user enter non-existing SSN
     Given user 18 clicks on Create a new Physician
     When user enters non-existing SSN
@@ -28,7 +28,7 @@ Feature: update_physicians
     And user verifies Not found message appeared on the screen
     Then close the application US_015
 
-  @US018_TC003
+  @US018_TC003 @regression
   Scenario: user enters SSN without dashes
     Given user 18 clicks on Create a new Physician
     When user enters SSN without dashes

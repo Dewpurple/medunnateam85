@@ -24,7 +24,7 @@ Feature: payment_invoice
     |SSN       |lastdigit|examfee|itemfee|name         |totalcost|
     |555-34-834|0        |500    |55     |Lisette Booth|605      |
 
-  @US_023_TC_002
+  @US_023_TC_002 @smoke @regression
   Scenario Outline: view patient 1 information US_023
     Given click on Patient SSN box and type patient's "<SSN>" "<lastdigit>" US_023
     When click on Show Appointments US_023
@@ -54,7 +54,7 @@ Feature: payment_invoice
       |SSN       |lastdigit|examfee|itemfee|name       |totalcost|
       |555-34-834|1        |500    |711     |liv cook|2121      |
 
-  @US_023_TC_004
+  @US_023_TC_004 @regression
   Scenario Outline: view patient 2 information US_023
     Given click on Patient SSN box and type patient's "<SSN>" "<lastdigit>" US_023
     When click on Show Appointments US_023
@@ -83,7 +83,7 @@ Feature: payment_invoice
       |SSN       |lastdigit|examfee|itemfee|name       |totalcost|
       |555-34-833|2        |500    |711     |Alys Keys |1274     |
 
-  @US_023_TC_006
+  @US_023_TC_006 @regression
   Scenario Outline: view patient 3 information US_023
     Given click on Patient SSN box and type patient's "<SSN>" "<lastdigit>" US_023
     When click on Show Appointments US_023

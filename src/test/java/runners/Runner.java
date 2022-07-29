@@ -22,15 +22,14 @@ import org.junit.runner.RunWith;
 
 
 
-        tags = "@US19_api_staff",
+
+        tags = "@E2E_Testing"
 
 
        //tags=" @patientsbyadmin",
 
 
 
-
-        dryRun = false
 )
 public class Runner {
 }

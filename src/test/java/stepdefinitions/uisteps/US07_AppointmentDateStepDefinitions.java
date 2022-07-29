@@ -15,7 +15,7 @@ import static io.restassured.RestAssured.given;
 import static org.junit.Assert.assertTrue;
 import static utilities.WriteToTxt.saveApptData;
 
-public class US7AppointmentDateStepDefinitions {
+public class US07_AppointmentDateStepDefinitions {
     Appointment appointment = new Appointment();
 
     Faker faker = new Faker();

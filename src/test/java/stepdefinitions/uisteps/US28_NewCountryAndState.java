@@ -11,7 +11,7 @@ import static org.hamcrest.Matchers.hasItem;
 import static utilities.Authentication.generateToken;
 import static utilities.RobertAPIRequestUtils.getRequest;
 
-public class US028_NewCountryAndState {
+public class US28_NewCountryAndState {
 
     String token = "";
     String endPoint = ConfigurationReader.getProperty("countrys_endpoint_Robert");

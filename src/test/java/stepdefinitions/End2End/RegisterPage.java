@@ -15,7 +15,6 @@ public class RegisterPage {
 
     @Then("User types their SSN as {string} on Registration for UI for registration page")
     public void user_types_their_ssn_as_on_registration_for_api(String ssn) {
-        ssn = faker.idNumber().ssnValid();
         Driver.waitAndSendText(registrationPage.US001_ssn, ssn);
         registrant1.setSsn(ssn);;
 
@@ -24,7 +23,7 @@ public class RegisterPage {
     @Then("User types firstName as {string} for UI for registration page")
     public void user_types_first_name_as_for_api(String FirstName) {
 
-        FirstName = faker.name().firstName();
+
 
         Driver.waitAndSendText(registrationPage.US001_firstnameTextBox,FirstName);
 
@@ -35,7 +34,7 @@ public class RegisterPage {
     @Then("User types lastName as {string} for UI for registration page")
     public void user_types_last_name_as_for_api(String LastName) {
 
-        LastName = faker.name().lastName();
+
 
         Driver.waitAndSendText(registrationPage.US001_lastnameTextBox,LastName);
 
@@ -47,7 +46,7 @@ public class RegisterPage {
     @Then("User types userName as {string} email address for UI for registration page")
     public void user_types_user_name_as_email_address_for_api(String UserName) {
 
-        UserName = registrant1.getFirstName()+registrant1.getLastName();
+
         Driver.waitAndSendText(registrationPage.US001_usernameTextBox,UserName);
         registrant1.setLogin(UserName);
 
@@ -57,7 +56,7 @@ public class RegisterPage {
     @Then("User types email as {string} for UI for registration page")
     public void user_types_email_as_for_api(String email) {
 
-        email=registrant1.getLogin()+"@gmail.com";
+
 
         Driver.waitAndSendText(registrationPage.US001_emailTextbox,email);
 
@@ -67,14 +66,14 @@ public class RegisterPage {
     @Then("User types password  as {string} for UI for registration page")
     public void user_types_password_as_for_api(String password) {
 
-        password = faker.internet().password(8, 30, true, true);
+
         Driver.waitAndSendText(registrationPage. US001_passwordTextbox, password);
         registrant1.setPassword(password);
 
     }
     @Then("User types password  confirmation as {string} on Registration for UI for registration page")
     public void user_types_password_confirmation_as_on_registration_for_api(String password_confirmation) {
-        password_confirmation=registrant1.getPassword();
+
         Driver.waitAndSendText(registrationPage. US001_secondpasswordTextbox, password_confirmation);
 
     }

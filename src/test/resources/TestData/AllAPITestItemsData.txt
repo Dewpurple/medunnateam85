@@ -1,0 +1,750 @@
+TestItem{createdBy='ogunes', createdDate='2022-07-21T14:00:10.086367Z', defaultValMax='45', defaultValMin='15', description='ok', id=132000, name='cccs', price='20'}
+TestItem{createdBy='admin', createdDate='2021-12-04T22:25:18.717001Z', defaultValMax='145', defaultValMin='136', description='', id=1404, name='Sodium', price='16'}
+TestItem{createdBy='admin', createdDate='2021-12-04T22:24:09.835288Z', defaultValMax='49', defaultValMin='17', description='', id=1402, name='Urea', price='12'}
+TestItem{createdBy='team_88_admin', createdDate='2022-07-21T17:48:49.157569Z', defaultValMax='26', defaultValMin='13', description='Thyroid Hormone', id=132770, name='gsh', price='50'}
+TestItem{createdBy='admin', createdDate='2021-12-04T22:27:27.930027Z', defaultValMax='16', defaultValMin='13', description='', id=1408, name='Hemoglobin', price='8'}
+TestItem{createdBy='admin79', createdDate='2022-03-16T23:49:13.471468Z', defaultValMax='500mg', defaultValMin='50mg', description='This test measures the amount of insulin in your blood. Insulin is a hormone that helps move blood sugar, known as glucose, from your bloodstream into your cells. Glucose comes from the foods you eat and drink. It is your body's main source of energy.', id=30199, name='diabetes medicine', price='98'}
+TestItem{createdBy='medunnaadmin', createdDate='2022-03-21T23:54:18.001251Z', defaultValMax='100', defaultValMin='66', description='', id=33045, name='Federico test', price='50'}
+TestItem{createdBy='adminbulent', createdDate='2022-03-16T07:06:21.599883Z', defaultValMax='120', defaultValMin='50', description='mg/dL', id=18050, name='cholestrol', price='20'}
+TestItem{createdBy='medunnaadmin', createdDate='2022-03-22T00:02:20.461809Z', defaultValMax='100', defaultValMin='66', description='', id=33049, name='Noel test', price='50'}
+TestItem{createdBy='admin79', createdDate='2022-03-17T00:26:05.048626Z', defaultValMax='550mg', defaultValMin='50mg', description='mg', id=31203, name='diabete medicine', price='290'}
+TestItem{createdBy='medunnaadmin', createdDate='2022-03-22T00:12:38.610528Z', defaultValMax='100', defaultValMin='66', description='', id=36052, name='Bennett test', price='50'}
+TestItem{createdBy='medunnaadmin', createdDate='2022-03-22T00:21:30.052270Z', defaultValMax='100', defaultValMin='66', description='', id=36056, name='Delmar test', price='50'}
+TestItem{createdBy='admin', createdDate='2021-12-04T22:26:52.991058Z', defaultValMax='5.2', defaultValMin='3.5', description='', id=1407, name='Albumin', price='16'}
+TestItem{createdBy='adminbulent', createdDate='2022-03-16T07:16:37.268575Z', defaultValMax='120', defaultValMin='50', description='mg/dL', id=30151, name='LDL-cholestrol', price='20'}
+TestItem{createdBy='medunnaadmin', createdDate='2022-03-22T00:22:48.495482Z', defaultValMax='100', defaultValMin='66', description='', id=36057, name='Chuck test', price='50'}
+TestItem{createdBy='medunnaadmin', createdDate='2022-03-16T22:55:47.152296Z', defaultValMax='100', defaultValMin='66', description='', id=30198, name='Na111fjkhj', price='50'}
+TestItem{createdBy='alexxela', createdDate='2022-03-22T07:32:25.250251Z', defaultValMax='5000', defaultValMin='3000', description='very important', id=36061, name='Miss Terica Ritchie', price='2500'}
+TestItem{createdBy='alexxela', createdDate='2022-03-22T07:33:12.255784Z', defaultValMax='5000', defaultValMin='3000', description='very important', id=36062, name='Vickie Stracke', price='2500'}
+TestItem{createdBy='alexxela', createdDate='2022-03-22T07:52:13.087658Z', defaultValMax='5000', defaultValMin='3000', description='very important', id=36065, name='Vonda Raynor PhD', price='2500'}
+TestItem{createdBy='team_88_admin', createdDate='2022-07-21T20:05:41.656601Z', defaultValMax='60', defaultValMin='45', description='öqlsöql', id=132777, name='lwlsöq', price='34'}
+TestItem{createdBy='alexxela', createdDate='2022-03-22T07:54:05.451545Z', defaultValMax='4567', defaultValMin='23456', description='fgh', id=36068, name='sdfghj', price='234567'}
+TestItem{createdBy='medunnaadmin', createdDate='2022-03-14T14:41:21.005410Z', defaultValMax='50', defaultValMin='20', description='Total', id=18010, name='VitaminB', price='25'}
+TestItem{createdBy='alexxela', createdDate='2022-03-22T08:04:53.608868Z', defaultValMax='5000', defaultValMin='3000', description='very important', id=36072, name='Ileana Koch Jr.', price='2500'}
+TestItem{createdBy='omradmin', createdDate='2022-03-17T11:51:52.545316Z', defaultValMax='1.5', defaultValMin='1.7', description='headache', id=31213, name='Garrett', price='200'}
+TestItem{createdBy='medunnaadmin', createdDate='2022-03-22T14:06:53.095146Z', defaultValMax='100', defaultValMin='66', description='', id=36076, name='Meggan test', price='50'}
+TestItem{createdBy='admin', createdDate='2021-12-04T22:24:48.226897Z', defaultValMax='0.9', defaultValMin='0.5', description='', id=1403, name='Creatinine', price='15'}
+TestItem{createdBy='maryhannah', createdDate='2022-03-17T14:00:15.626973Z', defaultValMax='120', defaultValMin='50', description='mg/dL', id=31216, name='Marlo test', price='104'}
+TestItem{createdBy='adminbulent', createdDate='2022-03-17T14:01:19.972291Z', defaultValMax='118', defaultValMin='49', description='mg/dL', id=31217, name='Roy test', price='54'}
+TestItem{createdBy='medunnaadmin', createdDate='2022-03-21T23:57:36.865981Z', defaultValMax='100', defaultValMin='66', description='descrp', id=33048, name='Chelsea test', price='50'}
+TestItem{createdBy='medunnaadmin', createdDate='2022-03-23T00:24:00.281062Z', defaultValMax='100', defaultValMin='66', description='', id=36082, name='Chau test', price='50'}
+TestItem{createdBy='alexxela', createdDate='2022-03-23T04:35:01.843201Z', defaultValMax='5000', defaultValMin='3000', description='very important', id=36084, name='Mr. Eleonor Howe', price='2500'}
+TestItem{createdBy='alexxela', createdDate='2022-03-23T04:44:58.574379Z', defaultValMax='5000', defaultValMin='3000', description='very important', id=36086, name='Eliseo Pfannerstill PhD', price='2500'}
+TestItem{createdBy='maryhannah', createdDate='2022-03-17T15:01:16.219491Z', defaultValMax='120', defaultValMin='50', description='mg/dL', id=31222, name='Herman test', price='106'}
+TestItem{createdBy='ogunes', createdDate='2022-07-22T00:01:26.431955Z', defaultValMax='664', defaultValMin='142', description='x', id=132796, name='Total Protein-', price='70'}
+TestItem{createdBy='sukriye', createdDate='2022-01-13T06:59:37.459472Z', defaultValMax='199', defaultValMin='100', description='Total', id=8161, name='Cholesterol8', price='55'}
+TestItem{createdBy='sukriye', createdDate='2022-01-13T07:00:38.765843Z', defaultValMax='199', defaultValMin='100', description='Total', id=8162, name='Cholesterol9', price='55'}
+TestItem{createdBy='sukriye', createdDate='2022-01-13T07:06:58.009815Z', defaultValMax='', defaultValMin='', description='serum', id=8163, name='Vitamin D', price='12'}
+TestItem{createdBy='medunnaadmin', createdDate='2022-03-14T23:14:09.835025Z', defaultValMax='200', defaultValMin='20', description='', id=18028, name='De', price='50'}
+TestItem{createdBy='sukriye', createdDate='2022-01-13T07:07:41.152764Z', defaultValMax='', defaultValMin='', description='mg/dL', id=8165, name='Albimo', price='23'}
+TestItem{createdBy='adminbulent', createdDate='2022-03-15T16:16:20.094147Z', defaultValMax='120', defaultValMin='50', description='mg/Dl', id=18031, name='vitamin d', price='20'}
+TestItem{createdBy='adminbulent', createdDate='2022-03-16T19:58:13.198172Z', defaultValMax='193', defaultValMin='40', description='mg/dL', id=30188, name='Margarite test', price='33'}
+TestItem{createdBy='medunnaadmin', createdDate='2022-03-15T21:27:42.672698Z', defaultValMax='100', defaultValMin='66', description='', id=18046, name='Zinc2', price='50'}
+TestItem{createdBy='admin79', createdDate='2022-03-18T02:27:51.730653Z', defaultValMax='136', defaultValMin='56', description='mg/c', id=31242, name='InsulinT', price='71'}
+TestItem{createdBy='admin79', createdDate='2022-03-18T02:40:28.554177Z', defaultValMax='136', defaultValMin='56', description='mg/g', id=31244, name='InsulinD', price='71'}
+TestItem{createdBy='omradmin', createdDate='2022-03-16T11:45:42.429229Z', defaultValMax='1.5', defaultValMin='1.7', description='headache', id=30164, name='Chas', price='200'}
+TestItem{createdBy='maryhannah', createdDate='2022-03-16T15:50:09.061838Z', defaultValMax='120', defaultValMin='50', description='mg/dL', id=30165, name='I test', price='40'}
+TestItem{createdBy='maryhannah', createdDate='2022-03-16T15:55:45.285644Z', defaultValMax='120', defaultValMin='50', description='mg/dL', id=30166, name='III test', price='40'}
+TestItem{createdBy='maryhannah', createdDate='2022-03-16T16:02:15.855476Z', defaultValMax='120', defaultValMin='50', description='mg/dL', id=30167, name='DDS test', price='40'}
+TestItem{createdBy='maryhannah', createdDate='2022-03-16T16:03:08.981588Z', defaultValMax='120', defaultValMin='50', description='mg/dL', id=30168, name='MD test', price='40'}
+TestItem{createdBy='maryhannah', createdDate='2022-03-16T16:05:16.197877Z', defaultValMax='120', defaultValMin='50', description='mg/dL', id=30169, name='Sr. test', price='1'}
+TestItem{createdBy='admin79', createdDate='2022-03-18T02:44:26.420649Z', defaultValMax='136', defaultValMin='56', description='mg/', id=31246, name='InsulinX', price='71'}
+TestItem{createdBy='admin79', createdDate='2022-03-18T02:46:23.599358Z', defaultValMax='1361', defaultValMin='561', description='mg/1', id=31247, name='Insulin11', price='711'}
+TestItem{createdBy='admin79', createdDate='2022-03-18T02:52:39.273737Z', defaultValMax='133', defaultValMin='561', description='mg/k', id=31250, name='cinsulin', price='711'}
+TestItem{createdBy='admin79', createdDate='2022-03-18T02:57:16.633149Z', defaultValMax='130', defaultValMin='560', description='mg/j', id=33001, name='cihanlin', price='710'}
+TestItem{createdBy='omradmin', createdDate='2022-03-18T09:47:37.171440Z', defaultValMax='1.5', defaultValMin='1.7', description='headache', id=33002, name='Fiona', price='200'}
+TestItem{createdBy='omradmin', createdDate='2022-03-18T09:48:19.855667Z', defaultValMax='1.5', defaultValMin='1.7', description='headache', id=33003, name='Prudence', price='200'}
+TestItem{createdBy='adminbulent', createdDate='2022-03-16T19:02:52.208818Z', defaultValMax='190', defaultValMin='66', description='mg/dL', id=30181, name='Antone test', price='27'}
+TestItem{createdBy='adminbulent', createdDate='2022-03-16T19:28:33.313283Z', defaultValMax='117', defaultValMin='50', description='mg/dL', id=30182, name='Mae test', price='36'}
+TestItem{createdBy='adminbulent', createdDate='2022-03-16T19:29:32.931628Z', defaultValMax='73', defaultValMin='43', description='mg/dL', id=30183, name='Cristopher test', price='86'}
+TestItem{createdBy='adminbulent', createdDate='2022-03-16T19:38:11.862215Z', defaultValMax='169', defaultValMin='64', description='mg/dL', id=30184, name='Isaiah test', price='119'}
+TestItem{createdBy='adminbulent', createdDate='2022-03-16T19:39:11.218243Z', defaultValMax='140', defaultValMin='63', description='mg/dL', id=30185, name='Zachary test', price='66'}
+TestItem{createdBy='maryhannah', createdDate='2022-03-16T19:44:06.121383Z', defaultValMax='120', defaultValMin='50', description='mg/dL', id=30186, name='Stepanie test', price='83'}
+TestItem{createdBy='maryhannah', createdDate='2022-03-16T20:00:23.368659Z', defaultValMax='120', defaultValMin='50', description='mg/dL', id=30189, name='Cristal test', price='130'}
+TestItem{createdBy='maryhannah', createdDate='2022-03-16T20:14:53.376725Z', defaultValMax='120', defaultValMin='50', description='mg/dL', id=30190, name='Christy test', price='94'}
+TestItem{createdBy='adminbulent', createdDate='2022-03-16T20:16:15.261794Z', defaultValMax='82', defaultValMin='62', description='mg/dL', id=30191, name='Dudley test', price='102'}
+TestItem{createdBy='adminbulent', createdDate='2022-03-16T20:23:10.754414Z', defaultValMax='159', defaultValMin='61', description='mg/dL', id=30192, name='Carolann test', price='40'}
+TestItem{createdBy='admin79', createdDate='2022-03-16T20:25:22.088480Z', defaultValMax='16', defaultValMin='10', description='vitamin check', id=30193, name='vitamin', price='30'}
+TestItem{createdBy='admin79', createdDate='2022-03-16T20:28:10.232545Z', defaultValMax='16', defaultValMin='10', description='vitamin check 1', id=30194, name='vitamin 1', price='30'}
+TestItem{createdBy='medunnaadmin', createdDate='2022-03-16T21:52:54.412029Z', defaultValMax='100', defaultValMin='66', description='', id=30196, name='Na8', price='50'}
+TestItem{createdBy='medunnaadmin', createdDate='2022-03-16T22:46:02.038550Z', defaultValMax='100', defaultValMin='66', description='', id=30197, name='Na10', price='50'}
+TestItem{createdBy='maryhannah', createdDate='2022-03-18T13:56:12.207801Z', defaultValMax='120', defaultValMin='50', description='mg/dL', id=33008, name='Kandra test', price='131'}
+TestItem{createdBy='admin79', createdDate='2022-03-18T21:13:21.263647Z', defaultValMax='131', defaultValMin='561', description='mg/jd', id=33009, name='cdihanlin', price='711'}
+TestItem{createdBy='medunnaadmin', createdDate='2022-03-21T23:55:07.292829Z', defaultValMax='100', defaultValMin='66', description='', id=33046, name='Cedrick test', price='50'}
+TestItem{createdBy='medunnaadmin', createdDate='2022-03-21T23:56:13.018818Z', defaultValMax='100', defaultValMin='66', description='', id=33047, name='Charles test', price='50'}
+TestItem{createdBy='admin79', createdDate='2022-03-18T21:46:32.947925Z', defaultValMax='131', defaultValMin='561', description='mg/jd', id=33012, name='Greta', price='711'}
+TestItem{createdBy='admin79', createdDate='2022-03-18T21:48:26.186058Z', defaultValMax='131', defaultValMin='561', description='mg/jd', id=33013, name='Gita', price='711'}
+TestItem{createdBy='medunnaadmin', createdDate='2022-03-22T00:04:17.691536Z', defaultValMax='100', defaultValMin='66', description='', id=33050, name='Tasia test', price='50'}
+TestItem{createdBy='admin79', createdDate='2022-03-18T21:54:52.402038Z', defaultValMax='131', defaultValMin='561', description='mg/jd', id=33015, name='Marline', price='711'}
+TestItem{createdBy='admin79', createdDate='2022-03-18T21:56:22.774121Z', defaultValMax='131', defaultValMin='561', description='mg/jd', id=33016, name='Geoffrey', price='711'}
+TestItem{createdBy='admin79', createdDate='2022-03-18T21:58:43.866720Z', defaultValMax='131', defaultValMin='561', description='mg/jd', id=33017, name='Iesha', price='711'}
+TestItem{createdBy='admin79', createdDate='2022-03-18T22:56:37.104116Z', defaultValMax='131', defaultValMin='561', description='mg/jd', id=33018, name='Lindy', price='711'}
+TestItem{createdBy='maryhannah', createdDate='2022-03-19T07:21:51.612313Z', defaultValMax='120', defaultValMin='50', description='mg/dL', id=33019, name='Marlon test', price='81'}
+TestItem{createdBy='maryhannah', createdDate='2022-03-19T07:31:17.476885Z', defaultValMax='120', defaultValMin='50', description='mg/dL', id=33020, name='Cruz test', price='130'}
+TestItem{createdBy='maryhannah', createdDate='2022-03-19T07:31:36.970449Z', defaultValMax='120', defaultValMin='50', description='mg/dL', id=33021, name='Melania test', price='71'}
+TestItem{createdBy='maryhannah', createdDate='2022-03-19T07:43:17.194694Z', defaultValMax='120', defaultValMin='50', description='mg/dL', id=33022, name='Tracy test', price='124'}
+TestItem{createdBy='maryhannah', createdDate='2022-03-19T07:44:05.625642Z', defaultValMax='120', defaultValMin='50', description='mg/dL', id=33023, name='Lonna test', price='132'}
+TestItem{createdBy='maryhannah', createdDate='2022-03-19T07:45:12.165995Z', defaultValMax='120', defaultValMin='50', description='mg/dL', id=33024, name='Maximo test', price='87'}
+TestItem{createdBy='maryhannah', createdDate='2022-03-19T07:46:32.539604Z', defaultValMax='120', defaultValMin='50', description='mg/dL', id=33025, name='Margaretta test', price='103'}
+TestItem{createdBy='maryhannah', createdDate='2022-03-19T07:46:49.828213Z', defaultValMax='120', defaultValMin='50', description='mg/dL', id=33026, name='Erwin test', price='117'}
+TestItem{createdBy='maryhannah', createdDate='2022-03-21T08:00:28.373255Z', defaultValMax='120', defaultValMin='50', description='mg/dL', id=33027, name='Nadene test', price='53'}
+TestItem{createdBy='adminbulent', createdDate='2022-03-21T08:02:52.826008Z', defaultValMax='142', defaultValMin='56', description='mg/dL', id=33028, name='Porfirio test', price='94'}
+TestItem{createdBy='maryhannah', createdDate='2022-03-21T12:33:35.275955Z', defaultValMax='120', defaultValMin='50', description='mg/dL', id=33029, name='Edda test', price='118'}
+TestItem{createdBy='medunnaadmin', createdDate='2022-03-22T00:06:30.972317Z', defaultValMax='100', defaultValMin='66', description='', id=36051, name='Many test', price='50'}
+TestItem{createdBy='medunnaadmin', createdDate='2022-03-22T00:14:54.004406Z', defaultValMax='100', defaultValMin='66', description='', id=36053, name='Harriette test', price='50'}
+TestItem{createdBy='medunnaadmin', createdDate='2022-03-21T14:14:00.374081Z', defaultValMax='100', defaultValMin='66', description='', id=33032, name='Na13', price='50'}
+TestItem{createdBy='medunnaadmin', createdDate='2022-03-22T00:16:23.751778Z', defaultValMax='100', defaultValMin='66', description='', id=36054, name='Bradly test', price='50'}
+TestItem{createdBy='medunnaadmin', createdDate='2022-03-21T14:24:18.368214Z', defaultValMax='100', defaultValMin='66', description='', id=33034, name='Jenette test', price='50'}
+TestItem{createdBy='medunnaadmin', createdDate='2022-03-21T14:25:55.962365Z', defaultValMax='100', defaultValMin='66', description='', id=33035, name='Grazyna test', price='50'}
+TestItem{createdBy='medunnaadmin', createdDate='2022-03-22T00:20:16.178305Z', defaultValMax='100', defaultValMin='66', description='', id=36055, name='Venetta test', price='50'}
+TestItem{createdBy='medunnaadmin', createdDate='2022-03-21T14:28:46.821616Z', defaultValMax='100', defaultValMin='66', description='', id=33037, name='Emerson test', price='50'}
+TestItem{createdBy='medunnaadmin', createdDate='2022-03-21T14:31:50.050922Z', defaultValMax='100', defaultValMin='66', description='', id=33038, name='Stanford test', price='50'}
+TestItem{createdBy='medunnaadmin', createdDate='2022-03-21T14:33:01.198274Z', defaultValMax='100', defaultValMin='66', description='', id=33039, name='Omega test', price='50'}
+TestItem{createdBy='medunnaadmin', createdDate='2022-03-21T18:20:17.470709Z', defaultValMax='100', defaultValMin='66', description='', id=33040, name='Buster test', price='50'}
+TestItem{createdBy='medunnaadmin', createdDate='2022-03-21T18:22:44.058389Z', defaultValMax='100', defaultValMin='66', description='', id=33041, name='Elouise test', price='50'}
+TestItem{createdBy='medunnaadmin', createdDate='2022-03-21T18:24:42.535582Z', defaultValMax='100', defaultValMin='66', description='', id=33042, name='Alonzo test', price='50'}
+TestItem{createdBy='medunnaadmin', createdDate='2022-03-22T00:27:19.515875Z', defaultValMax='100', defaultValMin='66', description='', id=36058, name='Yi test', price='50'}
+TestItem{createdBy='medunnaadmin', createdDate='2022-03-21T23:52:35.833420Z', defaultValMax='100', defaultValMin='66', description='', id=33044, name='Keneth test', price='50'}
+TestItem{createdBy='ogunes', createdDate='2022-07-21T14:00:49.129601Z', defaultValMax='140', defaultValMin='70', description='omer1', id=132751, name='glucose', price='20'}
+TestItem{createdBy='alexxela', createdDate='2022-03-22T07:42:57.965003Z', defaultValMax='5000', defaultValMin='3000', description='very important', id=36063, name='Sheena Pollich Jr.', price='2500'}
+TestItem{createdBy='alexxela', createdDate='2022-03-22T07:44:04.156634Z', defaultValMax='234567', defaultValMin='23456', description='gh', id=36064, name='dfg', price='23'}
+TestItem{createdBy='alexxela', createdDate='2022-03-22T07:53:09.456778Z', defaultValMax='3456tyuhuk', defaultValMin='34578', description='ghnmdfg', id=36067, name='dfgsdf', price='2200'}
+TestItem{createdBy='alexxela', createdDate='2022-03-22T07:57:20.167883Z', defaultValMax='5000', defaultValMin='3000', description='very important', id=36069, name='Nickolas Volkman', price='2500'}
+TestItem{createdBy='alexxela', createdDate='2022-03-22T08:01:18.014431Z', defaultValMax='5000', defaultValMin='3000', description='very important', id=36070, name='Elbert Bednar', price='2500'}
+TestItem{createdBy='alexxela', createdDate='2022-03-22T08:02:20.846344Z', defaultValMax='5000', defaultValMin='3000', description='very important', id=36071, name='Domingo Braun', price='2500'}
+TestItem{createdBy='alexxela', createdDate='2022-03-22T08:08:42.358715Z', defaultValMax='5000', defaultValMin='3000', description='very important', id=36073, name='Margot Kohler', price='2500'}
+TestItem{createdBy='alexxela', createdDate='2022-03-22T08:13:04.383892Z', defaultValMax='5000', defaultValMin='3000', description='very important', id=36074, name='Hal Wiza', price='2500'}
+TestItem{createdBy='alexxela', createdDate='2022-03-22T08:14:14.324357Z', defaultValMax='5000', defaultValMin='3000', description='very important', id=36075, name='Timmy Harber', price='2500'}
+TestItem{createdBy='admin79', createdDate='2022-03-22T22:15:15.515485Z', defaultValMax='130', defaultValMin='80', description='mg/ml', id=36079, name='Elin', price='130'}
+TestItem{createdBy='admin79', createdDate='2022-03-23T02:12:55.304796Z', defaultValMax='130', defaultValMin='80', description='mg/mL', id=36083, name='Dewey test', price='101'}
+TestItem{createdBy='alexxela', createdDate='2022-03-23T04:36:10.362540Z', defaultValMax='5000', defaultValMin='3000', description='very important', id=36085, name='Tuan Streich', price='2500'}
+TestItem{createdBy='alexxela', createdDate='2022-03-23T04:48:04.901701Z', defaultValMax='5000', defaultValMin='3000', description='very important', id=36087, name='Adolfo Vandervort', price='2500'}
+TestItem{createdBy='alexxela', createdDate='2022-03-23T05:01:59.218436Z', defaultValMax='5000', defaultValMin='3000', description='very important', id=36088, name='Micheline Ratke Jr.', price='2500'}
+TestItem{createdBy='alexxela', createdDate='2022-03-23T07:00:56.066263Z', defaultValMax='1000', defaultValMin='5000', description='very important', id=36089, name='steteskop', price='1030'}
+TestItem{createdBy='alexxela', createdDate='2022-03-23T07:06:50.605139Z', defaultValMax='1000', defaultValMin='5000', description='very important', id=36092, name='mr machine', price='3000'}
+TestItem{createdBy='alexxela', createdDate='2022-03-23T07:56:53.895001Z', defaultValMax='50000', defaultValMin='10000', description='very important', id=36093, name='Mrmachine2', price='12566'}
+TestItem{createdBy='alexxela', createdDate='2022-03-23T09:39:52.904171Z', defaultValMax='5000', defaultValMin='3000', description='very important', id=36094, name='Jenette Ankunding', price='2500'}
+TestItem{createdBy='alexxela', createdDate='2022-03-23T10:35:50.356087Z', defaultValMax='5000', defaultValMin='3000', description='very important', id=36095, name='Chang Olson', price='2500'}
+TestItem{createdBy='alexxela', createdDate='2022-03-23T10:36:56.143192Z', defaultValMax='5000', defaultValMin='3000', description='very important', id=36096, name='Josue Lowe', price='2500'}
+TestItem{createdBy='alexxela', createdDate='2022-03-23T11:17:22.822161Z', defaultValMax='50000 0', defaultValMin='100000', description='very importantt', id=36097, name='Mrmachine3', price='125000'}
+TestItem{createdBy='vera', createdDate='2022-03-23T16:39:38.178399Z', defaultValMax='10', defaultValMin='0', description='desc1', id=37202, name='test item1', price='100'}
+TestItem{createdBy='medunnaadmin', createdDate='2022-03-23T16:48:34.982128Z', defaultValMax='100', defaultValMin='66', description='', id=37203, name='Bernetta test', price='50'}
+TestItem{createdBy='admin79', createdDate='2022-03-23T20:34:04.462739Z', defaultValMax='130', defaultValMin='80', description='mg/mL', id=37204, name='Williams test', price='126'}
+TestItem{createdBy='admin79', createdDate='2022-03-23T20:35:07.799022Z', defaultValMax='130', defaultValMin='80', description='mg/mL', id=37205, name='Shelby test', price='114'}
+TestItem{createdBy='admin79', createdDate='2022-03-23T20:36:54.523164Z', defaultValMax='130', defaultValMin='80', description='mg/mL', id=37206, name='Solomon test', price='129'}
+TestItem{createdBy='admin79', createdDate='2022-03-23T20:48:29.858100Z', defaultValMax='130', defaultValMin='80', description='mg/mL', id=37207, name='Darby test', price='148'}
+TestItem{createdBy='admin79', createdDate='2022-03-23T21:11:21.517041Z', defaultValMax='130', defaultValMin='80', description='mg/mL', id=37209, name='Kisha test', price='127'}
+TestItem{createdBy='admin79', createdDate='2022-03-23T21:18:25.149978Z', defaultValMax='130', defaultValMin='80', description='mg/mL', id=37210, name='Marlin test', price='133'}
+TestItem{createdBy='medunnaadmin', createdDate='2022-03-24T00:34:29.818375Z', defaultValMax='100', defaultValMin='66', description='', id=37211, name='Ned test', price='50'}
+TestItem{createdBy='maryhannah', createdDate='2022-03-24T07:23:31.603242Z', defaultValMax='80', defaultValMin='40', description='mgg', id=37212, name='b test', price='30'}
+TestItem{createdBy='adminbulent', createdDate='2022-03-24T07:48:12.071758Z', defaultValMax='153', defaultValMin='45', description='mg/dL', id=37215, name='Kera test', price='56'}
+TestItem{createdBy='medunnaadmin', createdDate='2022-03-24T14:01:02.289669Z', defaultValMax='100', defaultValMin='66', description='', id=37216, name='Patricia test', price='50'}
+TestItem{createdBy='admin79', createdDate='2022-03-24T14:26:46.563448Z', defaultValMax='130', defaultValMin='80', description='mg/mL', id=37217, name='Arden test', price='144'}
+TestItem{createdBy='admin79', createdDate='2022-03-24T16:47:29.711557Z', defaultValMax='120', defaultValMin='50', description='mg/dL', id=37218, name='Tamar test', price='95'}
+TestItem{createdBy='adminbulent', createdDate='2022-03-24T21:02:58.832520Z', defaultValMax='175', defaultValMin='46', description='mg/dL', id=37219, name='Amiee test', price='71'}
+TestItem{createdBy='maryhannah', createdDate='2022-03-24T21:03:09.251003Z', defaultValMax='120', defaultValMin='50', description='mg/dL', id=37220, name='Myrtice test', price='69'}
+TestItem{createdBy='maryhannah', createdDate='2022-03-24T21:26:17.843834Z', defaultValMax='120', defaultValMin='50', description='mg/dL', id=37221, name='Emmie test', price='60'}
+TestItem{createdBy='adminbulent', createdDate='2022-03-24T21:30:23.996809Z', defaultValMax='171', defaultValMin='56', description='mg/dL', id=37222, name='Jarrett test', price='86'}
+TestItem{createdBy='maryhannah', createdDate='2022-03-24T21:30:32.823557Z', defaultValMax='120', defaultValMin='50', description='mg/dL', id=37223, name='Janyce test', price='67'}
+TestItem{createdBy='admin79', createdDate='2022-03-25T03:48:37.848508Z', defaultValMax='130', defaultValMin='80', description='mg/ml', id=37224, name='Timothy', price='130'}
+TestItem{createdBy='maryhannah', createdDate='2022-03-25T07:13:44.507142Z', defaultValMax='120', defaultValMin='50', description='mg/dL', id=37225, name='Mai test', price='148'}
+TestItem{createdBy='maryhannah', createdDate='2022-03-25T07:13:46.207823Z', defaultValMax='120', defaultValMin='50', description='mg/dL', id=37226, name='Tabatha test', price='80'}
+TestItem{createdBy='maryhannah', createdDate='2022-03-25T14:21:34.359274Z', defaultValMax='120', defaultValMin='50', description='mg/dL', id=37227, name='Randolph test', price='63'}
+TestItem{createdBy='adminbulent', createdDate='2022-03-25T14:25:39.215470Z', defaultValMax='154', defaultValMin='52', description='mg/dL', id=37228, name='Reita test', price='66'}
+TestItem{createdBy='maryhannah', createdDate='2022-03-25T14:25:43.864419Z', defaultValMax='120', defaultValMin='50', description='mg/dL', id=37229, name='Simone test', price='124'}
+TestItem{createdBy='adminbulent', createdDate='2022-03-25T14:34:59.247447Z', defaultValMax='189', defaultValMin='51', description='mg/dL', id=37230, name='Wanita test', price='84'}
+TestItem{createdBy='maryhannah', createdDate='2022-03-25T14:35:04.388383Z', defaultValMax='120', defaultValMin='50', description='mg/dL', id=37231, name='Nicky test', price='119'}
+TestItem{createdBy='team_88_admin', createdDate='2022-07-25T18:55:27.893611Z', defaultValMax='34', defaultValMin='string', description='dsds', id=139387, name='stjjj', price='0'}
+TestItem{createdBy='maryhannah', createdDate='2022-03-25T15:15:23.473557Z', defaultValMax='120', defaultValMin='50', description='mg/dL', id=37233, name='Theo test', price='116'}
+TestItem{createdBy='adminbulent', createdDate='2022-03-25T15:21:49.548639Z', defaultValMax='70', defaultValMin='30', description='none', id=37234, name='asas', price='100'}
+TestItem{createdBy='adminbulent', createdDate='2022-03-25T15:25:36.335596Z', defaultValMax='70', defaultValMin='20', description='none', id=37235, name='vava', price='50'}
+TestItem{createdBy='admin79', createdDate='2022-03-25T16:31:24.319344Z', defaultValMax='120', defaultValMin='50', description='mg/dL', id=37236, name='Lincoln test', price='57'}
+TestItem{createdBy='adminbulent', createdDate='2022-03-25T16:32:37.781311Z', defaultValMax='92', defaultValMin='42', description='mg/dL', id=37237, name='Louetta test', price='51'}
+TestItem{createdBy='adminbulent', createdDate='2022-03-25T16:41:29.856003Z', defaultValMax='176', defaultValMin='42', description='mg/dL', id=37238, name='Agustin test', price='90'}
+TestItem{createdBy='adminbulent', createdDate='2022-03-25T16:43:15.392192Z', defaultValMax='162', defaultValMin='63', description='mg/dL', id=37239, name='Pearlene test', price='119'}
+TestItem{createdBy='team91adminn', createdDate='2022-04-17T08:49:53.479926Z', defaultValMax='52', defaultValMin='29', description='Api versuch', id=73301, name='Ms. Evan Lemke', price='400'}
+TestItem{createdBy='maryhannah', createdDate='2022-03-25T17:11:08.139244Z', defaultValMax='120', defaultValMin='50', description='mg/dL', id=37241, name='Walter test', price='88'}
+TestItem{createdBy='adminbulent', createdDate='2022-03-25T17:13:43.164503Z', defaultValMax='82', defaultValMin='44', description='mg/dL', id=37242, name='Cleo xtest', price='41'}
+TestItem{createdBy='maryhannah', createdDate='2022-03-25T17:13:52.853533Z', defaultValMax='120', defaultValMin='50', description='mg/dL', id=37243, name='Hung test', price='128'}
+TestItem{createdBy='adminbulent', createdDate='2022-03-25T17:20:23.584171Z', defaultValMax='134', defaultValMin='63', description='mg/dL', id=37244, name='Tommiextest', price='60'}
+TestItem{createdBy='maryhannah', createdDate='2022-03-25T17:20:32.157359Z', defaultValMax='120', defaultValMin='50', description='mg/dL', id=37245, name='Jerrold test', price='99'}
+TestItem{createdBy='adminbulent', createdDate='2022-03-25T17:39:44.064290Z', defaultValMax='151', defaultValMin='67', description='mg/dL', id=37246, name='Nicolxtest', price='36'}
+TestItem{createdBy='maryhannah', createdDate='2022-03-25T17:39:48.656927Z', defaultValMax='120', defaultValMin='50', description='mg/dL', id=37247, name='Titus test', price='145'}
+TestItem{createdBy='admin79', createdDate='2022-03-25T18:00:39.226013Z', defaultValMax='130', defaultValMin='80', description='mg/mL', id=37248, name='Scott test', price='110'}
+TestItem{createdBy='alexxela', createdDate='2022-03-25T20:45:46.589733Z', defaultValMax='5000', defaultValMin='3000', description='very important', id=37249, name='Dwight Davis', price='2500'}
+TestItem{createdBy='alexxela', createdDate='2022-03-25T20:48:18.805285Z', defaultValMax='5000', defaultValMin='3000', description='very important', id=37250, name='Freddy Hessel', price='2500'}
+TestItem{createdBy='admin79', createdDate='2022-03-25T21:23:11.843916Z', defaultValMax='130', defaultValMin='80', description='mg/ml', id=39856, name='Madelyn', price='130'}
+TestItem{createdBy='admin79', createdDate='2022-03-25T21:39:11.655026Z', defaultValMax='130', defaultValMin='80', description='mg/ml', id=39857, name='Derick', price='130'}
+TestItem{createdBy='admin79', createdDate='2022-03-25T21:42:42.312681Z', defaultValMax='130', defaultValMin='80', description='mg/ml', id=39858, name='Katlyn', price='130'}
+TestItem{createdBy='admin79', createdDate='2022-03-25T22:04:28.926718Z', defaultValMax='120', defaultValMin='50', description='mg/dL', id=39859, name='Loreta test', price='87'}
+TestItem{createdBy='adminbulent', createdDate='2022-03-25T22:17:05.828542Z', defaultValMax='113', defaultValMin='54', description='mg/dL', id=39860, name='Sean test', price='66'}
+TestItem{createdBy='medunnaadmin', createdDate='2022-03-25T23:20:03.677346Z', defaultValMax='100', defaultValMin='66', description='', id=39861, name='Na2', price='50'}
+TestItem{createdBy='admin79', createdDate='2022-03-26T06:07:14.166268Z', defaultValMax='130', defaultValMin='80', description='mg/ml', id=39866, name='Brant', price='130'}
+TestItem{createdBy='admin79', createdDate='2022-03-26T06:12:18.600806Z', defaultValMax='130', defaultValMin='80', description='mg/ml', id=39867, name='Irvin', price='130'}
+TestItem{createdBy='admin79', createdDate='2022-03-26T07:30:47.201857Z', defaultValMax='130', defaultValMin='80', description='mg/ml', id=39868, name='Maurice', price='130'}
+TestItem{createdBy='adminbulent', createdDate='2022-03-26T07:56:06.492491Z', defaultValMax='176', defaultValMin='43', description='mg/dL', id=39869, name='Rossxtest', price='109'}
+TestItem{createdBy='maryhannah', createdDate='2022-03-26T08:07:17.538963Z', defaultValMax='20', defaultValMin='120', description='mcl', id=39871, name='sontest', price='50'}
+TestItem{createdBy='maryhannah', createdDate='2022-03-26T08:09:05.622613Z', defaultValMax='120', defaultValMin='50', description='mg/dL', id=39872, name='Ulysses test', price='122'}
+TestItem{createdBy='maryhannah', createdDate='2022-03-26T08:15:19.244720Z', defaultValMax='120', defaultValMin='50', description='mg/dL', id=39874, name='Emmanuelxytest', price='115'}
+TestItem{createdBy='alexxela', createdDate='2022-03-26T08:49:58.850048Z', defaultValMax='5000', defaultValMin='3000', description='very important', id=39875, name='Mellissa Ferry II', price='2500'}
+TestItem{createdBy='adminbulent', createdDate='2022-03-26T08:57:00.577966Z', defaultValMax='141', defaultValMin='63', description='mg/dL', id=39876, name='Agripinaxtest', price='98'}
+TestItem{createdBy='maryhannah', createdDate='2022-03-26T08:57:07.095658Z', defaultValMax='120', defaultValMin='50', description='mg/dL', id=39877, name='Lorixytest', price='53'}
+TestItem{createdBy='alexxela', createdDate='2022-03-26T10:10:14.918542Z', defaultValMax='5000', defaultValMin='3000', description='very important', id=39878, name='Dominick Weber', price='2500'}
+TestItem{createdBy='myadminhyu', createdDate='2022-03-26T10:42:08.182012Z', defaultValMax='151', defaultValMin='49', description='mg/dL', id=39879, name='Zoe test', price='58'}
+TestItem{createdBy='alexxela', createdDate='2022-03-26T10:51:16.426850Z', defaultValMax='5000', defaultValMin='3000', description='very important', id=39880, name='Carmina Dickens', price='2500'}
+TestItem{createdBy='adminbulent', createdDate='2022-03-26T11:19:28.431247Z', defaultValMax='107', defaultValMin='52', description='mg/dL', id=39881, name='Jaredxtest', price='98'}
+TestItem{createdBy='maryhannah', createdDate='2022-03-26T11:19:34.912755Z', defaultValMax='120', defaultValMin='50', description='mg/dL', id=39882, name='Stefanxytest', price='89'}
+TestItem{createdBy='admin79', createdDate='2022-03-26T11:29:34.036742Z', defaultValMax='120', defaultValMin='50', description='mg/dL', id=39883, name='Nikita test', price='88'}
+TestItem{createdBy='myadminhyu', createdDate='2022-03-26T11:40:42.853085Z', defaultValMax='134', defaultValMin='53', description='mg/dL', id=39884, name='Lance test', price='41'}
+TestItem{createdBy='adminbulent', createdDate='2022-03-26T11:43:04.464403Z', defaultValMax='128', defaultValMin='54', description='mg/dL', id=39885, name='Mitchxtest', price='73'}
+TestItem{createdBy='maryhannah', createdDate='2022-03-26T11:43:11.620521Z', defaultValMax='120', defaultValMin='50', description='mg/dL', id=39886, name='Eunxytest', price='65'}
+TestItem{createdBy='alexxela', createdDate='2022-03-26T12:00:35.662608Z', defaultValMax='5000', defaultValMin='3000', description='very important', id=39887, name='Janay Weber', price='2500'}
+TestItem{createdBy='adminbulent', createdDate='2022-03-26T12:04:57.707080Z', defaultValMax='127', defaultValMin='48', description='mg/dL', id=39888, name='Benniextest', price='69'}
+TestItem{createdBy='maryhannah', createdDate='2022-03-26T12:05:10.782286Z', defaultValMax='120', defaultValMin='50', description='mg/dL', id=39889, name='Kellexytest', price='125'}
+TestItem{createdBy='admin79', createdDate='2022-03-26T12:26:25.310959Z', defaultValMax='120', defaultValMin='50', description='mg/dL', id=39890, name='Pamelia test', price='58'}
+TestItem{createdBy='alexxela', createdDate='2022-03-26T12:33:29.296949Z', defaultValMax='5000', defaultValMin='3000', description='very important', id=39891, name='Mr. Foster Wilderman', price='2500'}
+TestItem{createdBy='myadminhyu', createdDate='2022-03-26T12:39:10.897729Z', defaultValMax='176', defaultValMin='51', description='mg/dL', id=39892, name='Karina test', price='78'}
+TestItem{createdBy='alexxela', createdDate='2022-03-26T12:46:04.985134Z', defaultValMax='5000', defaultValMin='3000', description='very important', id=39893, name='Noelle Veum', price='2500'}
+TestItem{createdBy='adminbulent', createdDate='2022-03-26T12:50:05.243236Z', defaultValMax='183', defaultValMin='42', description='mg/dL', id=39894, name='Lesxtest', price='109'}
+TestItem{createdBy='maryhannah', createdDate='2022-03-26T12:50:13.189382Z', defaultValMax='120', defaultValMin='50', description='mg/dL', id=39895, name='Woodrowxytest', price='88'}
+TestItem{createdBy='alexxela', createdDate='2022-03-26T13:10:22.561889Z', defaultValMax='5000', defaultValMin='3000', description='very important', id=39896, name='Yajaira MacGyver IV', price='2500'}
+TestItem{createdBy='adminbulent', createdDate='2022-03-26T13:11:30.750238Z', defaultValMax='80', defaultValMin='48', description='mg/dL', id=39897, name='Sondraxtest', price='114'}
+TestItem{createdBy='maryhannah', createdDate='2022-03-26T13:11:41.014881Z', defaultValMax='120', defaultValMin='50', description='mg/dL', id=39898, name='Lakeishaxytest', price='127'}
+TestItem{createdBy='adminbulent', createdDate='2022-03-26T13:29:47.497533Z', defaultValMax='93', defaultValMin='53', description='mg/dL', id=39900, name='Wilburnxtest', price='101'}
+TestItem{createdBy='maryhannah', createdDate='2022-03-26T13:29:54.866171Z', defaultValMax='120', defaultValMin='50', description='mg/dL', id=41551, name='Feltonxytest', price='143'}
+TestItem{createdBy='admin79', createdDate='2022-03-26T13:37:11.685650Z', defaultValMax='120', defaultValMin='50', description='mg/dL', id=41553, name='Tyron test', price='135'}
+TestItem{createdBy='myadminhyu', createdDate='2022-03-26T13:43:53.560727Z', defaultValMax='112', defaultValMin='45', description='mg/dL', id=41554, name='Nyla test', price='72'}
+TestItem{createdBy='adminbulent', createdDate='2022-03-26T13:44:07.226390Z', defaultValMax='103', defaultValMin='53', description='mg/dL', id=41555, name='Dwaynextest', price='26'}
+TestItem{createdBy='maryhannah', createdDate='2022-03-26T13:44:14.617396Z', defaultValMax='120', defaultValMin='50', description='mg/dL', id=41556, name='Marquitaxytest', price='149'}
+TestItem{createdBy='myadminhyu', createdDate='2022-03-26T13:53:44.852249Z', defaultValMax='159', defaultValMin='61', description='mg/dL', id=41557, name='Ervin test', price='66'}
+TestItem{createdBy='adminbulent', createdDate='2022-03-26T13:53:48.016414Z', defaultValMax='91', defaultValMin='65', description='mg/dL', id=41558, name='Maynardxtest', price='34'}
+TestItem{createdBy='maryhannah', createdDate='2022-03-26T13:53:57.861339Z', defaultValMax='120', defaultValMin='50', description='mg/dL', id=41559, name='Kelvinxytest', price='105'}
+TestItem{createdBy='adminbulent', createdDate='2022-03-26T14:13:37.354430Z', defaultValMax='156', defaultValMin='64', description='mg/dL', id=41560, name='Jaquelynxtest', price='68'}
+TestItem{createdBy='maryhannah', createdDate='2022-03-26T14:13:45.597884Z', defaultValMax='120', defaultValMin='50', description='mg/dL', id=41561, name='Erickaxytest', price='105'}
+TestItem{createdBy='adminbulent', createdDate='2022-03-26T14:26:49.580430Z', defaultValMax='105', defaultValMin='60', description='mg/dL', id=41562, name='Kaseyxtest', price='66'}
+TestItem{createdBy='maryhannah', createdDate='2022-03-26T14:26:59.032432Z', defaultValMax='120', defaultValMin='50', description='mg/dL', id=41563, name='Taylorxytest', price='52'}
+TestItem{createdBy='maryhannah', createdDate='2022-03-27T20:25:36.930613Z', defaultValMax='120', defaultValMin='50', description='mg/dL', id=41564, name='Simonnexytest', price='123'}
+TestItem{createdBy='admin79', createdDate='2022-03-27T20:36:35.954252Z', defaultValMax='null', defaultValMin='null', description='mg/dl', id=41565, name='Yongtest', price='145'}
+TestItem{createdBy='admin79', createdDate='2022-03-27T20:38:16.350336Z', defaultValMax='null', defaultValMin='null', description='mg/dl', id=41566, name='Gerardtest', price='79'}
+TestItem{createdBy='admin79', createdDate='2022-03-28T06:16:00.499201Z', defaultValMax='130', defaultValMin='80', description='mg/mL', id=41567, name='Carson test', price='135'}
+TestItem{createdBy='admin79', createdDate='2022-03-28T06:17:11.378247Z', defaultValMax='130', defaultValMin='80', description='mg/mL', id=41569, name='Kristian test', price='139'}
+TestItem{createdBy='admin79', createdDate='2022-03-28T06:56:18.813276Z', defaultValMax='130', defaultValMin='80', description='mg/mL', id=41570, name='Josh test', price='120'}
+TestItem{createdBy='admin79', createdDate='2022-03-28T06:59:42.174906Z', defaultValMax='130', defaultValMin='80', description='mg/mL', id=41571, name='Lieselotte test', price='109'}
+TestItem{createdBy='admin79', createdDate='2022-03-29T22:49:12.330622Z', defaultValMax='130', defaultValMin='80', description='mg/mL', id=43901, name='Marcus test', price='129'}
+TestItem{createdBy='adm', createdDate='2022-03-30T16:23:08.534783Z', defaultValMax='-4', defaultValMin='-3', description='asdasd', id=43902, name='adasd', price='1'}
+TestItem{createdBy='adminbulent', createdDate='2022-03-30T20:02:40.632524Z', defaultValMax='72', defaultValMin='61', description='mg/dL', id=43903, name='Lowellxtest', price='37'}
+TestItem{createdBy='admin79', createdDate='2022-04-05T01:05:30.130908Z', defaultValMax='30', defaultValMin='23', description='mg', id=43904, name='test1', price='50'}
+TestItem{createdBy='team91adminn', createdDate='2022-04-17T08:53:35.217195Z', defaultValMax='74', defaultValMin='31', description='Api versuch', id=73302, name='Vito Simonis', price='400'}
+TestItem{createdBy='team91adminn', createdDate='2022-04-17T09:20:21.511340Z', defaultValMax='73', defaultValMin='35', description='Api versuch', id=73307, name='Judson Jacobi', price='400'}
+TestItem{createdBy='admin79', createdDate='2022-04-06T18:39:48.552200Z', defaultValMax='130', defaultValMin='80', description='mg/mL', id=43907, name='Cortez test', price='144'}
+TestItem{createdBy='admin79', createdDate='2022-04-06T18:48:23.506775Z', defaultValMax='130', defaultValMin='80', description='mg/mL', id=43908, name='Merlin test', price='113'}
+TestItem{createdBy='admin79', createdDate='2022-04-06T20:44:19.066653Z', defaultValMax='130', defaultValMin='80', description='mg/mL', id=43909, name='Man test', price='126'}
+TestItem{createdBy='admin79', createdDate='2022-04-06T21:49:57.242280Z', defaultValMax='130', defaultValMin='80', description='mg/mL', id=43910, name='Katharina test', price='104'}
+TestItem{createdBy='admin79', createdDate='2022-04-06T21:57:05.331905Z', defaultValMax='130', defaultValMin='80', description='mg/mL', id=43912, name='Kenneth test', price='144'}
+TestItem{createdBy='admin79', createdDate='2022-04-06T22:11:34.775878Z', defaultValMax='50', defaultValMin='18', description='abc', id=43913, name='Urea1', price='13'}
+TestItem{createdBy='admin79', createdDate='2022-04-06T22:21:08.124641Z', defaultValMax='130', defaultValMin='80', description='mg/mL', id=43914, name='Frederic test', price='106'}
+TestItem{createdBy='admin79', createdDate='2022-04-06T22:23:09.135238Z', defaultValMax='130', defaultValMin='80', description='mg/mL', id=43915, name='Janey test', price='103'}
+TestItem{createdBy='admin79', createdDate='2022-04-06T22:42:54.180292Z', defaultValMax='130', defaultValMin='80', description='mg/mL', id=43916, name='Winston test', price='134'}
+TestItem{createdBy='adminbulent', createdDate='2022-04-09T10:31:29.709736Z', defaultValMax='72', defaultValMin='58', description='mg/dL', id=43918, name='Joeyxtest', price='79'}
+TestItem{createdBy='adminbulent', createdDate='2022-04-09T10:54:06.920798Z', defaultValMax='126', defaultValMin='52', description='mg/dL', id=43919, name='Lareextest', price='80'}
+TestItem{createdBy='adminbulent', createdDate='2022-04-09T18:48:07.380371Z', defaultValMax='79', defaultValMin='51', description='mg/dL', id=43921, name='Brianxtest', price='119'}
+TestItem{createdBy='adminbulent', createdDate='2022-04-09T18:50:57.594318Z', defaultValMax='120', defaultValMin='55', description='mg/dL', id=43922, name='Johnsiextest', price='36'}
+TestItem{createdBy='adminbulent', createdDate='2022-04-09T18:53:59.343987Z', defaultValMax='136', defaultValMin='60', description='mg/dL', id=43923, name='Linoxtest', price='51'}
+TestItem{createdBy='adminbulent', createdDate='2022-04-09T19:12:04.739259Z', defaultValMax='161', defaultValMin='66', description='mg/dL', id=43924, name='Gerardxtest', price='79'}
+TestItem{createdBy='adminbulent', createdDate='2022-04-09T19:16:28.175632Z', defaultValMax='174', defaultValMin='54', description='mg/dL', id=43925, name='Coriextest', price='107'}
+TestItem{createdBy='team94admin', createdDate='2022-04-13T10:02:41.688534Z', defaultValMax='ert', defaultValMin='we', description='sali', id=43927, name='sl', price='2345'}
+TestItem{createdBy='team94admin', createdDate='2022-04-13T10:13:09.127150Z', defaultValMax='we', defaultValMin='we', description='s', id=43928, name='s', price='2345'}
+TestItem{createdBy='adminceran', createdDate='2022-04-13T12:10:02.476247Z', defaultValMax='50', defaultValMin='20', description='hfgfgjhgkjghkjpyg', id=43929, name='sampleItem1', price='100'}
+TestItem{createdBy='team94admin', createdDate='2022-04-13T13:30:50.201312Z', defaultValMax='23', defaultValMin='45', description='er', id=43930, name='er', price='34'}
+TestItem{createdBy='team94admin', createdDate='2022-04-13T15:53:36.685121Z', defaultValMax='4', defaultValMin='234', description='tz', id=43931, name='de', price='123'}
+TestItem{createdBy='adminsez', createdDate='2022-04-13T16:36:59.003327Z', defaultValMax='24', defaultValMin='12', description='azerty', id=43932, name='ABC', price='90'}
+TestItem{createdBy='team92admin', createdDate='2022-04-14T10:33:00.479618Z', defaultValMax='assaas', defaultValMin='saas', description='saas', id=43934, name='sasa', price='6666'}
+TestItem{createdBy='team94admin', createdDate='2022-04-14T14:16:55.907073Z', defaultValMax='1232', defaultValMin='1342', description='', id=43935, name='saul test', price='90009'}
+TestItem{createdBy='team94admin', createdDate='2022-04-14T16:10:35.886487Z', defaultValMax='300', defaultValMin='166', description='', id=43936, name='saliha', price='5200'}
+TestItem{createdBy='adminhanife', createdDate='2022-04-14T20:57:38.133888Z', defaultValMax='', defaultValMin='', description='', id=43945, name='DrHanife', price='111'}
+TestItem{createdBy='team94admin', createdDate='2022-04-14T20:57:51.052257Z', defaultValMax='1.5', defaultValMin='1.7', description='headache', id=43947, name='eret', price='200'}
+TestItem{createdBy='team94admin', createdDate='2022-04-14T21:01:26.502234Z', defaultValMax='1.5', defaultValMin='1.7', description='team94', id=69503, name='team94', price='200'}
+TestItem{createdBy='team91adminn', createdDate='2022-04-15T04:49:53.215053Z', defaultValMax='ss', defaultValMin='ss', description='sss', id=69511, name='sss', price='22'}
+TestItem{createdBy='team91adminn', createdDate='2022-04-15T05:00:25.926637Z', defaultValMax='d', defaultValMin='d', description='d', id=69517, name='d', price='3'}
+TestItem{createdBy='team91adminn', createdDate='2022-04-15T05:01:24.415412Z', defaultValMax='ss', defaultValMin='s', description='ssfff', id=69520, name='sff', price='33'}
+TestItem{createdBy='team91adminn', createdDate='2022-04-15T05:02:58.904866Z', defaultValMax='3333', defaultValMin='330', description='veli', id=69521, name='ali', price='40'}
+TestItem{createdBy='team86admin', createdDate='2022-04-15T08:36:51.770028Z', defaultValMax='250', defaultValMin='150', description='Demir olcumu', id=69528, name='Demir', price='5000'}
+TestItem{createdBy='team86admin', createdDate='2022-04-15T09:05:10.551835Z', defaultValMax='500', defaultValMin='50', description='zehir', id=69529, name='toksin', price='100'}
+TestItem{createdBy='team94admin', createdDate='2022-04-15T09:58:32.541842Z', defaultValMax='40', defaultValMin='19', description='hasta', id=69532, name='Lara', price='12'}
+TestItem{createdBy='team94admin', createdDate='2022-04-15T10:45:10.855660Z', defaultValMax='23', defaultValMin='34', description='has', id=69535, name='sal', price='500'}
+TestItem{createdBy='team94admin', createdDate='2022-04-15T10:52:34.980576Z', defaultValMax='22', defaultValMin='3', description='yanliz', id=69536, name='salla', price='200'}
+TestItem{createdBy='team94admin', createdDate='2022-04-15T10:53:40.910455Z', defaultValMax='22', defaultValMin='3', description='mart', id=69537, name='nisan', price='700'}
+TestItem{createdBy='team94admin', createdDate='2022-04-15T11:23:38.442544Z', defaultValMax='0.9', defaultValMin='0.5', description='', id=69541, name='param', price='500'}
+TestItem{createdBy='team94admin', createdDate='2022-04-15T11:27:43.274448Z', defaultValMax='0.9', defaultValMin='0.5', description='', id=69543, name='parali', price='5000'}
+TestItem{createdBy='team94admin', createdDate='2022-04-15T11:32:36.591616Z', defaultValMax='567', defaultValMin='68', description='bas agri', id=69545, name='jasmina', price='5000'}
+TestItem{createdBy='team94admin', createdDate='2022-04-15T12:12:22.102068Z', defaultValMax='4', defaultValMin='45', description='mutlu', id=69546, name='buri', price='456'}
+TestItem{createdBy='admin79', createdDate='2022-04-15T13:47:53.661867Z', defaultValMax='130', defaultValMin='80', description='mg/ml', id=69547, name='Helene', price='130'}
+TestItem{createdBy='team91adminn', createdDate='2022-04-16T08:02:19.570180Z', defaultValMax='120', defaultValMin='20', description='Das ist nur ein versuch', id=71453, name='Francisco Trantow', price='500'}
+TestItem{createdBy='team91adminn', createdDate='2022-04-16T07:45:42.620826Z', defaultValMax='120', defaultValMin='20', description='Das ist nur ein versuch', id=71451, name='Vickie Ratke', price='500'}
+TestItem{createdBy='team91adminn', createdDate='2022-04-16T07:46:26.608137Z', defaultValMax='120', defaultValMin='20', description='Das ist nur ein versuch', id=71452, name='Dale Jacobi', price='500'}
+TestItem{createdBy='team91adminn', createdDate='2022-04-16T08:11:15.573294Z', defaultValMax='120', defaultValMin='20', description='Das ist nur ein versuch', id=71454, name='India Ward', price='500'}
+TestItem{createdBy='team91adminn', createdDate='2022-04-16T08:16:30.042263Z', defaultValMax='120', defaultValMin='20', description='Das ist nur ein versuch', id=71455, name='Lisabeth Ernser', price='500'}
+TestItem{createdBy='team91adminn', createdDate='2022-04-16T08:24:21.570210Z', defaultValMax='harf olmamali', defaultValMin='harf olmamali', description='Das ist nur ein versuch', id=71456, name='Laurette Hayes', price='500'}
+TestItem{createdBy='team91adminn', createdDate='2022-04-16T08:31:52.756786Z', defaultValMax='120', defaultValMin='20', description='Das ist nur ein versuch', id=71457, name='Sammie Paucek', price='500'}
+TestItem{createdBy='adminyunusemre', createdDate='2022-04-16T11:03:28.523669Z', defaultValMax='130', defaultValMin='13', description='yenileme', id=71458, name='emreeeeee', price='50000'}
+TestItem{createdBy='adminteam93-10', createdDate='2022-04-16T12:16:10.985587Z', defaultValMax='130', defaultValMin='80', description='mg/ml', id=71459, name='Russ', price='130'}
+TestItem{createdBy='adminteam93-10', createdDate='2022-04-16T12:25:32.255804Z', defaultValMax='130', defaultValMin='80', description='mg/ml', id=71460, name='Glennis', price='130'}
+TestItem{createdBy='adminteam93-10', createdDate='2022-04-16T12:26:06.430737Z', defaultValMax='130', defaultValMin='80', description='mg/ml', id=71461, name='Richie', price='130'}
+TestItem{createdBy='adminteam93-10', createdDate='2022-04-16T12:27:19.763002Z', defaultValMax='130', defaultValMin='80', description='mg/ml', id=71462, name='Sina', price='130'}
+TestItem{createdBy='adminteam93-10', createdDate='2022-04-16T12:28:19.422374Z', defaultValMax='130', defaultValMin='80', description='mg/ml', id=71463, name='Ofelia', price='130'}
+TestItem{createdBy='adminteam93-10', createdDate='2022-04-16T12:30:56.735011Z', defaultValMax='130', defaultValMin='80', description='mg/ml', id=71464, name='Fritz', price='130'}
+TestItem{createdBy='adminteam93-10', createdDate='2022-04-16T12:40:00.000909Z', defaultValMax='654', defaultValMin='80', description='mg/ml', id=71465, name='Edmond', price='130'}
+TestItem{createdBy='adminteam93-10', createdDate='2022-04-16T12:52:34.513342Z', defaultValMax='085', defaultValMin='414', description='', id=71466, name='<testName>', price='817'}
+TestItem{createdBy='adminteam93-10', createdDate='2022-04-16T12:54:46.484308Z', defaultValMax='582', defaultValMin='801', description='', id=71467, name='Kenisha', price='42'}
+TestItem{createdBy='adminteam93-10', createdDate='2022-04-16T12:57:25.802183Z', defaultValMax='834', defaultValMin='029', description='', id=71468, name='Jennine', price='215'}
+TestItem{createdBy='adminteam93-10', createdDate='2022-04-16T12:58:51.847413Z', defaultValMax='861', defaultValMin='077', description='', id=71469, name='Shellie', price='266'}
+TestItem{createdBy='adminteam93-10', createdDate='2022-04-16T12:59:39.706321Z', defaultValMax='196', defaultValMin='400', description='mg/ml', id=71470, name='Reuben', price='216'}
+TestItem{createdBy='adminteam93-10', createdDate='2022-04-16T13:00:21.865577Z', defaultValMax='260', defaultValMin='867', description='mg/ml', id=71471, name='Cleveland', price='12'}
+TestItem{createdBy='adminteam93-10', createdDate='2022-04-16T14:04:28.378912Z', defaultValMax='705', defaultValMin='80', description='mg/ml', id=71472, name='Wilma', price='130'}
+TestItem{createdBy='adminteam93-10', createdDate='2022-04-16T14:04:51.542323Z', defaultValMax='381', defaultValMin='872', description='mg/ml', id=71473, name='Gaston', price='401'}
+TestItem{createdBy='team91adminn', createdDate='2022-04-16T14:32:04.202442Z', defaultValMax='120', defaultValMin='20', description='Das ist nur ein versuch', id=71474, name='Jean Gorczany', price='500'}
+TestItem{createdBy='team91adminn', createdDate='2022-04-16T14:33:06.786796Z', defaultValMax='harf olmamali', defaultValMin='harf olmamali', description='Das ist nur ein versuch', id=71475, name='Tommy Grant', price='500'}
+TestItem{createdBy='adminteam93-10', createdDate='2022-04-16T15:00:35.807469Z', defaultValMax='725', defaultValMin='80', description='mg/ml', id=71476, name='Josephina', price='130'}
+TestItem{createdBy='adminteam93-10', createdDate='2022-04-16T15:10:15.519536Z', defaultValMax='270', defaultValMin='724', description='mg/ml', id=71477, name='Wyatt', price='337'}
+TestItem{createdBy='adminteam93-10', createdDate='2022-04-16T15:13:53.160129Z', defaultValMax='630', defaultValMin='116', description='mg/ml', id=71478, name='Phil', price='36'}
+TestItem{createdBy='adminteam93-10', createdDate='2022-04-16T15:15:11.544740Z', defaultValMax='914', defaultValMin='655', description='mg/ml', id=71479, name='Karrie', price='335'}
+TestItem{createdBy='adminteam93-10', createdDate='2022-04-16T15:16:53.802055Z', defaultValMax='074', defaultValMin='209', description='mg/ml', id=71480, name='Oscar', price='224'}
+TestItem{createdBy='adminteam93-10', createdDate='2022-04-16T15:17:51.862131Z', defaultValMax='335', defaultValMin='731', description='mg/ml', id=71481, name='Isidro', price='716'}
+TestItem{createdBy='adminteam93-10', createdDate='2022-04-16T15:19:08.069401Z', defaultValMax='766', defaultValMin='184', description='mg/ml', id=71482, name='Nisha', price='40'}
+TestItem{createdBy='team91adminn', createdDate='2022-04-16T16:05:01.656108Z', defaultValMax='120', defaultValMin='20', description='Das ist nur ein versuch', id=71483, name='Tinisha Reynolds', price='500'}
+TestItem{createdBy='team91adminn', createdDate='2022-04-16T16:21:08.037443Z', defaultValMax='120', defaultValMin='20', description='Das ist nur ein versuch', id=71484, name='William D'Amore', price='500'}
+TestItem{createdBy='team91adminn', createdDate='2022-04-16T16:22:02.355118Z', defaultValMax='', defaultValMin='', description='', id=71485, name='aa', price='222'}
+TestItem{createdBy='team91adminn', createdDate='2022-04-16T16:22:23.807477Z', defaultValMax='', defaultValMin='', description='', id=71486, name='ss', price='500'}
+TestItem{createdBy='team91adminn', createdDate='2022-04-16T16:24:00.242898Z', defaultValMax='120', defaultValMin='20', description='Das ist nur ein versuch', id=71487, name='Miss Rosaura Bogan', price='500'}
+TestItem{createdBy='team91adminn', createdDate='2022-04-16T16:24:36.239603Z', defaultValMax='120', defaultValMin='20', description='Das ist nur ein versuch', id=71488, name='Royal Kub', price='500'}
+TestItem{createdBy='team91adminn', createdDate='2022-04-16T16:25:59.929002Z', defaultValMax='120', defaultValMin='20', description='Das ist nur ein versuch', id=71489, name='Mrs. Houston Daugherty', price='500'}
+TestItem{createdBy='team91adminn', createdDate='2022-04-16T16:27:03.024510Z', defaultValMax='harf olmamali', defaultValMin='harf olmamali', description='Das ist nur ein versuch', id=71490, name='Jeromy Weber', price='500'}
+TestItem{createdBy='team91adminn', createdDate='2022-04-16T16:30:00.049931Z', defaultValMax='harf olmamali', defaultValMin='harf olmamali', description='Das ist nur ein versuch', id=71491, name='Dr. Moses Considine', price='500'}
+TestItem{createdBy='team91adminn', createdDate='2022-04-16T16:30:41.532199Z', defaultValMax='harf olmamali', defaultValMin='harf olmamali', description='Das ist nur ein versuch', id=71492, name='Brenda Luettgen', price='500'}
+TestItem{createdBy='team91adminn', createdDate='2022-04-16T16:32:28.096170Z', defaultValMax='120', defaultValMin='20', description='Das ist nur ein versuch', id=71493, name='Tanja Monahan', price='500'}
+TestItem{createdBy='team91adminn', createdDate='2022-04-16T16:32:49.010473Z', defaultValMax='harf olmamali', defaultValMin='harf olmamali', description='Das ist nur ein versuch', id=71494, name='Olin Conroy', price='500'}
+TestItem{createdBy='team86admin', createdDate='2022-04-16T20:35:35.479026Z', defaultValMax='200', defaultValMin='100', description='tehlikeli zehir', id=71495, name='sulfur', price='500'}
+TestItem{createdBy='team86admin', createdDate='2022-04-16T20:41:00.348757Z', defaultValMax='298', defaultValMin='25', description='Arcanine', id=71497, name='Polly Ester', price='431'}
+TestItem{createdBy='team86admin', createdDate='2022-04-16T20:43:22.391995Z', defaultValMax='238', defaultValMin='29', description='Arbok', id=71498, name='Rick Kleiner', price='155'}
+TestItem{createdBy='adminteam93-10', createdDate='2022-04-16T20:46:39.622586Z', defaultValMax='259', defaultValMin='80', description='mg/ml', id=71500, name='Alton', price='130'}
+TestItem{createdBy='adminteam93-10', createdDate='2022-04-16T20:46:58.081771Z', defaultValMax='525', defaultValMin='636', description='mg/ml', id=72751, name='Elden', price='210'}
+TestItem{createdBy='team91adminn', createdDate='2022-04-17T09:00:53.359303Z', defaultValMax='42', defaultValMin='40', description='Api versuch', id=73303, name='Jonah Conn PhD', price='400'}
+TestItem{createdBy='team91adminn', createdDate='2022-04-17T09:01:42.141102Z', defaultValMax='91', defaultValMin='38', description='Api versuch', id=73304, name='Eboni Howell', price='400'}
+TestItem{createdBy='team91adminn', createdDate='2022-04-17T09:02:28.845422Z', defaultValMax='90', defaultValMin='33', description='Api versuch', id=73305, name='Louis Schinner', price='400'}
+TestItem{createdBy='vusalgasimov', createdDate='2022-07-19T11:01:54.851563Z', defaultValMax='60', defaultValMin='50', description='Cholesterol', id=127923, name='team87-LDL', price='110'}
+TestItem{createdBy='team_88_admin', createdDate='2022-07-21T18:01:48.109372Z', defaultValMax='26', defaultValMin='13', description='Hormone', id=132771, name='Insulin34', price='50'}
+TestItem{createdBy='adminteam93-10', createdDate='2022-04-16T22:36:27.993749Z', defaultValMax='771', defaultValMin='80', description='mg/ml', id=72762, name='Sheldon', price='130'}
+TestItem{createdBy='adminteam93-10', createdDate='2022-04-16T22:37:16.451340Z', defaultValMax='220', defaultValMin='636', description='mg/ml', id=72763, name='Lawanda', price='54'}
+TestItem{createdBy='adminteam93-10', createdDate='2022-04-16T22:39:26.071363Z', defaultValMax='673', defaultValMin='830', description='mg/ml', id=72764, name='Ray', price='200'}
+TestItem{createdBy='adminemrah', createdDate='2022-04-16T23:09:59.786799Z', defaultValMax='null', defaultValMin='null', description='Test012', id=72765, name='Emrah', price='501'}
+TestItem{createdBy='adminyunusemre', createdDate='2022-04-16T23:30:55.682137Z', defaultValMax='94', defaultValMin='45', description='hasta', id=72770, name='yunusssssssss', price='50'}
+TestItem{createdBy='adminemrah', createdDate='2022-04-16T23:32:24.069907Z', defaultValMax='null', defaultValMin='null', description='Test013', id=72772, name='Emrah12', price='501'}
+TestItem{createdBy='adminemrah', createdDate='2022-04-16T23:34:58.164797Z', defaultValMax='null', defaultValMin='null', description='Test013', id=72773, name='Emrah13', price='501'}
+TestItem{createdBy='adminemrah', createdDate='2022-04-16T23:40:44.209047Z', defaultValMax='null', defaultValMin='null', description='Test013', id=72774, name='Emrah1456', price='501'}
+TestItem{createdBy='adminemrah', createdDate='2022-04-16T23:44:12.982057Z', defaultValMax='null', defaultValMin='null', description='Test013', id=72775, name='XYZ1', price='501'}
+TestItem{createdBy='adminemrah', createdDate='2022-04-16T23:47:18.047083Z', defaultValMax='201', defaultValMin='501', description='Test013', id=72776, name='XYZ12', price='501'}
+TestItem{createdBy='adminemrah', createdDate='2022-04-16T23:48:47.443482Z', defaultValMax='501', defaultValMin='201', description='Test013', id=72777, name='XYZ123', price='501'}
+TestItem{createdBy='adminemrah', createdDate='2022-04-16T23:50:50.424539Z', defaultValMax='501', defaultValMin='201', description='Test013', id=72778, name='XYZ1234', price='501'}
+TestItem{createdBy='adminemrah', createdDate='2022-04-16T23:51:58.341742Z', defaultValMax='501', defaultValMin='201', description='Test013', id=72779, name='XYZ12345', price='501'}
+TestItem{createdBy='adminemrah', createdDate='2022-04-16T23:53:32.617200Z', defaultValMax='501', defaultValMin='201', description='Test013', id=72780, name='XYZ123456', price='501'}
+TestItem{createdBy='adminemrah', createdDate='2022-04-16T23:56:28.938109Z', defaultValMax='501', defaultValMin='201', description='Test013', id=72781, name='XYZ1234567', price='501'}
+TestItem{createdBy='---aaaaadminceran', createdDate='2022-04-17T01:10:44.116577Z', defaultValMax='120', defaultValMin='20', description='yeni bir test item denemesidir', id=72782, name='aaaaaitemCeran', price='300'}
+TestItem{createdBy='---aaaaadminceran', createdDate='2022-04-17T01:30:50.386615Z', defaultValMax='100', defaultValMin='0', description='yeni bir test item denemesidir1', id=72784, name='aaaaaitemCeran1', price='200'}
+TestItem{createdBy='adminemrah', createdDate='2022-04-17T01:36:40.707379Z', defaultValMax='501', defaultValMin='201', description='Test013', id=72786, name='XYZ17', price='501'}
+TestItem{createdBy='adminemrah', createdDate='2022-04-17T01:39:59.322767Z', defaultValMax='501', defaultValMin='201', description='Test013', id=72787, name='XYZ127', price='501'}
+TestItem{createdBy='adminemrah', createdDate='2022-04-17T01:40:47.274590Z', defaultValMax='501', defaultValMin='201', description='Test013', id=72788, name='XYZ117', price='501'}
+TestItem{createdBy='bernaadmin', createdDate='2022-07-29T12:00:22.190721Z', defaultValMax='49', defaultValMin='20', description='mg/l', id=145978, name='Tiamin', price='100'}
+TestItem{createdBy='adminemrah', createdDate='2022-04-17T01:45:12.293499Z', defaultValMax='501', defaultValMin='201', description='Test013', id=72791, name='XYZ1127', price='501'}
+TestItem{createdBy='team91adminn', createdDate='2022-04-17T08:45:05.843648Z', defaultValMax='64', defaultValMin='24', description='Api versuch', id=72799, name='Joaquin Steuber MD', price='400'}
+TestItem{createdBy='team94admin', createdDate='2022-04-17T09:03:18.609826Z', defaultValMax='f4tftf', defaultValMin='ali', description='oz', id=73306, name='hüseyin', price='300'}
+TestItem{createdBy='bernaadmin', createdDate='2022-07-29T12:01:09.892049Z', defaultValMax='49', defaultValMin='20', description='mg/l', id=145979, name='Tiaminen', price='100'}
+TestItem{createdBy='hasanadmin', createdDate='2022-04-18T19:18:06.881364Z', defaultValMax='2424', defaultValMin='123214', description='weaw', id=75939, name='qwea', price='1321'}
+TestItem{createdBy='team83admin', createdDate='2022-04-20T20:58:22.292815Z', defaultValMax='241', defaultValMin='67', description='Primeape', id=80758, name='Barb Dwyer', price='139'}
+TestItem{createdBy='vusalgasimov', createdDate='2022-07-21T21:51:58.531831Z', defaultValMax='120', defaultValMin='40', description='This is vitamin c test', id=132783, name='team87_VITAMIN C', price='50'}
+TestItem{createdBy='ogunes', createdDate='2022-07-22T00:01:56.148092Z', defaultValMax='223', defaultValMin='55', description='x', id=132797, name='Albumin-', price='70'}
+TestItem{createdBy='hasanadmin', createdDate='2022-04-18T19:29:57.015728Z', defaultValMax='23', defaultValMin='3', description='team94', id=75948, name='team94234', price='5896'}
+TestItem{createdBy='ogunes', createdDate='2022-07-22T00:02:25.469949Z', defaultValMax='98', defaultValMin='13', description='x', id=132799, name='Hemoglobin-', price='70'}
+TestItem{createdBy='vusalgasimov', createdDate='2022-07-26T14:43:02.747954Z', defaultValMax='170', defaultValMin='80', description='this is vitamin 87', id=140188, name='87_B12B12', price='100'}
+TestItem{createdBy='team90admin', createdDate='2022-04-17T16:00:40.081871Z', defaultValMax='50', defaultValMin='20', description='qdcqd', id=73347, name='dqdc', price='12'}
+TestItem{createdBy='team90admin', createdDate='2022-04-17T16:10:00.175319Z', defaultValMax='500', defaultValMin='200', description='Total', id=73348, name='Selenium', price='38'}
+TestItem{createdBy='team83admin', createdDate='2022-04-19T13:41:14.489511Z', defaultValMax='171', defaultValMin='91', description='Vaporeon', id=76570, name='Herbie Voor', price='167'}
+TestItem{createdBy='adminyunusemre', createdDate='2022-04-17T23:48:43.748454Z', defaultValMax='95', defaultValMin='25', description='serum1', id=74693, name='sodium', price='500'}
+TestItem{createdBy='team86admin', createdDate='2022-04-17T19:43:14.822593Z', defaultValMax='12', defaultValMin='150', description='sivi alkol', id=74662, name='metil', price='120'}
+TestItem{createdBy='team86admin', createdDate='2022-04-17T20:04:33.158067Z', defaultValMax='12', defaultValMin='150', description='sivi', id=74663, name='hemoglobin', price='120'}
+TestItem{createdBy='omradmin', createdDate='2022-04-17T20:14:37.398833Z', defaultValMax='1.5', defaultValMin='1.7', description='headache', id=74665, name='Dalia', price='200'}
+TestItem{createdBy='team83admin', createdDate='2022-04-17T20:17:31.012693Z', defaultValMax='175', defaultValMin='44', description='Tentacool', id=74666, name='Terry Bull', price='129'}
+TestItem{createdBy='team83admin', createdDate='2022-04-17T20:21:00.716604Z', defaultValMax='185', defaultValMin='99', description='Ditto', id=74667, name='Chip Munk', price='195'}
+TestItem{createdBy='team83admin', createdDate='2022-04-17T20:23:46.341549Z', defaultValMax='179', defaultValMin='37', description='Kabuto', id=74668, name='Sam Urai', price='135'}
+TestItem{createdBy='team83admin', createdDate='2022-04-17T21:02:09.920737Z', defaultValMax='154', defaultValMin='75', description='Gyarados', id=74673, name='Harrison Fire', price='106'}
+TestItem{createdBy='team91adminn', createdDate='2022-04-17T08:47:00.968456Z', defaultValMax='57', defaultValMin='40', description='Api versuch', id=72800, name='uhf', price='400'}
+TestItem{createdBy='team91adminn', createdDate='2022-04-19T15:30:28.419864Z', defaultValMax='211', defaultValMin='96', description='Cloyster', id=76572, name='May Furst', price='306'}
+TestItem{createdBy='adminyunusemre', createdDate='2022-04-19T18:23:19.492445Z', defaultValMax='210', defaultValMin='58', description='Raticate', id=76585, name='Kenny Penny', price='478'}
+TestItem{createdBy='adminyunusemre', createdDate='2022-04-19T18:39:44.428100Z', defaultValMax='1234', defaultValMin='1234', description='ğa', id=76591, name='fgğı', price='1234'}
+TestItem{createdBy='adminyunusemre', createdDate='2022-04-19T18:40:14.840214Z', defaultValMax='1234', defaultValMin='1234', description='uiec', id=76592, name='ueia', price='1234'}
+TestItem{createdBy='adminyunusemre', createdDate='2022-04-19T18:41:13.181528Z', defaultValMax='246', defaultValMin='24', description='uieaiea', id=76594, name='ueiaieaü', price='1234356'}
+TestItem{createdBy='adminyunusemre', createdDate='2022-04-19T19:00:33.675449Z', defaultValMax='212', defaultValMin='42', description='Omanyte', id=78502, name='Doug Witherspoon', price='275'}
+TestItem{createdBy='adminyunusemre', createdDate='2022-04-19T20:31:19.483346Z', defaultValMax='26', defaultValMin='23656', description='sfg', id=78504, name='dfgf', price='235'}
+TestItem{createdBy='team91adminn', createdDate='2022-04-20T08:27:16.118762Z', defaultValMax='harf olmamali', defaultValMin='harf olmamali', description='Das ist nur ein versuch', id=78511, name='Annamae Corkery', price='500'}
+TestItem{createdBy='team91adminn', createdDate='2022-04-20T08:28:24.694613Z', defaultValMax='120', defaultValMin='20', description='Das ist nur ein versuch', id=78512, name='Madelyn Hegmann', price='500'}
+TestItem{createdBy='team91adminn', createdDate='2022-04-20T08:29:02.389471Z', defaultValMax='120', defaultValMin='20', description='Das ist nur ein versuch', id=78513, name='Mr. Louis Mann', price='500'}
+TestItem{createdBy='team94admin', createdDate='2022-04-20T11:12:42.954452Z', defaultValMax='567', defaultValMin='45', description='rt', id=78517, name='fliz', price='3457'}
+TestItem{createdBy='team94admin', createdDate='2022-04-20T11:37:55.396648Z', defaultValMax='120', defaultValMin='15', description='123hergun', id=78518, name='abc', price='250'}
+TestItem{createdBy='team94admin', createdDate='2022-04-20T11:38:40.769757Z', defaultValMax='120', defaultValMin='15', description='silme testi', id=78519, name='silme testi', price='250'}
+TestItem{createdBy='team94admin', createdDate='2022-04-20T11:41:04.376420Z', defaultValMax='1205', defaultValMin='15', description='silme testi', id=78523, name='silme testi4', price='250'}
+TestItem{createdBy='team94admin', createdDate='2022-04-20T11:41:37.620064Z', defaultValMax='120', defaultValMin='15', description='silme testi2', id=78524, name='silme testi2', price='250'}
+TestItem{createdBy='team94admin', createdDate='2022-04-20T11:42:00.960701Z', defaultValMax='', defaultValMin='', description='efew', id=78525, name='ewfre', price='5345'}
+TestItem{createdBy='team94admin', createdDate='2022-04-20T11:43:54.689079Z', defaultValMax='', defaultValMin='', description='dfgsdgsdg', id=78528, name='fsdfsdf', price='35235'}
+TestItem{createdBy='team94admin', createdDate='2022-04-20T11:45:57.466506Z', defaultValMax='', defaultValMin='', description='', id=78531, name='zfvcxv', price='454'}
+TestItem{createdBy='team94admin', createdDate='2022-04-20T11:47:40.226271Z', defaultValMax='120', defaultValMin='15', description='silme testi244', id=78532, name='silme testi244', price='250'}
+TestItem{createdBy='team94admin', createdDate='2022-04-20T12:10:00.960864Z', defaultValMax='120', defaultValMin='15', description='silme testi2344', id=78538, name='silme testi2434', price='250'}
+TestItem{createdBy='team94admin', createdDate='2022-04-20T12:11:53.285918Z', defaultValMax='120', defaultValMin='15', description='silme testi2344', id=78540, name='silme testi24345', price='250'}
+TestItem{createdBy='team94admin', createdDate='2022-04-20T12:14:34.899690Z', defaultValMax='1202', defaultValMin='152', description='silme testi2344', id=78541, name='silme testi24342', price='250'}
+TestItem{createdBy='team94admin', createdDate='2022-04-20T12:17:37.506262Z', defaultValMax='120', defaultValMin='15', description='Regional Usability Agent', id=78543, name='District Data Director', price='250'}
+TestItem{createdBy='team94admin', createdDate='2022-04-20T12:18:48.434371Z', defaultValMax='120', defaultValMin='15', description='Investor Solutions Officer', id=78544, name='International Optimization Supervisor', price='250'}
+TestItem{createdBy='team94admin', createdDate='2022-04-20T12:19:46.643606Z', defaultValMax='120', defaultValMin='15', description='Human Markets Architect', id=78545, name='Product Division Coordinator', price='250'}
+TestItem{createdBy='team94admin', createdDate='2022-04-20T12:20:35.061155Z', defaultValMax='120', defaultValMin='15', description='Direct Infrastructure Agent', id=78546, name='Internal Brand Liaison', price='250'}
+TestItem{createdBy='hasanadmin', createdDate='2022-04-20T12:26:29.195696Z', defaultValMax='', defaultValMin='', description='54564', id=78548, name='33543', price='454'}
+TestItem{createdBy='hasanadmin', createdDate='2022-04-20T12:26:56.212161Z', defaultValMax='', defaultValMin='', description='sssssss', id=78549, name='sssss', price='222222'}
+TestItem{createdBy='hasanadmin', createdDate='2022-04-20T12:29:07.125562Z', defaultValMax='', defaultValMin='', description='2342', id=78550, name='24324', price='23423'}
+TestItem{createdBy='hasanadmin', createdDate='2022-04-20T12:30:45.425279Z', defaultValMax='', defaultValMin='', description='wqewq', id=79901, name='wqeqwe', price='2132'}
+TestItem{createdBy='team94admin', createdDate='2022-04-20T12:32:16.923639Z', defaultValMax='120', defaultValMin='15', description='Product Operations Associate', id=79902, name='Product Quality Supervisor', price='250'}
+TestItem{createdBy='team94admin', createdDate='2022-04-20T12:34:13.234818Z', defaultValMax='120', defaultValMin='15', description='Forward Mobility Facilitator', id=79903, name='Legacy Implementation Agent', price='250'}
+TestItem{createdBy='team94admin', createdDate='2022-04-20T12:35:37.309997Z', defaultValMax='120', defaultValMin='15', description='Dynamic Tactics Liaison', id=79904, name='Customer Brand Consultant', price='250'}
+TestItem{createdBy='team94admin', createdDate='2022-04-20T12:37:17.878109Z', defaultValMax='120', defaultValMin='15', description='Chief Implementation Architect', id=79905, name='Central Metrics Agent', price='250'}
+TestItem{createdBy='team94admin', createdDate='2022-04-20T12:38:45.357476Z', defaultValMax='120', defaultValMin='15', description='Forward Group Officer', id=79906, name='Dynamic Intranet Producer', price='250'}
+TestItem{createdBy='team94admin', createdDate='2022-04-20T12:39:38.293665Z', defaultValMax='120', defaultValMin='15', description='Senior Marketing Specialist', id=79907, name='Legacy Markets Consultant', price='250'}
+TestItem{createdBy='team94admin', createdDate='2022-04-20T12:40:49.446771Z', defaultValMax='120', defaultValMin='15', description='Dynamic Web Engineer', id=79908, name='District Security Consultant', price='250'}
+TestItem{createdBy='admin79', createdDate='2022-04-20T17:31:36.054651Z', defaultValMax='890', defaultValMin='50mg', description='mg', id=79938, name='Cihan', price='280'}
+TestItem{createdBy='adminemrah', createdDate='2022-04-20T18:18:27.568270Z', defaultValMax='2.3', defaultValMin='1.5', description='sa', id=79940, name='as', price='1500'}
+TestItem{createdBy='adminemrah', createdDate='2022-04-20T18:19:13.233841Z', defaultValMax='2', defaultValMin='1', description='www', id=79941, name='www', price='1212'}
+TestItem{createdBy='adminemrah', createdDate='2022-04-20T18:20:12.390546Z', defaultValMax='3', defaultValMin='2', description='ww', id=79942, name='ee', price='45'}
+TestItem{createdBy='team83admin', createdDate='2022-04-20T20:11:16.435139Z', defaultValMax='15', defaultValMin='1', description='3 AYLIK SEKER', id=80755, name='H1bAc6', price='599'}
+TestItem{createdBy='team83admin', createdDate='2022-04-20T20:32:42.982205Z', defaultValMax='250', defaultValMin='40', description='seker', id=80757, name='glikoz', price='400'}
+TestItem{createdBy='team_88_admin', createdDate='2022-07-25T18:58:34.904302Z', defaultValMax='345', defaultValMin='string', description='dsds', id=139393, name='strhjkl', price='78'}
+TestItem{createdBy='team_88_admin', createdDate='2022-07-21T18:04:33.113866Z', defaultValMax='26', defaultValMin='13', description='Hormone', id=132775, name='Insulin35', price='50'}
+TestItem{createdBy='team90admin', createdDate='2022-04-20T23:47:18.018874Z', defaultValMax='600', defaultValMin='200', description='', id=80765, name='DT-3', price='302'}
+TestItem{createdBy='team_88_admin', createdDate='2022-07-21T20:19:06.498249Z', defaultValMax='26', defaultValMin='13', description='Hormone', id=132779, name='Insulin44', price='50'}
+TestItem{createdBy='team90admin', createdDate='2022-04-21T00:12:37.538343Z', defaultValMax='600', defaultValMin='200', description='', id=80767, name='DT-4', price='302'}
+TestItem{createdBy='team_88_admin', createdDate='2022-07-25T19:02:25.057347Z', defaultValMax='string', defaultValMin='string', description='string', id=139395, name='lalag', price='0'}
+TestItem{createdBy='team90admin', createdDate='2022-04-21T00:13:45.408923Z', defaultValMax='600', defaultValMin='200', description='', id=80773, name='DT-5', price='302'}
+TestItem{createdBy='adminemrah', createdDate='2022-04-20T13:28:17.869754Z', defaultValMax='1.7', defaultValMin='1.5', description='Test013', id=79926, name='Rivka', price='501'}
+TestItem{createdBy='adminemrah', createdDate='2022-04-21T07:14:19.201082Z', defaultValMax='2.3', defaultValMin='1.5', description='EmrahTeam88', id=80775, name='Joan', price='1500'}
+TestItem{createdBy='omradmin', createdDate='2022-04-20T14:18:02.826901Z', defaultValMax='1.5', defaultValMin='1.7', description='headache', id=79928, name='Irving', price='200'}
+TestItem{createdBy='adminemrah', createdDate='2022-04-21T07:16:27.062056Z', defaultValMax='2.3', defaultValMin='1.5', description='EmrahTeam88', id=80776, name='Season', price='1500'}
+TestItem{createdBy='adminemrah', createdDate='2022-04-21T07:19:06.620287Z', defaultValMax='2.3', defaultValMin='1.5', description='EmrahTeam88', id=80778, name='Brande', price='1500'}
+TestItem{createdBy='adminemrah', createdDate='2022-04-21T07:23:18.973191Z', defaultValMax='2.3', defaultValMin='1.5', description='EmrahTeam88', id=80779, name='Liza', price='1500'}
+TestItem{createdBy='omradmin', createdDate='2022-04-20T14:55:27.786850Z', defaultValMax='1.5', defaultValMin='1.7', description='headache', id=79934, name='Harriet', price='200'}
+TestItem{createdBy='adminemrah', createdDate='2022-04-21T11:01:36.082169Z', defaultValMax='2.3', defaultValMin='1.5', description='EmrahTeam88', id=80780, name='Edmund', price='1500'}
+TestItem{createdBy='team83admin', createdDate='2022-04-20T14:57:22.091811Z', defaultValMax='15', defaultValMin='1', description='3 AYLIK SEKER', id=79936, name='H1bAc1', price='599'}
+TestItem{createdBy='team83admin', createdDate='2022-04-20T14:58:29.139430Z', defaultValMax='15', defaultValMin='1', description='3 AYLIK SEKER', id=79937, name='H1bAc2', price='599'}
+TestItem{createdBy='adminemrah', createdDate='2022-04-21T11:05:36.422315Z', defaultValMax='2.3', defaultValMin='1.5', description='EmrahTeam88', id=80781, name='Harland', price='1500'}
+TestItem{createdBy='team83admin', createdDate='2022-04-20T18:41:59.905248Z', defaultValMax='15', defaultValMin='1', description='3 AYLIK SEKER', id=79945, name='H1bAc4', price='599'}
+TestItem{createdBy='team90admin', createdDate='2022-04-24T16:18:19.141244Z', defaultValMax='700', defaultValMin='200', description='mg/ml', id=86839, name='Kyress5', price='35'}
+TestItem{createdBy='team83admin', createdDate='2022-04-20T19:05:52.134455Z', defaultValMax='230', defaultValMin='75', description='Cubone', id=79948, name='Pepe C. Cola', price='168'}
+TestItem{createdBy='adminemrah', createdDate='2022-04-21T11:13:50.744553Z', defaultValMax='2.3', defaultValMin='1.5', description='EmrahTeam88', id=80783, name='Anabel', price='1500'}
+TestItem{createdBy='admin79', createdDate='2022-04-24T20:33:04.420149Z', defaultValMax='130', defaultValMin='80', description='mg/mL', id=87311, name='Marni test', price='121'}
+TestItem{createdBy='adminemrah', createdDate='2022-04-21T11:51:20.935690Z', defaultValMax='2.3', defaultValMin='1.5', description='EmrahTeam88', id=80799, name='Donnie', price='1500'}
+TestItem{createdBy='adminemrah', createdDate='2022-04-21T11:55:27.684475Z', defaultValMax='2.3', defaultValMin='1.5', description='Team88', id=81801, name='Robby', price='1500'}
+TestItem{createdBy='adminemrah', createdDate='2022-04-21T11:56:28.912747Z', defaultValMax='2.3', defaultValMin='1.5', description='Team88', id=81802, name='Chang', price='1500'}
+TestItem{createdBy='adminemrah', createdDate='2022-04-21T11:57:20.677973Z', defaultValMax='2.3', defaultValMin='1.5', description='Team88', id=81803, name='Gudrun', price='1500'}
+TestItem{createdBy='team83admin', createdDate='2022-04-26T06:46:16.332450Z', defaultValMax='15.5', defaultValMin='11.5', description='mg/dL', id=87337, name='LSLD', price='100'}
+TestItem{createdBy='team83admin', createdDate='2022-04-26T09:53:12.504553Z', defaultValMax='153', defaultValMin='15', description='Gengar', id=87339, name='Sy Burnette', price='181'}
+TestItem{createdBy='team83admin', createdDate='2022-04-26T09:56:04.714764Z', defaultValMax='222', defaultValMin='95', description='Drowzee', id=87340, name='Dusty Carr', price='109'}
+TestItem{createdBy='team83admin', createdDate='2022-04-26T10:15:20.314694Z', defaultValMax='232', defaultValMin='41', description='Dugtrio', id=87343, name='Allen Rench', price='149'}
+TestItem{createdBy='team91adminn', createdDate='2022-04-26T15:14:56.732961Z', defaultValMax='66', defaultValMin='38', description='Api versuch TEam 91', id=87345, name='Edgardo Lebsack', price='400'}
+TestItem{createdBy='admin79', createdDate='2022-04-26T19:28:59.355818Z', defaultValMax='130', defaultValMin='80', description='mg/mL', id=87347, name='Lonnie test', price='131'}
+TestItem{createdBy='team91adminn', createdDate='2022-04-27T09:40:09.559985Z', defaultValMax='120', defaultValMin='20', description='Das ist nur ein versuch  TEam91', id=91356, name='Pansy Grady', price='500'}
+TestItem{createdBy='adminemrah', createdDate='2022-04-27T16:23:12.578118Z', defaultValMax='1.7', defaultValMin='1.5', description='Test013', id=91363, name='Carey', price='501'}
+TestItem{createdBy='adminyunusemre', createdDate='2022-04-27T20:46:48.362075Z', defaultValMax='671', defaultValMin='451', description='anemic1', id=91365, name='kan', price='341'}
+TestItem{createdBy='adminteam93-10', createdDate='2022-04-28T13:03:11.005340Z', defaultValMax='172', defaultValMin='761', description='mg/ml', id=91368, name='Carlota', price='824'}
+TestItem{createdBy='team91adminn', createdDate='2022-04-28T16:16:31.261466Z', defaultValMax='120', defaultValMin='20', description='Das ist nur ein versuch  TEam91', id=91372, name='Dawna Haag V', price='500'}
+TestItem{createdBy='adminyunusemre', createdDate='2022-04-28T19:30:24.615027Z', defaultValMax='671', defaultValMin='451', description='anemic1', id=91379, name='kan9', price='341'}
+TestItem{createdBy='admin79', createdDate='2022-04-28T21:36:42.864405Z', defaultValMax='130', defaultValMin='80', description='mg/mL', id=91381, name='Ji test', price='106'}
+TestItem{createdBy='admin79', createdDate='2022-04-28T21:56:22.654635Z', defaultValMax='130', defaultValMin='80', description='mg/mL', id=91386, name='Treva test', price='148'}
+TestItem{createdBy='admin79', createdDate='2022-04-28T23:03:52.074612Z', defaultValMax='130', defaultValMin='80', description='mg/mL', id=91389, name='Tad test', price='132'}
+TestItem{createdBy='team91adminn', createdDate='2022-04-29T08:37:06.989311Z', defaultValMax='120', defaultValMin='20', description='Das ist nur ein versuch  TEam91', id=91391, name='Elton Rippin', price='500'}
+TestItem{createdBy='team91adminn', createdDate='2022-04-29T08:37:39.890618Z', defaultValMax='120', defaultValMin='20', description='Das ist nur ein versuch  TEam91', id=91392, name='Cherlyn Jacobi', price='500'}
+TestItem{createdBy='team91adminn', createdDate='2022-04-29T08:54:32.874999Z', defaultValMax='120', defaultValMin='20', description='Das ist nur ein versuch  TEam91', id=91395, name='Jeffrey Doyle DVM', price='500'}
+TestItem{createdBy='team91adminn', createdDate='2022-04-29T09:01:34.854342Z', defaultValMax='harf olmamali', defaultValMin='harf olmamali', description='Das ist nur ein versuch', id=91398, name='Perry Rice', price='500'}
+TestItem{createdBy='admin79', createdDate='2022-04-29T12:55:14.797094Z', defaultValMax='130', defaultValMin='80', description='mg/mL', id=91400, name='Lane test', price='143'}
+TestItem{createdBy='adminemrah', createdDate='2022-04-29T13:19:15.359356Z', defaultValMax='2.3', defaultValMin='1.5', description='Team88', id=94503, name='Cherlyn', price='1500'}
+TestItem{createdBy='team84admin', createdDate='2022-04-29T14:45:50.298031Z', defaultValMax='3', defaultValMin='16', description='5 AYLIK SEKER', id=94505, name='H1bAd3', price='570'}
+TestItem{createdBy='team91adminn', createdDate='2022-04-29T16:51:47.963704Z', defaultValMax='deneme', defaultValMin='abs', description='sasa', id=94511, name='test deneme ', price='333'}
+TestItem{createdBy='team91adminn', createdDate='2022-04-29T17:56:45.701456Z', defaultValMax='120', defaultValMin='20', description='Das ist nur ein versuch  TEam91', id=94513, name='Arlinda Reilly', price='500'}
+TestItem{createdBy='team91adminn', createdDate='2022-04-29T18:11:30.083724Z', defaultValMax='harf olmamali', defaultValMin='harf olmamali', description='Das ist nur ein versuch', id=94518, name='Dr. Alton Parker', price='500'}
+TestItem{createdBy='adminemrah', createdDate='2022-04-29T19:23:29.930058Z', defaultValMax='1.7', defaultValMin='1.5', description='Test013', id=94521, name='Lenora', price='501'}
+TestItem{createdBy='admin79', createdDate='2022-04-29T19:39:51.498952Z', defaultValMax='130', defaultValMin='80', description='mg/mL', id=94523, name='Sharla test', price='111'}
+TestItem{createdBy='team91adminn', createdDate='2022-04-29T20:06:14.762508Z', defaultValMax='120', defaultValMin='20', description='Das ist nur ein versuch  TEam91', id=94528, name='Carrol Haag', price='500'}
+TestItem{createdBy='team91adminn', createdDate='2022-04-29T20:06:56.557589Z', defaultValMax='120', defaultValMin='20', description='Das ist nur ein versuch  TEam91', id=94529, name='Dulce Fritsch DDS', price='500'}
+TestItem{createdBy='team91adminn', createdDate='2022-04-29T20:36:21.311365Z', defaultValMax='harf olmamali', defaultValMin='harf olmamali', description='Das ist nur ein versuch', id=94531, name='Sharice Leuschke MD', price='500'}
+TestItem{createdBy='team83admin', createdDate='2022-04-30T18:50:38.594778Z', defaultValMax='197', defaultValMin='34', description='Haunter', id=94540, name='Joanna Hand', price='244'}
+TestItem{createdBy='team83admin', createdDate='2022-05-01T20:50:43.809682Z', defaultValMax='238', defaultValMin='42', description='Cubone', id=94543, name='Peg Legge', price='168'}
+TestItem{createdBy='alexxela', createdDate='2022-05-02T18:38:24.989139Z', defaultValMax='5000', defaultValMin='3000', description='very important', id=94549, name='Glen Steuber', price='2500'}
+TestItem{createdBy='admin79', createdDate='2022-05-08T17:13:45.982289Z', defaultValMax='130', defaultValMin='80', description='mg/mL', id=96861, name='Audie test', price='132'}
+TestItem{createdBy='admin79', createdDate='2022-05-08T17:23:18.378988Z', defaultValMax='130', defaultValMin='80', description='mg/mL', id=96863, name='Clair test', price='119'}
+TestItem{createdBy='admin79', createdDate='2022-05-08T20:30:34.247278Z', defaultValMax='130', defaultValMin='80', description='mg/mL', id=96865, name='Major test', price='115'}
+TestItem{createdBy='team_88_admin', createdDate='2022-07-21T21:05:41.250608Z', defaultValMax='26', defaultValMin='13', description='Hormone', id=132780, name='Insulin55', price='50'}
+TestItem{createdBy='ogunes', createdDate='2022-07-21T23:57:48.401901Z', defaultValMax='140', defaultValMin='65', description='x', id=132791, name='Glucose-', price='70'}
+TestItem{createdBy='team90admin', createdDate='2022-04-23T14:41:42.221200Z', defaultValMax='700', defaultValMin='200', description='mg/ml', id=84317, name='Kyress2', price='35'}
+TestItem{createdBy='vusalgasimov', createdDate='2022-07-22T08:57:40.199644Z', defaultValMax='120', defaultValMin='40', description='This is a vitamin c test', id=134116, name='team87_B12', price='50'}
+TestItem{createdBy='team90admin', createdDate='2022-04-23T15:43:46.199009Z', defaultValMax='700', defaultValMin='200', description='mg/ml', id=84322, name='Kyress3', price='35'}
+TestItem{createdBy='team90admin', createdDate='2022-04-23T15:49:50.258255Z', defaultValMax='700', defaultValMin='200', description='mg/ml', id=84325, name='Kyress4', price='35'}
+TestItem{createdBy='team83admin', createdDate='2022-04-23T18:24:27.420986Z', defaultValMax='250', defaultValMin='22', description='Pidgey', id=84326, name='Alf A. Romeo', price='166'}
+TestItem{createdBy='admin79', createdDate='2022-04-24T19:33:23.795340Z', defaultValMax='130', defaultValMin='80', description='mg/mL', id=87302, name='Gary test', price='144'}
+TestItem{createdBy='team91adminn', createdDate='2022-04-24T03:48:35.224212Z', defaultValMax='93', defaultValMin='24', description='Api versuch TEam 91', id=84328, name='Mike Koch', price='400'}
+TestItem{createdBy='team91adminn', createdDate='2022-04-24T05:09:37.785750Z', defaultValMax='96', defaultValMin='31', description='Api versuch TEam 91', id=84329, name='Tim Murazik', price='400'}
+TestItem{createdBy='team83admin', createdDate='2022-04-24T09:12:05.482423Z', defaultValMax='120', defaultValMin='20', description='yeni bir test item denemesidir1', id=84330, name='aaaaaitemCeran23', price='200'}
+TestItem{createdBy='team83admin', createdDate='2022-04-24T09:35:11.498880Z', defaultValMax='234', defaultValMin='34', description='post deneme', id=84331, name='aaaaaaaaaaadminCeran25', price='100'}
+TestItem{createdBy='---aaaaadminceran', createdDate='2022-04-24T09:37:50.374907Z', defaultValMax='6677', defaultValMin='567', description='ghfghgj', id=84333, name='hjhkhkhjkhuy', price='456'}
+TestItem{createdBy='vusalgasimov', createdDate='2022-07-22T10:01:56.841055Z', defaultValMax='5.1', defaultValMin='3.5', description='potassium test', id=134127, name='team87_potasssium4', price='50'}
+TestItem{createdBy='admin79', createdDate='2022-04-24T20:36:46.571498Z', defaultValMax='130', defaultValMin='80', description='mg/mL', id=87312, name='Sarita test', price='133'}
+TestItem{createdBy='admin79', createdDate='2022-04-25T01:38:29.124798Z', defaultValMax='130', defaultValMin='80', description='mg/mL', id=87314, name='Shirleen test', price='144'}
+TestItem{createdBy='team_88_admin', createdDate='2022-07-22T10:52:24.530640Z', defaultValMax='26', defaultValMin='13', description='Hormone', id=134129, name='Insulin60', price='50'}
+TestItem{createdBy='vusalgasimov', createdDate='2022-07-22T11:16:50.518558Z', defaultValMax='171', defaultValMin='45', description='Glomerulonephritis', id=134132, name='Joel', price='31'}
+TestItem{createdBy='team83admin', createdDate='2022-04-24T10:02:50.403922Z', defaultValMax='234', defaultValMin='34', description='post denemesidir1', id=84340, name='aaaaaaaaaaadminCeran27', price='100'}
+TestItem{createdBy='---aaaaadminceran', createdDate='2022-04-24T10:06:22.159196Z', defaultValMax='88', defaultValMin='47', description='DENEME DENEME', id=84341, name='AAAKSDENEMEiTEM', price='100'}
+TestItem{createdBy='team_88_admin', createdDate='2022-07-22T13:56:48.138594Z', defaultValMax='26', defaultValMin='13', description='Hormone', id=134137, name='Insulin62', price='50'}
+TestItem{createdBy='team_88_admin', createdDate='2022-07-22T14:00:52.469391Z', defaultValMax='26', defaultValMin='13', description='Hormone', id=134139, name='Insulin64', price='50'}
+TestItem{createdBy='team_88_admin', createdDate='2022-07-22T14:17:36.519331Z', defaultValMax='26', defaultValMin='13', description='Hormone', id=134142, name='Insulin67', price='50'}
+TestItem{createdBy='team83admin', createdDate='2022-04-25T22:02:21.421678Z', defaultValMax='2', defaultValMin='16', description='5 AYLIK SEKER', id=87325, name='H1bAc9', price='580'}
+TestItem{createdBy='team_88_admin', createdDate='2022-07-22T14:33:02.054062Z', defaultValMax='26', defaultValMin='13', description='Hormone', id=134145, name='Insulin70', price='50'}
+TestItem{createdBy='team_88_admin', createdDate='2022-07-22T14:37:31.311667Z', defaultValMax='26', defaultValMin='13', description='Hormone', id=134147, name='Insulin72', price='50'}
+TestItem{createdBy='team83admin', createdDate='2022-04-26T10:08:32.822023Z', defaultValMax='163', defaultValMin='67', description='Raticate', id=87341, name='Ben Dover', price='216'}
+TestItem{createdBy='adminemrah', createdDate='2022-04-26T12:49:34.638528Z', defaultValMax='1.7', defaultValMin='1.5', description='Test013', id=87344, name='Mercedez', price='501'}
+TestItem{createdBy='team92admin', createdDate='2022-04-26T17:16:37.102937Z', defaultValMax='360', defaultValMin='80', description='ure_kontrol', id=87346, name='Ure', price='10'}
+TestItem{createdBy='team83admin', createdDate='2022-04-27T08:36:10.382787Z', defaultValMax='234', defaultValMin='34', description='post denemesidir1', id=91351, name='aaaaaaaaaaadminCeran97', price='100'}
+TestItem{createdBy='team83admin', createdDate='2022-04-27T15:10:23.250772Z', defaultValMax='188', defaultValMin='70', description='Bellsprout', id=91359, name='Phil Rupp', price='178'}
+TestItem{createdBy='team83admin', createdDate='2022-04-27T18:59:28.288670Z', defaultValMax='233', defaultValMin='54', description='Dugtrio', id=91364, name='Bob Frapples', price='149'}
+TestItem{createdBy='adminyunusemre', createdDate='2022-04-27T21:30:22.006204Z', defaultValMax='671', defaultValMin='451', description='anemic1', id=91367, name='kan170', price='341'}
+TestItem{createdBy='adminteam93-10', createdDate='2022-04-28T13:09:06.468584Z', defaultValMax='601', defaultValMin='334', description='mg/ml', id=91369, name='Dario', price='581'}
+TestItem{createdBy='admin79', createdDate='2022-04-28T13:14:56.399342Z', defaultValMax='130', defaultValMin='80', description='mg/mL', id=91371, name='Julie test', price='107'}
+TestItem{createdBy='team91adminn', createdDate='2022-04-28T16:16:49.779702Z', defaultValMax='harf olmamali', defaultValMin='harf olmamali', description='Das ist nur ein versuch', id=91373, name='Laverna Zemlak', price='500'}
+TestItem{createdBy='team91adminn', createdDate='2022-04-28T16:19:16.616228Z', defaultValMax='2', defaultValMin='2', description='Ek', id=91374, name='EK', price='22'}
+TestItem{createdBy='team91adminn', createdDate='2022-04-28T16:20:35.624860Z', defaultValMax='49', defaultValMin='30', description='Api versuch TEam 91', id=91376, name='Dillon McGlynn Jr.', price='400'}
+TestItem{createdBy='adminyunusemre', createdDate='2022-04-28T21:46:49.015191Z', defaultValMax='671', defaultValMin='451', description='anemic1', id=91385, name='kan11', price='341'}
+TestItem{createdBy='admin79', createdDate='2022-04-28T22:11:18.544297Z', defaultValMax='3', defaultValMin='16', description='5 AYLIK SEKER', id=91388, name='H1bAc8', price='570'}
+TestItem{createdBy='admin79', createdDate='2022-04-28T23:12:07.860871Z', defaultValMax='130', defaultValMin='80', description='mg/mL', id=91390, name='Efren test', price='132'}
+TestItem{createdBy='team91adminn', createdDate='2022-04-29T08:40:39.303822Z', defaultValMax='120', defaultValMin='20', description='Das ist nur ein versuch  TEam91', id=91393, name='Jamaal Ferry V', price='500'}
+TestItem{createdBy='team91adminn', createdDate='2022-04-29T08:55:40.751684Z', defaultValMax='harf olmamali', defaultValMin='harf olmamali', description='Das ist nur ein versuch', id=91396, name='Kemberly Orn', price='500'}
+TestItem{createdBy='team91adminn', createdDate='2022-04-29T08:56:44.685658Z', defaultValMax='harf olmamali', defaultValMin='harf olmamali', description='Das ist nur ein versuch', id=91397, name='Modesto Fahey', price='500'}
+TestItem{createdBy='team91adminn', createdDate='2022-04-29T09:27:50.209599Z', defaultValMax='harf olmamali', defaultValMin='harf olmamali', description='Das ist nur ein versuch', id=91399, name='Donnell Wiza', price='500'}
+TestItem{createdBy='adminemrah', createdDate='2022-04-29T13:15:20.447569Z', defaultValMax='2.3', defaultValMin='1.5', description='Team88', id=94501, name='Patrick', price='1500'}
+TestItem{createdBy='adminemrah', createdDate='2022-04-29T13:16:46.025813Z', defaultValMax='2.3', defaultValMin='1.5', description='Team88', id=94502, name='Chung', price='1500'}
+TestItem{createdBy='team84admin', createdDate='2022-04-29T14:48:12.983673Z', defaultValMax='3', defaultValMin='16', description='5 AYLIK SEKER', id=94506, name='H1bAtb5', price='570'}
+TestItem{createdBy='team91adminn', createdDate='2022-04-29T17:59:42.699637Z', defaultValMax='120', defaultValMin='20', description='Das ist nur ein versuch  TEam91', id=94514, name='Lashaunda Weimann', price='500'}
+TestItem{createdBy='team91adminn', createdDate='2022-04-29T18:08:52.514742Z', defaultValMax='harf olmamali', defaultValMin='harf olmamali', description='Das ist nur ein versuch', id=94517, name='Tyler Howell PhD', price='500'}
+TestItem{createdBy='team83admin', createdDate='2022-04-29T18:19:10.165554Z', defaultValMax='232', defaultValMin='82', description='Meowth', id=94520, name='Iona Frisbee', price='242'}
+TestItem{createdBy='admin79', createdDate='2022-04-29T19:42:43.760062Z', defaultValMax='130', defaultValMin='80', description='mg/mL', id=94524, name='Kasie test', price='108'}
+TestItem{createdBy='team86admin', createdDate='2022-04-30T18:44:02.659947Z', defaultValMax='279', defaultValMin='13', description='Venomoth', id=94537, name='Rip Tile', price='459'}
+TestItem{createdBy='team83admin', createdDate='2022-04-30T18:47:11.201707Z', defaultValMax='216', defaultValMin='87', description='Jynx', id=94539, name='Rusty Blades', price='189'}
+TestItem{createdBy='team83admin', createdDate='2022-05-01T20:44:05.541654Z', defaultValMax='175', defaultValMin='92', description='Goldeen', id=94542, name='Lee Nover', price='246'}
+TestItem{createdBy='team83admin', createdDate='2022-05-01T21:05:52.284889Z', defaultValMax='155', defaultValMin='52', description='Spearow', id=94544, name='Colette A. Day', price='221'}
+TestItem{createdBy='team83admin', createdDate='2022-05-01T21:24:08.058758Z', defaultValMax='215', defaultValMin='42', description='Charizard', id=94546, name='Gene E. Yuss', price='229'}
+TestItem{createdBy='team86admin', createdDate='2022-05-05T09:38:14.384848Z', defaultValMax='12', defaultValMin='150', description='ruh', id=96856, name='sevgi', price='120'}
+TestItem{createdBy='admin79', createdDate='2022-05-08T17:04:14.322345Z', defaultValMax='130', defaultValMin='80', description='mg/mL', id=96860, name='Darius test', price='102'}
+TestItem{createdBy='admin79', createdDate='2022-05-08T17:17:56.277841Z', defaultValMax='130', defaultValMin='80', description='mg/mL', id=96862, name='Jimmie test', price='102'}
+TestItem{createdBy='admin79', createdDate='2022-05-08T20:26:56.426955Z', defaultValMax='130', defaultValMin='80', description='mg/mL', id=96864, name='Beula test', price='113'}
+TestItem{createdBy='admin79', createdDate='2022-05-08T20:36:44.531785Z', defaultValMax='130', defaultValMin='80', description='mg/mL', id=96866, name='Melinda test', price='148'}
+TestItem{createdBy='admin79', createdDate='2022-05-09T02:50:03.645499Z', defaultValMax='130', defaultValMin='80', description='mg/mL', id=96867, name='Zetta test', price='114'}
+TestItem{createdBy='team_88_admin', createdDate='2022-07-25T19:03:49.657868Z', defaultValMax='string', defaultValMin='string', description='string', id=139396, name='lalagrt', price='0'}
+TestItem{createdBy='team_88_admin', createdDate='2022-07-25T19:04:37.890270Z', defaultValMax='string', defaultValMin='string', description='string', id=139397, name='lalagklrt', price='0'}
+TestItem{createdBy='ogunes', createdDate='2022-07-21T23:59:22.879964Z', defaultValMax='12', defaultValMin='5', description='x', id=132793, name='Creatinine-', price='70'}
+TestItem{createdBy='admin', createdDate='2021-12-04T22:26:22.582672Z', defaultValMax='8.3', defaultValMin='6.4', description='', id=1406, name='Total protein', price='20'}
+TestItem{createdBy='vusalgasimov', createdDate='2022-06-28T08:32:14.983746Z', defaultValMax='150', defaultValMin='100', description='Sodium', id=99006, name='team87Sodium', price='0'}
+TestItem{createdBy='vusalgasimov', createdDate='2022-06-28T08:32:43.104546Z', defaultValMax='12', defaultValMin='10', description='Potassium', id=99007, name='team87Potassium', price='0'}
+TestItem{createdBy='vusalgasimov', createdDate='2022-06-28T08:33:19.486523Z', defaultValMax='29', defaultValMin='18', description='Hemoglobin', id=99008, name='team87Hemoglobin', price='0'}
+TestItem{createdBy='vusalgasimov', createdDate='2022-06-28T08:35:10.799238Z', defaultValMax='21', defaultValMin='12', description='Cholesterol', id=99009, name='team87Cholesterol', price='0'}
+TestItem{createdBy='team87_admin', createdDate='2022-06-28T09:40:02.863469Z', defaultValMax='78', defaultValMin='54', description='desicion', id=99010, name='anemi', price='1000'}
+TestItem{createdBy='team87_admin', createdDate='2022-06-29T08:43:27.895859Z', defaultValMax='10', defaultValMin='0', description='team87Urea', id=99011, name='team87Urea', price='0'}
+TestItem{createdBy='team87_admin', createdDate='2022-06-29T08:44:14.715871Z', defaultValMax='100', defaultValMin='10', description='team87Albumin', id=99013, name='team87Albumin', price='0'}
+TestItem{createdBy='admin', createdDate='2021-12-04T22:25:48.581083Z', defaultValMax='5.1', defaultValMin='3.5', description='', id=1405, name='Potassium', price='13'}
+TestItem{createdBy='vusalgasimov', createdDate='2022-07-18T15:37:50.837135Z', defaultValMax='152', defaultValMin='32', description='Flu', id=103792, name='Velda', price='32'}
+TestItem{createdBy='team89admin', createdDate='2022-07-17T16:43:58.821650Z', defaultValMax='100', defaultValMin='50', description='letharal', id=103771, name='corona', price='200'}
+TestItem{createdBy='---aaaaadminceran', createdDate='2022-04-17T01:44:22.636382Z', defaultValMax='100', defaultValMin='0', description='yeni bir test item denemesidir1', id=72790, name='--<aaaaaitemCeran1', price='20360'}
+TestItem{createdBy='vusalgasimov', createdDate='2022-07-18T12:54:00.503374Z', defaultValMax='', defaultValMin='', description='Urticaria', id=103777, name='Freddie', price='42'}
+TestItem{createdBy='vusalgasimov', createdDate='2022-07-18T12:58:02.433823Z', defaultValMax='', defaultValMin='', description='Head Lice', id=103779, name='Noelle', price='4756167'}
+TestItem{createdBy='vusalgasimov', createdDate='2022-07-18T12:58:57.351694Z', defaultValMax='154', defaultValMin='40', description='Drug Abuse', id=103780, name='Douglass', price='40'}
+TestItem{createdBy='vusalgasimov', createdDate='2022-07-18T13:01:26.590711Z', defaultValMax='168', defaultValMin='35', description='Hepatitis', id=103782, name='Kenny', price='33'}
+TestItem{createdBy='vusalgasimov', createdDate='2022-07-18T13:02:52.639809Z', defaultValMax='158', defaultValMin='44', description='Hemorrhage', id=103783, name='Lucius', price='36'}
+TestItem{createdBy='vusalgasimov', createdDate='2022-07-18T13:09:38.961407Z', defaultValMax='152', defaultValMin='31', description='Down syndrome', id=103784, name='Ivan', price='43'}
+TestItem{createdBy='vusalgasimov', createdDate='2022-07-18T13:20:22.560660Z', defaultValMax='164', defaultValMin='33', description='Cardiovascular disease', id=103785, name='Clara', price='45'}
+TestItem{createdBy='vusalgasimov', createdDate='2022-07-18T13:26:45.249441Z', defaultValMax='169', defaultValMin='47', description='Eating Disorders', id=103786, name='Leonardo', price='40'}
+TestItem{createdBy='vusalgasimov', createdDate='2022-07-18T13:42:36.758263Z', defaultValMax='171', defaultValMin='34', description='Heartburn', id=103787, name='Aurora', price='34'}
+TestItem{createdBy='vusalgasimov', createdDate='2022-07-18T13:44:42.722767Z', defaultValMax='151', defaultValMin='41', description='Hemorrhage', id=103788, name='Maria', price='30'}
+TestItem{createdBy='vusalgasimov', createdDate='2022-07-18T15:30:44.840573Z', defaultValMax='174', defaultValMin='51', description='Hypertension', id=103790, name='Bobby', price='39'}
+TestItem{createdBy='vusalgasimov', createdDate='2022-07-18T15:51:49.360276Z', defaultValMax='166', defaultValMin='37', description='Hypothyroidism', id=103794, name='Shanae', price='33'}
+TestItem{createdBy='vusalgasimov', createdDate='2022-07-18T16:01:26.907283Z', defaultValMax='169', defaultValMin='41', description='Eating Disorders', id=103796, name='Meda', price='31'}
+TestItem{createdBy='vusalgasimov', createdDate='2022-07-18T16:02:10.481587Z', defaultValMax='155', defaultValMin='30', description='Glomerulonephritis', id=103797, name='Andre', price='43'}
+TestItem{createdBy='bernaadmin', createdDate='2022-07-18T17:26:31.824738Z', defaultValMax='37', defaultValMin='31', description='g/dl', id=127901, name='MCHC', price='3'}
+TestItem{createdBy='team_88_admin', createdDate='2022-07-18T18:48:51.396435Z', defaultValMax='123', defaultValMin='67', description='lklk', id=127902, name='klkl', price='23'}
+TestItem{createdBy='team_88_admin', createdDate='2022-07-18T18:58:28.591822Z', defaultValMax='34', defaultValMin='12', description='sdsd', id=127903, name='sdsd', price='12'}
+TestItem{createdBy='vusalgasimov', createdDate='2022-07-18T20:08:06.496785Z', defaultValMax='56', defaultValMin='34', description='mg/dl', id=127904, name='ferrum', price='100'}
+TestItem{createdBy='vusalgasimov', createdDate='2022-07-18T20:10:04.510539Z', defaultValMax='152', defaultValMin='57', description='Eating Disorders', id=127907, name='Buddy', price='46'}
+TestItem{createdBy='vusalgasimov', createdDate='2022-07-18T20:11:53.842012Z', defaultValMax='6', defaultValMin='12', description='mg/dl', id=127908, name='potasyum', price='20'}
+TestItem{createdBy='vusalgasimov', createdDate='2022-07-18T20:37:42.177597Z', defaultValMax='string', defaultValMin='string', description='string', id=127909, name='string', price='0'}
+TestItem{createdBy='bernaadmin', createdDate='2022-07-19T03:31:09.993790Z', defaultValMax='', defaultValMin='1236', description='mg/dl', id=127910, name='Marsha Mellow  test', price='55'}
+TestItem{createdBy='bernaadmin', createdDate='2022-07-19T03:34:47.755258Z', defaultValMax='', defaultValMin='2743', description='mg/dl', id=127911, name='Dinah Soares  test', price='42'}
+TestItem{createdBy='bernaadmin', createdDate='2022-07-19T03:42:34.195200Z', defaultValMax='', defaultValMin='1635', description='mg/dl', id=127912, name='Cole Durkee  test', price='23'}
+TestItem{createdBy='bernaadmin', createdDate='2022-07-19T03:44:45.827417Z', defaultValMax='', defaultValMin='1234', description='mg/dl', id=127913, name='Crystal Glass  test', price='82'}
+TestItem{createdBy='bernaadmin', createdDate='2022-07-19T03:45:38.318038Z', defaultValMax='', defaultValMin='1236', description='mg/dl', id=127915, name='Rita Booke  test', price='32'}
+TestItem{createdBy='bernaadmin', createdDate='2022-07-19T03:47:29.124032Z', defaultValMax='', defaultValMin='2639', description='mg/dl', id=127917, name='Patton Down DeHatches  test', price='43'}
+TestItem{createdBy='vusalgasimov', createdDate='2022-07-19T10:26:54.660117Z', defaultValMax='173', defaultValMin='35', description='AIDS', id=127922, name='Melodi', price='45'}
+TestItem{createdBy='teamadmin86', createdDate='2022-07-19T14:19:38.583474Z', defaultValMax='24', defaultValMin='12', description='dfgdfg', id=127924, name='dfgdfg', price='34'}
+TestItem{createdBy='team89admin', createdDate='2022-07-19T14:51:23.935258Z', defaultValMax='48', defaultValMin='21', description='Full blood test mg/dl', id=127925, name='team89', price='56'}
+TestItem{createdBy='team89admin', createdDate='2022-07-19T15:06:31.969038Z', defaultValMax='20', defaultValMin='0', description='This test item belongs team89', id=127926, name='team89testitem01', price='15'}
+TestItem{createdBy='teamadmin86', createdDate='2022-07-19T15:33:35.134515Z', defaultValMax='10', defaultValMin='2', description='sdfgsfsdgsgsg', id=127927, name='Deneme4565', price='45'}
+TestItem{createdBy='bernaadmin', createdDate='2022-07-19T15:44:10.068773Z', defaultValMax='50', defaultValMin='11', description='mg/l', id=127929, name='urea', price='33'}
+TestItem{createdBy='bernaadmin', createdDate='2022-07-19T15:45:32.473366Z', defaultValMax='', defaultValMin='2735', description='mg/dl', id=127930, name='Lynn O. Liam  test', price='49'}
+TestItem{createdBy='bernaadmin', createdDate='2022-07-19T15:46:07.509335Z', defaultValMax='', defaultValMin='2740', description='mg/dl', id=127931, name='Harry R. M. Pitts  test', price='57'}
+TestItem{createdBy='bernaadmin', createdDate='2022-07-19T15:46:23.243311Z', defaultValMax='a', defaultValMin='a', description='a', id=127932, name='a', price='1'}
+TestItem{createdBy='bernaadmin', createdDate='2022-07-19T15:47:26.324936Z', defaultValMax='', defaultValMin='2342', description='mg/dl', id=127933, name='Rich Guy  test', price='92'}
+TestItem{createdBy='teamadmin86', createdDate='2022-07-19T15:48:45.614476Z', defaultValMax='1860', defaultValMin='5', description='com.github.javafaker.Artist@57082d16', id=127934, name='com.github.javafaker.Superhero@7ba0c0e5', price='198'}
+TestItem{createdBy='bernaadmin', createdDate='2022-07-19T15:49:59.907718Z', defaultValMax='', defaultValMin='2546', description='mg/dl', id=127935, name='Al Kaholic  test', price='71'}
+TestItem{createdBy='bernaadmin', createdDate='2022-07-19T17:27:22.746332Z', defaultValMax='', defaultValMin='1831', description='mg/dl', id=127944, name='Andy Gravity  test', price='17'}
+TestItem{createdBy='teamadmin86', createdDate='2022-07-19T18:31:32.609234Z', defaultValMax='null', defaultValMin='null', description='Steel', id=127945, name='Cyborg II', price='46'}
+TestItem{createdBy='teamadmin86', createdDate='2022-07-19T18:31:57.148900Z', defaultValMax='null', defaultValMin='null', description='Shang-Chi', id=127946, name='Supah Bloodhawk Wolf', price='19'}
+TestItem{createdBy='vusalgasimov', createdDate='2022-07-19T18:55:57.427505Z', defaultValMax='126', defaultValMin='70', description='Test', id=127947, name='Blood Glucose ', price='100'}
+TestItem{createdBy='teamadmin86', createdDate='2022-07-19T19:46:28.306672Z', defaultValMax='null', defaultValMin='null', description='Silverclaw', id=127949, name='Ink Woman', price='29'}
+TestItem{createdBy='bernaadmin', createdDate='2022-07-19T21:03:42.214500Z', defaultValMax='', defaultValMin='1746', description='mg/dl', id=129651, name='Sasha Klotz  test', price='77'}
+TestItem{createdBy='bernaadmin', createdDate='2022-07-19T21:10:59.282667Z', defaultValMax='', defaultValMin='1844', description='mg/dl', id=129652, name='Mark Z. Spot  test', price='22'}
+TestItem{createdBy='bernaadmin', createdDate='2022-07-19T21:13:27.132088Z', defaultValMax='', defaultValMin='2134', description='mg/dl', id=129653, name='Laura Norder  test', price='88'}
+TestItem{createdBy='bernaadmin', createdDate='2022-07-19T21:16:02.869707Z', defaultValMax='', defaultValMin='1245', description='mg/dl', id=129654, name='Lowden Clear  test', price='86'}
+TestItem{createdBy='bernaadmin', createdDate='2022-07-19T21:17:47.706049Z', defaultValMax='', defaultValMin='1740', description='mg/dl', id=129655, name='Hy Gene  test', price='22'}
+TestItem{createdBy='bernaadmin', createdDate='2022-07-20T02:19:40.477495Z', defaultValMax='', defaultValMin='2035', description='mg/dl', id=129657, name='Crystal Ball  test', price='51'}
+TestItem{createdBy='vusalgasimov', createdDate='2022-07-19T19:20:26.669205Z', defaultValMax='70', defaultValMin='150', description='This is a test vitamin.', id=127948, name='team87_ VITAMIN D', price='60'}
+TestItem{createdBy='bernaadmin', createdDate='2022-07-20T02:21:11.568841Z', defaultValMax='', defaultValMin='1139', description='mg/dl', id=129658, name='Al B. Zienya  test', price='22'}
+TestItem{createdBy='teamadmin86', createdDate='2022-07-20T03:53:57.598492Z', defaultValMax='null', defaultValMin='null', description='Deadpool', id=129659, name='Mimic Ivy', price='89'}
+TestItem{createdBy='teamadmin86', createdDate='2022-07-20T04:03:06.142466Z', defaultValMax='null', defaultValMin='null', description='Morph', id=129660, name='Siryn', price='15'}
+TestItem{createdBy='teamadmin86', createdDate='2022-07-20T04:03:59.637915Z', defaultValMax='null', defaultValMin='null', description='Giganta', id=129661, name='Thanos', price='56'}
+TestItem{createdBy='teamadmin86', createdDate='2022-07-20T04:04:50.591113Z', defaultValMax='null', defaultValMin='null', description='Dagger', id=129662, name='Red Bishop', price='46'}
+TestItem{createdBy='teamadmin86', createdDate='2022-07-20T04:10:10.688800Z', defaultValMax='null', defaultValMin='null', description='Deadshot', id=129663, name='Red Bloodaxe Machine', price='50'}
+TestItem{createdBy='teamadmin86', createdDate='2022-07-20T04:11:55.544910Z', defaultValMax='null', defaultValMin='null', description='Longshot', id=129664, name='Giant Mockingbird', price='18'}
+TestItem{createdBy='teamadmin86', createdDate='2022-07-20T04:12:48.706612Z', defaultValMax='null', defaultValMin='null', description='Quantum', id=129665, name='Bloodaxe Dragon', price='34'}
+TestItem{createdBy='teamadmin86', createdDate='2022-07-20T04:34:16.227464Z', defaultValMax='null', defaultValMin='null', description='Space Ghost', id=129666, name='The Kool-Aid Man of Hearts', price='55'}
+TestItem{createdBy='teamadmin86', createdDate='2022-07-20T04:36:47.415547Z', defaultValMax='null', defaultValMin='null', description='Meteorite', id=129667, name='Cable', price='47'}
+TestItem{createdBy='teamadmin86', createdDate='2022-07-20T04:42:59.907053Z', defaultValMax='null', defaultValMin='null', description='Jigsaw', id=129668, name='Kool-Aid Man Lord', price='51'}
+TestItem{createdBy='teamadmin86', createdDate='2022-07-20T04:45:49.465727Z', defaultValMax='null', defaultValMin='null', description='Evilhawk', id=129669, name='Dark Brother Voodoo X', price='48'}
+TestItem{createdBy='teamadmin86', createdDate='2022-07-20T04:48:17.884983Z', defaultValMax='null', defaultValMin='null', description='Pyro', id=129670, name='Elektra', price='72'}
+TestItem{createdBy='teamadmin86', createdDate='2022-07-20T04:49:37.135650Z', defaultValMax='null', defaultValMin='null', description='Plastique', id=129671, name='Supah Watcher Thirteen', price='14'}
+TestItem{createdBy='teamadmin86', createdDate='2022-07-20T04:51:58.270467Z', defaultValMax='null', defaultValMin='null', description='Guardian', id=129672, name='Bolt', price='62'}
+TestItem{createdBy='teamadmin86', createdDate='2022-07-20T04:52:42.708Z', defaultValMax='null', defaultValMin='null', description='Leader', id=129673, name='General Tinkerer', price='28'}
+TestItem{createdBy='teamadmin86', createdDate='2022-07-20T05:06:39.932092Z', defaultValMax='null', defaultValMin='null', description='Faora', id=129674, name='Magnificent Absorbing IX', price='6'}
+TestItem{createdBy='vusalgasimov', createdDate='2022-07-25T19:56:46.286502Z', defaultValMax='170', defaultValMin='80', description='this is vitamin 87', id=139399, name='vitamin87_CCC', price='100'}
+TestItem{createdBy='team_88_admin', createdDate='2022-07-21T21:38:23.183871Z', defaultValMax='26', defaultValMin='13', description='Hormone', id=132782, name='Insulin56', price='50'}
+TestItem{createdBy='team89admin', createdDate='2022-07-20T09:50:14.478235Z', defaultValMax='48', defaultValMin='12', description='Full blood test mg/dl', id=129681, name='test89', price='23'}
+TestItem{createdBy='vusalgasimov', createdDate='2022-07-20T12:09:32.039167Z', defaultValMax='0.987', defaultValMin='0.127', description='Hemoglobin', id=129682, name='Blood', price='15'}
+TestItem{createdBy='omradmin', createdDate='2022-06-30T11:46:02.617304Z', defaultValMax='1.998', defaultValMin='1.127', description='headache', id=103751, name='Aura', price='200'}
+TestItem{createdBy='ogunes', createdDate='2022-07-22T00:00:01.516808Z', defaultValMax='425', defaultValMin='225', description='x', id=132794, name='Sodium-', price='70'}
+TestItem{createdBy='ogunes', createdDate='2022-07-22T00:00:37.592188Z', defaultValMax='324', defaultValMin='124', description='x', id=132795, name='Potassium-', price='70'}
+TestItem{createdBy='vusalgasimov', createdDate='2022-07-20T13:57:56.719236Z', defaultValMax='', defaultValMin='', description='', id=129685, name='sdsh', price='123'}
+TestItem{createdBy='team_88_admin', createdDate='2022-07-26T07:43:22.494016Z', defaultValMax='26', defaultValMin='13', description='Hormones', id=140175, name='FSH34', price='80'}
+TestItem{createdBy='team89admin', createdDate='2022-07-20T15:58:08.063107Z', defaultValMax='56', defaultValMin='34', description='mg/dl', id=129689, name='zzz1', price='100'}
+TestItem{createdBy='team89admin', createdDate='2022-07-20T15:58:46.353729Z', defaultValMax='56', defaultValMin='34', description='asd', id=129690, name='zzz2', price='100'}
+TestItem{createdBy='team_88_admin', createdDate='2022-07-26T07:44:32.267233Z', defaultValMax='26', defaultValMin='13', description='Hormones', id=140177, name='FSH35', price='80'}
+TestItem{createdBy='omradmin', createdDate='2022-07-20T16:06:04.843237Z', defaultValMax='1.5', defaultValMin='1.7', description='headache', id=129692, name='Waldo', price='200'}
+TestItem{createdBy='bernaadmin', createdDate='2022-07-20T16:13:55.547769Z', defaultValMax='', defaultValMin='1147', description='mg/dl', id=129693, name='Stu Pitt  test', price='36'}
+TestItem{createdBy='bernaadmin', createdDate='2022-07-20T16:15:25.177340Z', defaultValMax='', defaultValMin='2540', description='mg/dl', id=129694, name='Ben Crobbery  test', price='84'}
+TestItem{createdBy='bernaadmin', createdDate='2022-07-20T16:19:35.296638Z', defaultValMax='', defaultValMin='2241', description='mg/dl', id=129696, name='Gene E. Yuss  test', price='54'}
+TestItem{createdBy='bernaadmin', createdDate='2022-07-20T16:25:36.031547Z', defaultValMax='', defaultValMin='2134', description='mg/dl', id=129697, name='Al Gore Rythim  test', price='38'}
+TestItem{createdBy='bernaadmin', createdDate='2022-07-20T16:29:57.034135Z', defaultValMax='', defaultValMin='2737', description='mg/dl', id=129698, name='Creatinin', price='10'}
+TestItem{createdBy='medunnaadmin', createdDate='2022-03-15T17:18:08.305859Z', defaultValMax='45', defaultValMin='36', description='', id=18036, name='Fe', price='45'}
+TestItem{createdBy='juiletcapulet_admin', createdDate='2022-07-20T19:38:53.065357Z', defaultValMax='100', defaultValMin='10', description='For headaches', id=129699, name='MR', price='28'}
+TestItem{createdBy='infotech', createdDate='2022-07-20T21:51:03.962441Z', defaultValMax='220', defaultValMin='65', description='acil', id=129700, name='Glucose', price='250'}
+TestItem{createdBy='vusalgasimov', createdDate='2022-07-26T17:26:38.880521Z', defaultValMax='5.1', defaultValMin='3.5', description='test4', id=140192, name='team87B12_testt', price='50'}
+TestItem{createdBy='bernaadmin', createdDate='2022-07-21T01:55:41.276899Z', defaultValMax='12', defaultValMin='1', description='hbgkhb', id=131954, name='gkh', price='12'}
+TestItem{createdBy='vusalgasimov', createdDate='2022-07-22T10:05:44.401614Z', defaultValMax='5.1', defaultValMin='3.5', description='potassium test', id=134128, name='team87_potasssium', price='50'}
+TestItem{createdBy='teamadmin86', createdDate='2022-07-21T02:02:34.543028Z', defaultValMax='null', defaultValMin='null', description='Goblin Queen', id=131958, name='Dark Hollow Woman', price='75'}
+TestItem{createdBy='teamadmin86', createdDate='2022-07-21T02:02:35.520835Z', defaultValMax='null', defaultValMin='null', description='Chuck Norris', id=131959, name='Captain Isis Lord', price='81'}
+TestItem{createdBy='teamadmin86', createdDate='2022-07-21T02:02:38.011880Z', defaultValMax='null', defaultValMin='null', description='Jack of Hearts', id=131960, name='Jolt Spirit', price='2'}
+TestItem{createdBy='team_88_admin', createdDate='2022-07-22T10:57:22.725182Z', defaultValMax='26', defaultValMin='13', description='Hormone', id=134131, name='Insulin61', price='50'}
+TestItem{createdBy='vusalgasimov', createdDate='2022-07-26T20:08:58.003349Z', defaultValMax='90', defaultValMin='80', description='this is vitamin 87', id=140197, name='87_GLUCOSS', price='50'}
+TestItem{createdBy='teamadmin86', createdDate='2022-07-21T02:07:04.969220Z', defaultValMax='1000', defaultValMin='70', description='Firebird', id=131964, name='Mr Spawn Claw', price='250'}
+TestItem{createdBy='team_88_admin', createdDate='2022-07-22T13:59:17.916737Z', defaultValMax='26', defaultValMin='13', description='Hormone', id=134138, name='Insulin63', price='50'}
+TestItem{createdBy='teamadmin86', createdDate='2022-07-21T02:18:08.326442Z', defaultValMax='963', defaultValMin='31', description='Niki Sanders', id=131966, name='Ares', price='235'}
+TestItem{createdBy='team_88_admin', createdDate='2022-07-22T14:13:27.908195Z', defaultValMax='26', defaultValMin='13', description='Hormone', id=134141, name='Insulin66', price='50'}
+TestItem{createdBy='team_88_admin', createdDate='2022-07-22T14:26:11.598208Z', defaultValMax='26', defaultValMin='13', description='Hormone', id=134143, name='Insulin68', price='50'}
+TestItem{createdBy='team_88_admin', createdDate='2022-07-22T14:35:26.664669Z', defaultValMax='26', defaultValMin='13', description='Hormone', id=134146, name='Insulin71', price='50'}
+TestItem{createdBy='team_88_admin', createdDate='2022-07-22T14:39:57.124526Z', defaultValMax='26', defaultValMin='13', description='Hormone', id=134148, name='Insulin73', price='50'}
+TestItem{createdBy='team_88_admin', createdDate='2022-07-22T15:44:52.387074Z', defaultValMax='26', defaultValMin='13', description='Hormone', id=134150, name='Insulin74', price='50'}
+TestItem{createdBy='adminteam93-10', createdDate='2022-07-27T10:49:53.053185Z', defaultValMax='056', defaultValMin='80', description='mg/ml', id=140971, name='Terry', price='130'}
+TestItem{createdBy='team_88_admin', createdDate='2022-07-22T16:13:37.015205Z', defaultValMax='26', defaultValMin='13', description='Hormone', id=135408, name='Insulin78', price='50'}
+TestItem{createdBy='team_88_admin', createdDate='2022-07-21T11:53:41.958819Z', defaultValMax='26', defaultValMin='13', description='Thyroid Hormone', id=131981, name='TSH', price='50'}
+TestItem{createdBy='team_88_admin', createdDate='2022-07-22T16:42:49.684069Z', defaultValMax='26', defaultValMin='13', description='Hormone', id=135411, name='Insulin80', price='50'}
+TestItem{createdBy='team_88_admin', createdDate='2022-07-22T16:46:16.999524Z', defaultValMax='26', defaultValMin='13', description='Hormone', id=135412, name='Insulin81', price='50'}
+TestItem{createdBy='vusalgasimov', createdDate='2022-07-22T17:01:06.832290Z', defaultValMax='5.1', defaultValMin='3.5', description='potassium test', id=135419, name='team87_potasssium3', price='50'}
+TestItem{createdBy='vusalgasimov', createdDate='2022-07-28T11:59:28.592686Z', defaultValMax='170', defaultValMin='80', description='CERATINEE', id=142794, name='87_CERATINEE', price='100'}
+TestItem{createdBy='team_88_admin', createdDate='2022-07-28T12:53:46.986813Z', defaultValMax='30', defaultValMin='40', description='Hyperkalemia', id=142798, name='JATROPHA CURCAS SEED', price='50'}
+TestItem{createdBy='team_88_admin', createdDate='2022-07-28T12:54:40.345491Z', defaultValMax='30', defaultValMin='40', description='Epilepsy', id=142799, name='DIVALPROEX SODIUM', price='50'}
+TestItem{createdBy='team_88_admin', createdDate='2022-07-28T12:55:52.380119Z', defaultValMax='30', defaultValMin='40', description='Headache', id=142800, name='HONEY', price='50'}
+TestItem{createdBy='bernaadmin', createdDate='2022-07-28T22:45:29.402488Z', defaultValMax='null', defaultValMin='null', description='null', id=143685, name='AAA', price='123'}
+TestItem{createdBy='bernaadmin', createdDate='2022-07-28T23:46:48.661441Z', defaultValMax='49', defaultValMin='20', description='mg/l', id=143689, name='Urea10', price='100'}
+TestItem{createdBy='team_88_admin', createdDate='2022-07-25T20:19:10.465917Z', defaultValMax='null', defaultValMin='13', description='Hormones', id=139400, name='FSHH3', price='80'}
+TestItem{createdBy='team_88_admin', createdDate='2022-07-29T12:32:16.842015Z', defaultValMax='30', defaultValMin='40', description='Gonorrhea', id=145992, name='DOLASETRON MESYLATE', price='50'}
+TestItem{createdBy='team_88_admin', createdDate='2022-07-26T07:58:58.628289Z', defaultValMax='26', defaultValMin='13', description='Hormones', id=140178, name='FSH36', price='80'}
+TestItem{createdBy='vusalgasimov', createdDate='2022-07-26T14:53:17.185797Z', defaultValMax='170', defaultValMin='80', description='this is vitamin 87', id=140190, name='87_CC', price='100'}
+TestItem{createdBy='vusalgasimov', createdDate='2022-07-26T19:38:30.406308Z', defaultValMax='170', defaultValMin='80', description='this is vitamin 87', id=140193, name='87_GLUCOS', price='100'}
+TestItem{createdBy='vusalgasimov', createdDate='2022-07-26T20:11:43.106339Z', defaultValMax='170', defaultValMin='80', description='this is vitamin 87', id=140199, name='87_GLUCOSSS', price='100'}
+TestItem{createdBy='vusalgasimov', createdDate='2022-07-26T20:17:55.756693Z', defaultValMax='170', defaultValMin='80', description='this is vitamin 87', id=140200, name='87_GLUCOSSSS', price='100'}
+TestItem{createdBy='infotech02', createdDate='2022-07-27T04:44:15.687205Z', defaultValMax='20', defaultValMin='10', description='total', id=140969, name='B12', price='30'}
+TestItem{createdBy='adm', createdDate='2022-07-27T10:51:37.470836Z', defaultValMax='as', defaultValMin='asd', description='asd', id=140972, name='sda', price='123'}
+TestItem{createdBy='vusalgasimov', createdDate='2022-07-27T20:28:31.635810Z', defaultValMax='170', defaultValMin='80', description='CERATINE', id=140981, name='87_CERATINE', price='100'}
+TestItem{createdBy='madmin', createdDate='2022-07-27T20:30:49.055541Z', defaultValMax='150', defaultValMin='50', description='test1', id=140982, name='leyla3', price='1200'}
+TestItem{createdBy='team_88_admin', createdDate='2022-07-28T12:23:01.239189Z', defaultValMax='string', defaultValMin='string', description='string', id=142795, name='farss', price='0'}
+TestItem{createdBy='team_88_admin', createdDate='2022-07-28T13:31:02.427144Z', defaultValMax='30', defaultValMin='40', description='Benign prostatic hyperplasia', id=143652, name='ULIPRISTAL ACETATE', price='50'}
+TestItem{createdBy='vusalgasimov', createdDate='2022-07-28T13:31:58.990917Z', defaultValMax='170', defaultValMin='80', description='CERATINEEE', id=143654, name='87_CERATINEEE', price='100'}
+TestItem{createdBy='team_88_admin', createdDate='2022-07-28T14:54:07.406496Z', defaultValMax='30', defaultValMin='40', description='Fracture', id=143656, name='ERYTHROMYCIN', price='50'}
+TestItem{createdBy='team_88_admin', createdDate='2022-07-28T16:14:41.167287Z', defaultValMax='30', defaultValMin='40', description='Hypertension', id=143658, name='IVA ANNUA VAR. ANNUA POLLEN', price='50'}
+TestItem{createdBy='vusalgasimov', createdDate='2022-07-28T19:21:28.655670Z', defaultValMax='45', defaultValMin='15', description='Blood', id=143661, name='Hemoglobin BDC', price='120'}
+TestItem{createdBy='team87_admin', createdDate='2022-07-28T19:47:00.729629Z', defaultValMax='170', defaultValMin='80', description='87_CERATINEEE_87', id=143664, name='CERATINE__CERATINE', price='100'}
+TestItem{createdBy='bernaadmin', createdDate='2022-07-28T23:18:49.368373Z', defaultValMax='49', defaultValMin='20', description='mg/l', id=143686, name='Creataninne', price='100'}
+TestItem{createdBy='bernaadmin', createdDate='2022-07-29T00:09:49.631412Z', defaultValMax='49', defaultValMin='20', description='mg/l', id=143690, name='Urea13', price='100'}
+TestItem{createdBy='adminteam93-10', createdDate='2022-07-29T11:32:46.971663Z', defaultValMax='407', defaultValMin='379', description='mg/ml', id=145961, name='Odis', price='928'}
+TestItem{createdBy='vusalgasimov', createdDate='2022-07-22T17:04:44.269960Z', defaultValMax='5.1', defaultValMin='3.5', description='potassium test', id=135422, name='team87_calcium', price='50'}
+TestItem{createdBy='team_88_admin', createdDate='2022-07-25T20:24:50.700927Z', defaultValMax='26', defaultValMin='13', description='Hormones', id=140152, name='FSH33', price='80'}
+TestItem{createdBy='vusalgasimov', createdDate='2022-07-22T17:08:20.305534Z', defaultValMax='5.1', defaultValMin='3.5', description='potassium test', id=135425, name='team87_calcium1', price='50'}
+TestItem{createdBy='vusalgasimov', createdDate='2022-07-29T12:45:55.745616Z', defaultValMax='49', defaultValMin='20', description='mg/l', id=145994, name='Traoid', price='100'}
+TestItem{createdBy='vusalgasimov', createdDate='2022-07-22T17:13:17.813546Z', defaultValMax='5.1', defaultValMin='3.5', description='potassium test', id=135427, name='team87_calcium2', price='50'}
+TestItem{createdBy='vusalgasimov', createdDate='2022-07-22T17:21:28.141912Z', defaultValMax='5.1', defaultValMin='3.5', description='potassium test', id=135429, name='team87_calcium3', price='50'}
+TestItem{createdBy='vusalgasimov', createdDate='2022-07-22T17:23:21.119520Z', defaultValMax='5.1', defaultValMin='3.5', description='potassium test', id=135431, name='team87_calcium4', price='50'}
+TestItem{createdBy='team_88_admin', createdDate='2022-07-22T18:53:48.109736Z', defaultValMax='26', defaultValMin='13', description='Hormone', id=135432, name='Insulin82', price='50'}
+TestItem{createdBy='adminteam93-10', createdDate='2022-07-22T18:54:04.086126Z', defaultValMax='001', defaultValMin='80', description='mg/ml', id=135433, name='Rey', price='130'}
+TestItem{createdBy='vusalgasimov', createdDate='2022-07-26T17:07:22.240622Z', defaultValMax='5.1', defaultValMin='3.5', description='test4', id=140191, name='team87B12_test', price='50'}
+TestItem{createdBy='vusalgasimov', createdDate='2022-07-26T20:19:07.618154Z', defaultValMax='170', defaultValMin='80', description='this is vitamin 87', id=140951, name='87_GLUCOSSSSS', price='100'}
+TestItem{createdBy='vusalgasimov', createdDate='2022-07-26T20:20:52.953045Z', defaultValMax='170', defaultValMin='80', description='this is vitamin 87', id=140952, name='87_GLUCOSSSSSSS', price='100'}
+TestItem{createdBy='ogunes', createdDate='2022-07-21T23:58:39.015517Z', defaultValMax='45', defaultValMin='15', description='x', id=132792, name='Urea-', price='70'}
+TestItem{createdBy='vusalgasimov', createdDate='2022-07-24T14:11:50.460515Z', defaultValMax='5.1', defaultValMin='3.5', description='test', id=137270, name='team87_test', price='50'}
+TestItem{createdBy='admin', createdDate='2021-12-04T22:22:32.105082Z', defaultValMax='110', defaultValMin='74', description='testt', id=1401, name='team87_testt', price='120'}
+TestItem{createdBy='team_88_admin', createdDate='2022-07-23T13:14:53.446856Z', defaultValMax='26', defaultValMin='13', description='Hormone', id=135450, name='Insulin84', price='50'}
+TestItem{createdBy='vusalgasimov', createdDate='2022-07-25T12:01:13.702766Z', defaultValMax='120', defaultValMin='70', description='this is a vitamin d__87', id=139361, name='vitamin B12__87', price='100'}
+TestItem{createdBy='vusalgasimov', createdDate='2022-07-24T10:22:15.768017Z', defaultValMax='160', defaultValMin='55', description='Gum Diseases', id=137262, name='Pamila', price='47'}
+TestItem{createdBy='adminteam93-10', createdDate='2022-07-24T12:46:38.259296Z', defaultValMax='871', defaultValMin='80', description='mg/ml', id=137263, name='Palmer', price='130'}
+TestItem{createdBy='vusalgasimov', createdDate='2022-07-24T13:17:51.722494Z', defaultValMax='110', defaultValMin='74', description='glucose test', id=137264, name='team87_glucose', price='120'}
+TestItem{createdBy='vusalgasimov', createdDate='2022-07-24T13:31:03.462529Z', defaultValMax='110', defaultValMin='74', description='calcium6 test', id=137265, name='team87_calcium6', price='120'}
+TestItem{createdBy='madmin', createdDate='2022-07-24T13:59:30.651408Z', defaultValMax='150', defaultValMin='50', description='test', id=137267, name='suleyman', price='1200'}
+TestItem{createdBy='vusalgasimov', createdDate='2022-07-24T14:00:31.391119Z', defaultValMax='5.1', defaultValMin='3.5', description='calciumm test', id=137268, name='team87_calciumm', price='50'}
+TestItem{createdBy='vusalgasimov', createdDate='2022-07-24T13:48:24.760232Z', defaultValMax='110', defaultValMin='74', description='calciumm1 test', id=137266, name='team87_calciumm1', price='120'}
+TestItem{createdBy='madmin', createdDate='2022-07-24T14:29:14.719041Z', defaultValMax='150', defaultValMin='50', description='test1', id=137273, name='uleyman', price='1200'}
+TestItem{createdBy='team_88_admin', createdDate='2022-07-28T12:27:32.870747Z', defaultValMax='string', defaultValMin='string', description='string', id=142797, name='zuzum', price='0'}
+TestItem{createdBy='vusalgasimov', createdDate='2022-07-28T13:49:42.432806Z', defaultValMax='170', defaultValMin='80', description='CERATINEEE_87', id=143655, name='87_CERATINE_87', price='100'}
+TestItem{createdBy='team_88_admin', createdDate='2022-07-28T16:13:57.490478Z', defaultValMax='30', defaultValMin='40', description='Hyperkalemia', id=143657, name='ARTEMISIA ANNUA POLLEN', price='50'}
+TestItem{createdBy='vusalgasimov', createdDate='2022-07-24T16:22:42.405276Z', defaultValMax='5.1', defaultValMin='3.5', description='test4', id=137278, name='team87_test4', price='50'}
+TestItem{createdBy='bernaadmin', createdDate='2022-07-28T16:49:23.139836Z', defaultValMax='50', defaultValMin='25', description='mg/l', id=143660, name='ccgg', price='33'}
+TestItem{createdBy='team87_admin', createdDate='2022-07-28T19:43:39.950734Z', defaultValMax='170', defaultValMin='80', description='87_CERATINEEE_87', id=143662, name='CERATINE_87_CERATINE', price='100'}
+TestItem{createdBy='team_88_admin', createdDate='2022-07-28T19:52:20.348358Z', defaultValMax='30', defaultValMin='40', description='Hemorrhage', id=143666, name='GRINDELIA HIRSUTULA WHOLE', price='50'}
+TestItem{createdBy='team_88_admin', createdDate='2022-07-28T19:55:19.929458Z', defaultValMax='30', defaultValMin='40', description='Substance abuse', id=143668, name='NALDEMEDINE TOSYLATE', price='50'}
+TestItem{createdBy='vusalgasimov', createdDate='2022-07-24T17:18:23.736792Z', defaultValMax='70', defaultValMin='150', description='This is a test vitamin', id=137291, name='VITAMIN D', price='50'}
+TestItem{createdBy='vusalgasimov', createdDate='2022-07-24T17:19:49.055673Z', defaultValMax='80', defaultValMin='150', description='This is a test vitamin c', id=137293, name='VITAMIN C-87', price='50'}
+TestItem{createdBy='omradmin', createdDate='2022-07-25T08:27:19.563391Z', defaultValMax='1.5', defaultValMin='1.7', description='headache', id=137294, name='Tyesha', price='200'}
+TestItem{createdBy='bernaadmin', createdDate='2022-07-28T23:31:18.049511Z', defaultValMax='49', defaultValMin='20', description='mg/l', id=143688, name='Creataninen', price='100'}
+TestItem{createdBy='adminteam93-10', createdDate='2022-07-29T11:30:58.515752Z', defaultValMax='190', defaultValMin='076', description='mg/ml', id=145960, name='Bianca', price='458'}
+TestItem{createdBy='vusalgasimov', createdDate='2022-07-25T11:00:51.264990Z', defaultValMax='80', defaultValMin='150', description='This is a test vitamino c', id=137300, name='VITAMINo C-87', price='50'}
+TestItem{createdBy='vusalgasimov', createdDate='2022-07-25T11:35:06.694264Z', defaultValMax='120', defaultValMin='70', description='this is a vitamin d_87', id=139354, name='vitamin D_87', price='100'}
+TestItem{createdBy='vusalgasimov', createdDate='2022-07-25T11:41:06.252668Z', defaultValMax='120', defaultValMin='70', description='this is a vitamin d__87', id=139357, name='vitamin D__87', price='100'}
+TestItem{createdBy='vusalgasimov', createdDate='2022-07-25T11:44:31.872999Z', defaultValMax='120', defaultValMin='70', description='this is a vitamin d__87', id=139359, name='vitamin C__87', price='100'}
+TestItem{createdBy='adminteam93-10', createdDate='2022-07-29T11:49:02.742605Z', defaultValMax='357', defaultValMin='715', description='mg/ml', id=145969, name='Wes', price='204'}
+TestItem{createdBy='vusalgasimov', createdDate='2022-07-25T12:37:43.272409Z', defaultValMax='170', defaultValMin='80', description='this is vitamin 87', id=139362, name='vitamin87_87', price='100'}
+TestItem{createdBy='vusalgasimov', createdDate='2022-07-25T12:38:27.601775Z', defaultValMax='170', defaultValMin='80', description='this is vitamin 87', id=139363, name='vitamin87_D', price='100'}
+TestItem{createdBy='bernaadmin', createdDate='2022-07-29T11:50:04.421436Z', defaultValMax='49', defaultValMin='20', description='mg/l', id=145971, name='Ureaaa', price='100'}
+TestItem{createdBy='vusalgasimov', createdDate='2022-07-25T12:40:13.900433Z', defaultValMax='170', defaultValMin='80', description='this is vitamin 87', id=139366, name='vitamin87_C', price='100'}
+TestItem{createdBy='vusalgasimov', createdDate='2022-07-25T12:41:12.954319Z', defaultValMax='170', defaultValMin='80', description='this is vitamin 87', id=139368, name='vitamin87_CC', price='100'}
+TestItem{createdBy='teamadmin86', createdDate='2022-07-25T18:19:19.044152Z', defaultValMax='null', defaultValMin='null', description='Wolfsbane', id=139383, name='Gorilla Grodd', price='39'}

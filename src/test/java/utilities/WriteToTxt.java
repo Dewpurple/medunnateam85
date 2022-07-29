@@ -148,12 +148,12 @@ public class WriteToTxt {
 
         try{
 
-            FileWriter fw= new FileWriter(ConfigurationReader.getProperty("testItems_api_records"), true);
+            FileWriter fw= new FileWriter(ConfigurationReader.getProperty("testItems_api_records"), false);
 
 //                BufferedWriter bw=new BufferedWriter(fw);
 //                bw.append(testItem.toString()+",\n");
 //                bw.close();
-
+//
             BufferedWriter bw=new BufferedWriter(fw);
             for(int i=0;i<testItems.length; i++){
                 bw.append(testItems[i].toString()+"\n");

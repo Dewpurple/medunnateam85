@@ -6,7 +6,7 @@ Feature:Inpatient_Info_and_Update
     And US_14user clicks the signIn button
 
 
-  @US14_Doctor_See_Inpatient_Info
+ @US14_Doctor_See_Inpatient_Info @smoke @regression
   Scenario Outline:Doctor_see_inpatient_info
     And US_14user provide valid username "<username>" and "<password>"
     Then US_14user clicks on Sign In Button

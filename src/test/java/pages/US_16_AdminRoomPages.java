@@ -7,8 +7,8 @@ import utilities.Driver;
 
 import java.util.List;
 
-public class US16_AdminRoomPages {
-    public US16_AdminRoomPages() {
+public class US_16_AdminRoomPages {
+    public US_16_AdminRoomPages() {
         PageFactory.initElements(Driver.getDriver(), this);
     }
 

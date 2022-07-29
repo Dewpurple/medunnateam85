@@ -2,6 +2,7 @@
 @US16
 Feature: US16_Room creation by Admin and admin can View, Update or Delete the room creation.
 
+  @smoke
   @RoomPage_positive_empty_descriptionTC01
   Scenario Outline: US16 Admin
     Given US16-1 go to medunna URL and admin click sign in and register and verify TC01
@@ -18,7 +19,7 @@ Feature: US16_Room creation by Admin and admin can View, Update or Delete the ro
       |BernaAdmin|team85|309   |6  |08/20/2022|
 
 
-
+@regression
   @RoomPage_positive_empty_description_DeleteTC02
   Scenario Outline: US16 Admin
     Given US16-1 go to medunna URL and admin click sign in and register and verify TC02
@@ -35,7 +36,7 @@ Feature: US16_Room creation by Admin and admin can View, Update or Delete the ro
       |BernaAdmin|team85|309   |9  |08/20/2022|
 
 
-
+  @regression
   @RoomType_verify_withDescriptionTC03
   Scenario Outline: US16 Admin
     Given US16-1 go to medunna URL and admin click sign in and register and verify TC03
@@ -54,7 +55,7 @@ Feature: US16_Room creation by Admin and admin can View, Update or Delete the ro
       |userName|password|password|TWIN|DELUXE|PREMIUM_DELUXE|SUITE|DAYCARE|
       |BernaAdmin|team85|111111111|TWIN|DELUXE|PREMIUM_DELUXE|SUITE|DAYCARE|
 
-
+  @regression
   @RoomPage_positive_empty_description_Edit
   Scenario Outline: US16 Admin
     Given US16-1 go to medunna URL and admin click sign in and register and verify for Edit test

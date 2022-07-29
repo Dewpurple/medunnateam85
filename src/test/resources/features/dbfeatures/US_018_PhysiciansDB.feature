@@ -2,7 +2,7 @@
 Feature: database_patients
 
   Background: Prerequisite_Connect_to_the_server
-    Given user connects to database
+    Given US15_user connects to database
 
   @US_018_Read_All_Patient_Data
   Scenario: US_018_TC_001_read_all_patient_table
@@ -11,7 +11,7 @@ Feature: database_patients
 
   @US_018_Read_Patient_Firstname
   Scenario Outline: US_018_TC_002_verify_patient_firstname
-    Then verify "physician" table "first_name" column contains "<name>" data
+    Then US15_verify "physician" table "first_name" column contains "<name>" data
     And US15_close the database connection
     Examples: name
       |name|

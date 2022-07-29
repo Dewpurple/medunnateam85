@@ -2,12 +2,12 @@
 @US002_UI
    Feature:US002_valid_username_email
       Background: user_navigates_to_register_page
-         Given user navigates to url
-         When user clicks on icon on top right corner
+         Given user navigates to url US002
+         When user clicks on icon on top right corner US002
          And user clicks on register button US002
-         Then user verifies registration page
-         When user enters a valid SSN number
-         And user enters valid first name and last name
+         Then user verifies registration page US002
+         When user enters a valid SSN number US002
+         And user enters valid first name and last name US002
       @smoke
       @valid_username_email
          Scenario: TC01_username_email_validation

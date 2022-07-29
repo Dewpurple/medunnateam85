@@ -1,8 +1,12 @@
 package stepdefinitions.uisteps;
 
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import org.junit.Assert;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.Select;
 import pages.LoginPage;
 import pages.us20_uipage.US_020_User_Page;
 import utilities.ConfigurationReader;
@@ -46,4 +50,34 @@ public class US_020_User_Management_StepDefs {
         Driver.closeDriver();
     }
 
+    @And("Admin20 clicks on Edit button")
+    public void adminClicksOnEditButton() {
+    ReusableMethods.waitForVisibility(us_020_user_page.editButton,5).click();
+    }
+
+    @And("Admin20 assigns role to the user")
+    public void adminAssignsRoleToTheUser() throws InterruptedException {
+        Actions actions = new Actions(Driver.getDriver());
+        actions.sendKeys(Keys.PAGE_DOWN).build().perform();
+        Thread.sleep(3000);
+        Select select = new Select(us_020_user_page.profileDropdown);
+        select.selectByVisibleText("ROLE_USER");
+
+
+    }
+
+    @And("Admin20 clicks on Save button")
+    public void adminClicksOnSaveButton() {
+        Driver.clickWithJS(ReusableMethods.waitForVisibility(us_020_user_page.saveButton,5));
+        Assert.assertTrue(ReusableMethods.waitForVisibility(us_020_user_page.successMessage,5).isDisplayed());
+    }
+
+    @And("Admin20 activates user's status")
+    public void adminActivatesUserSStatus() {
+        Actions actions = new Actions(Driver.getDriver());
+        actions.sendKeys(Keys.PAGE_DOWN).build().perform();
+        ReusableMethods.waitForVisibility(us_020_user_page.activatedCheckbox,5).click();
+        Driver.clickWithJS(ReusableMethods.waitForVisibility(us_020_user_page.saveButton, 5));
+        Assert.assertTrue(ReusableMethods.waitForVisibility(us_020_user_page.successMessage, 5).isDisplayed());
+    }
 }

@@ -9,7 +9,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import pages.RegistrationPage;
 import pages.SignInPage;
-import pages.US16_AdminRoomPages;
+import pages.US_16_AdminRoomPages;
 import utilities.ConfigurationReader;
 import utilities.Driver;
 import utilities.ReusableMethods;
@@ -23,7 +23,7 @@ import static org.junit.Assert.assertTrue;
 public class US16_Positive_Stepdefinition {
 
     SignInPage signInPage = new SignInPage();
-    US16_AdminRoomPages admin = new US16_AdminRoomPages();
+    US_16_AdminRoomPages admin = new US_16_AdminRoomPages();
     RegistrationPage registrationPage = new RegistrationPage();
     Faker faker = new Faker();
     String roomNumber;

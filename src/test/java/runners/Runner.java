@@ -17,15 +17,8 @@ import org.junit.runner.RunWith;
 
 
 
-
-
-        tags = " @PostAPITestItems",
-
-
-
-
-
-
+       tags = "@Api_CRUD",
+    // tags = "@US21Neg",
 
         dryRun = false
 )

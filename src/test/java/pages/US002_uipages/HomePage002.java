@@ -42,7 +42,7 @@ public class HomePage002 {
 
     @FindBy(xpath = "//a[@aria-haspopup=\"true\"]")
     public WebElement icon;
-    @FindBy(xpath = "//div[@class=\"container\"]//h1")
+    @FindBy(xpath = "//*[@id=\"hero\"]")
     public WebElement welcomeToMedunnaText;
 
 }

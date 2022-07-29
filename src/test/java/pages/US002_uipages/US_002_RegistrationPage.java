@@ -59,5 +59,4 @@ public class US_002_RegistrationPage {
     @FindBy(xpath = "//div[@class=\"invalid-feedback\"]")
     public WebElement yourEmailIsRequiredMessage;
 
-
 }

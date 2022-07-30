@@ -9,7 +9,9 @@ Feature: Any_user_can_use_contact_portal
     Then verify any user can reach contact portal
     Then close the application US_015
 
-  @US26_TC02 @smoke @regression
+  @US26_TC02
+  @smoke
+  @regression
   Scenario: TC_002_verify_any_user_can_send_a_request_with_valid_credentials
     When user enters valid name, email and subject
     Then user clicks Send button

@@ -20,6 +20,7 @@ Feature:US27
     And user enters message "<message>"
     And user clicks on sign in message button
     And user Click on verify message
+    Then close the application US_015
 
     Examples:
       | subject |message|
@@ -31,6 +32,7 @@ Feature:US27
     And user clicks on view
     And user verifies name message and email of the user are visible
     And user close teh page
+    Then close the application US_015
 
   @US2703
   Scenario Outline:edit
@@ -39,6 +41,7 @@ Feature:US27
     And user updates the "<message>"
     And user clicks on sign in message button
     And user Click on verify message
+    Then close the application US_015
     Examples:
       | message |
       |oui        |
@@ -51,4 +54,5 @@ Feature:US27
     And user clicks on delete
     And user clicks on delete on pop ups
     And user Click on verify message
+    Then close the application US_015
 

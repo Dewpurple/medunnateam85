@@ -17,7 +17,7 @@ import org.junit.runner.RunWith;
 
 
 
-       tags = "@Api_CRUD",
+       tags = "@Api_Get",
     // tags = "@US21Neg",
 
         dryRun = false

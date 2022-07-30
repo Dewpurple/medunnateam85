@@ -5,7 +5,7 @@ Feature:Inpatient_Info_and_Update
     When US_14user is on the home page
     And US_14user clicks the signIn button
 
-
+  @smoke @regression
  @US14_Doctor_See_Inpatient_Info @smoke @regression
   Scenario Outline:Doctor_see_inpatient_info
     And US_14user provide valid username "<username>" and "<password>"
@@ -18,7 +18,7 @@ Feature:Inpatient_Info_and_Update
     Examples:Doctor see inpatient info
       | username | password |
       |CENNETDOCTOR|1234|
-
+  @smoke @regression
   @US14_Doctor_Update_Status_Staying_Inpatient_Giving_Room
   Scenario Outline:Doctor_update_inpatient_status
     And US_14user provide valid username "<username>" and "<password>"

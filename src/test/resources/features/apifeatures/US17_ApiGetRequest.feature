@@ -1,4 +1,6 @@
-@smoke @resgression
+
+@smoke @regression
+
 Feature: Test Item Functionalities Api
   @Api
   @GetAPITestItems

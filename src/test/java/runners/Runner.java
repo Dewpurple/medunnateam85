@@ -15,7 +15,14 @@ import org.junit.runner.RunWith;
         features = "./src/test/resources/features",
         glue = {"stepdefinitions","Hooks"},
 
-        tags = "@Api_Get_SSN_API",
+
+
+
+       tags = "@US14DoctorSeeAndUpdateInpatientInfo",
+    // tags = "@US21Neg",
+
+
+
 
         dryRun = false
 )

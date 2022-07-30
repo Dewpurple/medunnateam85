@@ -1,5 +1,4 @@
 Feature: US_009_UserValidationPatientInfoAPI
-  @smoke @regression
   Scenario: 003_ValidationPatientInfoAPI
     And user navitages to Medunna url US009
     And user signs in as Staff US009

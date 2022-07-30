@@ -1,5 +1,5 @@
 Feature: US_009_001EditTest
-  @smoke @regression
+
   Scenario: Edit test information
     Given user navitages to Medunna url US009
     When Admin navigates to the sign in page US009

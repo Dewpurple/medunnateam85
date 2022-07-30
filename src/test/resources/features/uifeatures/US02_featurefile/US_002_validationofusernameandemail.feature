@@ -22,7 +22,7 @@ Feature:US002_valid_username_email
       And user clicks on Home button US002
       And user verifies that landed to home page successfully US002
       And user closes the browser US002
-   @smoke @regression
+
    @blank_username
    Scenario:TC02_blank_username
       And user enters valid email US002
@@ -47,7 +47,7 @@ Feature:US002_valid_username_email
       Examples:
          |username|
          |*alican#|
-   @smoke @regression
+   @regression
    @space_username
    Scenario Outline: TC04_space_username
       When user enters "<username>" that contains space US002
@@ -57,7 +57,7 @@ Feature:US002_valid_username_email
       Examples:
          |username|
          |ali can |
-   @smoke @regression
+   @regression
    @invalid_email
    Scenario Outline: TC05_invalid_email
       And user enters valid username US002
@@ -71,7 +71,7 @@ Feature:US002_valid_username_email
          |ummugulsum@gmail    |
          |ummu gulsum@gmail.com|
          |ummugulsum.gmail@com |
-   @smoke @regression
+   @regression
    @blank_email
    Scenario: TC06_blank_email
       And user enters valid username US002

@@ -1,7 +1,7 @@
 @US04webpage
 Feature: Login for common users
 
-     @SmokeTest
+    @SmokeTest @resgression
     @TC_00111111
   Scenario Outline: Happy scen1
 

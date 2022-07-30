@@ -57,7 +57,7 @@ Feature:US002_valid_username_email
       Examples:
          |username|
          |ali can |
-   @regression
+
    @invalid_email
    Scenario Outline: TC05_invalid_email
       And user enters valid username US002

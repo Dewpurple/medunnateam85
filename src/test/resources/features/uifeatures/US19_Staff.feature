@@ -19,7 +19,7 @@ Feature: US19-Staff
       |vusalgasimov| vusalgasimov |
 
 
-  @TC_00002 @regression
+  @TC_00002
   Scenario Outline: US19_UI test2
 
 #    Given the admin19 go to url
@@ -46,7 +46,7 @@ Feature: US19-Staff
 
 
 
-  @US19_TC_00003 @regression
+  @US19_TC_00003
   Scenario Outline: US19_UI test3
 
 #      Given the admin19 go to url

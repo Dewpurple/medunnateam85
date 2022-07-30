@@ -472,6 +472,7 @@ public class US16_Positive_Stepdefinition {
 
         Driver.wait(3);
         ReusableMethods.getScreenshot("TestResultScreenShotForUs16Edit");
+        Driver.wait(1);
         Driver.closeDriver();
     }
 

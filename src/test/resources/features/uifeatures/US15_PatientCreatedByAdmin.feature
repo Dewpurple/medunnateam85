@@ -10,7 +10,7 @@ Feature: patient_by_admin
     Given user clicks on Items&Titles button US_015
     Then user clicks on Patients button US_015
 
-    @SmokeTest
+    @SmokeTest @resgression
   @US_015_Create_New_Patient
   Scenario: TC 001_creating_new_patient US_015
     And user clicks on create new patient button US_015

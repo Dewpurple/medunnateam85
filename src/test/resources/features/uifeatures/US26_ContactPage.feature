@@ -18,14 +18,14 @@ Feature: Any_user_can_use_contact_portal
     And verify any user can send a request with valid credentials
     Then close the application US_015
 
-  @US26_TC03 @regression
+  @US26_TC03
   Scenario:TC_003_verify_user_can_not_send_a_request_without_filling_the_email_box
     When user enters valid name and valid subject but leaves the email box empty
     And user clicks Send button
     Then verify user can not send a request without filling the email box
     Then close the application US_015
 
-  @US26_TC04 @regression
+  @US26_TC04
   Scenario:TC_004_verify_user_can_not_send_a_request_without_writing_a_valid_email
     When user enters valid name and valid subject
     Then user writes an invalid email in email box
@@ -33,7 +33,7 @@ Feature: Any_user_can_use_contact_portal
     Then verify user can not send a request without writing a valid email
     Then close the application US_015
 
-  @regression
+
   Scenario:TC_005_verify_user_can_not_send_a_request_without_filling_the_name_box
     When user enters valid email and valid subject
     Then user leaves the name box empty

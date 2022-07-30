@@ -1,5 +1,5 @@
 Feature: US_012DoctorTestRequest
-  @regression @smoke
+  @smoke @resgression
   Scenario: doctor_verifies_test
   Given user navitages to Medunna url US009
   When Doctor logs in US009

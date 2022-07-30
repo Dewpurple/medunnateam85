@@ -17,8 +17,12 @@ import org.junit.runner.RunWith;
 
 
 
+
        tags = "@US14DoctorSeeAndUpdateInpatientInfo",
     // tags = "@US21Neg",
+
+
+
 
         dryRun = false
 )

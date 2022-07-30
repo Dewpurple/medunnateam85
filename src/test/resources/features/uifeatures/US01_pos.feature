@@ -1,7 +1,7 @@
 @US01_All_Positive_and_negative
 Feature: US001 on the Medunna Page and SSN test, FirstName test, LastName test
 
-  @SmokeTest
+  @SmokeTest @resgression
   @Registration
   @US01_TC01_positive
   Scenario Outline: US01_test registrant data
@@ -17,7 +17,7 @@ Feature: US001 on the Medunna Page and SSN test, FirstName test, LastName test
       |ssn|
       |253-37-3782|
 
-  @SmokeTest
+  @SmokeTest @resgression
   @Registration
     @US01_TC02_positive
   Scenario Outline: US01_test registrant data
@@ -33,7 +33,7 @@ Feature: US001 on the Medunna Page and SSN test, FirstName test, LastName test
       |firstname|
       |FirstNameisTeam85|
 
-  @SmokeTest
+  @SmokeTest @resgression
   @Registration
     @US01_TC03_positive
   Scenario Outline: US01_test registrant data

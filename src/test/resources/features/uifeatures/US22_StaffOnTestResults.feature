@@ -7,7 +7,7 @@ Feature: Staff on patient appointments
     Then US6_user clicks Sign In Button
     And US6_user verifies user is signed on
     When US21_user goes to search patient
-@regression
+
   Scenario: search by SSN
     And US21_user verifies ssn search box is displayed
     And US6_close the application

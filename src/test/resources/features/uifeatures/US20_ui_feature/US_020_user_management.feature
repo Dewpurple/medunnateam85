@@ -1,7 +1,6 @@
 @US_020
 
 Feature: user_registration
-  @smoke @regression
   @us20_seeing_user_info
   Scenario:  TC_01_seeing_a_new_user_info
     Given Admin20 navigates to medunna login page

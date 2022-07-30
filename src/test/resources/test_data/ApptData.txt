@@ -19,3 +19,9 @@ Appointment{firstName='Lorita', lastName='Bayer', ssn='494-06-0597', email='Lori
 Appointment{firstName='Stuart', lastName='Crooks', ssn='710-50-6502', email='StuartCrooks@gmail.com', phoneNumber='432-345-3245', startDate='07/29/2022', createdDate='2022-07-19'}
 Appointment{firstName='Kayleigh', lastName='Braun', ssn='670-93-7854', email='KayleighBraun@gmail.com', phoneNumber='432-345-3245', startDate='08/08/2022', createdDate='2022-07-29'}
 Appointment{firstName='Buster', lastName='Simonis', ssn='157-21-0783', email='BusterSimonis@gmail.com', phoneNumber='432-345-3245', startDate='08/08/2022', createdDate='2022-07-29'}
+Appointment{firstName='Sanford', lastName='Wolf', ssn='326-88-1324', email='SanfordWolf@gmail.com', phoneNumber='432-345-3245', startDate='08/08/2022', createdDate='2022-07-29'}
+Appointment{firstName='Modesto', lastName='Smitham', ssn='067-65-4572', email='ModestoSmitham@gmail.com', phoneNumber='432-345-3245', startDate='08/08/2022', createdDate='2022-07-29'}
+Appointment{firstName='Ollie', lastName='Block', ssn='885-17-5308', email='OllieBlock@gmail.com', phoneNumber='432-345-3245', startDate='08/08/2022', createdDate='2022-07-29'}
+Appointment{firstName='Arden', lastName='Predovic', ssn='863-81-5107', email='ArdenPredovic@gmail.com', phoneNumber='432-345-3245', startDate='08/08/2022', createdDate='2022-07-29'}
+Appointment{firstName='Johnny', lastName='Howell', ssn='450-87-1038', email='JohnnyHowell@gmail.com', phoneNumber='432-345-3245', startDate='08/08/2022', createdDate='2022-07-29'}
+Appointment{firstName='Cheryll', lastName='Parisian', ssn='374-79-1318', email='CheryllParisian@gmail.com', phoneNumber='432-345-3245', startDate='08/08/2022', createdDate='2022-07-29'}

@@ -1,8 +1,8 @@
 @US19-Staff
-Feature: US19-Stuff
+Feature: US19-Staff
 
 
-  @TC_00001 @smoke  @regression
+  @TC_00001
   Scenario Outline: US19_UI test1
 
     Given the admin19 go to url
@@ -11,6 +11,7 @@ Feature: US19-Stuff
     Then admin19 enters the  password as "<password>"
     And  us19 click the Sign In button
     And  us19 Verify to sign-on the web side
+    Then close the application US_015
 
 
     Examples:
@@ -18,7 +19,7 @@ Feature: US19-Stuff
       |vusalgasimov| vusalgasimov |
 
 
-  @TC_00002 @regression
+  @TC_00002
   Scenario Outline: US19_UI test2
 
 #    Given the admin19 go to url
@@ -45,7 +46,7 @@ Feature: US19-Stuff
 
 
 
-  @US19_TC_00003 @regression
+  @US19_TC_00003
   Scenario Outline: US19_UI test3
 
 #      Given the admin19 go to url

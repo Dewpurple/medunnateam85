@@ -16,7 +16,7 @@ And US6_close the application
   Examples:
   |phoneNumber|
   |432-345-3245|
-
+@regression
     Scenario Outline:past date
       Then user enters first name "<firstname>" on MA
       And user enters lastname "<lastname>" on MA
@@ -29,7 +29,7 @@ And US6_close the application
       Examples:
         |phoneNumber|
         |432-345-3245|
-
+@regression
     Scenario Outline:invalid date format
       Then user enters first name "<firstname>" on MA
       And user enters lastname "<lastname>" on MA

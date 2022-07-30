@@ -1,12 +1,9 @@
-
-
-
 @E2E_Testing
 
-Feature: Registration page UI test
+Feature: End-To-End Testing
 
   @EC2_UI_Scenario1
-  Scenario Outline: UI test for registration page Scenario1
+  Scenario Outline: create new physician in UI
     Given user is on the home page US_015
     Then US001 verify Medunna home page is open
     And US001 click on Registration button
@@ -17,6 +14,7 @@ Feature: Registration page UI test
     And User types email as "<email>" for UI for registration page
     And User types password  as "<password>" for UI for registration page
     And User types password  confirmation as "<password Confirm>" on Registration for UI for registration page
+    And User registers  and save the records on Registration page for UI for registration page
     When sign in as admin
     Then go to administration and click user management
     And go to last page and click edit the newly created physician
@@ -24,12 +22,12 @@ Feature: Registration page UI test
     Then close the application US_015
 
     Examples: test data for UI
-      | SSN              | FirstName       | LastName         | UserName         | email                  |password   | password Confirm |
-      | 745-12-1257      | Team85Shebnem   | NewPhysician     | Team85new02 |team85mew02@gmail.com |Team8585#$ | Team8585#$       |
+      | SSN         | FirstName     | LastName     | UserName    | email                |password   | password Confirm |
+      | 745-12-1251 | Team85Shebnem | NewPhysician | Team85new03 |team85mew03@gmail.com |Team8585#$ | Team8585#$       |
   @EC2_API_Scenario1
     @Api
 
-  Scenario Outline: TC07_username_validation_unique_api
+  Scenario Outline: verify that new physician that was created in UI can be reached with API Scenario1
     Given user sends a get request for users data us018
     Then Status code should be 200 us018
     And "<username>" should be validated by api us018
@@ -49,7 +47,7 @@ Feature: Registration page UI test
 
   @EC2_API_Scenario2
   @Api
-  Scenario: TC07_username_validation_unique_api
+  Scenario: create new physician in API with post request
     Given user sends post request to create new physician e2e
     Then Status code should be 201 e2e
 

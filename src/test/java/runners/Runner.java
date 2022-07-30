@@ -15,7 +15,7 @@ import org.junit.runner.RunWith;
         features = "./src/test/resources/features",
         glue = {"stepdefinitions","Hooks"},
 
-        tags = "@smoke",
+        tags = "@Api_Get_SSN_API",
 
         dryRun = false
 )

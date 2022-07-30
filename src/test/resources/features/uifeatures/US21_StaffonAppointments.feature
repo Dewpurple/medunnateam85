@@ -17,7 +17,7 @@
       Then US21_clicks save and verifies it's updated
       And US6_user clicks signout
       And US6_close the application
-@US212
+@regression
     Scenario: clickable statuses
       When US21_user clicks edit
       Then US21_user verifies UNAPPROVED is selectable
@@ -25,13 +25,13 @@
       Then US21_user verifies CANCELLED is selectable
       And US6_user clicks signout
       And US6_close the application
-@US213
+@regression
     Scenario: COMPLETED status
       When US21_user clicks edit
       Then US21_user verifies COMPLETED is not selectable
       And US6_user clicks signout
       And US6_close the application
-@US214
+@regression
     Scenario: blank fields - not required
       When US21_user clicks edit
       When US21_user leaves anamnesis blank

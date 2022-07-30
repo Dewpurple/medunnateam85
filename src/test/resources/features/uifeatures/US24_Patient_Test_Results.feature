@@ -1,5 +1,5 @@
 @US024_patient_see_test_results
-  @regression
+
 Feature: patient_see_test_results
 
   Background: user_is_on_the_Medunna_page

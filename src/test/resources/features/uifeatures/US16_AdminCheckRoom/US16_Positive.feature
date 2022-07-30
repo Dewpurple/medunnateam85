@@ -56,7 +56,7 @@ Feature: US16_Room creation by Admin and admin can View, Update or Delete the ro
       |userName|password|password|TWIN|DELUXE|PREMIUM_DELUXE|SUITE|DAYCARE|
       |BernaAdmin|team85|111111111|TWIN|DELUXE|PREMIUM_DELUXE|SUITE|DAYCARE|
 
-  @regression
+
   @RoomPage_positive_empty_description_Edit
   Scenario Outline: US16 Admin
     Given US16-1 go to medunna URL and admin click sign in and register and verify for Edit test

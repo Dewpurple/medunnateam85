@@ -1,5 +1,5 @@
 Feature: US012_DoctorTestsIncludeTheFollowingItems
-  @regression @smoke
+  @smoke
   Scenario: US012_002
     Given user navitages to Medunna url US009
     Given Doctor logs in US009

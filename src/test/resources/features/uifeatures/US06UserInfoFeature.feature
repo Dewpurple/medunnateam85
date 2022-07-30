@@ -4,7 +4,7 @@ Background:
   Given US6_user is on the home page
   Then US6_user clicks menu
   And US6_user clicks the signIn button on user settings
-@regression
+
   Scenario Outline: user info segment
   And US6_user types in username as "<username>"
   And US6_user types in password as "<password>"

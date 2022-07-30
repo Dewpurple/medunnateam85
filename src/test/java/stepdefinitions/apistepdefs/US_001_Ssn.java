@@ -35,7 +35,7 @@ public class US_001_Ssn {
                 "Accept", ContentType.JSON
         ).when().get(ConfigurationReader.getProperty("end_point_users"));
 
-       // response.prettyPrint();
+       response.prettyPrint();
 
 
         ObjectMapper obj = new ObjectMapper();
@@ -43,6 +43,8 @@ public class US_001_Ssn {
         us001_t01 = obj.readValue(response.asString(), US001_T01[].class);
 
         Assert.assertEquals(200,response.statusCode());
+
+
 
 
 

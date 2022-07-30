@@ -6,3 +6,4 @@ Registrant{firstName='sasddlfdss', lastName='null', ssn='645-73-3753', login='nu
 Registrant{firstName='sasdasdffdss', lastName='null', ssn='615-73-3753', login='null', langKey='bfasertj', password='Asgsdfgh12345?', email='null', id=0, activated=false, authorities=null, username='null'}
 Registrant{firstName='sasdasdsdgffdss', lastName='null', ssn='715-73-3753', login='null', langKey='bfetdertj', password='Asgsdfgh12345?', email='null', id=0, activated=false, authorities=null, username='null'}
 Registrant{firstName='sasadfgmzaldsdgffdss', lastName='null', ssn='715-73-5493', login='null', langKey='bfeoyhwaqrtj', password='Asgsdfgh12345?', email='null', id=0, activated=false, authorities=null, username='null'}
+US16_Room{createdBy='null', createdDate='2022-08-29T22:19:45.180Z', description='Merhaba Shebnem hanim', price=600, roomNumber=347326, roomType='TWIN', status=true, id=}

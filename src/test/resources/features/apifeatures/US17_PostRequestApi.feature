@@ -1,4 +1,4 @@
-@regression
+
 
 Feature:Api Test Item Functionalities
   @Api

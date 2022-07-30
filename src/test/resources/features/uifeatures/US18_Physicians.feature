@@ -1,4 +1,4 @@
-@US018 @regression
+@US018
 Feature: update_physicians
 
   Background: user is on the home page US_015
@@ -10,8 +10,8 @@ Feature: update_physicians
     And user clicks on Items&Titles button US_015
     Then user 18 clicks on physician
 
-  @smoke @regression
-  @US018_TC001
+  @smoke @resgression
+  @US018_TC001 @regression
   Scenario: User searches physician with valid ssn
     When user 18 clicks on Create a new Physician
     Then user 18 enters valid SSN
@@ -36,7 +36,7 @@ Feature: update_physicians
     Then user verifies Not found message appeared on the screen
     Then close the application US_015
 
-  @US018_TC004
+  @US018_TC004 @regression
   Scenario: user enters first name on SSN box
     Given user 18 clicks on Create a new Physician
     When user enters first name on SSN box
@@ -44,7 +44,7 @@ Feature: update_physicians
     And user verifies Not found message appeared on the screen
     Then close the application US_015
 
-  @US018_TC005
+  @US018_TC005 @regression
   Scenario: phone number is required
     Given user 18 clicks on Create a new Physician
     When user 18 enters valid SSN

@@ -2,7 +2,7 @@
   Feature: Date on Make Appointment
     Background:
 Given US7_user goes to Make Appointment page
-@smoke @regression
+@smoke
     Scenario Outline:future date
 Then user enters first name "<firstname>" on MA
 And user enters lastname "<lastname>" on MA

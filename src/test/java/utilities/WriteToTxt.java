@@ -270,4 +270,28 @@ public class WriteToTxt {
         return returnFileContent;
     }
 
+
+
+    public static void saveRegistrantApiData(US16_Room room) {
+
+
+        try {
+
+            FileWriter fileWriter = new FileWriter(ConfigurationReader.getProperty("api_new_room"), true);
+
+            BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
+
+            bufferedWriter.append(room.toString() + "\n");
+
+            bufferedWriter.close();
+
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+
+    }
+
 }
+

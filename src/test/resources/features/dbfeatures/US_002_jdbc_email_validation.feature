@@ -1,4 +1,5 @@
 @US002
+  @smoke @regression
 @US002_DB
 Feature: US002_email_validation_db
   Scenario:TC09_email_db

@@ -1,7 +1,11 @@
 @US_020
+
 Feature: user_registration
+  @us20_seeing_user_info
   Scenario:  TC_01_seeing_a_new_user_info
     Given Admin20 navigates to medunna login page
+    Then Admin20 clicks on menu button
+    Then Admin20 clicks on sign in
     Then Admin20 signs in
     And Admin20 clicks on Administrations then clicks on User Management
     And Admin20 clicks on View button

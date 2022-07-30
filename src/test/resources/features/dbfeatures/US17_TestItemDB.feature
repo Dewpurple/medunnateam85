@@ -1,8 +1,11 @@
+@smoke
+@regression
 @US17_DBTest
 Feature: DB Test Items validation
 
   Background: db connection set up
     Given Adminuser creates connection with DB using "jdbc:postgresql://medunna.com:5432/medunna_db" and "medunnadb_user" , "Medunnadb_@129"
+
 
   @US17_DBTest
   Scenario Outline: db validations

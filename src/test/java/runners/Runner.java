@@ -17,7 +17,7 @@ import org.junit.runner.RunWith;
 
 
 
-       tags = "@Api_CRUD",
+       tags = "@US14DoctorSeeAndUpdateInpatientInfo",
     // tags = "@US21Neg",
 
         dryRun = false

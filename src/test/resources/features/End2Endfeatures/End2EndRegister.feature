@@ -45,12 +45,14 @@ Feature: End-To-End Testing
       |name|
       |Team85Shebnem|
 
+  @resgression
   @EC2_API_Scenario2
   @Api
   Scenario: create new physician in API with post request
     Given user sends post request to create new physician e2e
     Then Status code should be 201 e2e
 
+  @resgression
   @E2E_UI_Scenario2
   Scenario: verify that new physician that was created in API exists in UI
     Given user is on the home page US_015
@@ -66,6 +68,7 @@ Feature: End-To-End Testing
     And user 18 validates User found with search SSN message appears on the screen
     Then close the application US_015
 
+  @resgression
   @E2E_DB_Scenario2
   Scenario Outline: verify that new physician that was created in API exists in DB
     Given US15_user connects to database

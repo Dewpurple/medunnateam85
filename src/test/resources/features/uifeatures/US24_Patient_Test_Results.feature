@@ -7,7 +7,7 @@ Feature: patient_see_test_results
     And user  clicks  to icon on top right corner US002
     And user clicks signInLocation button
 
-  @US_24_TC01 @smoke
+  @US_24_TC01 @smoke @resgression
   Scenario Outline: TC024_patient_view_test_results
     And  user should entered a valid username "<username>" on the sign in page
     And  user should entered a valid password   "<password>" on the sign in page

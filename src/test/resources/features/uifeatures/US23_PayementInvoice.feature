@@ -24,7 +24,7 @@ Feature: payment_invoice
     |SSN       |lastdigit|examfee|itemfee|name         |totalcost|
     |555-34-834|0        |500    |55     |Lisette Booth|605      |
 
-  @US_023_TC_002 @smoke
+  @US_023_TC_002 @smoke @resgression
   Scenario Outline: view patient 1 information US_023
     Given click on Patient SSN box and type patient's "<SSN>" "<lastdigit>" US_023
     When click on Show Appointments US_023

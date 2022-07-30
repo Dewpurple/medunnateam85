@@ -11,7 +11,7 @@ Feature:US27
     And user clicks on messages
 
 
-  @US2701 @smoke
+  @US2701 @smoke @resgression
   Scenario Outline:test
     And user clicks on create new image button
     And user enters "<username>"

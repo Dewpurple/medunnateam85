@@ -10,7 +10,7 @@ Feature: update_physicians
     And user clicks on Items&Titles button US_015
     Then user 18 clicks on physician
 
-  @smoke
+  @smoke @resgression
   @US018_TC001 @regression
   Scenario: User searches physician with valid ssn
     When user 18 clicks on Create a new Physician
